@@ -1,9 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="_Metamodel ROSA van Marc (versie 1, kladje af)"
+    name="_Metamodel ROSA"
     id="3909e2bd-cb6e-49fa-9b47-0d8e85a622db"
-    documentation="Poging om het metamodel aan te passen. EL: zeer goede poging. Ik zou zeggen: ga met deze versie door.&#xD;&#xA;&#xD;&#xA;Idee is: principes, basisprincipes zijn richtinggevende uitspraken die gelden voor doel, ontwerpkaders, standaardoplossingen en standaarden, en brengen samenhang in. EL: Eens&#xD;&#xA;&#xD;&#xA;Gegevenssoort is bedrijfsobject, zeggenschap is requirement (constraint?) die geassicieerd is met gegevenssoort en ketenpartij of rol. EL: De relaties vanuit Zeggenschap zijn in elk geval goed, het type (wat is een Zeggenschap) is moeilijk.&#xD;&#xA;&#xD;&#xA;Toegevoegd dienst: (verzameling) functionaliteit gekoppeld aan gebruiksvoorwaarden. Hiermee kun je zaken rondom privacyconvenant een plek geven. EL: Eens.&#xD;&#xA;&#xD;&#xA;Standaard oplossingen zijn in dit model niet goed gerepresenteerd; zijn bij Kennisnet deeloplossingen of componenten die partijen zo kunnen gebruiken om hun systemen mee te realiseren. Kan zijn dat dit alleen relevant is voor KN intern en niet voor de keten (en dan vlieg hij eruit in dit plaatje, maar hou ik m op die plek voor de KN architectuur). EL: Na overleg met Marc lijken de standaardoplossingen ketenbreed overeen te komen met (de reden van opnemen in ROSA van) de Applicaties. Vanuit ROSA-perspectief zijn Applicaties de 'standaardoplossingen' voor in de keten, voor meerdere (keten)processen en (keten)functies.&#xD;&#xA;&#xD;&#xA;Ik zou eigenlijk wel een nauwere relatie willen tussen Applicatie en Bedrijfsproces. Is realisatie hier toepasselijk? EL: Bedrijfsproces heeft functionaliteiten nodig die worden gerealiseerd door applicaties. In het 'totale model' zal Functionaliteit een relatie moeten hebben met Bedrijfsproces, Ketenproces en Ketenfunctie.&#xD;&#xA;">
+    documentation="Poging om het metamodel aan te passen. EL: zeer goede poging. Ik zou zeggen: ga met deze versie door.&#xD;&#xA;&#xD;&#xA;Idee is: principes, basisprincipes zijn richtinggevende uitspraken die gelden voor doel, ontwerpkaders, standaardoplossingen en standaarden, en brengen samenhang in. EL: Eens&#xD;&#xA;&#xD;&#xA;Gegevenssoort is bedrijfsobject, zeggenschap is requirement (constraint?) die geassicieerd is met gegevenssoort en ketenpartij of rol. EL: De relaties vanuit Zeggenschap zijn in elk geval goed, het type (wat is een Zeggenschap) is moeilijk.&#xD;&#xA;&#xD;&#xA;Toegevoegd dienst: (verzameling) functionaliteit gekoppeld aan gebruiksvoorwaarden. Hiermee kun je zaken rondom privacyconvenant een plek geven. EL: Eens.&#xD;&#xA;&#xD;&#xA;Standaard oplossingen zijn in dit model niet goed gerepresenteerd; zijn bij Kennisnet deeloplossingen of componenten die partijen zo kunnen gebruiken om hun systemen mee te realiseren. Kan zijn dat dit alleen relevant is voor KN intern en niet voor de keten (en dan vlieg hij eruit in dit plaatje, maar hou ik m op die plek voor de KN architectuur). EL: Na overleg met Marc lijken de standaardoplossingen ketenbreed overeen te komen met (de reden van opnemen in ROSA van) de Applicaties. Vanuit ROSA-perspectief zijn Applicaties de 'standaardoplossingen' voor in de keten, voor meerdere (keten)processen en (keten)functies.&#xD;&#xA;&#xD;&#xA;Ik zou eigenlijk wel een nauwere relatie willen tussen Applicatie en Bedrijfsproces. Is realisatie hier toepasselijk? EL: Bedrijfsproces heeft functionaliteiten nodig die worden gerealiseerd door applicaties. In het 'totale model' zal Functionaliteit een relatie moeten hebben met Bedrijfsproces, Ketenproces en Ketenfunctie.&#xD;&#xA;&#xD;&#xA;Locatie: gekoppeld aan rol, bedrijfsproces en functionaliteit&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="0a957e84-40bc-4e33-a7f7-4a5842b2a3c6"
@@ -135,7 +135,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="83fdf775-8e42-498f-9725-96321419d990"
-      targetConnections="411e9695-2487-478e-b0c0-ca1a4ea4ebcb c33acb28-8ae9-4c1d-a718-fd19b9a1f432"
+      targetConnections="411e9695-2487-478e-b0c0-ca1a4ea4ebcb c33acb28-8ae9-4c1d-a718-fd19b9a1f432 29ff3dae-7fd1-4e2b-ae6c-19e88a22be24"
       lineColor="#5c5c5c"
       fillColor="#afffff">
     <sourceConnections
@@ -255,7 +255,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="e8b62a6e-9a0e-4f53-a958-e8a94ffeab1a"
-      targetConnections="75e379b2-94be-43d8-adef-d5ef6bc79213 4bd0d09a-e4f2-420b-a556-16edf1b994aa"
+      targetConnections="75e379b2-94be-43d8-adef-d5ef6bc79213 4bd0d09a-e4f2-420b-a556-16edf1b994aa 99868966-08b7-4055-bf3c-cb21323f877b"
       lineColor="#5c5c5c"
       fillColor="#ffffe6">
     <sourceConnections
@@ -403,7 +403,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="c37f1f00-771e-44b6-af54-931642e5d0ed"
-      targetConnections="b40251f4-354e-4148-8fd8-23a779b84596"
+      targetConnections="b40251f4-354e-4148-8fd8-23a779b84596 1de65635-f3e0-43ab-a578-a2209e5a10b2 f81f7375-93b5-4c0e-a03e-f71b35f9236a"
       lineColor="#5c5c5c"
       fillColor="#ffffe6">
     <sourceConnections
@@ -541,5 +541,93 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_269ace05-b315-4932-b741-be56d50e81a6.xml#269ace05-b315-4932-b741-be56d50e81a6"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="7ce13b7c-a1a0-424b-90cd-f06fb94e03de"
+      lineColor="#5c5c5c"
+      fillColor="#e6ffff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="1de65635-f3e0-43ab-a578-a2209e5a10b2"
+        lineColor="#000000"
+        source="7ce13b7c-a1a0-424b-90cd-f06fb94e03de"
+        target="c37f1f00-771e-44b6-af54-931642e5d0ed">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_2f191cfa-3eb9-4d24-b556-c5fb8360275d.xml#2f191cfa-3eb9-4d24-b556-c5fb8360275d"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="99868966-08b7-4055-bf3c-cb21323f877b"
+        lineColor="#000000"
+        source="7ce13b7c-a1a0-424b-90cd-f06fb94e03de"
+        target="e8b62a6e-9a0e-4f53-a958-e8a94ffeab1a">
+      <bendpoints
+          startX="-24"
+          startY="-147"
+          endX="144"
+          endY="45"/>
+      <bendpoints
+          startX="-144"
+          startY="-147"
+          endX="24"
+          endY="45"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_c462a06e-9a27-4998-81ce-e7b492c14342.xml#c462a06e-9a27-4998-81ce-e7b492c14342"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="29ff3dae-7fd1-4e2b-ae6c-19e88a22be24"
+        lineColor="#000000"
+        source="7ce13b7c-a1a0-424b-90cd-f06fb94e03de"
+        target="83fdf775-8e42-498f-9725-96321419d990">
+      <bendpoints
+          startX="-24"
+          startY="45"
+          endX="324"
+          endY="45"/>
+      <bendpoints
+          startX="-324"
+          startY="45"
+          endX="24"
+          endY="45"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_3f0f067d-2e32-4d79-99e5-e6327a0bff77.xml#3f0f067d-2e32-4d79-99e5-e6327a0bff77"/>
+    </sourceConnections>
+    <bounds
+        x="816"
+        y="516"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Location"
+        href="Location_dcf82a84-17ac-438a-b45b-cf9dd6d72f28.xml#dcf82a84-17ac-438a-b45b-cf9dd6d72f28"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="bbac5d1d-577e-4f21-9bf4-60cdd1d88f07"
+      lineColor="#5c5c5c"
+      fillColor="#ffffe6">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="f81f7375-93b5-4c0e-a03e-f71b35f9236a"
+        lineColor="#000000"
+        source="bbac5d1d-577e-4f21-9bf4-60cdd1d88f07"
+        target="c37f1f00-771e-44b6-af54-931642e5d0ed">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_f84f5ce1-0227-493a-abe9-f133134df24d.xml#f84f5ce1-0227-493a-abe9-f133134df24d"/>
+    </sourceConnections>
+    <bounds
+        x="984"
+        y="324"
+        width="144"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessCollaboration"
+        href="BusinessCollaboration_535d138a-097b-4d2b-afe2-a799ba731ff7.xml#535d138a-097b-4d2b-afe2-a799ba731ff7"/>
   </children>
 </archimate:ArchimateDiagramModel>
