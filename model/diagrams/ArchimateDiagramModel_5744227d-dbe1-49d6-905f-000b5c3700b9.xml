@@ -751,12 +751,12 @@
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffffff"
-      content="(*) Zeggenschap eigenlijk op access realties van BP / KP / KF? ">
+      content="(*) Zeggenschap eigenlijk op access realties van BP / KP / KF? &#xD;&#xA;&#xD;&#xA;RdB: De relatie zoals getekend (tussen Rol/Gegevenssoort) is goed. Het gaat om zeggenschap die partijen hebben over gegevens, niet om zeggenschap die processen e.d. hebben (onduidelijk wat dat zou betekenen). &#xD;&#xA;&#xD;&#xA;">
     <bounds
         x="720"
         y="120"
-        width="133"
-        height="80"/>
+        width="205"
+        height="169"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -777,12 +777,12 @@
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffffff"
-      content="(*) Relatie functionaliteit - bedrijfsproces af te leiden uit indirecte relaties?">
+      content="(*) Relatie functionaliteit - bedrijfsproces af te leiden uit indirecte relaties?&#xD;&#xA;&#xD;&#xA;RdB: Voor het afleiden van een indirecte relatie moet het eindpunt van de eerste relatie het beginpunte van de tweede zijn (in ArchiMate: &quot;If two structural or dependency relationships r:R and s:S are permitted between elements a, b, and c such that r(a,b) and s(b,c), then a structural relationship t:T is also permitted, with t(a,c) and type T being the weakest of R and S.&quot;&#xD;&#xA;&#xD;&#xA;Hier is het beginpunt voor zowel de realiseert als de serves relatie de Referentiecomponent: realiseert(RC, Functionaliteit) serves(RC, Bedrijfsproces). Er is daarom geen indirecte relatie tussen Bedrijfsproces en Functionaliteit af te leiden. &#xD;&#xA;&#xD;&#xA;VOORSTEL: verbinding met Ketenfunctie, Ketenproces, Bedrijfproces op het niveau van Functionaliteit&#xD;&#xA;">
     <bounds
-        x="144"
-        y="94"
-        width="157"
-        height="58"/>
+        x="84"
+        y="-276"
+        width="229"
+        height="421"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -803,12 +803,12 @@
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffffff"
-      content="Wat is de richting van deze influence relaties, in de echte wereld? En volgens de letter van archimate? Zit daar verschil tussen?">
+      content="Wat is de richting van deze influence relaties, in de echte wereld? En volgens de letter van archimate? Zit daar verschil tussen?&#xD;&#xA;&#xD;&#xA;">
     <bounds
         x="-312"
         y="473"
         width="185"
-        height="80"/>
+        height="97"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -816,7 +816,7 @@
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffffff"
-      content="Vorostel om ontwerpkader en standaard beiden op te nemen als verschijningsvorm van &quot;afspraak&quot;. ">
+      content="Voorstel om ontwerpkader en standaard beiden op te nemen als verschijningsvorm van &quot;afspraak&quot;. ">
     <bounds
         x="-137"
         y="72"
@@ -829,11 +829,12 @@
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffffff"
-      content="(*) Locatie (associatie met rol en bedrijfsproces) verwijderd ut diagram vanwege te lage signaal / ruis verhouding. Moet blijven?">
+      content="(*) Locatie (associatie met rol en bedrijfsproces) verwijderd ut diagram vanwege te lage signaal / ruis verhouding. Moet blijven?&#xD;&#xA;&#xD;&#xA;RdB: kan weg">
     <bounds
-        x="120"
+        x="-432"
+        y="24"
         width="185"
-        height="80"/>
+        height="107"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -889,11 +890,11 @@
       lineColor="#5c5c5c"
       textAlignment="1"
       fillColor="#ffffff"
-      content="Afspraken gaan niet over bedrijfsprocessen want dit is ketenarchitectuur, toch?">
+      content="Afspraken gaan niet over bedrijfsprocessen want dit is ketenarchitectuur, toch?&#xD;&#xA;&#xD;&#xA;RdB: In het huidige model ligt de relatie, net als hier, inderdaad ook niet naar bedrijfsproces. Toch zou je kunnen beargumenteren dat sommige afspraken (ook) over het bedrijfsproces gaan. Denk aan ISO-normen. Tot nu toe hebben we deze relatie niet nodig gehad, wellicht blijkt er in de toekomst toch behoefte aan te zijn. In dat geval toevoegen.">
     <bounds
         x="-120"
         y="552"
-        width="185"
-        height="80"/>
+        width="232"
+        height="217"/>
   </children>
 </archimate:ArchimateDiagramModel>
