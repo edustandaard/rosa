@@ -5,10 +5,10 @@
     documentation="Semantiek in berichtuitwisseling moet traceerbaar zijn (ter voorkoming vanonnodige variëteit)">
   <properties
       key="Rationale"
-      value="Een serviceregister dat deze informatie bevat wordt geraadpleegd voor autorisatie en routering van service- en  berichtenverkeer beheerd door de aanbieder van een service. Een geautomatiseerd uitwisselingsmechanisme wordt relevant als een groot aantal deelnemers tientallen verschillende M2M services met elkaar uitwisselen."/>
+      value="Een 'los' bericht kan vaak op verschillende manieren worden geïnterpreteerd. Dit kan leiden tot verwarring, tot verschillend gebruik van dzelfde berichtelementen in andere situaties, en uiteindelijk tot fouten in de verwerking. De betekenis van een bericht moet daarom eenduidig kunnen worden bepaald."/>
   <properties
       key="Stelling"
-      value="Informatie over wie services waar aanbiedt en wie daar gebruik van mogen maken, wordt samenhangend openbaar gemaakt."/>
+      value="Semantiek in berichtuitwisseling moet traceerbaar zijn (ter voorkoming vanonnodige variëteit)"/>
   <properties
       key="Toelichting paginastatus"/>
   <properties
@@ -25,7 +25,7 @@
       value="Semantiek in berichtuitwisseling is traceerbaar"/>
   <properties
       key="Implicaties"
-      value="Er wordt een gemeenschappelijk model opgezet voor een serviceregister"/>
+      value="Berichtelementen in XSD's verwijzgen naar de URI die de betekenis van dat element representeert. De gegevens in het Gegevenswoordenboek zijn traceerbaar"/>
   <properties
       key="Vastgesteld door"
       value="Informatiekamer"/>
