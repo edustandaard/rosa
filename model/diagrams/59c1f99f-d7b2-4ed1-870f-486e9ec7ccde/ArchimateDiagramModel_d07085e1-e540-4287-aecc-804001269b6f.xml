@@ -886,7 +886,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="940a87aa-194d-44a9-b318-a4963bb9ed89"
-      targetConnections="c04ef879-97f1-437a-8cab-f263b54e3836 37bbaabe-f3b9-48d6-b5d6-b0c1cbbaea59">
+      targetConnections="c04ef879-97f1-437a-8cab-f263b54e3836 37bbaabe-f3b9-48d6-b5d6-b0c1cbbaea59 3965454e-110e-497e-b497-0d6ca23a7a3e">
     <bounds
         x="1032"
         y="816"
@@ -908,5 +908,20 @@
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_e4dcf986-c4d1-4c98-aeb7-ebfdf17a55e9.xml#e4dcf986-c4d1-4c98-aeb7-ebfdf17a55e9"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="6ecf77c4-a780-449e-b986-0d0b920faa37"
+      textAlignment="1"
+      content="De onderwijsvolger kan de aanmelding annuleren en de ontvangende instelling kan de aanmelding afwijzen.  In beide gevallen worden de aanmeldgegevens vernietigd.">
+    <sourceConnections
+        id="3965454e-110e-497e-b497-0d6ca23a7a3e"
+        source="6ecf77c4-a780-449e-b986-0d0b920faa37"
+        target="940a87aa-194d-44a9-b318-a4963bb9ed89"/>
+    <bounds
+        x="827"
+        y="810"
+        width="185"
+        height="114"/>
   </children>
 </archimate:ArchimateDiagramModel>
