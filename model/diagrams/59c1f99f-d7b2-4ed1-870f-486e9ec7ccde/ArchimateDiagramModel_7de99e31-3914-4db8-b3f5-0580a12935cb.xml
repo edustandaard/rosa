@@ -34,10 +34,19 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_d7ec8436-ff8f-423c-87e9-d6430770526f.xml#d7ec8436-ff8f-423c-87e9-d6430770526f"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="661fd349-1c64-4a4f-b87d-ca3054db5e2d"
+        source="0e1ef37f-99f4-4bea-b71f-a629481d5f6d"
+        target="e8d6e161-820b-4e1b-861c-b724430aa368">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_c52bd047-8e8a-4b22-b2b1-b58f722ac044.xml#c52bd047-8e8a-4b22-b2b1-b58f722ac044"/>
+    </sourceConnections>
     <bounds
         x="576"
         y="276"
-        width="505"
+        width="721"
         height="109"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -77,6 +86,19 @@
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_de6c66e7-3e70-4443-b9f4-2d8d6d76339b.xml#de6c66e7-3e70-4443-b9f4-2d8d6d76339b"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="e8d6e161-820b-4e1b-861c-b724430aa368"
+        targetConnections="661fd349-1c64-4a4f-b87d-ca3054db5e2d">
+      <bounds
+          x="492"
+          y="36"
+          width="217"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_529d4c7f-a3e2-4c43-9a79-aac474852a7b.xml#529d4c7f-a3e2-4c43-9a79-aac474852a7b"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
@@ -159,7 +181,7 @@
     <bounds
         x="122"
         y="84"
-        width="959"
+        width="1175"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -199,7 +221,7 @@
     <bounds
         x="122"
         y="180"
-        width="959"
+        width="1175"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
