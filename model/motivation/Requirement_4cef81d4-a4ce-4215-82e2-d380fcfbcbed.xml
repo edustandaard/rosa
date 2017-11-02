@@ -1,4 +1,20 @@
 <archimate:Requirement
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="XAPI (Experience API)"
-    id="4cef81d4-a4ce-4215-82e2-d380fcfbcbed"/>
+    id="4cef81d4-a4ce-4215-82e2-d380fcfbcbed"
+    documentation="Metingen van leeractiviteiten en effectiviteit consistent registreren en communiceren.">
+  <properties
+      key="Toelichting"
+      value="Voor het verzamelen van accurate data voor learning analytics is het noodzakelijk diverse bronnen aan te sluiten op een Learning Record Store. Dit kunnen alle mogelijke systemen zijn, waaronder systemen voor digitaal leren en werken, zoals het learningmanagementsysteem (LMS) en studentinformatiesysteem (SIS), maar ook het webcontentmanagementsysteem, videomanagementsysteem, learningcontentsysteem, etc.   Omdat dit een divers aantal systemen betreft is het zinvol één protocol te gebruiken waarmee deze systemen met het Learning Records Warehouse communiceren. Hiervoor zijn er twee mogelijkheden: de xAPI en Caliper Framework &amp; Sensor API. Beide maken het mogelijk de 'activity' van de gebruiker te beschrijven en te communiceren. De twee standaarden hebben veel overeenkomsten en het zou theoretisch mogelijk moeten zijn om bijvoorbeeld data uit de Caliper Sensor API op te slaan in een xAPI warehouse.    Learning Analytics Architectuur [[Bestand:Caliper analytics.jpg|500px]]  Bron: SURF  -"/>
+  <properties
+      key="Beheerder"
+      value="ADL Net"/>
+  <properties
+      key="Type"
+      value="Standaard"/>
+  <properties
+      key="Externe verwijzing"
+      value="http://adlnet.gov/adl-research/performance-tracking-analysis/experience-api/"/>
+  <properties
+      key="Werkingsgebied"/>
+</archimate:Requirement>
