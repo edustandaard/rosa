@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Monitoren doorstroom"
+    name="Doorstroom monitoren"
     id="e5ce93ad-c8f7-4088-98c4-b42f0cd334eb">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -188,7 +188,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2365142c-a308-4dfb-9166-999af4fc968f"
-      targetConnections="7a56c582-9fe6-4592-bdaa-df170b141a1e afc90554-a693-4026-8d83-b9331ff0573b">
+      targetConnections="7a56c582-9fe6-4592-bdaa-df170b141a1e afc90554-a693-4026-8d83-b9331ff0573b e8593bb6-47a2-4f07-9500-e1923d6d4028 aa8011b7-fb0f-4824-913f-f731a9356db2">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="7a2c284a-9d8f-4121-9e4a-4bb1400f0856"
@@ -643,5 +643,47 @@
     <archimateElement
         xsi:type="archimate:Constraint"
         href="Constraint_a969519d-28f7-437b-baf8-aa60b7373eb6.xml#a969519d-28f7-437b-baf8-aa60b7373eb6"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="b3f347e6-7ba8-4a83-8ea2-c55e1a549e9d">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="e8593bb6-47a2-4f07-9500-e1923d6d4028"
+        source="b3f347e6-7ba8-4a83-8ea2-c55e1a549e9d"
+        target="2365142c-a308-4dfb-9166-999af4fc968f">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_f1273b6e-34ef-4988-a20f-3512b066a8e9.xml#f1273b6e-34ef-4988-a20f-3512b066a8e9"/>
+    </sourceConnections>
+    <bounds
+        x="288"
+        y="162"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_aa9a0deb-d197-465d-b7c4-0c7f80e27181.xml#aa9a0deb-d197-465d-b7c4-0c7f80e27181"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="7a190d55-5f98-4e37-ae23-85f998402b3c">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="aa8011b7-fb0f-4824-913f-f731a9356db2"
+        source="7a190d55-5f98-4e37-ae23-85f998402b3c"
+        target="2365142c-a308-4dfb-9166-999af4fc968f">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_bced4a91-b7dc-4ac1-81c7-61ea390a086f.xml#bced4a91-b7dc-4ac1-81c7-61ea390a086f"/>
+    </sourceConnections>
+    <bounds
+        x="288"
+        y="246"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_a311b984-81db-440c-a7b7-0a8c213597bb.xml#a311b984-81db-440c-a7b7-0a8c213597bb"/>
   </children>
 </archimate:ArchimateDiagramModel>
