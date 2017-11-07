@@ -132,6 +132,15 @@
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_c9c0e9ed-610b-436b-b5a7-ac464a599db6.xml#c9c0e9ed-610b-436b-b5a7-ac464a599db6"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="7bce0dd3-7125-4d31-aaf8-c749416270b1"
+        source="2495279f-fb46-4f1d-bc66-c49676c3c465"
+        target="a1b1675b-ba0f-4e53-a208-6dc88eace8bd">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_8dc592ef-3dec-419e-863b-3b3679e48a66.xml#8dc592ef-3dec-419e-863b-3b3679e48a66"/>
+    </sourceConnections>
     <bounds
         x="360"
         y="240"
@@ -161,5 +170,39 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_b6d50cbd-00c2-4df7-8672-1e5fc2320457.xml#b6d50cbd-00c2-4df7-8672-1e5fc2320457"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="63c95d70-3c87-40e9-8b75-144cee5f4062">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="c40e3c89-1146-4aec-ab47-c3c53964a96f"
+        source="63c95d70-3c87-40e9-8b75-144cee5f4062"
+        target="a1b1675b-ba0f-4e53-a208-6dc88eace8bd">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_b37a2975-ecd2-4b10-86dd-059aa84cd12d.xml#b37a2975-ecd2-4b10-86dd-059aa84cd12d"/>
+    </sourceConnections>
+    <bounds
+        x="540"
+        y="204"
+        width="169"
+        height="115"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="a1b1675b-ba0f-4e53-a208-6dc88eace8bd"
+        targetConnections="c40e3c89-1146-4aec-ab47-c3c53964a96f 7bce0dd3-7125-4d31-aaf8-c749416270b1">
+      <bounds
+          x="24"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_a00960c9-89d3-42d4-895c-f07f5243561f.xml#a00960c9-89d3-42d4-895c-f07f5243561f"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_9fc8cd5a-93c5-499f-9f93-e5bc4f4b979a.xml#9fc8cd5a-93c5-499f-9f93-e5bc4f4b979a"/>
   </children>
 </archimate:ArchimateDiagramModel>
