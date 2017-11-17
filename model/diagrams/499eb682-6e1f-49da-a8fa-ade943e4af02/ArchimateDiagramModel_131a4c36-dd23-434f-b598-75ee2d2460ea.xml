@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="~OSO"
+    name="OSO"
     id="131a4c36-dd23-434f-b598-75ee2d2460ea">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -55,6 +55,15 @@
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_e740d147-ec7a-4b65-9b14-b96ef32bee09.xml#e740d147-ec7a-4b65-9b14-b96ef32bee09"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="a073f001-ab87-476e-b740-3edf0ff2d380"
+        source="d9365237-ea20-4c97-a1fe-0023b3455e2e"
+        target="dfd4e839-549e-4cfe-87be-a01a9547f77c">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_3dca2680-a200-4e14-b9d9-518d3e24c70e.xml#3dca2680-a200-4e14-b9d9-518d3e24c70e"/>
+    </sourceConnections>
     <bounds
         x="276"
         y="216"
@@ -66,7 +75,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="dfd4e839-549e-4cfe-87be-a01a9547f77c">
+      id="dfd4e839-549e-4cfe-87be-a01a9547f77c"
+      targetConnections="a073f001-ab87-476e-b740-3edf0ff2d380 59333378-0ba4-4c70-909f-fa5e4bcfcde4">
     <bounds
         x="96"
         y="120"
@@ -75,18 +85,6 @@
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_2b3ea75f-2e11-49c2-8bfe-1bbec55e9276.xml#2b3ea75f-2e11-49c2-8bfe-1bbec55e9276"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="bf5a909a-15bd-4688-b206-fad1efb5de86">
-    <bounds
-        x="432"
-        y="120"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessProcess"
-        href="BusinessProcess_a5040fa4-d6dd-4626-a91b-01e747c12312.xml#a5040fa4-d6dd-4626-a91b-01e747c12312"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -112,6 +110,15 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_53d7062e-df0f-4276-88e9-75ed22734618.xml#53d7062e-df0f-4276-88e9-75ed22734618"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b6d69bae-6c41-42d6-883d-fc3a7dc8dd0a"
+        source="d553f69e-124e-42ed-843b-5b6b942cb80c"
+        target="0b2d80c3-e34f-494f-8823-8c73e6d4084d">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_3267c353-3188-41c7-9018-4b9c8244a502.xml#3267c353-3188-41c7-9018-4b9c8244a502"/>
     </sourceConnections>
     <bounds
         x="276"
@@ -149,14 +156,25 @@
         href="Requirement_64222237-63b8-42f3-a361-4ea437b8e216.xml#64222237-63b8-42f3-a361-4ea437b8e216"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="ed7c220b-c757-4134-9587-d226e3140316"
-      textAlignment="1"
-      content="Kloppen deze processen bij OSO?">
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="0b2d80c3-e34f-494f-8823-8c73e6d4084d"
+      targetConnections="b6d69bae-6c41-42d6-883d-fc3a7dc8dd0a">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="59333378-0ba4-4c70-909f-fa5e4bcfcde4"
+        source="0b2d80c3-e34f-494f-8823-8c73e6d4084d"
+        target="dfd4e839-549e-4cfe-87be-a01a9547f77c">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_69a94d7e-edf3-4c73-bac3-714d43044766.xml#69a94d7e-edf3-4c73-bac3-714d43044766"/>
+    </sourceConnections>
     <bounds
-        x="60"
-        y="48"
-        width="130"
-        height="50"/>
+        x="96"
+        y="36"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="BusinessProcess_529d4c7f-a3e2-4c43-9a79-aac474852a7b.xml#529d4c7f-a3e2-4c43-9a79-aac474852a7b"/>
   </children>
 </archimate:ArchimateDiagramModel>

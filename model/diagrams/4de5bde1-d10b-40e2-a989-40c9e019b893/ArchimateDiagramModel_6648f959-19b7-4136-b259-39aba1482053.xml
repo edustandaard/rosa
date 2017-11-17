@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="~Digitaal overstapdossier"
+    name="Digitaal overstapdossier"
     id="6648f959-19b7-4136-b259-39aba1482053">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -64,6 +64,15 @@
       <archimateRelationship
           xsi:type="archimate:ServingRelationship"
           href="ServingRelationship_621f7fc6-0cf2-4d8c-823f-17bf62c47dac.xml#621f7fc6-0cf2-4d8c-823f-17bf62c47dac"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="f9af1c56-87e5-483c-bc86-08da757a947f"
+        source="062835cc-a569-4683-b956-a3090a798a82"
+        target="f80b917e-c4c1-4ead-b2b1-8c8cbd8b521c">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_3dca2680-a200-4e14-b9d9-518d3e24c70e.xml#3dca2680-a200-4e14-b9d9-518d3e24c70e"/>
     </sourceConnections>
     <bounds
         x="316"
@@ -162,7 +171,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="a89a42d0-5551-4c47-95b5-a6b4194bf970"
-      targetConnections="3c63982f-db71-496e-9d35-f416f2950f65">
+      targetConnections="3c63982f-db71-496e-9d35-f416f2950f65 97b0bc19-8431-4cd8-a386-11628b1c14af">
     <bounds
         x="72"
         y="12"
@@ -192,6 +201,15 @@
       <archimateRelationship
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_2325cabc-ba88-45db-8375-170ea3dcb219.xml#2325cabc-ba88-45db-8375-170ea3dcb219"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="97b0bc19-8431-4cd8-a386-11628b1c14af"
+        source="bcab7359-8ddc-41af-a229-3283407327b2"
+        target="a89a42d0-5551-4c47-95b5-a6b4194bf970">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_8232ea96-90bb-4fb1-adcf-1eae371213c8.xml#8232ea96-90bb-4fb1-adcf-1eae371213c8"/>
     </sourceConnections>
     <bounds
         x="204"
@@ -232,9 +250,18 @@
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_6d680220-4aba-4459-987c-670d2beb31ac.xml#6d680220-4aba-4459-987c-670d2beb31ac"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b7d6801e-dfd7-4d57-a54a-bcc57436512d"
+        source="133053f6-0f49-40f0-951b-b6085fe82dbf"
+        target="f80b917e-c4c1-4ead-b2b1-8c8cbd8b521c">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_1f624a35-f0dd-4c5c-99f3-f9be4b12c791.xml#1f624a35-f0dd-4c5c-99f3-f9be4b12c791"/>
+    </sourceConnections>
     <bounds
-        x="696"
-        y="96"
+        x="636"
+        y="126"
         width="120"
         height="55"/>
     <archimateElement
@@ -242,19 +269,9 @@
         href="BusinessRole_3aa77604-9501-4c56-afab-9d08a4e29138.xml#3aa77604-9501-4c56-afab-9d08a4e29138"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="885a5c16-f6de-4782-b95f-87f34478c4ae"
-      textAlignment="1"
-      content="Wie maakt het onderwijskundig rapport?&#xD;&#xA;&#xD;&#xA;Ontvangennde instelling -> proces plaatsen van nieuwe vo-leerling -> bestaande relatie in Archi, niet in de wiki, wat is correct?&#xD;&#xA;&#xD;&#xA;Het blok &quot;Registreren van in- en uitschrijvingen&quot; hier gebruiken?&#xD;&#xA;&#xD;&#xA;Zeggenschappen uitwerken?">
-    <bounds
-        x="360"
-        y="432"
-        width="277"
-        height="193"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="f80b917e-c4c1-4ead-b2b1-8c8cbd8b521c">
+      id="f80b917e-c4c1-4ead-b2b1-8c8cbd8b521c"
+      targetConnections="b7d6801e-dfd7-4d57-a54a-bcc57436512d f9af1c56-87e5-483c-bc86-08da757a947f">
     <bounds
         x="456"
         y="12"
@@ -296,7 +313,7 @@
           href="InfluenceRelationship_91bdc1db-51ab-4581-9ccc-6c3a974bea37.xml#91bdc1db-51ab-4581-9ccc-6c3a974bea37"/>
     </sourceConnections>
     <bounds
-        x="696"
+        x="636"
         y="258"
         width="120"
         height="55"/>

@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="~Digitaal toetssysteem"
+    name="Digitaal toetssysteem"
     id="c6626ae1-3b2e-4341-86c8-2a7b8cf6e901">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -95,7 +95,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="cb300d85-6849-4ffa-be61-aabf9ec4e367"
-      targetConnections="a6ac4544-6e6b-4ab4-8923-aea643fe8199 678e234c-3299-4abd-868f-2e0f5d19d0f9 03031325-724e-467e-985b-ba3dce2994a0">
+      targetConnections="a6ac4544-6e6b-4ab4-8923-aea643fe8199 03031325-724e-467e-985b-ba3dce2994a0 678e234c-3299-4abd-868f-2e0f5d19d0f9">
     <bounds
         x="461"
         y="306"
@@ -147,7 +147,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="58e22801-f8ea-4c75-95e1-87f7a3819480"
-      targetConnections="dd9f5fd1-13dc-4d74-8bc0-854801ab0763 6092768a-9772-4051-9c36-cf9f470e97ce">
+      targetConnections="dd9f5fd1-13dc-4d74-8bc0-854801ab0763">
     <bounds
         x="461"
         y="222"
@@ -160,7 +160,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="7f8dedb0-a1da-4de0-8f69-b5763afb6fd3"
-      targetConnections="7c39af1c-1470-4314-96ab-612be036b271 e5d92ba7-b1d2-4346-b7f0-9aa559063ce3 285217d4-7993-45f2-a376-2b67b1116209">
+      targetConnections="7c39af1c-1470-4314-96ab-612be036b271 285217d4-7993-45f2-a376-2b67b1116209 e5d92ba7-b1d2-4346-b7f0-9aa559063ce3">
     <bounds
         x="468"
         y="396"
@@ -193,39 +193,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="0b622516-78dd-4ecf-8716-9c567113b726">
-    <bounds
-        x="684"
-        y="48"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessProcess"
-        href="BusinessProcess_bcd6096d-1a41-4727-8a2c-9783035bb8da.xml#bcd6096d-1a41-4727-8a2c-9783035bb8da"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="16290b5e-2369-43ff-89ef-9a79fa9dce85"
-      textAlignment="1"
-      content="Klopt dat hier over &quot;eindtoets&quot; gaat?">
-    <bounds
-        x="852"
-        y="51"
-        width="121"
-        height="49"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="4400d724-7df1-4849-ab6f-d2c12fead5e2">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="6092768a-9772-4051-9c36-cf9f470e97ce"
-        source="4400d724-7df1-4849-ab6f-d2c12fead5e2"
-        target="58e22801-f8ea-4c75-95e1-87f7a3819480">
-      <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_26903201-452e-4591-b0c8-416ee6310e12.xml#26903201-452e-4591-b0c8-416ee6310e12"/>
-    </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="e5d92ba7-b1d2-4346-b7f0-9aa559063ce3"
@@ -257,8 +225,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="88cd863b-540f-40c2-9255-ddfbdc2a9a57">
     <bounds
-        x="216"
-        y="486"
+        x="864"
+        y="30"
         width="120"
         height="55"/>
     <archimateElement
@@ -294,16 +262,5 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_ff1404a3-bb91-4f61-a916-7d147601241a.xml#ff1404a3-bb91-4f61-a916-7d147601241a"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="eaf90a3d-13e4-4f9c-b2fa-b4778cbec1e7"
-      textAlignment="1"
-      content="Relaties van afnamevoorschrift?&#xD;&#xA;">
-    <bounds
-        x="228"
-        y="552"
-        width="119"
-        height="44"/>
   </children>
 </archimate:ArchimateDiagramModel>
