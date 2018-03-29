@@ -1,0 +1,45 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Samenwerkingsverband passend onderwijs systeem"
+    id="id-aac5da58-8a5d-4b1e-898b-ee3b7d05fd5f">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b004ee50-78b7-4ef2-98cb-137567161bda"
+      lineColor="#5c5c5c"
+      fillColor="#b5ffff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-f86b56b7-cb6c-4e76-8d22-c1f9ec72077a"
+        lineColor="#000000"
+        source="id-b004ee50-78b7-4ef2-98cb-137567161bda"
+        target="id-fdd8891e-eb8f-45b2-81e3-69acb47f01e9">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-4b8b64d0-4ab0-4e56-9ce2-b4ddc4dc37d5.xml#id-4b8b64d0-4ab0-4e56-9ce2-b4ddc4dc37d5"/>
+    </sourceConnections>
+    <bounds
+        x="174"
+        y="165"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-f713b7dd-89d3-44b4-b582-e162f900eaf0.xml#id-f713b7dd-89d3-44b4-b582-e162f900eaf0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-fdd8891e-eb8f-45b2-81e3-69acb47f01e9"
+      targetConnections="id-f86b56b7-cb6c-4e76-8d22-c1f9ec72077a"
+      lineColor="#5c5c5c"
+      fillColor="#ccccff">
+    <bounds
+        x="180"
+        y="264"
+        width="120"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-64222237-63b8-42f3-a361-4ea437b8e216.xml#id-64222237-63b8-42f3-a361-4ea437b8e216"/>
+  </children>
+</archimate:ArchimateDiagramModel>

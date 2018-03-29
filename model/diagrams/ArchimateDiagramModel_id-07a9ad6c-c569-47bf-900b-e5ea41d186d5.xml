@@ -1,0 +1,45 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Basisregister onderwijsaanbod"
+    id="id-07a9ad6c-c569-47bf-900b-e5ea41d186d5">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a6161fee-d11f-4e26-a6f1-2d4c37caa239"
+      lineColor="#5c5c5c"
+      fillColor="#b5ffff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b47d6f89-9cc5-48aa-92c6-3cd1f37e106a"
+        lineColor="#000000"
+        source="id-a6161fee-d11f-4e26-a6f1-2d4c37caa239"
+        target="id-53b8a330-71e0-4890-8c6c-a808a56c456a">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-e9c8103a-ee5a-44c6-b6c6-117ca621acc4.xml#id-e9c8103a-ee5a-44c6-b6c6-117ca621acc4"/>
+    </sourceConnections>
+    <bounds
+        x="272"
+        y="125"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-ee5acde7-9722-44ab-85d1-ddb5568a05d9.xml#id-ee5acde7-9722-44ab-85d1-ddb5568a05d9"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-53b8a330-71e0-4890-8c6c-a808a56c456a"
+      targetConnections="id-b47d6f89-9cc5-48aa-92c6-3cd1f37e106a"
+      lineColor="#5c5c5c"
+      fillColor="#ccccff">
+    <bounds
+        x="276"
+        y="240"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-82b29e48-3ed6-4cf3-9435-d0661603fbcf.xml#id-82b29e48-3ed6-4cf3-9435-d0661603fbcf"/>
+  </children>
+</archimate:ArchimateDiagramModel>

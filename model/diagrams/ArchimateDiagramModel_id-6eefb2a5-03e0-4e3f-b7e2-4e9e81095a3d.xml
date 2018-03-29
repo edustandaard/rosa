@@ -1,0 +1,45 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Adresboek van databases met opleidingsaanbod"
+    id="id-6eefb2a5-03e0-4e3f-b7e2-4e9e81095a3d">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-46483e94-0c6a-487e-97b4-e59492950257"
+      lineColor="#5c5c5c"
+      fillColor="#b5ffff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-bf5aacc9-433e-44ae-bf74-3bcd704b8839"
+        lineColor="#000000"
+        source="id-46483e94-0c6a-487e-97b4-e59492950257"
+        target="id-fee7969a-7e51-45b3-92ce-fa3bbff3fb54">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-8978d002-819f-41f5-9bee-c970fe59b70e.xml#id-8978d002-819f-41f5-9bee-c970fe59b70e"/>
+    </sourceConnections>
+    <bounds
+        x="264"
+        y="338"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-2b0573f6-22bf-4327-9bd1-5dd9e4622752.xml#id-2b0573f6-22bf-4327-9bd1-5dd9e4622752"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-fee7969a-7e51-45b3-92ce-fa3bbff3fb54"
+      targetConnections="id-bf5aacc9-433e-44ae-bf74-3bcd704b8839"
+      lineColor="#5c5c5c"
+      fillColor="#ccccff">
+    <bounds
+        x="264"
+        y="480"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-5fee4bad-9f43-479e-8660-eb06dd06697b.xml#id-5fee4bad-9f43-479e-8660-eb06dd06697b"/>
+  </children>
+</archimate:ArchimateDiagramModel>

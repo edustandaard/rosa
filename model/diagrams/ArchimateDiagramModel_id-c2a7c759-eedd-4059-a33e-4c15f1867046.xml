@@ -1,0 +1,45 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Authenticatiedienst instelling"
+    id="id-c2a7c759-eedd-4059-a33e-4c15f1867046">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-f16ee195-d845-46ce-8a75-78f5e40bd459"
+      lineColor="#5c5c5c"
+      fillColor="#b5ffff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e5d68cc2-9752-4203-af1f-131533a675c5"
+        lineColor="#000000"
+        source="id-f16ee195-d845-46ce-8a75-78f5e40bd459"
+        target="id-15395388-8749-4b79-9890-469ac1166297">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-ecd5b04c-c3c0-4203-b469-29d04fd38e6c.xml#id-ecd5b04c-c3c0-4203-b469-29d04fd38e6c"/>
+    </sourceConnections>
+    <bounds
+        x="198"
+        y="137"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-fa158f12-9970-4728-afe1-54805afbf883.xml#id-fa158f12-9970-4728-afe1-54805afbf883"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-15395388-8749-4b79-9890-469ac1166297"
+      targetConnections="id-e5d68cc2-9752-4203-af1f-131533a675c5"
+      lineColor="#5c5c5c"
+      fillColor="#ccccff">
+    <bounds
+        x="198"
+        y="252"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-b26d5ce9-8d29-4b30-a96d-0467843e5281.xml#id-b26d5ce9-8d29-4b30-a96d-0467843e5281"/>
+  </children>
+</archimate:ArchimateDiagramModel>

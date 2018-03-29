@@ -1,0 +1,45 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Repository educatieve content"
+    id="id-d8414876-1772-4f8a-a415-97e77fbc7ae0">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-fb5f0470-001d-4281-a927-116ae7f5ea92"
+      lineColor="#5c5c5c"
+      fillColor="#b5ffff">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0a7982b9-8185-4c70-9807-1d8d585df06f"
+        lineColor="#000000"
+        source="id-fb5f0470-001d-4281-a927-116ae7f5ea92"
+        target="id-6298080d-fcd6-419c-afec-d14d5e662376">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-3e3f4521-e392-4ee6-abcc-661cfcab3567.xml#id-3e3f4521-e392-4ee6-abcc-661cfcab3567"/>
+    </sourceConnections>
+    <bounds
+        x="228"
+        y="115"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-c6386c7c-52bc-418d-97f1-0e187f3c66e5.xml#id-c6386c7c-52bc-418d-97f1-0e187f3c66e5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-6298080d-fcd6-419c-afec-d14d5e662376"
+      targetConnections="id-0a7982b9-8185-4c70-9807-1d8d585df06f"
+      lineColor="#5c5c5c"
+      fillColor="#ccccff">
+    <bounds
+        x="228"
+        y="216"
+        width="133"
+        height="73"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-c388b5dd-6f45-4cd1-adf0-3add38e9e24f.xml#id-c388b5dd-6f45-4cd1-adf0-3add38e9e24f"/>
+  </children>
+</archimate:ArchimateDiagramModel>
