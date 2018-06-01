@@ -5,7 +5,8 @@ en bijdragen nodig om ROSA beter en bruikbaarder te maken.
 
 Er zijn een paar manieren waarop je kunt bijdragen aan het verbeteren van 
 ROSA. 
-- De makkelijkste manier is om een [issue](issues) in te vullen in github. 
+- De makkelijkste manier is om een [issue](https://github.com/edustandaard/rosa/issues) 
+  in te vullen in github. 
   De beheerders van ROSA zien dit en kunnen de vraag inplannen in het 
   onderhoudsproces.
 - Als je een uitbreiding gemaakt hebt op ROSA en je wil deze overdragen
