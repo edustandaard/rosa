@@ -38,28 +38,38 @@ conventies in het model om rekening mee te houden. Zie hiervoor onze
 [CODING GUIDELINE](CODINGGUIDELINES.md).
 
 ### Oplossen issue
-Ok, je hebt een issue opgelost. Dit willen we melden in onze Changelog,
-zodat we de belanghebbenden van ROSA periodiek kunnen informeren over de
-aangebrachte wijzigingen. Gebruik hiervoor de volgende commit message
-template:
+Ok, je hebt een issue opgelost. Dit willen we melden in onze Changelog, zodat we
+de belanghebbenden van ROSA periodiek kunnen informeren over de aangebrachte
+wijzigingen. We hanteren [Angular conventie voor commit
+messages](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
+Werkt als volgt:
 
-bug/feature: Samenvatting in ongeveer 50 letters of minder.
+Standard commit message | Voorbeeld
+-------------------------------------------
+commit type(scope): Samenvatting in ongeveer 50 letters of minder. | feat(Onderwijs): voeg Vroegtijdig aanmelden MBO toe
+ |
+Gedetailleerdere uitleg, als het nodig is. Hou een lege regel tussen | De nieuwe voorzieningen en informatieuitwisselingen rondom Vroegtijdig aanmelden
+de bovenste regel en de nadere uitleg, daarmee kunnen we automatisch | zijn opgenomen in ROSA.
+samenvattingen genereren.                                            |
+ | Closes #9876
+Leg uit wat het probleem is dat je met deze commit oplost. Focus op wat en |
+waarom, niet op 'hoe' (dat zien we wel in de views). Heeft je wijziging |
+(mogelijk) impact op andere delen of bij-effecten? Vermeld dat dan ook. |
+ |
+ - Gebruik opsommingen als je wil |
+ - Als deze commit gerelateerd is aan een issue, neem je het issue-nummer |
+   op in de laatste regels van het commentaar. Gebruik hiervoor de |
+   [autolink](https://help.github.com/articles/autolinked-references-and-urls/) |
+   features van github. |
+ - Geef de relatie tussen je commit en het issue aan met "Fix \#123", |
+   "Closed \#123", "Resolve \#123", "See also \#123" in een footer  |
+   (gescheiden door lege regel) |
 
-Gedetailleerdere uitleg, als het nodig is. Hou een lege regel tussen
-de bovenste regel en de nadere uitleg, daarmee kunnen we automatisch
-samenvattingen genereren.
-
-Leg uit wat het probleem is dat je met deze commit oplost. Focus op wat en
-waarom, niet op 'hoe' (dat zien we wel in de views). Heeft je wijziging
-(mogelijk) impact op andere delen of bij-effecten? Vermeld dat dan ook.
-
- - Gebruik opsommingen als je wil
- - Als deze commit gerelateerd is aan een issue, neem je het issue-nummer
-   op in de laatste regels van het commentaar. Gebruik hiervoor de
-   [autolink](https://help.github.com/articles/autolinked-references-and-urls/)
-   features van github.
- - Geef de relatie tussen je commit en het issue aan met "Fix \#123",
-   "Closed \#123", "Resolve \#123", "See also \#123".
-
-Fix: #123
-See also: #456
+Commit types zijn:
+ * feat: gebruik dit voor commits die nieuwe features introduceren
+ * fix: deze commit lost een wijziging op
+ * docs: aanpassing in de documentatie
+ * style*: formattering van elementen en verbindingen aangepast, geen wijziging van betekenis
+ * refactor*: her-organiseren van onderdelen in het model
+ * chore*: aanpassingen aan de manier waarop het model of de wiki worden gemaakt en gepubliceerd.
+ Onderdelen gemarkeerd met een * worden niet opgenomen in de CHANGELOG.
