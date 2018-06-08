@@ -44,26 +44,25 @@ wijzigingen. We hanteren [Angular conventie voor commit
 messages](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
 Werkt als volgt:
 
-Standard commit message | Voorbeeld
--------------------------------------------
-commit type(scope): Samenvatting in ongeveer 50 letters of minder. | feat(Onderwijs): voeg Vroegtijdig aanmelden MBO toe
- |
-Gedetailleerdere uitleg, als het nodig is. Hou een lege regel tussen | De nieuwe voorzieningen en informatieuitwisselingen rondom Vroegtijdig aanmelden
-de bovenste regel en de nadere uitleg, daarmee kunnen we automatisch | zijn opgenomen in ROSA.
-samenvattingen genereren.                                            |
- | Closes #9876
-Leg uit wat het probleem is dat je met deze commit oplost. Focus op wat en |
-waarom, niet op 'hoe' (dat zien we wel in de views). Heeft je wijziging |
-(mogelijk) impact op andere delen of bij-effecten? Vermeld dat dan ook. |
- |
- - Gebruik opsommingen als je wil |
- - Als deze commit gerelateerd is aan een issue, neem je het issue-nummer |
-   op in de laatste regels van het commentaar. Gebruik hiervoor de |
-   [autolink](https://help.github.com/articles/autolinked-references-and-urls/) |
-   features van github. |
- - Geef de relatie tussen je commit en het issue aan met "Fix \#123", |
-   "Closed \#123", "Resolve \#123", "See also \#123" in een footer  |
-   (gescheiden door lege regel) |
+Standard commit message
+-----------------------
+commit type(scope): Samenvatting in ongeveer 50 letters of minder.
+
+Gedetailleerdere uitleg, als het nodig is. Hou een lege regel tussen
+de bovenste regel en de nadere uitleg, daarmee kunnen we automatisch
+samenvattingen (Changelog) genereren.
+Leg uit wat het probleem is dat je met deze commit oplost. Focus op wat en 
+waarom, niet op 'hoe' (dat zien we wel in de views). Heeft je wijziging 
+(mogelijk) impact op andere delen of bij-effecten? Vermeld dat dan ook. 
+ 
+ - Gebruik opsommingen als je wil
+ - Als deze commit gerelateerd is aan een issue, neem je het issue-nummer
+   op in de laatste regels van het commentaar. Gebruik hiervoor de
+   [autolink](https://help.github.com/articles/autolinked-references-and-urls/)
+   features van github.
+ - Geef de relatie tussen je commit en het issue aan met "Fix \#123",
+   "Closed \#123", "Resolve \#123", "See also \#123" in een footer
+   (gescheiden door lege regel)
 
 Commit types zijn:
  * feat: gebruik dit voor commits die nieuwe features introduceren
@@ -72,4 +71,5 @@ Commit types zijn:
  * style*: formattering van elementen en verbindingen aangepast, geen wijziging van betekenis
  * refactor*: her-organiseren van onderdelen in het model
  * chore*: aanpassingen aan de manier waarop het model of de wiki worden gemaakt en gepubliceerd.
- Onderdelen gemarkeerd met een * worden niet opgenomen in de CHANGELOG.
+
+Onderdelen gemarkeerd met een * worden niet opgenomen in de CHANGELOG.
