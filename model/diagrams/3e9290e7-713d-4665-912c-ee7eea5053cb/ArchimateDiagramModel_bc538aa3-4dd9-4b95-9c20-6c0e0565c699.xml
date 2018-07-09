@@ -172,6 +172,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="1d672fc6-0dbe-4466-b88c-735567336582"
+        targetConnections="c25775c6-b2dd-4fb4-8e5b-23442395900f"
         lineColor="#5c5c5c"
         fillColor="#ccccff">
       <sourceConnections
@@ -213,16 +214,6 @@
         <archimateRelationship
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_3a3c02ba-164c-477d-855b-afbbbbac76d5.xml#3a3c02ba-164c-477d-855b-afbbbbac76d5"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="cb2f6326-c9b8-4bc9-a8d2-39b628a20860"
-          lineColor="#000000"
-          source="1d672fc6-0dbe-4466-b88c-735567336582"
-          target="36960e8a-0ae8-40ca-8a47-328c30e8f68d">
-        <archimateRelationship
-            xsi:type="archimate:AggregationRelationship"
-            href="AggregationRelationship_38f92298-59ea-4b51-8f14-9789a74099b1.xml#38f92298-59ea-4b51-8f14-9789a74099b1"/>
       </sourceConnections>
       <bounds
           x="292"
@@ -386,7 +377,6 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="36960e8a-0ae8-40ca-8a47-328c30e8f68d"
-        targetConnections="cb2f6326-c9b8-4bc9-a8d2-39b628a20860"
         lineColor="#5c5c5c"
         fillColor="#ccccff">
       <sourceConnections
@@ -478,6 +468,16 @@
         <archimateRelationship
             xsi:type="archimate:InfluenceRelationship"
             href="InfluenceRelationship_33722375-d597-4215-9abb-2e16c6c9d0b6.xml#33722375-d597-4215-9abb-2e16c6c9d0b6"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="c25775c6-b2dd-4fb4-8e5b-23442395900f"
+          lineColor="#000000"
+          source="36960e8a-0ae8-40ca-8a47-328c30e8f68d"
+          target="1d672fc6-0dbe-4466-b88c-735567336582">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_d3022a9d-7cd0-4e68-87ba-3cdd9799fd9d.xml#d3022a9d-7cd0-4e68-87ba-3cdd9799fd9d"/>
       </sourceConnections>
       <bounds
           x="564"
