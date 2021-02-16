@@ -18,9 +18,9 @@ Geen standaard properties.
 ### Bedrijfsobjecten en gegevens (Business object) ###
  * Documentatie
  * Properties:
-  ** Type
-  ** Toelichting
-  ** Voorbeeld
+    * Type = KOI-begrip
+    * Toelichting
+    * Voorbeeld
 
 ### Bedrijfsprocessen (business process) ###
 
@@ -30,9 +30,9 @@ Geen standaard properties.
 
  * Documentatie
  * Properties:
-  ** Type = KOI-begrip
-  ** Toelichting
-  ** Voorbeeld
+    * Type = KOI-begrip
+    * Toelichting
+    * Voorbeeld
 
 ### Ketenfuncties (Business function) ###
 
@@ -45,14 +45,14 @@ Geen standaard properties.
 ### Rollen, actoren (business role, business actor) ###
  * Documentatie
  * Properties
-  * Type
-  * Werkingsgebied
+    * Type
+    * Werkingsgebied
 
 ### Werkingsgebieden (business interatins) ###
  * Documentatie
  * Properties:
-  * Type
-  * Werkingsgebied
+    * Type
+    * Werkingsgebied
 
 ## Application ##
 
@@ -67,47 +67,47 @@ Geen standaard properties.
 ### Referentiecomponenten en applicaties ###
  * Documentatie
  * Properties
-  * Eigenaar
-  * Toelichting
-  * Toepassingsgebied
-  * Type
-  * Werkingsgebied
-  * Doelgroep
-  * Externe verwijzing
-  * Governance
+    * Eigenaar
+    * Toelichting
+    * Toepassingsgebied
+    * Type
+    * Werkingsgebied
+    * Doelgroep
+    * Externe verwijzing
+    * Governance
 
 ## Motivation ##
 ### Beleid en doelstellingen (Goal) ###
  * Documentatie
  * Properties
-  * Stelling
-  * Type
-  * Rationale
-  * Implicaties
+    * Stelling
+    * Type
+    * Rationale
+    * Implicaties
 
 ### NORA (Principle, Goal) ###
 
 ### Principes en ontwerpkaders (Requirement, principle) ###
  * Properties
-  * Uitspraak
-  * Stelling
-  * Type
-  * Rationale
-  * Implicaties
+    * Uitspraak
+    * Stelling
+    * Type
+    * Rationale
+    * Implicaties
 
 ### Standaarden (Requirements) ###
  * Documentation
  * Properties
-  * Type
-  * Werkingsgebied
-  * Toelichting
-  * Externe verwijzing
-  * Beheerder
+    * Type
+    * Werkingsgebied
+    * Toelichting
+    * Externe verwijzing
+    * Beheerder
 
 ### Wet- en regengeving (Driver) ###
  * Documentation
  * Properties
-  * Externe verwijzing
+    * Externe verwijzing
 
 ### Zeggenschappen (Constraint) ###
  * Documentation
