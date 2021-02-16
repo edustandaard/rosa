@@ -18,9 +18,9 @@ Geen standaard properties.
 ### Bedrijfsobjecten en gegevens (Business object) ###
  * Documentatie
  * Properties:
-  * Type
-  * Toelichting
-  * Voorbeeld
+  ** Type
+  ** Toelichting
+  ** Voorbeeld
 
 ### Bedrijfsprocessen (business process) ###
 
@@ -28,7 +28,11 @@ Geen standaard properties.
 
 ### KOI-begrippen (business object) ###
 
-Geen standaard properties.
+ * Documentatie
+ * Properties:
+  ** Type = KOI-begrip
+  ** Toelichting
+  ** Voorbeeld
 
 ### Ketenfuncties (Business function) ###
 
