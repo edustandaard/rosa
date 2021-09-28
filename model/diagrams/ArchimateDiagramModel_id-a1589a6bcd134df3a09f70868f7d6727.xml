@@ -460,12 +460,12 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-183bc6b2978240fd90c7396b3311ba24"
-      targetConnections="d42cf194-3dc1-41e9-9c70-8b10ae1a562b"
+      targetConnections="f2f9673e-67c9-4681-820d-ef4b07064300"
       textAlignment="1"
       content="Een ketendienst is een specifieke invulling  van een ketenproces, waarin sprake is van het afhandelen van minimaal 1 ketenprocesstap in de vorm van een interactie tussen 2 of meer ketenpartners.">
     <bounds
         x="984"
-        y="132"
+        y="72"
         width="279"
         height="109"/>
   </children>
@@ -507,26 +507,50 @@
         x="-36"
         y="288"
         width="185"
-        height="209"/>
+        height="109"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="c0a47141-80d4-41ca-bb09-b2dbf4a66127"
       textAlignment="1"
       fillColor="#00ff00"
-      content="Discussie Erik: Dit is een groeping, geen dienst (zie ROSA betekenis). Ook geen dienstverlening maar samenwerking. Ook geen dienstsymbool gebruikt hier, terrecht. Ik merk nu al dat het verwarrend werkt in de buitenwereld. We verzonnen dit woord ooit omdat ik opmerkte dat een Keten geen Dienst is (een Dienst is 1 leverancier) maar een samenwerkingsverband tussen Dienstleveranciers en afnemers. De naam Dienst is dus raar, de keten levert buitenstaanders geen dienst. Ketenproces is volgens mij een prima naam van die samenwerking. Die zou ik ook voor OSR willen gebruiken. Voor deze grouping stel ik een andere naam voor, het is meer een domein. Ketenprocesdomein wellicht? ">
+      content="Discussie Erik: Dit is een groepingssymbool, geen dienst/service symbool,  waardoor ik geen relaties kan leggen in de infra. Ik stel voor dat wel te doen (als we ook vinden dat een Keten een dienst levert en niet alleen een samenwerking is intern). Voor deze grouping moeten we dan een andere naam te nemen. Deze naam als groepering vind ik sowieso niet helder. Achtergrnd: We verzonnen dit woord omdat ik opmerkte dat een Keten geen Dienst levert (een Dienst betreft exact 1 leverancier die iets aan buitenwereld levert). &#xD;&#xA;">
     <sourceConnections
         id="e29af5ac-edff-4b9f-882f-d0912d4ec259"
         source="c0a47141-80d4-41ca-bb09-b2dbf4a66127"
         target="id-be76dad55d084569b85afff7062d4006"/>
-    <sourceConnections
-        id="d42cf194-3dc1-41e9-9c70-8b10ae1a562b"
-        source="c0a47141-80d4-41ca-bb09-b2dbf4a66127"
-        target="id-183bc6b2978240fd90c7396b3311ba24"/>
     <bounds
         x="1020"
-        y="420"
+        y="252"
         width="185"
-        height="229"/>
+        height="121"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="18af3535-d0d3-4c90-96cc-9565fd116b78"
+      textAlignment="1"
+      fillColor="#00ff00"
+      content="Erik: Ketenproces of Ketendienst zou ik ook graag voor OSR willen gebruiken (vraag advies Raad &amp; PO &amp; EDU-K om zijn mening). Ketenstap vind ik geen fijn woord voor OSR.">
+    <bounds
+        x="-36"
+        y="66"
+        width="185"
+        height="127"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="35ee4acc-f382-4648-888e-e8f49f79fc9d"
+      textAlignment="1"
+      fillColor="#80ff00"
+      content="klopt niet met tekening (is niet meer dan 1 stap)">
+    <sourceConnections
+        id="f2f9673e-67c9-4681-820d-ef4b07064300"
+        source="35ee4acc-f382-4648-888e-e8f49f79fc9d"
+        target="id-183bc6b2978240fd90c7396b3311ba24"/>
+    <bounds
+        x="1080"
+        y="12"
+        width="121"
+        height="37"/>
   </children>
 </archimate:ArchimateDiagramModel>
