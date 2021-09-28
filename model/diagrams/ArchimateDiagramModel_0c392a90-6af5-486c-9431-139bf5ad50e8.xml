@@ -232,12 +232,13 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="75555801-9647-4201-a6fa-23a32cecee66"
-      targetConnections="id-73e198e6736143e882481aa2b6d801e5"
+      targetConnections="id-73e198e6736143e882481aa2b6d801e5 644ce0f0-2566-47cf-b844-64befa1313a8 21f92d3d-90ed-4d15-b4b5-88692a76b8b7"
       lineColor="#5c5c5c"
       fillColor="#b5ffff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="47079332-038f-491a-81da-822acd9941f2"
+        targetConnections="a6549aff-8a33-4202-9a37-ac1c672b3dfb"
         lineColor="#ff7021"
         source="75555801-9647-4201-a6fa-23a32cecee66"
         target="6d0d944f-210a-4544-977a-19958e1b30df">
@@ -475,6 +476,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-fb3e61940cb8410a8a4fdaed40160a7b"
+          targetConnections="e06edc8a-eaaa-40fe-ba1e-bf8d2da58d36"
           source="id-f1eea193e4694954bec075cab3ab0718"
           target="fdff66d2-7f4b-4e40-b252-dfa4864a5cad">
         <bendpoints
@@ -541,6 +543,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-eef66a758346460a9ed6e96d47b6d0f8"
+        targetConnections="52216256-e991-47b4-a275-7371ecbc353e"
         lineColor="#5c5c5c"
         fillColor="#f4f4f9">
       <bounds
@@ -717,5 +720,75 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-344fbfacc44940d8afb3b7ae084d143c.xml#id-344fbfacc44940d8afb3b7ae084d143c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="59d2cae0-3277-4dae-91af-5acce0f7705f"
+      textAlignment="1"
+      fillColor="#80ff80"
+      content="Erik: komt al uit overerving. Weglaten. Of alleen bij stap (zie andere model). Maar dan dwing je wel alles te modelleren in stappen.">
+    <sourceConnections
+        id="e06edc8a-eaaa-40fe-ba1e-bf8d2da58d36"
+        source="59d2cae0-3277-4dae-91af-5acce0f7705f"
+        target="id-fb3e61940cb8410a8a4fdaed40160a7b"
+        type="2"/>
+    <bounds
+        x="104"
+        y="444"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="451f6dd4-ed0b-4d9d-93b0-ca3d6774847f"
+      textAlignment="1"
+      fillColor="#80ff80"
+      content="Erik discussie: Waarom (enkel) referentie componenten. Het gaat juist om services en diensten waar je afspraken over maakt.  De blauwe IT is uitwerking. Je mandateert een Dienst voor deelname met zijn Services (of afname daarvan), maakt het jou dan uit welke systemen de leverancier daarvoor inzet? Moeten we dat modelleren. De RCs hebben ook nog eens andere namenin sectorarchitecturen. Is dit echt handig? Natuurlijk kunnen we platen tekenen die diensten leveren. Dit zal vast verweven zijn met AMIGO. Gaat Amigo dan niet uit van SOA? Maar van data en systemen? ">
+    <sourceConnections
+        id="644ce0f0-2566-47cf-b844-64befa1313a8"
+        source="451f6dd4-ed0b-4d9d-93b0-ca3d6774847f"
+        target="75555801-9647-4201-a6fa-23a32cecee66"
+        type="2"/>
+    <sourceConnections
+        id="52216256-e991-47b4-a275-7371ecbc353e"
+        source="451f6dd4-ed0b-4d9d-93b0-ca3d6774847f"
+        target="id-eef66a758346460a9ed6e96d47b6d0f8"/>
+    <bounds
+        x="1368"
+        y="-120"
+        width="185"
+        height="321"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="24ed5e70-3b6e-4282-8f1a-ac27b5f56b53"
+      textAlignment="1"
+      fillColor="#80ff80"
+      content="Erik discussie: Wat betekenen al deze pijltjes. Komt dit allemaal voor in het ontwerpgebied. Services dan niet? OSR moet je wel aanspreken op services. ">
+    <sourceConnections
+        id="a6549aff-8a33-4202-9a37-ac1c672b3dfb"
+        source="24ed5e70-3b6e-4282-8f1a-ac27b5f56b53"
+        target="47079332-038f-491a-81da-822acd9941f2"/>
+    <bounds
+        x="756"
+        y="-282"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="e935f990-bbce-4bdd-81d4-29a4695da2bd"
+      textAlignment="1"
+      fillColor="#80ff80"
+      content="Erik discussie: hier mengen we opeens blauw en geel. Die opmerking kreeg ik ook van externen. Dus ware niet: gele diensten, ipv referentiecomponenten (natuurlijk realiseren systemen dat, en niet altijd de RCs, bv RIO is begripsmatig geen echte RC, er is er maar 1 van). Zal wel door AMIGO komen">
+    <sourceConnections
+        id="21f92d3d-90ed-4d15-b4b5-88692a76b8b7"
+        source="e935f990-bbce-4bdd-81d4-29a4695da2bd"
+        target="75555801-9647-4201-a6fa-23a32cecee66"/>
+    <bounds
+        x="1416"
+        y="314"
+        width="185"
+        height="179"/>
   </children>
 </archimate:ArchimateDiagramModel>
