@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="OSR v2 versus domeinmodel (erik)"
+    name="~ OSR v2 versus domeinmodel (erik)"
     id="7c41a302-af25-486e-95af-2a3a098e637b">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -271,24 +271,13 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="a185ceee-a551-49af-aae5-974b40ad5de3"
-      targetConnections="4644a080-12dc-49ea-8b1f-a44428289378 4df8638a-ee65-4870-b30c-b356bc7288ea fbe284ba-62b9-4949-b657-b586383a6269">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="cfca740d-91d9-4ba2-9328-71ffec1c5535"
-        source="a185ceee-a551-49af-aae5-974b40ad5de3"
-        target="069f272d-55d7-4fad-bac5-e4d19f268de1">
-      <bendpoints
-          startX="120"
-          startY="21"
-          endX="-132"
-          endY="21"/>
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_9395871c-dbfa-4fec-bca8-082bf8551572.xml#9395871c-dbfa-4fec-bca8-082bf8551572"/>
-    </sourceConnections>
+      targetConnections="4644a080-12dc-49ea-8b1f-a44428289378 fbe284ba-62b9-4949-b657-b586383a6269">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="4037db54-4ca4-4cfc-90c6-5f955e9ec745"
+        targetConnections="79c2d513-6989-41c5-947b-a00687dc0637"
+        lineWidth="2"
+        lineColor="#ff8000"
         source="a185ceee-a551-49af-aae5-974b40ad5de3"
         target="c8845a1b-1644-46eb-94b0-744c097f6930">
       <archimateRelationship
@@ -319,17 +308,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="069f272d-55d7-4fad-bac5-e4d19f268de1"
-      targetConnections="cfca740d-91d9-4ba2-9328-71ffec1c5535"
       fillColor="#ff0000">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="4df8638a-ee65-4870-b30c-b356bc7288ea"
-        source="069f272d-55d7-4fad-bac5-e4d19f268de1"
-        target="a185ceee-a551-49af-aae5-974b40ad5de3">
-      <archimateRelationship
-          xsi:type="archimate:SpecializationRelationship"
-          href="SpecializationRelationship_9ac81dd1-53bc-499f-9e54-b7cad0fe5eb2.xml#9ac81dd1-53bc-499f-9e54-b7cad0fe5eb2"/>
-    </sourceConnections>
     <bounds
         x="912"
         y="252"
@@ -824,5 +803,21 @@
         y="-48"
         width="169"
         height="61"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="46cb2892-dbf0-46f8-a676-9b1a2de0fa97"
+      textAlignment="1"
+      content="Niet herbruikbaar in OSR">
+    <sourceConnections
+        id="79c2d513-6989-41c5-947b-a00687dc0637"
+        source="46cb2892-dbf0-46f8-a676-9b1a2de0fa97"
+        target="4037db54-4ca4-4cfc-90c6-5f955e9ec745"
+        type="2"/>
+    <bounds
+        x="1116"
+        y="227"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
