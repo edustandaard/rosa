@@ -296,6 +296,15 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_60a3038b-b69a-4e55-b692-ce30c1a1e4c4.xml#60a3038b-b69a-4e55-b692-ce30c1a1e4c4"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="01a17dbb-50fb-4675-ad66-0d5407975769"
+        source="a185ceee-a551-49af-aae5-974b40ad5de3"
+        target="069f272d-55d7-4fad-bac5-e4d19f268de1">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_c18f4238-b51f-44b0-b669-69bfb0bccb5c.xml#c18f4238-b51f-44b0-b669-69bfb0bccb5c"/>
+    </sourceConnections>
     <bounds
         x="660"
         y="252"
@@ -308,6 +317,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="069f272d-55d7-4fad-bac5-e4d19f268de1"
+      targetConnections="01a17dbb-50fb-4675-ad66-0d5407975769"
       fillColor="#ff0000">
     <bounds
         x="912"
@@ -409,6 +419,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="47051efc-f989-413b-9d18-770b195ca972"
+      targetConnections="2cbc51c4-f751-48f8-aefa-a87b8dae3327"
       fillColor="#ff0000">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -421,7 +432,7 @@
     </sourceConnections>
     <bounds
         x="335"
-        y="324"
+        y="312"
         width="120"
         height="55"/>
     <archimateElement
@@ -431,6 +442,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="eba2c60d-95f2-4d9f-bb37-a6975be65138"
+      targetConnections="ee660f8e-8c6d-4c07-974b-b516d6088a96"
       fillColor="#ff0000">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -530,29 +542,13 @@
         x="24"
         y="456"
         width="121"
-        height="145"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="912006a6-8186-49b1-ba45-2b3ec9e94677"
-      textAlignment="1"
-      content="De modellen kunnen gekoppeld zijn als de namespace wijst naar het metamodel bv http://api.organisatie.nl/v2">
-    <sourceConnections
-        id="fcd8a6a1-30da-4f47-82d9-74acaf53a5ee"
-        source="912006a6-8186-49b1-ba45-2b3ec9e94677"
-        target="2f7cef03-836d-40da-96ab-3e2bbb1f4c13"
-        type="2"/>
-    <bounds
-        x="972"
-        y="630"
-        width="120"
-        height="139"/>
+        height="157"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="798ea5b6-b4ae-47c4-9cd8-0225fc5ca636"
       textAlignment="1"
-      content="OSR weet niet welk systeem welke service levert. Wel is een extra relatie tussen EndPoint en Systeem, zodat dit afgeleid kan worden. Het model  kan niet afdwingen dat EndPoints niet op foute services/systemen worden gekoppeld">
+      content="OSR weet niet welk systeem welke service levert.  Wel is een extra relatie tussen EndPoint en Systeem, zodat dit afgeleid kan worden. Het model  kan niet afdwingen dat EndPoints niet op foute services/systemen worden gekoppeld">
     <sourceConnections
         id="b1103046-f98a-4364-918f-430481321007"
         source="798ea5b6-b4ae-47c4-9cd8-0225fc5ca636"
@@ -564,7 +560,7 @@
         target="fdc81ab8-9916-4187-9680-1395037de1c7"
         type="2"/>
     <bounds
-        x="216"
+        x="192"
         y="732"
         width="215"
         height="133"/>
@@ -573,14 +569,14 @@
       xsi:type="archimate:DiagramModelNote"
       id="74f7214c-2560-46ec-9def-83dbfa38b905"
       textAlignment="1"
-      content="OSR normaliseert Webservice niet uit, maar herhaalt attributen bij WebserciveVersie">
+      content="OSR normaliseert Webservice niet uit">
     <sourceConnections
         id="79ab7109-8cd9-45ef-93b5-092a4bd78845"
         source="74f7214c-2560-46ec-9def-83dbfa38b905"
         target="c8845a1b-1644-46eb-94b0-744c097f6930"/>
     <bounds
-        x="840"
-        y="360"
+        x="828"
+        y="402"
         width="185"
         height="55"/>
   </children>
@@ -732,7 +728,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="b228e606-279c-41db-b043-9ddf9b70ae52"
-        fillColor="#ff8000">
+        fillColor="#ff0000">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="2da3dc2b-a343-4aab-9830-4e06f7350fe3"
@@ -754,11 +750,11 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="2f7cef03-836d-40da-96ab-3e2bbb1f4c13"
-        targetConnections="9705d780-5006-45ed-870e-912d9cd23327 2da3dc2b-a343-4aab-9830-4e06f7350fe3 666f5c47-5ffb-4d91-810a-c4f615bc8cc0 fcd8a6a1-30da-4f47-82d9-74acaf53a5ee"
-        fillColor="#ff8000">
+        targetConnections="9705d780-5006-45ed-870e-912d9cd23327 2da3dc2b-a343-4aab-9830-4e06f7350fe3 666f5c47-5ffb-4d91-810a-c4f615bc8cc0"
+        fillColor="#ff0000">
       <bounds
           x="168"
-          y="120"
+          y="132"
           width="120"
           height="55"/>
       <archimateElement
@@ -768,7 +764,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="76766665-da91-418f-95ff-b98220914479"
-        fillColor="#ff8000">
+        fillColor="#ff0000">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="666f5c47-5ffb-4d91-810a-c4f615bc8cc0"
@@ -808,16 +804,47 @@
       xsi:type="archimate:DiagramModelNote"
       id="46cb2892-dbf0-46f8-a676-9b1a2de0fa97"
       textAlignment="1"
-      content="Niet herbruikbaar in OSR">
+      content="WebserviceVersie niet herbruikbaar in OSR in andere Ketendiensten">
     <sourceConnections
         id="79c2d513-6989-41c5-947b-a00687dc0637"
         source="46cb2892-dbf0-46f8-a676-9b1a2de0fa97"
         target="4037db54-4ca4-4cfc-90c6-5f955e9ec745"
         type="2"/>
     <bounds
-        x="1116"
-        y="227"
-        width="185"
-        height="80"/>
+        x="804"
+        y="324"
+        width="157"
+        height="61"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="69b1246a-c371-47be-92f1-d98baed2213a"
+      textAlignment="1"
+      content="OSR kent de subcategorie niet. Je kunt ze wel opvoeren (OSO bijvoorbeeld)">
+    <sourceConnections
+        id="2cbc51c4-f751-48f8-aefa-a87b8dae3327"
+        source="69b1246a-c371-47be-92f1-d98baed2213a"
+        target="47051efc-f989-413b-9d18-770b195ca972"/>
+    <sourceConnections
+        id="ee660f8e-8c6d-4c07-974b-b516d6088a96"
+        source="69b1246a-c371-47be-92f1-d98baed2213a"
+        target="eba2c60d-95f2-4d9f-bb37-a6975be65138"/>
+    <bounds
+        x="252"
+        y="312"
+        width="73"
+        height="115"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="bb972645-792b-4c59-9801-8ac2e748b3a1">
+    <bounds
+        x="823"
+        y="-6"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_14abecb2-7f5a-46f6-9cc0-6972712c297b.xml#14abecb2-7f5a-46f6-9cc0-6972712c297b"/>
   </children>
 </archimate:ArchimateDiagramModel>
