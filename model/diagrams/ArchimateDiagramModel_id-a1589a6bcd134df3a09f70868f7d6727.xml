@@ -489,9 +489,10 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="0e283a42-c105-4af3-a928-02f94d7b51ec"
+      targetConnections="f9e01b25-fea9-4b12-9b63-e935030a6625"
       textAlignment="1"
       fillColor="#80ff80"
-      content="Erik: Voorstel: zet ketenproces ook in dienst. Want een afspraak zit niet op Ketenproces nivo (wat een enkele stap kan zijn)? Eindtoets PO is een Ketenproces met meerdere stappen en systemen. ">
+      content="Erik: Voorstel: zet ketenproces ook in dienst. Want een afspraak kan over meerdere stappen gaan? Lijkt nu niet zo. Werkt verwarrend ">
     <sourceConnections
         id="1dbf8266-d0d3-4343-93fc-321bb1b7aa29"
         source="0e283a42-c105-4af3-a928-02f94d7b51ec"
@@ -508,23 +509,23 @@
         x="-26"
         y="288"
         width="185"
-        height="49"/>
+        height="121"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
       id="18af3535-d0d3-4c90-96cc-9565fd116b78"
       textAlignment="1"
       fillColor="#00ff00"
-      content="Erik: Bij dienst verwacht ik ook dienstsymbool in metamodel. Erik toetst naam Ketendienst bij stakeholders OSR op duidelijkheid ">
+      content="Erik: Bij dienst verwacht ik ook dienstsymbool in metamodel maar je levert geen dienst in mijn ogen. Erik toetst naam Ketendienst bij stakeholders OSR op duidelijkheid ">
     <sourceConnections
         id="517492e1-3be7-4477-82bf-7255b1d7d56d"
         source="18af3535-d0d3-4c90-96cc-9565fd116b78"
         target="id-be76dad55d084569b85afff7062d4006"/>
     <bounds
         x="-24"
-        y="48"
+        y="12"
         width="181"
-        height="61"/>
+        height="109"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -547,14 +548,18 @@
       id="2801cc32-83bf-4321-bf61-fdea686c21b1"
       textAlignment="1"
       fillColor="#00ff00"
-      content="Erik: dat stap een specialisatie is werkt verwarrend. Voorstel: volg het GoF composite pattern">
+      content="Erik: dat stap een specialisatie en een compositie is werkt verwarrend. Voorstel: volg het GoF composite pattern. ">
     <sourceConnections
         id="ff60fcb1-01d4-483d-96aa-d619cd1e3f39"
         source="2801cc32-83bf-4321-bf61-fdea686c21b1"
         target="id-09b6c8ba3e2b41e7b5a8f2c49be136aa"/>
+    <sourceConnections
+        id="f9e01b25-fea9-4b12-9b63-e935030a6625"
+        source="2801cc32-83bf-4321-bf61-fdea686c21b1"
+        target="0e283a42-c105-4af3-a928-02f94d7b51ec"/>
     <bounds
-        x="372"
-        y="9"
+        x="-26"
+        y="192"
         width="185"
         height="80"/>
   </children>
