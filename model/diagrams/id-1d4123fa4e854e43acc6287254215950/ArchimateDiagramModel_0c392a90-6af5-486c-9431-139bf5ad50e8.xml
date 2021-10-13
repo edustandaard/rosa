@@ -879,7 +879,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c0da1851607342c0a031a59eeb5385ae"
-        targetConnections="id-5707e32a47e24e47888de1618d2e0b9c">
+        targetConnections="id-5707e32a47e24e47888de1618d2e0b9c id-278ee85643f54e589b91a53a4b8ed870">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-1af098beda5e40e49c6d71d6945be8aa"
@@ -988,7 +988,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-85df3d4a96b84e3cad700d61a3404f46"
-        targetConnections="id-802f8bdc88d8405ca11f45402903bf2e">
+        targetConnections="id-802f8bdc88d8405ca11f45402903bf2e id-1ef5912c61dc44beac213d004513bf5c">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-a95784b0c6134ef4b27bfdc2bb8418d9"
@@ -1025,5 +1025,35 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-c77d2cb61f4a48e88264d3aefd7eeb54.xml#id-c77d2cb61f4a48e88264d3aefd7eeb54"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-05d2e30c5c0b4ac99a60eeba17543589"
+      textAlignment="1"
+      content="Toevoegen: relaties en uitwisselingen tussen voorzieningen?">
+    <sourceConnections
+        id="id-1ef5912c61dc44beac213d004513bf5c"
+        source="id-05d2e30c5c0b4ac99a60eeba17543589"
+        target="id-85df3d4a96b84e3cad700d61a3404f46"/>
+    <bounds
+        x="-36"
+        y="1176"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-35d4247d69b54c119fafb4217279d629"
+      textAlignment="1"
+      content="Bijv. 'Attributendienst', 'Identiteitenbeheerdienst' ">
+    <sourceConnections
+        id="id-278ee85643f54e589b91a53a4b8ed870"
+        source="id-35d4247d69b54c119fafb4217279d629"
+        target="id-c0da1851607342c0a031a59eeb5385ae"/>
+    <bounds
+        x="-36"
+        y="1080"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
