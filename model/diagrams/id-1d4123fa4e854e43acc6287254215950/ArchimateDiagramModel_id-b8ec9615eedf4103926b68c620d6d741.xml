@@ -17,7 +17,7 @@
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-9fd1f4bc9db74b7b907091ec67c1bd4a"
-      name="Infra technology diensten"
+      name="Infra diensten"
       textAlignment="1">
     <bounds
         x="48"
@@ -27,7 +27,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-295eb582495f4d82a6ec8fc370b7f538"
-        targetConnections="bf7a1dc9-57d5-4b61-af64-c318db8883e3">
+        targetConnections="bf7a1dc9-57d5-4b61-af64-c318db8883e3 id-d33523ff80d84ab3b840840b4d368c1c id-e33a5aa581aa40f7ad9df02167737311">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-0e035a2aae6b4cf9a4f1b98badfbd88b"
@@ -55,9 +55,18 @@
             xsi:type="archimate:ServingRelationship"
             href="ServingRelationship_c504675d-4c2a-41dc-96a3-ca9f3fd270f1.xml#c504675d-4c2a-41dc-96a3-ca9f3fd270f1"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="e3c2e79e-0489-4793-8432-d636d9bf6210"
+          source="id-295eb582495f4d82a6ec8fc370b7f538"
+          target="d86be702-143c-4e6e-b3c8-f4452f0646b2">
+        <archimateRelationship
+            xsi:type="archimate:RealizationRelationship"
+            href="RealizationRelationship_224ae19d-c444-44bd-8cd8-e8d02a6def82.xml#224ae19d-c444-44bd-8cd8-e8d02a6def82"/>
+      </sourceConnections>
       <bounds
-          x="120"
-          y="144"
+          x="180"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -66,24 +75,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-265fd2461784435d9033bc8fd7c4d150"
-        targetConnections="id-d33523ff80d84ab3b840840b4d368c1c">
-      <bounds
-          x="623"
-          y="288"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessRole"
-          href="BusinessRole_1a90a155-c6e1-4d01-8753-9d774ab96f80.xml#1a90a155-c6e1-4d01-8753-9d774ab96f80"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-dd44774943ea4789b23f7eaa4767025b"
         targetConnections="id-17df59b8b5644a33bbca827e18fe3e3a">
       <bounds
-          x="180"
-          y="234"
+          x="468"
+          y="60"
           width="120"
           height="55"/>
       <archimateElement
@@ -103,18 +99,9 @@
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_0169f41a-c8bc-49b8-8089-d4af530ba0c5.xml#0169f41a-c8bc-49b8-8089-d4af530ba0c5"/>
       </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="e3c2e79e-0489-4793-8432-d636d9bf6210"
-          source="49cc2d60-44a9-441f-91b9-33e861af988e"
-          target="d86be702-143c-4e6e-b3c8-f4452f0646b2">
-        <archimateRelationship
-            xsi:type="archimate:RealizationRelationship"
-            href="RealizationRelationship_224ae19d-c444-44bd-8cd8-e8d02a6def82.xml#224ae19d-c444-44bd-8cd8-e8d02a6def82"/>
-      </sourceConnections>
       <bounds
-          x="24"
-          y="288"
+          x="192"
+          y="276"
           width="120"
           height="55"/>
       <archimateElement
@@ -139,15 +126,6 @@
         id="3c5d3ecc-a5fa-4d72-bac8-6a3da6bd123d">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-d33523ff80d84ab3b840840b4d368c1c"
-          source="3c5d3ecc-a5fa-4d72-bac8-6a3da6bd123d"
-          target="id-265fd2461784435d9033bc8fd7c4d150">
-        <archimateRelationship
-            xsi:type="archimate:AssignmentRelationship"
-            href="AssignmentRelationship_747fac35-920c-4308-b607-db968c26c7b1.xml#747fac35-920c-4308-b607-db968c26c7b1"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="5840ec11-f167-4f99-800e-fcaed266e409"
           source="3c5d3ecc-a5fa-4d72-bac8-6a3da6bd123d"
           target="id-bc29ed6808c84f66b93d45a62a210998">
@@ -163,6 +141,15 @@
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-1895c790e79f4e11a76d4392f4324902.xml#id-1895c790e79f4e11a76d4392f4324902"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d33523ff80d84ab3b840840b4d368c1c"
+          source="3c5d3ecc-a5fa-4d72-bac8-6a3da6bd123d"
+          target="id-295eb582495f4d82a6ec8fc370b7f538">
+        <archimateRelationship
+            xsi:type="archimate:AssignmentRelationship"
+            href="AssignmentRelationship_747fac35-920c-4308-b607-db968c26c7b1.xml#747fac35-920c-4308-b607-db968c26c7b1"/>
       </sourceConnections>
       <bounds
           x="468"
@@ -201,26 +188,18 @@
         href="BusinessInteraction_708f39b7-27c0-45fd-97f0-ff11ec55fb1d.xml#708f39b7-27c0-45fd-97f0-ff11ec55fb1d"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelGroup"
-      id="id-36c1da7b2d7e400ca366e599201fdd60"
-      name="Infra methode"
-      textAlignment="1">
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6e5ae91207d14124b5a3c4ddee72278d"
+      textAlignment="1"
+      content="business service: the business functions performed by the enterprise for another enterprise and or public administration">
+    <sourceConnections
+        id="id-e33a5aa581aa40f7ad9df02167737311"
+        source="id-6e5ae91207d14124b5a3c4ddee72278d"
+        target="id-295eb582495f4d82a6ec8fc370b7f538"/>
     <bounds
-        x="816"
-        y="204"
-        width="241"
-        height="198"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-1c1ed7b20a6e43bcabc5e786a92c1a68">
-      <bounds
-          x="36"
-          y="60"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Resource"
-          href="Resource_id-09707a935cf4400e86e3fdc11dab4b0c.xml#id-09707a935cf4400e86e3fdc11dab4b0c"/>
-    </children>
+        x="900"
+        y="168"
+        width="157"
+        height="85"/>
   </children>
 </archimate:ArchimateDiagramModel>
