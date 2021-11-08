@@ -816,6 +816,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-fca550890769471f976e00172aa5c895"
+          targetConnections="id-fa65d305f56f446496b76c61bcfc874a"
           source="id-a4564baac1e84f11821fefd67fe28dc0"
           target="id-304163272f4949f9b81e6aa92fea64bb">
         <archimateRelationship
@@ -1067,5 +1068,20 @@
     <archimateElement
         xsi:type="archimate:BusinessService"
         href="BusinessService_id-b33de121cee54d368e59122ab577cdf5.xml#id-b33de121cee54d368e59122ab577cdf5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6f6ab8989d1348b48304596d92408372"
+      textAlignment="1"
+      content="Erik: een product kan toch geen gevens benaderen? Ik zou zeggen een gewone relatie (naam: betreft oid)">
+    <sourceConnections
+        id="id-fa65d305f56f446496b76c61bcfc874a"
+        source="id-6f6ab8989d1348b48304596d92408372"
+        target="id-fca550890769471f976e00172aa5c895"/>
+    <bounds
+        x="13"
+        y="852"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
