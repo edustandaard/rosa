@@ -902,7 +902,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-98330e5ec1084b9f852890e614865396"
-        targetConnections="id-2e9a7eca37934d18b678b31ce1f3d26c id-0e592839807e449ca4489de92adae2ea id-14c6014ae31d4e5b86663275f30e5b28 id-1af098beda5e40e49c6d71d6945be8aa id-a95784b0c6134ef4b27bfdc2bb8418d9">
+        targetConnections="id-2e9a7eca37934d18b678b31ce1f3d26c id-0e592839807e449ca4489de92adae2ea id-14c6014ae31d4e5b86663275f30e5b28 id-1af098beda5e40e49c6d71d6945be8aa id-a95784b0c6134ef4b27bfdc2bb8418d9 id-6d55d604a482407e845198bb77d1897b">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-d3fd8f7167ab4347b334f83739ae5bee"
@@ -1079,8 +1079,8 @@
         source="id-6f6ab8989d1348b48304596d92408372"
         target="id-fca550890769471f976e00172aa5c895"/>
     <bounds
-        x="13"
-        y="840"
+        x="265"
+        y="828"
         width="185"
         height="109"/>
   </children>
@@ -1110,5 +1110,20 @@
     <archimateElement
         xsi:type="archimate:BusinessInterface"
         href="BusinessInterface_id-aa1b76d35d83475a93fae1d1622f6905.xml#id-aa1b76d35d83475a93fae1d1622f6905"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-e3dc55db573a4b709de974b998962035"
+      textAlignment="1"
+      content="Erik: waarom geen service (dit past toch veel beter bj de omschrijving?) Of is dit om het koppelen van informatie/business objectn (ook toe te voegen aan metamodel)">
+    <sourceConnections
+        id="id-6d55d604a482407e845198bb77d1897b"
+        source="id-e3dc55db573a4b709de974b998962035"
+        target="id-98330e5ec1084b9f852890e614865396"/>
+    <bounds
+        x="24"
+        y="972"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
