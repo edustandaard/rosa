@@ -789,7 +789,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a4564baac1e84f11821fefd67fe28dc0"
-        targetConnections="id-f465e0c885774313a87fb78435f1a8e3 id-d3fd8f7167ab4347b334f83739ae5bee id-a7a5c6580bed41049c207beaecb0cc5f">
+        targetConnections="id-f465e0c885774313a87fb78435f1a8e3 id-d3fd8f7167ab4347b334f83739ae5bee">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-c3cc6f055b4a48dd8ef17a869c7899b6"
@@ -1073,7 +1073,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-6f6ab8989d1348b48304596d92408372"
       textAlignment="1"
-      content="Erik graag bespreken: een product kan toch geen gevens benaderen? Ik zou zeggen een gewone relatie (naam: betreft oid). Deze relatie ligt er ook al via de ketenprocesstap (dubbel werk)">
+      content="Deze relatie ligt er ook al via de ketenprocesstap (dubbel werk)?">
     <sourceConnections
         id="id-fa65d305f56f446496b76c61bcfc874a"
         source="id-6f6ab8989d1348b48304596d92408372"
@@ -1082,22 +1082,7 @@
         x="265"
         y="828"
         width="185"
-        height="109"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-d9235c8e0c464bf3a3284ae32ed55224"
-      textAlignment="1"
-      content="Erik te bespreken opmerking nalv interviews: Door ketendienst nu als product te modeleren en geen relatie met &quot;Dienst&quot; te leggen (wat betekent: services afnemen van één leverancier) heb ik er geen bezwaar tegen dit begrip te hanteren in het project. Ketendienst is geen verbijzondering van Dienst (speciales, implements oid), dat is verwarrend, maar ik ben benieuwd wat de architecturraad / Q&amp;A team daarvan vindt. Ketendienst vatten mensen ook op als de keten levert een dienst aan het onderwijs&quot;, al neem je hem dan niet expliciet af en zijn het meerdere partijen (waarvan soms één juridisch aansprakelijk). &#xD;&#xA;&#xD;&#xA;Nog mooier zou ik zelf de naam &quot;dienstenketen&quot; vinden. &#xD;&#xA;&#xD;&#xA;Positief vindt ik dat mensen intuitief begrijpen dat het iets van de keten is/wat de keten doet. Marjan en Jos gebruiken het al volop, op de juiste manier. Bij OSR lopen begrip Dienst en Ketendienst wel door elkaar. Feitelijk zijn er diensten in het service register en wordt er gemandateert op ketendienst nivo. Dat ontstaat ook omdat ketens met enkel een schoolsysteem plus een voorziening (bv LAS-BRON) gezien worden als een Dienst, terwijl dit uiteraard een keten is van twee dienstleveranciers. Maar mensen zien het LAS niet as Dienst. &#xD;&#xA;&#xD;&#xA;Ik snap het, maar weinig mensen begrijpen het echt, wat niet goed is (!!! architectuur is helder communiceren met alle partijen), maar dat is buiten scope van het metamodel en dient in OSR goed beschreven. Anderzijds zijn er verdeelde meningen binnen Edu-Koppeling (Brian, Erik en Erwin minimaal, rest niet informed) over het begrip Ketendienst. Daar zou ik het graag eens op de agenda willen, maar zie dat als niet blokkerend.  ">
-    <sourceConnections
-        id="id-a7a5c6580bed41049c207beaecb0cc5f"
-        source="id-d9235c8e0c464bf3a3284ae32ed55224"
-        target="id-a4564baac1e84f11821fefd67fe28dc0"/>
-    <bounds
-        x="1152"
-        y="708"
-        width="373"
-        height="493"/>
+        height="55"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1121,8 +1106,8 @@
         source="id-e3dc55db573a4b709de974b998962035"
         target="id-98330e5ec1084b9f852890e614865396"/>
     <bounds
-        x="24"
-        y="972"
+        x="-36"
+        y="960"
         width="185"
         height="80"/>
   </children>
