@@ -190,7 +190,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="e18624fb-f206-4bd8-9803-76825057bd43"
-        targetConnections="f290fc50-8537-4210-b9d3-89d02f60caaa 3af5378f-53fe-4478-a940-97fcf7460137 4b0d1fbe-7050-4fa0-9e43-742637b232b3">
+        targetConnections="f290fc50-8537-4210-b9d3-89d02f60caaa 3af5378f-53fe-4478-a940-97fcf7460137 4b0d1fbe-7050-4fa0-9e43-742637b232b3 d3a64829-33dd-48bb-afd9-d9520dba9265">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="839ff5ca-e955-4f43-b3b6-562a651e0cf1"
@@ -462,7 +462,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="8f52c67e-cbc2-4423-b583-c590d86a742a"
-        targetConnections="c8dbb425-6054-4762-88af-696bb14bf880"
+        targetConnections="c8dbb425-6054-4762-88af-696bb14bf880 0c8ec3f5-3c5e-4ca9-8a69-5622fe1f46cf"
         type="1">
       <bounds
           x="732"
@@ -476,7 +476,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="aa65b243-b5d3-4a5f-834f-54d07356bb6e"
-        targetConnections="9c5912d0-dd5c-4f5a-8293-0d9fca868a29"
+        targetConnections="9c5912d0-dd5c-4f5a-8293-0d9fca868a29 5c7fc296-e503-455d-b382-9afd0c8b2645"
         type="1">
       <bounds
           x="996"
@@ -490,7 +490,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="b0d930c7-c243-4925-b6a3-085ee69c6126"
-        targetConnections="06170a3a-09be-47db-86af-1293beea28eb"
+        targetConnections="06170a3a-09be-47db-86af-1293beea28eb 000a44a1-9a75-43eb-88dc-2f0eb5c3e2ed"
         type="1">
       <bounds
           x="864"
@@ -500,6 +500,33 @@
       <archimateElement
           xsi:type="archimate:ApplicationService"
           href="ApplicationService_8e401a77-e09f-46d1-a993-1ebd7b7f2db0.xml#8e401a77-e09f-46d1-a993-1ebd7b7f2db0"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="1322a8f8-e852-4d2c-9472-1af934e7236b"
+        textAlignment="1"
+        content="Werkgroep toegang">
+      <sourceConnections
+          id="d3a64829-33dd-48bb-afd9-d9520dba9265"
+          source="1322a8f8-e852-4d2c-9472-1af934e7236b"
+          target="e18624fb-f206-4bd8-9803-76825057bd43"/>
+      <sourceConnections
+          id="0c8ec3f5-3c5e-4ca9-8a69-5622fe1f46cf"
+          source="1322a8f8-e852-4d2c-9472-1af934e7236b"
+          target="8f52c67e-cbc2-4423-b583-c590d86a742a"/>
+      <sourceConnections
+          id="000a44a1-9a75-43eb-88dc-2f0eb5c3e2ed"
+          source="1322a8f8-e852-4d2c-9472-1af934e7236b"
+          target="b0d930c7-c243-4925-b6a3-085ee69c6126"/>
+      <sourceConnections
+          id="5c7fc296-e503-455d-b382-9afd0c8b2645"
+          source="1322a8f8-e852-4d2c-9472-1af934e7236b"
+          target="aa65b243-b5d3-4a5f-834f-54d07356bb6e"/>
+      <bounds
+          x="900"
+          y="288"
+          width="185"
+          height="80"/>
     </children>
   </children>
   <children
