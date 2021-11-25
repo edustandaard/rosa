@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="_Digitaal overstapdossier (Infra of RC, volgens mij Keten)"
+    name="~digitaal overstapdossier"
     id="6648f959-19b7-4136-b259-39aba1482053">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -18,15 +18,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="7eedbd84-1981-445d-b46b-1eb76a0d204e"
-        source="062835cc-a569-4683-b956-a3090a798a82"
-        target="54b12477-69fb-4bb6-a3c4-e850a0b29708">
-      <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_1714b086-e384-4649-b745-c409b92ed7cb.xml#1714b086-e384-4649-b745-c409b92ed7cb"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="4615c9a3-93e9-493f-a37d-19ad20c5b3d9"
         source="062835cc-a569-4683-b956-a3090a798a82"
         target="e05205a6-ccc7-4629-a039-94958e8c48de">
@@ -35,8 +26,8 @@
           href="RealizationRelationship_c220f3a9-dcb5-461c-87b2-d43314d883de.xml#c220f3a9-dcb5-461c-87b2-d43314d883de"/>
     </sourceConnections>
     <bounds
-        x="323"
-        y="192"
+        x="468"
+        y="252"
         width="120"
         height="55"/>
     <archimateElement
@@ -48,7 +39,8 @@
       id="48a6fcaa-5faa-4259-a685-3d1da1799c8e"
       targetConnections="56b330ef-7585-4b3a-808e-3db6268968f3">
     <bounds
-        y="264"
+        x="180"
+        y="324"
         width="120"
         height="55"/>
     <archimateElement
@@ -58,10 +50,10 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="54b12477-69fb-4bb6-a3c4-e850a0b29708"
-      targetConnections="7eedbd84-1981-445d-b46b-1eb76a0d204e 54ab00e7-6e02-4318-baeb-cb30de13b5fe">
+      targetConnections="54ab00e7-6e02-4318-baeb-cb30de13b5fe 7eedbd84-1981-445d-b46b-1eb76a0d204e">
     <bounds
-        x="120"
-        y="342"
+        x="636"
+        y="414"
         width="120"
         height="55"/>
     <archimateElement
@@ -73,8 +65,8 @@
       id="e05205a6-ccc7-4629-a039-94958e8c48de"
       targetConnections="4615c9a3-93e9-493f-a37d-19ad20c5b3d9">
     <bounds
-        x="24"
-        y="180"
+        x="108"
+        y="246"
         width="120"
         height="55"/>
     <archimateElement
@@ -93,9 +85,22 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_e183bcdd-5616-40fe-b087-000346b64984.xml#e183bcdd-5616-40fe-b087-000346b64984"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="7eedbd84-1981-445d-b46b-1eb76a0d204e"
+        source="a9e2ba56-b9b7-4f92-9be1-4cc8c7bb224f"
+        target="54b12477-69fb-4bb6-a3c4-e850a0b29708">
+      <sourceConnections
+          id="679980e9-2dae-4721-aecb-985c8353ec55"
+          source="7eedbd84-1981-445d-b46b-1eb76a0d204e"
+          target="ede17579-9d4c-4e50-b6b9-f4c4ce6cf6d5"/>
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_1714b086-e384-4649-b745-c409b92ed7cb.xml#1714b086-e384-4649-b745-c409b92ed7cb"/>
+    </sourceConnections>
     <bounds
-        x="337"
-        y="300"
+        x="468"
+        y="414"
         width="120"
         height="55"/>
     <archimateElement
@@ -153,8 +158,8 @@
           href="AssignmentRelationship_c516db8a-b404-47d4-8340-294564e9c323.xml#c516db8a-b404-47d4-8340-294564e9c323"/>
     </sourceConnections>
     <bounds
-        x="204"
-        y="90"
+        x="144"
+        y="108"
         width="120"
         height="55"/>
     <archimateElement
@@ -239,12 +244,24 @@
           href="InfluenceRelationship_91bdc1db-51ab-4581-9ccc-6c3a974bea37.xml#91bdc1db-51ab-4581-9ccc-6c3a974bea37"/>
     </sourceConnections>
     <bounds
-        x="564"
-        y="480"
+        x="840"
+        y="414"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_b6df8afe-de1c-4869-8f35-96e8d6b31042.xml#b6df8afe-de1c-4869-8f35-96e8d6b31042"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="ede17579-9d4c-4e50-b6b9-f4c4ce6cf6d5"
+      targetConnections="679980e9-2dae-4721-aecb-985c8353ec55"
+      textAlignment="1"
+      content="Lijkt me bij OSO horen, niert de RC">
+    <bounds
+        x="624"
+        y="312"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
