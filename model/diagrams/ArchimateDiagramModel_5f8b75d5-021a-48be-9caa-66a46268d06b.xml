@@ -290,6 +290,15 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="fedd4cde-6b51-4411-abf2-f037bcd5517e"
       targetConnections="e256ca26-dbd7-4e30-a16d-e673f013a8fa 2f8b6bcd-dea5-48d4-8387-2e854ce2d5e4">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="ac975576-9afa-414d-86c7-6406522b4244"
+        source="fedd4cde-6b51-4411-abf2-f037bcd5517e"
+        target="b548cf3a-6f80-482e-baf6-deade94bb691">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_e2a11c27-d271-49ab-a051-4c1bfd5e2e62.xml#e2a11c27-d271-49ab-a051-4c1bfd5e2e62"/>
+    </sourceConnections>
     <bounds
         x="492"
         y="267"
@@ -303,6 +312,15 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="3f50a75c-9320-4431-bdb7-98fd61ff536f"
       targetConnections="f4a7669f-b8c2-4fc5-ba56-6d1e6aa04f30">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="3d959ece-f35d-48b1-93da-1593fa7c2aba"
+        source="3f50a75c-9320-4431-bdb7-98fd61ff536f"
+        target="b548cf3a-6f80-482e-baf6-deade94bb691">
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_c428f9fa-c6ee-4e86-b49f-558ca348292e.xml#c428f9fa-c6ee-4e86-b49f-558ca348292e"/>
+    </sourceConnections>
     <bounds
         x="348"
         y="267"
@@ -353,15 +371,6 @@
           href="InfluenceRelationship_db70bc4a-d255-4053-bbe3-6b0484efb46b.xml#db70bc4a-d255-4053-bbe3-6b0484efb46b"/>
     </sourceConnections>
     <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="3d959ece-f35d-48b1-93da-1593fa7c2aba"
-        source="cee2fd28-90a2-407c-bc2b-1bcf9abfa828"
-        target="b548cf3a-6f80-482e-baf6-deade94bb691">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_c428f9fa-c6ee-4e86-b49f-558ca348292e.xml#c428f9fa-c6ee-4e86-b49f-558ca348292e"/>
-    </sourceConnections>
-    <sourceConnections
         id="6b39b700-fda0-4aa3-9474-483a39cb45eb"
         source="cee2fd28-90a2-407c-bc2b-1bcf9abfa828"
         target="86a40b34-4a05-4d7a-a3d2-953d61d6aace"/>
@@ -399,7 +408,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="b548cf3a-6f80-482e-baf6-deade94bb691"
-      targetConnections="3d959ece-f35d-48b1-93da-1593fa7c2aba 752e0ea9-8f70-49bb-b5e8-cdc18d99d9e9">
+      targetConnections="752e0ea9-8f70-49bb-b5e8-cdc18d99d9e9 3d959ece-f35d-48b1-93da-1593fa7c2aba ac975576-9afa-414d-86c7-6406522b4244">
     <bounds
         x="420"
         y="564"
@@ -455,7 +464,7 @@
       id="86a40b34-4a05-4d7a-a3d2-953d61d6aace"
       targetConnections="6b39b700-fda0-4aa3-9474-483a39cb45eb"
       textAlignment="1"
-      content="Waarom niet werken met services, net als sectoren en exposed behaviour. Helpt extra complexiteit functies en processen? MORA bv doet dit niet. ">
+      content="Waarom niet enkel werken met services, net als sectoren, en enkel exposed behaviour. Helpt extra complexiteit van functies en processen? MORA bv doet dit niet. ">
     <sourceConnections
         id="2f8b6bcd-dea5-48d4-8387-2e854ce2d5e4"
         source="86a40b34-4a05-4d7a-a3d2-953d61d6aace"
