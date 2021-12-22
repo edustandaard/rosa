@@ -136,7 +136,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="9bea4dc6-a71a-4afb-b754-73d3a928ffd4"
-      targetConnections="8f67ac25-fb68-4aa5-b505-9fcca0b9fc75 0d1d094b-ccde-457b-a9dc-48e6e97eabe2">
+      targetConnections="8f67ac25-fb68-4aa5-b505-9fcca0b9fc75 0d1d094b-ccde-457b-a9dc-48e6e97eabe2 b9247acd-d049-4cf2-b3af-5943092076fa">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="8027cb19-dc19-4b48-94e0-91ba7c213cb0"
@@ -297,7 +297,7 @@
     </sourceConnections>
     <bounds
         x="276"
-        y="432"
+        y="450"
         width="120"
         height="55"/>
     <archimateElement
@@ -388,9 +388,18 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="48356a6f-9f55-46d5-bba7-a89bfba7dd48"
       targetConnections="851cb5fd-93f9-4f66-bfe0-4315446323c3">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b9247acd-d049-4cf2-b3af-5943092076fa"
+        source="48356a6f-9f55-46d5-bba7-a89bfba7dd48"
+        target="9bea4dc6-a71a-4afb-b754-73d3a928ffd4">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_fce9dd5a-e698-4a02-9beb-538eb47467a8.xml#fce9dd5a-e698-4a02-9beb-538eb47467a8"/>
+    </sourceConnections>
     <bounds
         x="276"
-        y="360"
+        y="372"
         width="120"
         height="55"/>
     <archimateElement
@@ -422,5 +431,16 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_782ed9fb-efcb-43ed-8e11-48ac8ff2f056.xml#782ed9fb-efcb-43ed-8e11-48ac8ff2f056"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="faf0d550-1223-44a6-b3d0-696cdf2de34b"
+      textAlignment="1"
+      content="Dienst en Dienstverlener zijn hier weggelaten">
+    <bounds
+        x="942"
+        y="176"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
