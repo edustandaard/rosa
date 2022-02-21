@@ -68,6 +68,15 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-5ad76c22f84c40cea01174f7d3c15b49.xml#id-5ad76c22f84c40cea01174f7d3c15b49"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-26a6c7af041246e99bfd183fcf15020f"
+        source="id-000827da89dc43cea7aaa2d839dc38ae"
+        target="id-8b7dd0ad369e41e68d61bce37f45ed04">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-1e8032b74e9b4bf4b68f3ba694f6a344.xml#id-1e8032b74e9b4bf4b68f3ba694f6a344"/>
+    </sourceConnections>
     <bounds
         x="-300"
         y="480"
@@ -1011,6 +1020,30 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-a9733b89061845279dbadfb044352f5f.xml#id-a9733b89061845279dbadfb044352f5f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-8b7dd0ad369e41e68d61bce37f45ed04"
+      targetConnections="id-26a6c7af041246e99bfd183fcf15020f">
+    <bounds
+        x="576"
+        y="528"
+        width="145"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_id-b9829b6b612a4b3684bb687101e44d2e.xml#id-b9829b6b612a4b3684bb687101e44d2e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-249dc43962ce49b981bbf897abb0d8db"
+      textAlignment="1"
+      content="Patronen (met daarboven generieke/ondersetunende functies)&#xD;&#xA;&#xD;&#xA;+relaties">
+    <bounds
+        x="588"
+        y="617"
+        width="185"
+        height="104"/>
   </children>
   <properties
       key="Publiceren"
