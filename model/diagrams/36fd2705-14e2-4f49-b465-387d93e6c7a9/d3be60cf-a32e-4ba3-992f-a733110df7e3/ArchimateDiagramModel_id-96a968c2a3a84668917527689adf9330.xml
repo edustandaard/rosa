@@ -176,7 +176,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bef50bb220884d198e419a7fc28f22bc"
-      targetConnections="id-3ee488cef24f4e5586a67e3a6215434a id-04c555f4c24c439d8ff8daffd969d6f6 id-6635c62429a344a6b3af9b456e823ddd id-cd88db1de78141eb914c1e4cf205227f">
+      targetConnections="id-3ee488cef24f4e5586a67e3a6215434a id-6635c62429a344a6b3af9b456e823ddd id-cd88db1de78141eb914c1e4cf205227f id-04c555f4c24c439d8ff8daffd969d6f6">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-34d1390c813a4c01a97413540dbc131a"
@@ -201,15 +201,6 @@
       targetConnections="id-d3c4adee45de4290888faeed014eeecd">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-04c555f4c24c439d8ff8daffd969d6f6"
-        source="id-5086105ff6ad4c3bbfc24115c746ec5d"
-        target="id-bef50bb220884d198e419a7fc28f22bc">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-6b4001feeb654b119e90d3400ab71142.xml#id-6b4001feeb654b119e90d3400ab71142"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-8585e6806bc44e86849d9fa2aae45802"
         source="id-5086105ff6ad4c3bbfc24115c746ec5d"
         target="id-8496d11f2a53448889ebf182226c7cc9">
@@ -225,6 +216,15 @@
       <archimateRelationship
           xsi:type="archimate:SpecializationRelationship"
           href="SpecializationRelationship_bc424442-83b8-44ca-8780-6434cea473f8.xml#bc424442-83b8-44ca-8780-6434cea473f8"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-04c555f4c24c439d8ff8daffd969d6f6"
+        source="id-5086105ff6ad4c3bbfc24115c746ec5d"
+        target="id-bef50bb220884d198e419a7fc28f22bc">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-6b4001feeb654b119e90d3400ab71142.xml#id-6b4001feeb654b119e90d3400ab71142"/>
     </sourceConnections>
     <bounds
         x="708"
