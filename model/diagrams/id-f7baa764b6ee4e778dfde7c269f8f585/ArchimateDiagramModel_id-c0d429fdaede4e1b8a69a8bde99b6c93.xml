@@ -1240,7 +1240,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-e3b6220f6ad2400a942455381c31de07">
+      id="id-e3b6220f6ad2400a942455381c31de07"
+      targetConnections="id-e480e243b7524dd79860397c04ee5dec">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-fe81c10cf28e422bb9a0f2a21f21069b"
@@ -1449,6 +1450,21 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-237c9e7583b6446ea74ff05a45e8cf91.xml#id-237c9e7583b6446ea74ff05a45e8cf91"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d4f07031c02c4851a3ff68cda33484cc"
+      textAlignment="1"
+      content="Harvesting is input voor Leermiddelmarktplaats. &#xD;&#xA;&#xD;&#xA;Edurep = Leermiddelcatalogus&#xD;&#xA;Koppelpunt catalogusinformatie = Leermiddelencatalogus &#xD;&#xA;- elke uitgeverij stelt aanbod beschikbaar via ECK D&amp;T, binnen die standaard zit ook de Catalogus-service. (Aanbod ophalen, metadata). Op basis van die standaard haalt KN de metadata op, en publiceert het aanbod in het koppelpunt catalogusinformatie. Daarmee is het koppelpunt ook een catalogus, die &#xD;&#xA;&#xD;&#xA;Dennis: Vindbaar maken van leermiddel is binnen KN een gedefinieerd proces. Edurep en Koppelpunt catalogusinformatie geven daar invulling aan. Zoiets ontbreekt nog in deze plaat.&#xD;&#xA;&#xD;&#xA;Metadataharvesting wordt gebruikt voor aggregatie van informatie uit verschillende bronnen. Apart ketenproces? Of onderdeel van ontwikkelen? (Lijkt alsof er nog iets tussen ontwikkelen en verwerven hoort. 'Leermiddel vindbaar maken'?">
+    <sourceConnections
+        id="id-e480e243b7524dd79860397c04ee5dec"
+        source="id-d4f07031c02c4851a3ff68cda33484cc"
+        target="id-e3b6220f6ad2400a942455381c31de07"/>
+    <bounds
+        x="-252"
+        y="672"
+        width="492"
+        height="265"/>
   </children>
   <properties
       key="Publiceren"
