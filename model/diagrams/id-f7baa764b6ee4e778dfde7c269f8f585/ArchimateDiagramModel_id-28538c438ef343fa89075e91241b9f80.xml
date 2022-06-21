@@ -544,15 +544,6 @@
             xsi:type="archimate:AggregationRelationship"
             href="AggregationRelationship_id-4c509a2ee8f34de4bf301e7bda068d1a.xml#id-4c509a2ee8f34de4bf301e7bda068d1a"/>
       </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-a565a9f55e9c485888141dd45c626f0e"
-          source="id-6880bfbf383f49ae9e482e0e5e0bcda9"
-          target="id-317f6f815de04c168eeed51a062b0b92">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-30eab262fe6943a38178f5882de5f8ed.xml#id-30eab262fe6943a38178f5882de5f8ed"/>
-      </sourceConnections>
       <bounds
           x="12"
           y="24"
@@ -562,6 +553,15 @@
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-2502cff651014d4ab386e96ba3ae7fbe"
           targetConnections="id-c5aab8ecbab849e08ea7d3cfdf06874f">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-a565a9f55e9c485888141dd45c626f0e"
+            source="id-2502cff651014d4ab386e96ba3ae7fbe"
+            target="id-317f6f815de04c168eeed51a062b0b92">
+          <archimateRelationship
+              xsi:type="archimate:AccessRelationship"
+              href="AccessRelationship_id-30eab262fe6943a38178f5882de5f8ed.xml#id-30eab262fe6943a38178f5882de5f8ed"/>
+        </sourceConnections>
         <bounds
             x="12"
             y="36"
@@ -606,7 +606,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-317f6f815de04c168eeed51a062b0b92"
-      targetConnections="id-a565a9f55e9c485888141dd45c626f0e id-d4b8439e99b84917a025526fe99eb468 id-963c98d47f4e4886afd0a6b44711ebfc id-4fe02296de1844c6a8992050750870b5">
+      targetConnections="id-d4b8439e99b84917a025526fe99eb468 id-963c98d47f4e4886afd0a6b44711ebfc id-4fe02296de1844c6a8992050750870b5 id-a565a9f55e9c485888141dd45c626f0e">
     <bounds
         x="55"
         y="420"
