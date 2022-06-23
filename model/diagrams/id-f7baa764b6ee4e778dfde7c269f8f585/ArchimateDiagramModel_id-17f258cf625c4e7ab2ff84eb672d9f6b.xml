@@ -6,6 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-076d7b85b4b24b1ead25573fc44bfd50"
+      targetConnections="id-26bdcc6a795c4ee1b5c25a0fef7f56e6"
       textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -54,8 +55,8 @@
     </sourceConnections>
     <bounds
         x="216"
-        y="228"
-        width="881"
+        y="214"
+        width="901"
         height="130"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -179,7 +180,7 @@
     <bounds
         x="216"
         y="384"
-        width="881"
+        width="901"
         height="145"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -293,7 +294,7 @@
     <bounds
         x="217"
         y="564"
-        width="880"
+        width="900"
         height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -301,7 +302,7 @@
         targetConnections="id-a085de9999f04276a08e4e2001666ac7"
         fillColor="#ffffb5">
       <bounds
-          x="84"
+          x="72"
           y="48"
           width="120"
           height="55"/>
@@ -315,7 +316,7 @@
         targetConnections="id-8b9793aafd6541f192990ebd2f68d5bf"
         fillColor="#ffffb5">
       <bounds
-          x="468"
+          x="492"
           y="48"
           width="120"
           height="55"/>
@@ -328,7 +329,7 @@
         id="id-279947763ae241a0b2c291c2e64d06aa"
         targetConnections="id-7f11bf932e7a41cfb72ebeeefeec5727">
       <bounds
-          x="660"
+          x="708"
           y="48"
           width="120"
           height="55"/>
@@ -378,8 +379,8 @@
     </sourceConnections>
     <bounds
         x="216"
-        y="732"
-        width="532"
+        y="744"
+        width="541"
         height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -399,7 +400,7 @@
         id="id-7caab99cfd7144f8b5186566a16b4fdd"
         targetConnections="id-4c22f7cf0cf543c0985b6e38ed5a4431">
       <bounds
-          x="87"
+          x="72"
           y="50"
           width="120"
           height="55"/>
@@ -582,11 +583,33 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d9360b9473bf4eaf946b9be314014b7f"
       textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-9e70c82e0fb4420b905944bbf84ad2ab"
+        source="id-d9360b9473bf4eaf946b9be314014b7f"
+        target="id-96d85cffa168429db0bdc87085b75384">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-42281b9a97ab4261bd865efaef077657.xml#id-42281b9a97ab4261bd865efaef077657"/>
+    </sourceConnections>
     <bounds
-        x="796"
-        y="732"
+        x="816"
+        y="744"
         width="301"
         height="140"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-96d85cffa168429db0bdc87085b75384"
+        targetConnections="id-9e70c82e0fb4420b905944bbf84ad2ab">
+      <bounds
+          x="84"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-f5958b323e5c43ff8d790a3773f15dbf.xml#id-f5958b323e5c43ff8d790a3773f15dbf"/>
+    </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_a926905d-d85b-46ba-bcbb-be8e4441dd73.xml#a926905d-d85b-46ba-bcbb-be8e4441dd73"/>
@@ -609,5 +632,31 @@
         y="492"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-652deb7494574ee4978ec80245671eff"
+      textAlignment="1"
+      content="Alternatieve naamgeving 'Onderwijs aanbod'">
+    <sourceConnections
+        id="id-26bdcc6a795c4ee1b5c25a0fef7f56e6"
+        source="id-652deb7494574ee4978ec80245671eff"
+        target="id-076d7b85b4b24b1ead25573fc44bfd50"/>
+    <bounds
+        x="-24"
+        y="264"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-de94246ad0b146978eaebc3aea3b2dd4"
+      textAlignment="1"
+      content="Ontbreekt nog t.o.v. processen uit ROSA (oud):&#xD;&#xA;- Accrediteren van opleidingen&#xD;&#xA;- Financieren van Onderwijs&#xD;&#xA;- leven lang leren&#xD;&#xA;- Ontwikkelen van onderwijs (landelijke ondersteuning, leerplankaders, onderwijsaanbod)&#xD;&#xA;- (horizontaal, en verticaal verantwoorden)&#xD;&#xA;">
+    <bounds
+        x="-36"
+        y="48"
+        width="397"
+        height="133"/>
   </children>
 </archimate:ArchimateDiagramModel>
