@@ -165,7 +165,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5069e17102e6427289cd05bf7860987e"
-      targetConnections="id-9d746647f5654c03ab0354726377cc1c id-1ef491e3a0094a6eb75f37959a6d91b8 id-d3a1ce46c7b8449992eaf26dfa7d7ec0 id-c2a7f6fb1fc44f8db3f6e490f176b5bd id-3707b086de724927b3e13015ea022294">
+      targetConnections="id-9d746647f5654c03ab0354726377cc1c id-1ef491e3a0094a6eb75f37959a6d91b8 id-c2a7f6fb1fc44f8db3f6e490f176b5bd id-3707b086de724927b3e13015ea022294 id-d3a1ce46c7b8449992eaf26dfa7d7ec0">
     <bounds
         x="12"
         y="156"
@@ -410,15 +410,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-d3a1ce46c7b8449992eaf26dfa7d7ec0"
-        source="id-4e28af8179294dfebcd4c5891d5b5c8b"
-        target="id-5069e17102e6427289cd05bf7860987e">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-30eab262fe6943a38178f5882de5f8ed.xml#id-30eab262fe6943a38178f5882de5f8ed"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-75651e2b6c2c4253b746ecb4a253a87d"
         source="id-4e28af8179294dfebcd4c5891d5b5c8b"
         target="id-1c67e307c7af46ec95e57bf54c440086">
@@ -435,6 +426,15 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-11a5f9262acc4872b4dc647adf500e5d"
         targetConnections="id-7ad6d952d05442e7bc269fd6ddf5e451">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d3a1ce46c7b8449992eaf26dfa7d7ec0"
+          source="id-11a5f9262acc4872b4dc647adf500e5d"
+          target="id-5069e17102e6427289cd05bf7860987e">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-30eab262fe6943a38178f5882de5f8ed.xml#id-30eab262fe6943a38178f5882de5f8ed"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="36"
