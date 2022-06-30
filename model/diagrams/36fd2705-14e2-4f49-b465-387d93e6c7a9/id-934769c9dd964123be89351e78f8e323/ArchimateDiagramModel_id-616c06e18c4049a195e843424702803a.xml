@@ -747,6 +747,7 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-c4139e617b244823932ecc810b62cc3d"
+      targetConnections="id-43f6af70cb1e4af3a53defd3cd5d95df"
       textAlignment="1"
       content="Evt. nog toevoegen: Verwerkingsregister als RC die serves een ondersteunend proces 'Verwerking registreren'. Valt dit wel of niet in scope van keten? Dan zouden in dezelfde lijn ook zaken als uitvoeren DPIA, SLA's, Verwerkersovereenkomsten onderdeel van dit model worden.&#xD;&#xA;&#xD;&#xA;(Zijn weliswaar in beginsel interne (organisatorische) processen, maar geeft wel aan wat er geregeld moet worden in de keten)&#xD;&#xA;">
     <bounds
@@ -796,6 +797,21 @@
         y="108"
         width="238"
         height="148"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6e0641409b2c4bd7b35bd3289d6ae2e5"
+      textAlignment="1"
+      content="Erik: idem verwerkersovereenkomst. Dat lijkt me een contract">
+    <sourceConnections
+        id="id-43f6af70cb1e4af3a53defd3cd5d95df"
+        source="id-6e0641409b2c4bd7b35bd3289d6ae2e5"
+        target="id-c4139e617b244823932ecc810b62cc3d"/>
+    <bounds
+        x="552"
+        y="480"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Publiceren"
