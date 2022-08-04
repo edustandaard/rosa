@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Alle Voorzieningen"
+    name="Voorzieningen in gebruik en in ontwikkeling"
     id="id-a761b1c34243425c8257dde71db04f97"
     viewpoint="application_cooperation">
   <children
@@ -316,30 +316,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-cbf539fa4907453785bcc377c47c2d3d"
-        source="id-7935f6f821ce41ce95e90cfd0cfb141c"
-        target="id-889d774a7170407bbc25cf578ef4815d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-4736baffc23842d0818fedb1fe1e8bc1.xml#id-4736baffc23842d0818fedb1fe1e8bc1"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-39391cc5383945da8a2233b88b5f5c69"
         source="id-7935f6f821ce41ce95e90cfd0cfb141c"
         target="id-8dacd319237c43a7b7e3cae0a3eacc24">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-957815be9e054ba4b9fb920420965817.xml#id-957815be9e054ba4b9fb920420965817"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-fd1b49ebf53a4150a1d53d7b6a44831f"
-        source="id-7935f6f821ce41ce95e90cfd0cfb141c"
-        target="id-535581597d7541e6973948aabed1a8b5">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-2f85084d8c1b4801a1059b8f6632303c.xml#id-2f85084d8c1b4801a1059b8f6632303c"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -381,7 +363,7 @@
         x="72"
         y="252"
         width="829"
-        height="349"/>
+        height="217"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-89119e1b8ceb4bacba98fe136dcc9e9d"
@@ -389,7 +371,7 @@
         fontColor="#000000">
       <bounds
           x="624"
-          y="264"
+          y="132"
           width="169"
           height="55"/>
       <archimateElement
@@ -402,8 +384,8 @@
         targetConnections="id-402ab7fd36774d5a9d1bb9492fad97cf"
         fontColor="#000000">
       <bounds
-          x="36"
-          y="264"
+          x="42"
+          y="132"
           width="180"
           height="55"/>
       <archimateElement
@@ -416,27 +398,13 @@
         targetConnections="id-7b7374bf8a5747708473b6d87375d024"
         fontColor="#000000">
       <bounds
-          x="432"
-          y="264"
-          width="169"
+          x="438"
+          y="132"
+          width="163"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
           href="ApplicationComponent_id-5d3c1ea7c0724adcaf20f9e1cdf3e23b.xml#id-5d3c1ea7c0724adcaf20f9e1cdf3e23b"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-889d774a7170407bbc25cf578ef4815d"
-        targetConnections="id-cbf539fa4907453785bcc377c47c2d3d"
-        fontColor="#000000">
-      <bounds
-          x="36"
-          y="156"
-          width="180"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationComponent"
-          href="ApplicationComponent_eca3bdfe-03c6-467d-888b-9f22844970a6.xml#eca3bdfe-03c6-467d-888b-9f22844970a6"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -445,7 +413,7 @@
         fontColor="#000000">
       <bounds
           x="240"
-          y="156"
+          y="132"
           width="169"
           height="55"/>
       <archimateElement
@@ -454,26 +422,12 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-535581597d7541e6973948aabed1a8b5"
-        targetConnections="id-fd1b49ebf53a4150a1d53d7b6a44831f"
-        fontColor="#000000">
-      <bounds
-          x="234"
-          y="264"
-          width="175"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationComponent"
-          href="ApplicationComponent_id-07d38004578f463c9950c904a561199e.xml#id-07d38004578f463c9950c904a561199e"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b44c1cf96d5440a2871555b4c82ceef6"
         targetConnections="id-a504fda37141499e862569e647870a42"
         fontColor="#000000">
       <bounds
           x="624"
-          y="156"
+          y="48"
           width="169"
           height="55"/>
       <archimateElement
@@ -486,8 +440,8 @@
         targetConnections="id-088ed613569644b79ee9562cc0ad91f1">
       <bounds
           x="438"
-          y="156"
-          width="157"
+          y="48"
+          width="163"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
@@ -499,9 +453,9 @@
         targetConnections="id-079f154d1c3a4c4ea76e7b7f17b1be72"
         fontColor="#000000">
       <bounds
-          x="48"
+          x="42"
           y="48"
-          width="168"
+          width="180"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
@@ -512,9 +466,9 @@
         id="id-b7001639addc404ba4d24dcc29cef05c"
         targetConnections="id-4ff0393d718b4c2e8fc85352c4b324f8">
       <bounds
-          x="246"
+          x="240"
           y="48"
-          width="163"
+          width="169"
           height="55"/>
       <archimateElement
           xsi:type="archimate:ApplicationComponent"
@@ -584,7 +538,7 @@
     </sourceConnections>
     <bounds
         x="72"
-        y="636"
+        y="492"
         width="829"
         height="229"/>
     <children
@@ -717,7 +671,7 @@
     </sourceConnections>
     <bounds
         x="72"
-        y="888"
+        y="744"
         width="829"
         height="140"/>
     <children
