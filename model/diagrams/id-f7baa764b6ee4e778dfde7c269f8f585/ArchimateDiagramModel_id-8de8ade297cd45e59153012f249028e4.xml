@@ -5,6 +5,32 @@
     id="id-8de8ade297cd45e59153012f249028e4">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-277edbf7fd2e4921827b4daa9e26e024"
+      textAlignment="1">
+    <bounds
+        x="-480"
+        y="-312"
+        width="1267"
+        height="853"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-637996d50eaf46ae93d3e53bd06a7fe2.xml#id-637996d50eaf46ae93d3e53bd06a7fe2"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-925246517b2f48e7b10f7ed3700d9c83"
+      textAlignment="1">
+    <bounds
+        x="780"
+        y="-72"
+        width="781"
+        height="685"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-ad21aaee713746c78d6c169592b00525.xml#id-ad21aaee713746c78d6c169592b00525"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-38ccdc72e5ca4a528d115ad501c2d521"
       textAlignment="1">
     <sourceConnections
@@ -358,32 +384,6 @@
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-6fe8f15676554bcd984598e46d4041b8.xml#id-6fe8f15676554bcd984598e46d4041b8"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-ee9c18f2e85644ec9b86fccfb4e2f886"
-      textAlignment="1">
-    <bounds
-        x="182"
-        y="-312"
-        width="553"
-        height="61"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-13fcdbf5d4104c778b890f202a6b9f62.xml#id-13fcdbf5d4104c778b890f202a6b9f62"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-a1f041fe6c9c4e2ca92acaac31776f5f"
-      textAlignment="1">
-    <bounds
-        x="786"
-        y="-92"
-        width="767"
-        height="48"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-26daf777f53d4f88bcf8c9b7f2ba2791.xml#id-26daf777f53d4f88bcf8c9b7f2ba2791"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1120,8 +1120,8 @@
           href="AccessRelationship_id-5f90037a09864608ad63c8dfe6f372a8.xml#id-5f90037a09864608ad63c8dfe6f372a8"/>
     </sourceConnections>
     <bounds
-        x="528"
-        y="-240"
+        x="545"
+        y="-414"
         width="229"
         height="97"/>
     <children
@@ -1159,9 +1159,9 @@
       content="NB. omvat ook informatie over leverbaarheid / levenscyclus van het product: per wanneer is dit leermiddel beschikbaar? Op basis daarvan kan een marktplaats zich bijv. voorbereiden op een volgend schooljaar.&#xD;&#xA;&#xD;&#xA;-> Product lifecycle status (zie ook beschrijving in SEM documentatie)&#xD;&#xA;&#xD;&#xA;Grijpt ook weer terug op onderscheid content/product. Speelt ook bij voortgang: je hebt geen voortgang op het product, maar op de content binnen dat product (e.g, de methode). Die content kan overigens in verschillende leermiddelen/producten toegepast worden.&#xD;&#xA;&#xD;&#xA;Verkoopbare eenheid (product) geeft aanspraak op een leermiddel IN die course, maar het is een andere eenheid.&#xD;&#xA;&#xD;&#xA;Wat betekent dit voor de school, de docent?&#xD;&#xA;- leermiddelcoordinator koopt producten, bijv. een jaarlicentie&#xD;&#xA;- jaarlicentie geeft toegang tot 'moderne wiskunde leerjaar 1'&#xD;&#xA;- content in 'moderne wiskunde leerjaar 1' zou ook verkocht kunnen worden in een 5-jaarslicentie, waarin je ook leerjaren 2, 3, 4, en 5 koopt. Zelfde content voor leerjaar 1, maar ander product.&#xD;&#xA;&#xD;&#xA;Koen: Je selecteert geen *leermiddel*, je selecteert een *product*. En dat product omvat leermiddelen.&#xD;&#xA;(Alternatief: je selecteert en koopt een leermiddel, en dat leermiddel omvat leerinhoud oid)&#xD;&#xA;&#xD;&#xA;Gaat om een modulaire benadering van product vs. onderdelen&#xD;&#xA;&#xD;&#xA;Je ontwikkelt dan ook geen leermiddelen (producten) maar content. Daarnaast is er nog een proces: vermarkten oid, waarin producten samengesteld worden als verkoopbare eenheden. Dat bepaalt de leermiddelcondities (product samentsellen).&#xD;&#xA;-> twee losstaande processen. Eén vult de catalogus, de andere de course. Course API = metadata van het leermiddel. Catalog API = metadata van het product.&#xD;&#xA;&#xD;&#xA;Productbeschrijving = leermiddelbeschrijving + leermiddelcondities + productlifecycleinformatie.&#xD;&#xA;&#xD;&#xA;Voorstel: leermateriaal (= inhoud), en leermiddel (= product)&#xD;&#xA;&#xD;&#xA;https://onderwijsbegrippen.nl/rosa/nl/page/?uri=http%3A%2F%2Fpurl.edustandaard.nl%2Fconcept%2F71fa86d3-00e4-46a9-95de-53686ce90853&#xD;&#xA;">
     <bounds
         x="1104"
-        y="168"
+        y="180"
         width="709"
-        height="336"/>
+        height="324"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -1214,8 +1214,8 @@
     <bounds
         x="1137"
         y="-156"
-        width="185"
-        height="144"/>
+        width="364"
+        height="73"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
