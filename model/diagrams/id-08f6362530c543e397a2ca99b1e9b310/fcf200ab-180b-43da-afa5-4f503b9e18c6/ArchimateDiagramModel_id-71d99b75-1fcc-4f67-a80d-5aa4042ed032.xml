@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5fdd4a73-2e67-4761-b628-671aa6215d57"
-      targetConnections="id-6b2d6f44-b1cf-4b75-af69-06f3021fb5d4 id-1cb09097-17b9-4d66-b671-3089ceb1c8a5 0ab77426-177c-4510-9f81-05d1b8e7dc1b 224666e6-8872-4123-a2cf-6010cab8dacd id-fc47259f726448d5a946ce17d90af5fe"
+      targetConnections="id-6b2d6f44-b1cf-4b75-af69-06f3021fb5d4 id-1cb09097-17b9-4d66-b671-3089ceb1c8a5 224666e6-8872-4123-a2cf-6010cab8dacd id-fc47259f726448d5a946ce17d90af5fe 0ab77426-177c-4510-9f81-05d1b8e7dc1b"
       lineColor="#5c5c5c"
       fillColor="#ccccff">
     <sourceConnections
@@ -329,35 +329,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="3b35b163-00dd-494b-8782-beb065b88842"
-      lineColor="#5c5c5c"
-      fillColor="#ffffe6">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="0ab77426-177c-4510-9f81-05d1b8e7dc1b"
-        lineColor="#000000"
-        source="3b35b163-00dd-494b-8782-beb065b88842"
-        target="id-5fdd4a73-2e67-4761-b628-671aa6215d57">
-      <bendpoints
-          startX="-12"
-          startY="261"
-          endX="504"
-          endY="18"/>
-      <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_50c7d05b-c5dd-4803-8931-3ab1f5432495.xml#50c7d05b-c5dd-4803-8931-3ab1f5432495"/>
-    </sourceConnections>
-    <bounds
-        x="960"
-        y="24"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessInteraction"
-        href="BusinessInteraction_d5544678-bda9-4473-b816-de216c884884.xml#d5544678-bda9-4473-b816-de216c884884"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-54b0ce2e31034e37816575c6006f1a6d">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -397,6 +368,35 @@
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
         href="BusinessInteraction_id-1c735b85bcb3415291252a45e4fb7be0.xml#id-1c735b85bcb3415291252a45e4fb7be0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-48ecde3172d047288e3c7f757b1a774d"
+      lineColor="#5c5c5c"
+      fillColor="#ffffe6">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="0ab77426-177c-4510-9f81-05d1b8e7dc1b"
+        lineColor="#000000"
+        source="id-48ecde3172d047288e3c7f757b1a774d"
+        target="id-5fdd4a73-2e67-4761-b628-671aa6215d57">
+      <bendpoints
+          startX="-12"
+          startY="261"
+          endX="504"
+          endY="18"/>
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_50c7d05b-c5dd-4803-8931-3ab1f5432495.xml#50c7d05b-c5dd-4803-8931-3ab1f5432495"/>
+    </sourceConnections>
+    <bounds
+        x="925"
+        y="48"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessInteraction"
+        href="BusinessInteraction_id-f6f59b6190fc465f984a1a7a16580d97.xml#id-f6f59b6190fc465f984a1a7a16580d97"/>
   </children>
   <properties
       key="Status"
