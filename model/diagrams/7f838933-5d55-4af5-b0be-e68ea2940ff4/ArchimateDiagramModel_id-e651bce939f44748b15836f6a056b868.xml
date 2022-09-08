@@ -45,30 +45,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-7ce09ea66b884bdc90064584a8efc398"
-      targetConnections="id-05dbeb6df121456da73ac0d362b3ba8c id-954da3cc4c274838b0d6ddd74a35eeb9"
-      fillColor="#c0c0c0">
-    <bounds
-        x="368"
-        y="528"
-        width="170"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationService"
-        href="ApplicationService_ccfb134a-0557-49ce-8c74-d4f570ecb0e6.xml#ccfb134a-0557-49ce-8c74-d4f570ecb0e6"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-803d286c85734f8ea3845c0b7b7a123c">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0a920e41acd041cb98b8bb90f3fccab7"
-        source="id-803d286c85734f8ea3845c0b7b7a123c"
-        target="id-3ec44854a77a4e63a6ccd54c15f4db1d">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_5e2576a5-f40e-4c88-ac86-b2ef8dd7eba3.xml#5e2576a5-f40e-4c88-ac86-b2ef8dd7eba3"/>
-    </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e26159e67d684b8c9806e997778c1611"
@@ -134,20 +111,6 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_32ebb5f1-bf11-47bf-8f71-b44c8a3b1371.xml#32ebb5f1-bf11-47bf-8f71-b44c8a3b1371"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-bf3a06dc0d8b48b581e2b4f1f2826216"
-      targetConnections="id-ee3359dabe554ed8bea40fdb2d14da78 id-b5d75d86bc00451982f7a3d2d3f2d6b6"
-      fillColor="#c0c0c0">
-    <bounds
-        x="368"
-        y="592"
-        width="170"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationService"
-        href="ApplicationService_0ca339d6-01e3-43d8-b917-6f92ad73f5d6.xml#0ca339d6-01e3-43d8-b917-6f92ad73f5d6"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -250,38 +213,6 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_e3c985fa-04dd-4abe-a491-509791e25b7f.xml#e3c985fa-04dd-4abe-a491-509791e25b7f"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3ec44854a77a4e63a6ccd54c15f4db1d"
-      targetConnections="id-0a920e41acd041cb98b8bb90f3fccab7 id-eee8171490874125ba7f8bfb86114bb4"
-      fillColor="#c0c0c0">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-05dbeb6df121456da73ac0d362b3ba8c"
-        source="id-3ec44854a77a4e63a6ccd54c15f4db1d"
-        target="id-7ce09ea66b884bdc90064584a8efc398">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_a24dcedf-8a8f-4933-83c8-167dc3d242a5.xml#a24dcedf-8a8f-4933-83c8-167dc3d242a5"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ee3359dabe554ed8bea40fdb2d14da78"
-        source="id-3ec44854a77a4e63a6ccd54c15f4db1d"
-        target="id-bf3a06dc0d8b48b581e2b4f1f2826216">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_08c3abb0-4cfc-44e2-a79c-3e29768b3df3.xml#08c3abb0-4cfc-44e2-a79c-3e29768b3df3"/>
-    </sourceConnections>
-    <bounds
-        x="752"
-        y="564"
-        width="146"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationComponent"
-        href="ApplicationComponent_2a9128bf-ea1c-4dd1-97b6-958d713a7210.xml#2a9128bf-ea1c-4dd1-97b6-958d713a7210"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -2083,10 +2014,6 @@
       id="id-52ccdfb8782d4c17baf114a1ca94d0c2"
       textAlignment="1"
       content="VERVALLEN (voorstel)">
-    <sourceConnections
-        id="id-eee8171490874125ba7f8bfb86114bb4"
-        source="id-52ccdfb8782d4c17baf114a1ca94d0c2"
-        target="id-3ec44854a77a4e63a6ccd54c15f4db1d"/>
     <bounds
         x="952"
         y="609"
@@ -2144,10 +2071,6 @@
       textAlignment="1"
       content="Wordt afgedekt door?">
     <sourceConnections
-        id="id-954da3cc4c274838b0d6ddd74a35eeb9"
-        source="id-3552b83fca804c84b1fbac67fd5244ee"
-        target="id-7ce09ea66b884bdc90064584a8efc398"/>
-    <sourceConnections
         id="id-d925200d4c84446782ab871f41a08902"
         name="door"
         source="id-3552b83fca804c84b1fbac67fd5244ee"
@@ -2169,10 +2092,6 @@
       id="id-d3ef208ecd9e4bcaa18c7c8bfdb89d22"
       textAlignment="1"
       content="VERVALLEN?">
-    <sourceConnections
-        id="id-b5d75d86bc00451982f7a3d2d3f2d6b6"
-        source="id-d3ef208ecd9e4bcaa18c7c8bfdb89d22"
-        target="id-bf3a06dc0d8b48b581e2b4f1f2826216"/>
     <bounds
         x="223"
         y="603"
