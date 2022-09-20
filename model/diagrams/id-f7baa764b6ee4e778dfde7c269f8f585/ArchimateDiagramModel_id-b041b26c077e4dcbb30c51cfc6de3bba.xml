@@ -409,21 +409,21 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-5e130d34ff944fb6929253eecb59a377"
-        source="id-5053f8fa897a4d9da85cec3e1eb60424"
-        target="id-8b2eeef83d754f72bbfe96ef0529ae1a">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-ab66b3e76e6a4cd693f7b11064e8268f.xml#id-ab66b3e76e6a4cd693f7b11064e8268f"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1415e865fecb4e9790b8b1e297c259ac"
         source="id-5053f8fa897a4d9da85cec3e1eb60424"
         target="id-67b94d77651942b7afc80d368e729763">
       <archimateRelationship
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_id-485cba6c7d6f417cad98be947f82cabc.xml#id-485cba6c7d6f417cad98be947f82cabc"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-84d574ab01894923b0c5b2342b1a25c9"
+        source="id-5053f8fa897a4d9da85cec3e1eb60424"
+        target="id-a2cd9e4656aa44a185e227d0fc15b260">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-7bdf7f7d3f904fab86dadeb338bb71b8.xml#id-7bdf7f7d3f904fab86dadeb338bb71b8"/>
     </sourceConnections>
     <bounds
         x="48"
@@ -683,28 +683,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-8b2eeef83d754f72bbfe96ef0529ae1a"
-      targetConnections="id-5e130d34ff944fb6929253eecb59a377">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-bfa1297bec3e49a8983db07b38355eaf"
-        source="id-8b2eeef83d754f72bbfe96ef0529ae1a"
-        target="id-652d066dcec74ab49dde9346e45db8d2">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-2d63966e0485476f9949e8e3c6f6fd51.xml#id-2d63966e0485476f9949e8e3c6f6fd51"/>
-    </sourceConnections>
-    <bounds
-        x="-132"
-        y="504"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-7a7a7b0e5b9e41539ad61d0d71a141bc.xml#id-7a7a7b0e5b9e41539ad61d0d71a141bc"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d72506adb2be4214b28848621e5d8518"
       targetConnections="id-d91c98770e1941f4ae97cbc9e0a094a4 id-fc4510eb7acc47b8b0276581d714cd21">
     <bounds
@@ -758,7 +736,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-652d066dcec74ab49dde9346e45db8d2"
-      targetConnections="id-bfa1297bec3e49a8983db07b38355eaf">
+      targetConnections="id-71163ce2bd9f4931962e461d16b0b370">
     <bounds
         x="-300"
         y="504"
@@ -767,6 +745,28 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-86608aed7f4d426786d0021d1ba67e1b.xml#id-86608aed7f4d426786d0021d1ba67e1b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a2cd9e4656aa44a185e227d0fc15b260"
+      targetConnections="id-84d574ab01894923b0c5b2342b1a25c9">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-71163ce2bd9f4931962e461d16b0b370"
+        source="id-a2cd9e4656aa44a185e227d0fc15b260"
+        target="id-652d066dcec74ab49dde9346e45db8d2">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-cb8bca9270e247da8d84b0c03953ff0c.xml#id-cb8bca9270e247da8d84b0c03953ff0c"/>
+    </sourceConnections>
+    <bounds
+        x="-132"
+        y="504"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-c626e8a797a34b49884669afa9d7578e.xml#id-c626e8a797a34b49884669afa9d7578e"/>
   </children>
   <properties
       key="Publiceren"
