@@ -204,7 +204,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-9c59b6fd1aba4455bb292d318fbb4595"
-        targetConnections="id-d07e86e86e28456c830dea641849184f id-beebfb3c6a02484da1bc0165a5604aac">
+        targetConnections="id-d07e86e86e28456c830dea641849184f">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-9864f95c88ee43c89fa247b9b0ba72bc"
@@ -301,7 +301,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-9de8447a5e82465db7c2027ff03dbcf4"
-        targetConnections="id-00810834a5dc490aaaf2e49898e64411 id-8370a3736c0f4edd97e1324b1ce07b39 id-f9db065b49e94a759b3b3417c135a970 id-3aa3cb64679745e3979186a34fa8143b">
+        targetConnections="id-00810834a5dc490aaaf2e49898e64411 id-8370a3736c0f4edd97e1324b1ce07b39 id-f9db065b49e94a759b3b3417c135a970">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-3a79e49bf43e44f6bf5c74e30f643fc5"
@@ -486,47 +486,6 @@
         href="Grouping_id-7e1e5f972aa04ccd8f92d4ae6da77df7.xml#id-7e1e5f972aa04ccd8f92d4ae6da77df7"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-28a6443a811a42df913696819f846480"
-      textAlignment="1"
-      content="NB. dit gaat over het leveren (uitwisselen / overdragen) van gegevens. Verstrekking (inzage) is een ander proces. Zie ook de thematiek rondom gegevensverstrekking via onderzoeksgevensplatform (AR apr22)">
-    <bounds
-        x="840"
-        y="408"
-        width="243"
-        height="121"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-9426dc3e749045678e5f9d7de80d4686"
-      textAlignment="1"
-      content="WG Toegang (&quot;Basismodel delen gegevens&quot;) noemt dit 'Bronhouder'">
-    <sourceConnections
-        id="id-beebfb3c6a02484da1bc0165a5604aac"
-        source="id-9426dc3e749045678e5f9d7de80d4686"
-        target="id-9c59b6fd1aba4455bb292d318fbb4595"/>
-    <bounds
-        x="108"
-        y="-84"
-        width="185"
-        height="73"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-e4bb43da7d8a44edac57b621ab25fff4"
-      textAlignment="1"
-      content="Dit omvat bijv. afweging of bepaalde attributen door bepaalde partijen mogen worden geleverd of afgenomen, maar ook bijv. controle hierop dmv een OAuth-token of OSR-mandaat.">
-    <sourceConnections
-        id="id-3aa3cb64679745e3979186a34fa8143b"
-        source="id-e4bb43da7d8a44edac57b621ab25fff4"
-        target="id-9de8447a5e82465db7c2027ff03dbcf4"/>
-    <bounds
-        x="216"
-        y="456"
-        width="185"
-        height="120"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-596019bc059a40e88a5c59adc5180be2"
       targetConnections="id-65bd90a07f9d438085d7a9662f18dfc3">
@@ -617,19 +576,7 @@
         xsi:type="archimate:Requirement"
         href="Requirement_a09f11ed-c3cf-43f6-b031-185898c7ab18.xml#a09f11ed-c3cf-43f6-b031-185898c7ab18"/>
   </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-cbeecda6604845e68efe16ad3bb869d7">
-    <bounds
-        x="743"
-        y="552"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationComponent"
-        href="ApplicationComponent_45e434b1-02d4-45e4-8ca1-94230a174e3c.xml#45e434b1-02d4-45e4-8ca1-94230a174e3c"/>
-  </children>
   <properties
       key="Publiceren"
-      value="ja"/>
+      value="Ja"/>
 </archimate:ArchimateDiagramModel>
