@@ -628,7 +628,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-813bc6f2fa0e4376a6b392d98e3e7f4b"
-      targetConnections="id-f7fbc77536f54ae8bd88f1a7e2bf801f id-80c4a462b802439b85c6188f7bf60915">
+      targetConnections="id-f7fbc77536f54ae8bd88f1a7e2bf801f">
     <bounds
         x="468"
         y="-60"
@@ -667,7 +667,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5d4b4aeff610475d8fa3e23ea617a72c"
-      targetConnections="id-c29ab3d0fe094da99743159b159d435d id-a9cd080994024111a030d723709e185e">
+      targetConnections="id-c29ab3d0fe094da99743159b159d435d">
     <bounds
         x="989"
         y="168"
@@ -693,7 +693,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-60fe3a83dba643ea8b9cdca26e0fa8c5"
-      targetConnections="id-3b18cce255de4a52b0d6726743493499 id-b0d9a465f08b4d74b7d5e5dbc13335e4">
+      targetConnections="id-3b18cce255de4a52b0d6726743493499">
     <bounds
         x="989"
         y="240"
@@ -706,7 +706,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d692342729ec44d88dd5884f831691a5"
-      targetConnections="id-d822d6c71ee14b0ba918f6dff06ac16e id-7f8f630b7390472d861106c61cdf82b8">
+      targetConnections="id-d822d6c71ee14b0ba918f6dff06ac16e">
     <bounds
         x="989"
         y="84"
@@ -719,7 +719,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c9e34b239ab64b72a1ab3ac3ce3817d7"
-      targetConnections="id-b6116f51acaf486a87ad3eefc9b3a45e id-6f54fb59bb154b3481e4e1e0f94e9daf">
+      targetConnections="id-b6116f51acaf486a87ad3eefc9b3a45e">
     <bounds
         x="989"
         y="318"
@@ -729,55 +729,13 @@
         xsi:type="archimate:Requirement"
         href="Requirement_18d1384e-e207-4e93-9bf1-24e4c967c3b5.xml#18d1384e-e207-4e93-9bf1-24e4c967c3b5"/>
   </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-b92aab399d674cdaba89ea294c321168"
-      textAlignment="1"
-      content="Dit zijn principes ipv ontwerpkaders (want hangt aan heel domein en niet aan 1 of enkele elementen)">
-    <sourceConnections
-        id="id-7f8f630b7390472d861106c61cdf82b8"
-        source="id-b92aab399d674cdaba89ea294c321168"
-        target="id-d692342729ec44d88dd5884f831691a5"/>
-    <sourceConnections
-        id="id-a9cd080994024111a030d723709e185e"
-        source="id-b92aab399d674cdaba89ea294c321168"
-        target="id-5d4b4aeff610475d8fa3e23ea617a72c"/>
-    <sourceConnections
-        id="id-b0d9a465f08b4d74b7d5e5dbc13335e4"
-        source="id-b92aab399d674cdaba89ea294c321168"
-        target="id-60fe3a83dba643ea8b9cdca26e0fa8c5"/>
-    <sourceConnections
-        id="id-6f54fb59bb154b3481e4e1e0f94e9daf"
-        source="id-b92aab399d674cdaba89ea294c321168"
-        target="id-c9e34b239ab64b72a1ab3ac3ce3817d7"/>
-    <sourceConnections
-        id="id-80c4a462b802439b85c6188f7bf60915"
-        source="id-b92aab399d674cdaba89ea294c321168"
-        target="id-813bc6f2fa0e4376a6b392d98e3e7f4b">
-      <bendpoints
-          startX="-20"
-          startY="-208"
-          endX="768"
-          endY="9"/>
-    </sourceConnections>
-    <bounds
-        x="1260"
-        y="144"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-575e2a2c83fd4762a89db9a07f72ca3d"
-      textAlignment="1"
-      content="Richtlijnen voor modellering:&#xD;&#xA;- ontwerpkaders hangen aan individuele elementen binnen het IV-domein&#xD;&#xA;- principes liggen daarboven;&#xD;&#xA;- sommige principes hebben betrekking op het gehele domein (en hebben geen onderliggende ontwerpkaders)">
-    <bounds
-        x="1239"
-        y="357"
-        width="274"
-        height="136"/>
-  </children>
   <properties
       key="Publiceren"
       value="Ja"/>
+  <properties
+      key="Type"
+      value="Scenario"/>
+  <properties
+      key="Scenariotype"
+      value="Ondersteuningsscenario"/>
 </archimate:ArchimateDiagramModel>

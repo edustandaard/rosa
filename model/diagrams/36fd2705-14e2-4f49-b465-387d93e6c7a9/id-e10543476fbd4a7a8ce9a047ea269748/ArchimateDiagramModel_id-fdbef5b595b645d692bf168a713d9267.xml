@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gegevensuitwisseling met een service register (patroon)"
+    name="Gegevensuitwisseling met een serviceregister"
     id="id-fdbef5b595b645d692bf168a713d9267"
     documentation="Een manier om gegevens uit te wisselen in het onderwijs is gebruik te maken van een service register in combinatie met mandatering. &#xD;&#xA;&#xD;&#xA;In het serviceregister wordt informatie opgeslagen over afzonderlijke beschikbare informatiediensten. Een dienstbeheerder geeft aan welke type diensten er zijn en welke soorten koppelvlakken (rollen) daarvoor nodig zijn ten behoeve van de ketensamenwerking. De aanbieder van de dienst maakt bekend waar koppelvlakken technisch gevonden kunnen (eindpunten) worden plus mogelijk andere gegevens over de leverancier en de dienst. In het mandateringsregister geeft een onderwijsinstelling aan welke aanbieders en afnemers namens hen mogen handelen (mandaat). &#xD;&#xA;&#xD;&#xA;Dit patroon geeft invulling aan het principe van eenmalige opslag en meervoudig gebruik. Gebruik maken van dit patroon leidt tot uniformiteit in beheer, overzicht en éénmalig beheer (reductie van administratieve en technische lasten) voor de drie genoemde partijen en inzicht voor bijvoorbeeld wettelijke instanties. Maatregelen die genomen dienen te worden is het voorkomen van vrijgeven van ongewenste (marktgevoelige)informatie en (zoals elk register) uitval t hebben van een &quot;single point of failure&quot;. ">
   <children
@@ -34,6 +34,15 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_9d24bc24-2ffa-4306-af50-889088856af8.xml#9d24bc24-2ffa-4306-af50-889088856af8"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5fa2293fd04c4715b0c0ad05fe810fd6"
+        source="id-c16ab59a3aed46cc86b109fccdc3d2b7"
+        target="id-48b638ee860d455f8c549f1655ea909c">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-5f80aa2aefe94b56a03af64213853879.xml#id-5f80aa2aefe94b56a03af64213853879"/>
     </sourceConnections>
     <bounds
         x="168"
@@ -616,17 +625,26 @@
         href="BusinessRole_id-942a72d39df94e50a0c07e1cc1e38e29.xml#id-942a72d39df94e50a0c07e1cc1e38e29"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-644f56ae753e4f9b8091f25868bd552e"
-      textAlignment="1"
-      content="Dit is een patroon: gegevensuitwisselen met behulp van een serviceregister. ">
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-48b638ee860d455f8c549f1655ea909c"
+      targetConnections="id-5fa2293fd04c4715b0c0ad05fe810fd6"
+      textAlignment="1">
     <bounds
-        x="168"
-        y="96"
-        width="493"
-        height="46"/>
+        x="612"
+        y="-48"
+        width="400"
+        height="140"/>
+    <archimateElement
+        xsi:type="archimate:Grouping"
+        href="Grouping_id-7e1e5f972aa04ccd8f92d4ae6da77df7.xml#id-7e1e5f972aa04ccd8f92d4ae6da77df7"/>
   </children>
   <properties
       key="Publiceren"
-      value="ja"/>
+      value="Ja"/>
+  <properties
+      key="Type"
+      value="Scenario"/>
+  <properties
+      key="Scenariotype"
+      value="Patroonuitwerking"/>
 </archimate:ArchimateDiagramModel>
