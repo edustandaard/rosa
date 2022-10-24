@@ -374,7 +374,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c1d4c5e267d64ef5a5c66c2ac3e65f13"
-        targetConnections="id-6cd37bce0cd14e78b24ae19c87cd6e80">
+        targetConnections="id-6cd37bce0cd14e78b24ae19c87cd6e80 id-f3d53bf836044e649995f141ab4d1fc6">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-ee6e36a2f1144139aaa661e4009ac657"
@@ -487,7 +487,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-902a8861420947ae956b501c0f9536ec"
       textAlignment="1"
-      content="Toevoegen: Ontwerpkader 'Hanteer begrippen uit het ROSA begrippenkader'">
+      content="Toevoegen: Ontwerpkader 'Hanteer begrippen uit het ROSA begrippenmodel'">
     <sourceConnections
         id="id-3e2d809eff29425ea39731fcf0472d0d"
         source="id-902a8861420947ae956b501c0f9536ec"
@@ -503,5 +503,42 @@
         y="612"
         width="185"
         height="61"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c20fa062779248df99dfaeb0e15c504a"
+      textAlignment="1"
+      content="Toevoegen: Procesinteroperabiliteit. &#xD;&#xA;&#xD;&#xA;Ontwerpkaders:&#xD;&#xA;- Sluit aan op ketenprocesuitwerkingen die in ROSA zijn opgenomen&#xD;&#xA;- Hanteer stappen uit AMIGO-aanpak">
+    <bounds
+        x="897"
+        y="255"
+        width="244"
+        height="106"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-96111ec151244e85a649b4f769982b8f"
+      textAlignment="1"
+      content="Naar Semantische interoperabiliteit">
+    <sourceConnections
+        id="id-f3d53bf836044e649995f141ab4d1fc6"
+        source="id-96111ec151244e85a649b4f769982b8f"
+        target="id-c1d4c5e267d64ef5a5c66c2ac3e65f13"/>
+    <bounds
+        x="-132"
+        y="552"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-eeb3d4d8eea94eedbc367806bac21c20"
+      textAlignment="1"
+      content="Toevoegen: Hanteer de stappen uit de AMIGO-aanpak (onder Technisch EN Semantisch EN Proces)">
+    <bounds
+        x="-132"
+        y="672"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

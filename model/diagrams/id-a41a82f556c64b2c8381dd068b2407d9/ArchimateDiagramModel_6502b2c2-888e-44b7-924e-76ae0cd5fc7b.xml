@@ -285,9 +285,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="e3b13b45-8770-44a0-b906-c0471e15b843"
-        targetConnections="207e0ac6-76c0-45e8-bf8c-4f9d94f36594"
-        lineColor="#5c5c5c"
-        fillColor="#ccccff">
+        targetConnections="207e0ac6-76c0-45e8-bf8c-4f9d94f36594 id-25cc93552bf9499e8c8081621a2ca120"
+        fillColor="#ff0000">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="1c02e7de-ad40-4ee7-aed2-5f1d7242ce67"
@@ -491,9 +490,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="24174868-5752-474f-9c54-d2a17aac03c5"
-        targetConnections="cc8b79c7-035b-48c2-ae3a-0a8e8b54d617 93635cd6-7b49-4057-b69a-167ee8d8782c 370e371c-5b4d-48bd-bfc8-87d114a6aba6 id-88b1d5b8300d48dca07b1edc88a3eadf"
-        lineColor="#5c5c5c"
-        fillColor="#ccccff">
+        targetConnections="cc8b79c7-035b-48c2-ae3a-0a8e8b54d617 93635cd6-7b49-4057-b69a-167ee8d8782c 370e371c-5b4d-48bd-bfc8-87d114a6aba6"
+        fillColor="#ff0000">
       <bounds
           x="900"
           y="228"
@@ -533,7 +531,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="30881212-047c-4179-ba3f-1a5bdb01c399"
-        targetConnections="a48abfe7-44f6-40b1-9096-30ac89cbd766 ddc9a712-35d9-4280-81b5-0184c4a6ae85 ac11425c-688e-4074-b20f-341e7104da25 e68c1e73-3a63-45d7-b2a7-908408a48d1d"
+        targetConnections="a48abfe7-44f6-40b1-9096-30ac89cbd766 ddc9a712-35d9-4280-81b5-0184c4a6ae85 ac11425c-688e-4074-b20f-341e7104da25 e68c1e73-3a63-45d7-b2a7-908408a48d1d id-88b1d5b8300d48dca07b1edc88a3eadf"
         lineColor="#5c5c5c"
         fillColor="#ccccff">
       <bounds
@@ -854,9 +852,13 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f952c93f2fb04bbb94cc4f8afce4aa2e"
       targetConnections="id-52722b0d684e4bc3923cad924b6b1698 id-61eebfe871524979bc76197edc1148a4">
+    <sourceConnections
+        id="id-027a89d32fc044fe8095ba07c2cef62e"
+        source="id-f952c93f2fb04bbb94cc4f8afce4aa2e"
+        target="id-1fc7e9b054b24c90802885d5e450f56b"/>
     <bounds
-        x="1450"
-        y="279"
+        x="1476"
+        y="432"
         width="120"
         height="55"/>
     <archimateElement
@@ -876,8 +878,8 @@
           href="InfluenceRelationship_4cd4a910-be19-4f7d-a55e-42e9fa0b2c57.xml#4cd4a910-be19-4f7d-a55e-42e9fa0b2c57"/>
     </sourceConnections>
     <bounds
-        x="1450"
-        y="417"
+        x="1488"
+        y="552"
         width="120"
         height="55"/>
     <archimateElement
@@ -888,7 +890,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-4903c15a0b874bf8b8e5cd75e4d0b188"
       textAlignment="1"
-      content="Toevoegen als principe onder het doel Ketenbrede informatiebeveiliging en privacybescherming">
+      content="Toevoegen als principe onder het doel Ketenbrede informatiebeveiliging en privacybescherming. Hernoemen naar 'ketenbrede waarborging van privacy'">
     <sourceConnections
         id="id-61eebfe871524979bc76197edc1148a4"
         source="id-4903c15a0b874bf8b8e5cd75e4d0b188"
@@ -897,7 +899,7 @@
         x="1435"
         y="140"
         width="185"
-        height="80"/>
+        height="149"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -954,14 +956,14 @@
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-88b1d5b8300d48dca07b1edc88a3eadf"
         source="id-293cd99a53cb40fdbe2492752e756f7a"
-        target="24174868-5752-474f-9c54-d2a17aac03c5">
+        target="30881212-047c-4179-ba3f-1a5bdb01c399">
       <archimateRelationship
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-c1a0e79ea92e433d8384a03ce1043f3b.xml#id-c1a0e79ea92e433d8384a03ce1043f3b"/>
     </sourceConnections>
     <bounds
-        x="1272"
-        y="516"
+        x="1284"
+        y="780"
         width="120"
         height="55"/>
     <archimateElement
@@ -984,6 +986,32 @@
     <bounds
         x="1265"
         y="621"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-1fc7e9b054b24c90802885d5e450f56b"
+      targetConnections="id-027a89d32fc044fe8095ba07c2cef62e"
+      textAlignment="1">
+    <sourceConnections
+        id="id-25cc93552bf9499e8c8081621a2ca120"
+        source="id-1fc7e9b054b24c90802885d5e450f56b"
+        target="e3b13b45-8770-44a0-b906-c0471e15b843"/>
+    <bounds
+        x="1265"
+        y="372"
+        width="32"
+        height="13"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-cf99baa3144943e6be542dfea9c48588"
+      textAlignment="1"
+      content="Toevoegen: hanteer privacy enhancing technologies (PET)">
+    <bounds
+        x="1551"
+        y="643"
         width="185"
         height="80"/>
   </children>
