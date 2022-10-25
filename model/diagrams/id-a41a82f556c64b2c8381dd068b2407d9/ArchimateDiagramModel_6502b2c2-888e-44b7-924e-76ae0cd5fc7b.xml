@@ -223,6 +223,15 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_b2fd7aed-f3b0-499b-9406-0564124c680b.xml#b2fd7aed-f3b0-499b-9406-0564124c680b"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-80ef0fc1e28c474095935ab886aac29f"
+        source="3194aacb-1069-4b5e-b744-713bf8298b6a"
+        target="id-293cd99a53cb40fdbe2492752e756f7a">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-46ec379642444531b3904eac98ce52d0.xml#id-46ec379642444531b3904eac98ce52d0"/>
+    </sourceConnections>
     <bounds
         x="108"
         y="204"
@@ -724,6 +733,24 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="9c9997a1-26c9-4465-82b2-5372f839d167"
         targetConnections="1c02e7de-ad40-4ee7-aed2-5f1d7242ce67 a6eda50f-34e4-46a3-a7a5-878829042a03">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-9b9524ad1b5c4b6181ac294769fcc2c4"
+          source="9c9997a1-26c9-4465-82b2-5372f839d167"
+          target="id-0acc29b6095547cb8f35629037192444">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-f8ba6a33de4e45238c328b1f546f4ec9.xml#id-f8ba6a33de4e45238c328b1f546f4ec9"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-fcff6f7a66764c61aa7eb9b044178fd1"
+          source="9c9997a1-26c9-4465-82b2-5372f839d167"
+          target="id-3c1d9a8088db4f44a7cbb7183008aaa6">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-0ebde7888c6e4b44b74e885e49f80858.xml#id-0ebde7888c6e4b44b74e885e49f80858"/>
+      </sourceConnections>
       <bounds
           x="449"
           y="36"
@@ -844,6 +871,48 @@
           xsi:type="archimate:Requirement"
           href="Requirement_6116171e-7129-45b0-968b-b4ad1b4087df.xml#6116171e-7129-45b0-968b-b4ad1b4087df"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-293cd99a53cb40fdbe2492752e756f7a"
+        targetConnections="id-af059275853e40f0b1b80ff20b89610f id-80ef0fc1e28c474095935ab886aac29f"
+        fillColor="#80ff80">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-88b1d5b8300d48dca07b1edc88a3eadf"
+          source="id-293cd99a53cb40fdbe2492752e756f7a"
+          target="30881212-047c-4179-ba3f-1a5bdb01c399">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-c1a0e79ea92e433d8384a03ce1043f3b.xml#id-c1a0e79ea92e433d8384a03ce1043f3b"/>
+      </sourceConnections>
+      <bounds
+          x="510"
+          y="594"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-6d06dfb2f1fb4c08a59dbefbdefa2d57.xml#id-6d06dfb2f1fb4c08a59dbefbdefa2d57"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-f9a6102e3c5345edb815b28b5e653055"
+        textAlignment="1"
+        content="'Hanteer certschema' vervangt 'Conformeer aan Code voor IB', en kan direct worden opgehangen aan Governance">
+      <sourceConnections
+          id="id-af059275853e40f0b1b80ff20b89610f"
+          source="id-f9a6102e3c5345edb815b28b5e653055"
+          target="id-293cd99a53cb40fdbe2492752e756f7a"/>
+      <sourceConnections
+          id="id-84e65230304e4336bdec8ac24a8e549c"
+          source="id-f9a6102e3c5345edb815b28b5e653055"
+          target="d07c34d1-7879-444c-9eca-5df12264648b"/>
+      <bounds
+          x="910"
+          y="594"
+          width="185"
+          height="80"/>
+    </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_3df6275b-e706-4ec2-bc08-33ba7a21d4e9.xml#3df6275b-e706-4ec2-bc08-33ba7a21d4e9"/>
@@ -857,8 +926,8 @@
         source="id-f952c93f2fb04bbb94cc4f8afce4aa2e"
         target="id-1fc7e9b054b24c90802885d5e450f56b"/>
     <bounds
-        x="1476"
-        y="432"
+        x="1296"
+        y="420"
         width="120"
         height="55"/>
     <archimateElement
@@ -867,7 +936,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-61bb38484ed048c6ab5348b3f2008e61">
+      id="id-61bb38484ed048c6ab5348b3f2008e61"
+      targetConnections="id-4e2548b4d82c4dfa82f2ba916296e17c">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-52722b0d684e4bc3923cad924b6b1698"
@@ -878,8 +948,8 @@
           href="InfluenceRelationship_4cd4a910-be19-4f7d-a55e-42e9fa0b2c57.xml#4cd4a910-be19-4f7d-a55e-42e9fa0b2c57"/>
     </sourceConnections>
     <bounds
-        x="1488"
-        y="552"
+        x="1296"
+        y="516"
         width="120"
         height="55"/>
     <archimateElement
@@ -896,14 +966,15 @@
         source="id-4903c15a0b874bf8b8e5cd75e4d0b188"
         target="id-f952c93f2fb04bbb94cc4f8afce4aa2e"/>
     <bounds
-        x="1435"
-        y="140"
+        x="1440"
+        y="391"
         width="185"
-        height="149"/>
+        height="113"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-0acc29b6095547cb8f35629037192444">
+      id="id-0acc29b6095547cb8f35629037192444"
+      targetConnections="id-9b9524ad1b5c4b6181ac294769fcc2c4">
     <bounds
         x="528"
         y="108"
@@ -915,7 +986,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3c1d9a8088db4f44a7cbb7183008aaa6">
+      id="id-3c1d9a8088db4f44a7cbb7183008aaa6"
+      targetConnections="id-fcff6f7a66764c61aa7eb9b044178fd1">
     <bounds
         x="672"
         y="108"
@@ -948,48 +1020,6 @@
         href="Requirement_id-f34f222390e24b748ff7b90de25b1d16.xml#id-f34f222390e24b748ff7b90de25b1d16"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-293cd99a53cb40fdbe2492752e756f7a"
-      targetConnections="id-af059275853e40f0b1b80ff20b89610f"
-      fillColor="#80ff80">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-88b1d5b8300d48dca07b1edc88a3eadf"
-        source="id-293cd99a53cb40fdbe2492752e756f7a"
-        target="30881212-047c-4179-ba3f-1a5bdb01c399">
-      <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_id-c1a0e79ea92e433d8384a03ce1043f3b.xml#id-c1a0e79ea92e433d8384a03ce1043f3b"/>
-    </sourceConnections>
-    <bounds
-        x="1284"
-        y="780"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Requirement"
-        href="Requirement_id-6d06dfb2f1fb4c08a59dbefbdefa2d57.xml#id-6d06dfb2f1fb4c08a59dbefbdefa2d57"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-f9a6102e3c5345edb815b28b5e653055"
-      textAlignment="1"
-      content="'Hanteer certschema' vervangt 'Conformeer aan Code voor IB'">
-    <sourceConnections
-        id="id-af059275853e40f0b1b80ff20b89610f"
-        source="id-f9a6102e3c5345edb815b28b5e653055"
-        target="id-293cd99a53cb40fdbe2492752e756f7a"/>
-    <sourceConnections
-        id="id-84e65230304e4336bdec8ac24a8e549c"
-        source="id-f9a6102e3c5345edb815b28b5e653055"
-        target="d07c34d1-7879-444c-9eca-5df12264648b"/>
-    <bounds
-        x="1265"
-        y="621"
-        width="185"
-        height="80"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelNote"
       id="id-1fc7e9b054b24c90802885d5e450f56b"
       targetConnections="id-027a89d32fc044fe8095ba07c2cef62e"
@@ -1005,14 +1035,25 @@
         height="13"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-cf99baa3144943e6be542dfea9c48588"
-      textAlignment="1"
-      content="Toevoegen: hanteer privacy enhancing technologies (PET)">
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-3dfe5cc8e8a8410caa85dc4112aac28a"
+      fillColor="#80ff80">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-4e2548b4d82c4dfa82f2ba916296e17c"
+        source="id-3dfe5cc8e8a8410caa85dc4112aac28a"
+        target="id-61bb38484ed048c6ab5348b3f2008e61">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_id-46de4cb0392c4781abc68f44e0af2e9c.xml#id-46de4cb0392c4781abc68f44e0af2e9c"/>
+    </sourceConnections>
     <bounds
-        x="1551"
-        y="643"
-        width="185"
-        height="80"/>
+        x="1283"
+        y="612"
+        width="145"
+        height="61"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-3d86fc6f93f84b53be84c4d9de78ed23.xml#id-3d86fc6f93f84b53be84c4d9de78ed23"/>
   </children>
 </archimate:ArchimateDiagramModel>
