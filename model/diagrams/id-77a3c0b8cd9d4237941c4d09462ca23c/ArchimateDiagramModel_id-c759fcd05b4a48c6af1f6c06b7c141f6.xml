@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Overzicht ketendoelen"
+    name="Overzicht ketendoelen (delta)"
     id="id-c759fcd05b4a48c6af1f6c06b7c141f6">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -1214,6 +1214,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-bdbc76207f514245b2f02f8e206de75a"
+        targetConnections="id-7f71a0c212cc406ebf33792141e6674f"
         fillColor="#80ff80">
       <bounds
           x="912"
@@ -1303,6 +1304,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b2c461c15e904a9f8d6628c4af7d3be5"
+        targetConnections="id-ebca36982a6a4fcba0a6e091f3e4340c"
         fillColor="#ff0000">
       <bounds
           x="24"
@@ -1424,5 +1426,24 @@
           xsi:type="archimate:Goal"
           href="Goal_b06a3659-38dc-4808-90fa-f04b25b7f6d3.xml#b06a3659-38dc-4808-90fa-f04b25b7f6d3"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c10363757bc74d7888bf05574c5d5c67"
+      textAlignment="1"
+      content="'Hanteer certschema' vervangt 'Conformeer aan Code voor IB', en kan direct worden opgehangen aan Governance">
+    <sourceConnections
+        id="id-7f71a0c212cc406ebf33792141e6674f"
+        source="id-c10363757bc74d7888bf05574c5d5c67"
+        target="id-bdbc76207f514245b2f02f8e206de75a"/>
+    <sourceConnections
+        id="id-ebca36982a6a4fcba0a6e091f3e4340c"
+        source="id-c10363757bc74d7888bf05574c5d5c67"
+        target="id-b2c461c15e904a9f8d6628c4af7d3be5"/>
+    <bounds
+        x="1500"
+        y="1032"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
