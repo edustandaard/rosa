@@ -45,15 +45,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="ce42a397-eedf-4923-9866-6334d5f28874"
-        source="d7bceccf-b85f-46b4-b82c-b35e74a5b0ba"
-        target="e3f64b30-2dab-4924-a9a1-c9c2cf011d7a">
-      <archimateRelationship
-          xsi:type="archimate:InfluenceRelationship"
-          href="InfluenceRelationship_6ffd19f5-059f-465e-8995-4ee7ebe680ba.xml#6ffd19f5-059f-465e-8995-4ee7ebe680ba"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="d427bf41-c64c-4e7f-9dc4-649a3a4c1665"
         source="d7bceccf-b85f-46b4-b82c-b35e74a5b0ba"
         target="72099439-a2a7-40a8-897a-80ab621519c2">
@@ -78,6 +69,15 @@
       <archimateRelationship
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_18634568-04f6-40ea-94d8-aae67c367fe8.xml#18634568-04f6-40ea-94d8-aae67c367fe8"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="ce42a397-eedf-4923-9866-6334d5f28874"
+        source="d7bceccf-b85f-46b4-b82c-b35e74a5b0ba"
+        target="id-9eaa506d3add4d4eb97a89eb74993c48">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_6ffd19f5-059f-465e-8995-4ee7ebe680ba.xml#6ffd19f5-059f-465e-8995-4ee7ebe680ba"/>
     </sourceConnections>
     <bounds
         x="168"
@@ -188,17 +188,15 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="e3f64b30-2dab-4924-a9a1-c9c2cf011d7a"
-      targetConnections="ce42a397-eedf-4923-9866-6334d5f28874"
-      lineColor="#5c5c5c"
-      fillColor="#ccccff">
+      id="id-9eaa506d3add4d4eb97a89eb74993c48"
+      targetConnections="ce42a397-eedf-4923-9866-6334d5f28874">
     <bounds
-        x="288"
+        x="348"
         y="36"
-        width="493"
+        width="349"
         height="55"/>
     <archimateElement
-        xsi:type="archimate:Goal"
-        href="Goal_be933efb-ba3e-4f60-bf96-f62f4686385e.xml#be933efb-ba3e-4f60-bf96-f62f4686385e"/>
+        xsi:type="archimate:Principle"
+        href="Principle_id-2dc43bd3d9c449789cf85e4a507528a5.xml#id-2dc43bd3d9c449789cf85e4a507528a5"/>
   </children>
 </archimate:ArchimateDiagramModel>
