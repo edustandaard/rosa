@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="* Ketenbrede toegankelijkheid"
+    name="Ketenbrede toegankelijkheid"
     id="id-0baceceb607c4b91a8640682dffc9499">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -164,7 +164,7 @@
         x="12"
         y="12"
         width="949"
-        height="817"/>
+        height="733"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-05a438da107645c5beed45cdc2c89e70"
@@ -634,6 +634,15 @@
             xsi:type="archimate:InfluenceRelationship"
             href="InfluenceRelationship_id-890be5326acf4161b73f5499925505c9.xml#id-890be5326acf4161b73f5499925505c9"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-ca1a978b5269402cad79ebba1b589c8d"
+          source="id-00d66244003e417692e186dec4f28276"
+          target="id-48fc2e3a26674226a81ec88198a6ba27">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-4f4c188691d34316b46b407868b050ca.xml#id-4f4c188691d34316b46b407868b050ca"/>
+      </sourceConnections>
       <bounds
           x="316"
           y="24"
@@ -652,7 +661,7 @@
       id="id-e86ea988d20149d993101a944e9008a4"
       targetConnections="id-d7e87f04172c4be3ab4cc7b52ebafb04">
     <bounds
-        x="228"
+        x="336"
         y="-72"
         width="120"
         height="55"/>
@@ -665,7 +674,7 @@
       id="id-79e79d62fd3848729db2e924667868ee"
       targetConnections="id-b8091ec6a03b40eeb375678dce834f01">
     <bounds
-        x="408"
+        x="480"
         y="-72"
         width="120"
         height="55"/>
@@ -677,9 +686,9 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bef33dd7c171423ea20d8f5bed6842c2"
       targetConnections="id-4bb8c8e0c0ad42fcbdc2ae3a614faa70"
-      fillColor="#80ff80">
+      fillColor="#ccccff">
     <bounds
-        x="564"
+        x="624"
         y="-72"
         width="120"
         height="55"/>
@@ -688,14 +697,19 @@
         href="Driver_id-fd1f732c49844696905c1901885deefe.xml#id-fd1f732c49844696905c1901885deefe"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-1077a7837d3a4e5686af04d269107255"
-      textAlignment="1"
-      content="Tzt revisie obv werk van WG Toegang; toevoegen toegankelijkheid in de zin van WCAG/Digitoegankelijkheid?&#xD;&#xA;&#xD;&#xA;Hoe kunnen we toegang ('inloggen') losweken van toegankelijkheid ('drempelvrij')? Of is dat samen te nemen onder 1 begrip 'toegankelijkheid'?">
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-48fc2e3a26674226a81ec88198a6ba27"
+      targetConnections="id-ca1a978b5269402cad79ebba1b589c8d">
     <bounds
-        x="972"
-        y="120"
-        width="185"
-        height="204"/>
+        x="156"
+        y="-72"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_a88f7f58-749f-491a-8aaa-2170a27cb66d.xml#a88f7f58-749f-491a-8aaa-2170a27cb66d"/>
   </children>
+  <properties
+      key="Publiceren"
+      value="Ja"/>
 </archimate:ArchimateDiagramModel>

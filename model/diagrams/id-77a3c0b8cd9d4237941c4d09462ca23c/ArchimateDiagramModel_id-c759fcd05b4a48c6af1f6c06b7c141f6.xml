@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Overzicht ketendoelen"
+    name="Overzicht ketendoelen (delta)"
     id="id-c759fcd05b4a48c6af1f6c06b7c141f6">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -300,8 +300,8 @@
         id="id-071eae19203341c5bb36419126d398f3"
         targetConnections="id-ff63daa60b974038afab6988847eadf2">
       <bounds
-          x="162"
-          y="36"
+          x="312"
+          y="228"
           width="120"
           height="55"/>
       <archimateElement
@@ -310,21 +310,9 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-dc4e139965bc4a579e8afb4547d2023d">
-      <bounds
-          x="24"
-          y="107"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Principle"
-          href="Principle_8ed6b136-0982-4d5d-aab4-498c22c0e8b8.xml#8ed6b136-0982-4d5d-aab4-498c22c0e8b8"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b84fdd66307f44349b79168466df46bf">
       <bounds
-          x="287"
+          x="696"
           y="318"
           width="120"
           height="55"/>
@@ -348,7 +336,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f44f244d84a84d8b81fc18beb47c9670">
       <bounds
-          x="287"
+          x="696"
           y="252"
           width="120"
           height="55"/>
@@ -360,7 +348,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0d93f3dc19ea4e8b8507d1d711585c9e">
       <bounds
-          x="420"
+          x="827"
           y="252"
           width="120"
           height="55"/>
@@ -382,10 +370,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ff67753e9e434ea09d3c2457644fcc36">
+        id="id-ff67753e9e434ea09d3c2457644fcc36"
+        targetConnections="id-e51c7efc37dd41a89bb7a1161bcd1290">
       <bounds
-          x="162"
-          y="252"
+          x="156"
+          y="396"
           width="120"
           height="55"/>
       <archimateElement
@@ -439,8 +428,8 @@
           source="id-ab453fa35b23468e8c8c5481b0944dc7"
           target="id-071eae19203341c5bb36419126d398f3"/>
       <bounds
-          x="162"
-          y="107"
+          x="312"
+          y="299"
           width="185"
           height="80"/>
     </children>
@@ -448,7 +437,7 @@
         xsi:type="archimate:DiagramModelNote"
         id="id-6490885559874afda03594dd563b28db"
         textAlignment="1"
-        content="Hernoemen naar 'Samenhangend stelsel van architecturen'">
+        content="Hernoemd van 'aansluiten bij NORA' naar 'Samenhangend stelsel van architecturen'">
       <sourceConnections
           id="id-6ca657c9957e458ea3170635f27bdc5a"
           source="id-6490885559874afda03594dd563b28db"
@@ -499,7 +488,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-8bc715db24a8417cac902ff7eccfb235">
       <bounds
-          x="420"
+          x="827"
           y="318"
           width="120"
           height="55"/>
@@ -512,7 +501,7 @@
         id="id-4b9acb76bfbb41e3913a0abe1e843439">
       <bounds
           x="162"
-          y="318"
+          y="179"
           width="120"
           height="55"/>
       <archimateElement
@@ -573,7 +562,7 @@
         fillColor="#ccccff">
       <bounds
           x="162"
-          y="396"
+          y="318"
           width="120"
           height="55"/>
       <archimateElement
@@ -618,6 +607,62 @@
       <archimateElement
           xsi:type="archimate:Principle"
           href="Principle_id-9abeecb63f9948d497eb107c423d39b7.xml#id-9abeecb63f9948d497eb107c423d39b7"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-a7ddd8a60dcc45ae827b3042bb4cfcd3">
+      <bounds
+          x="156"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Principle"
+          href="Principle_id-2dc43bd3d9c449789cf85e4a507528a5.xml#id-2dc43bd3d9c449789cf85e4a507528a5"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-60c97760571d45dba65fc6559be3abe9"
+        textAlignment="1"
+        content="Hernoemd naar 'Semantische interoperabiliteit'">
+      <sourceConnections
+          id="id-e51c7efc37dd41a89bb7a1161bcd1290"
+          source="id-60c97760571d45dba65fc6559be3abe9"
+          target="id-ff67753e9e434ea09d3c2457644fcc36"/>
+      <bounds
+          x="312"
+          y="384"
+          width="185"
+          height="80"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e28f81ae0f644907ba1c4e74a0bf28de"
+        targetConnections="id-895620a482f44d28969c46497349c080"
+        fillColor="#ccccff">
+      <bounds
+          x="516"
+          y="420"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Principle"
+          href="Principle_72b6fd75-30af-471e-870e-61f115023421.xml#72b6fd75-30af-471e-870e-61f115023421"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelNote"
+        id="id-97a28f7fa46a4ceab0170aabd39f28c2"
+        textAlignment="1"
+        content="Hernoemd naar 'Technische interoperabiliteit'">
+      <sourceConnections
+          id="id-895620a482f44d28969c46497349c080"
+          source="id-97a28f7fa46a4ceab0170aabd39f28c2"
+          target="id-e28f81ae0f644907ba1c4e74a0bf28de"/>
+      <bounds
+          x="732"
+          y="434"
+          width="185"
+          height="52"/>
     </children>
   </children>
   <children
@@ -705,7 +750,7 @@
         x="120"
         y="852"
         width="1165"
-        height="709"/>
+        height="817"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b75e87d36e224216851dab7e6a484eb6">
@@ -1214,6 +1259,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-bdbc76207f514245b2f02f8e206de75a"
+        targetConnections="id-7f71a0c212cc406ebf33792141e6674f"
         fillColor="#80ff80">
       <bounds
           x="912"
@@ -1223,19 +1269,6 @@
       <archimateElement
           xsi:type="archimate:Requirement"
           href="Requirement_id-6d06dfb2f1fb4c08a59dbefbdefa2d57.xml#id-6d06dfb2f1fb4c08a59dbefbdefa2d57"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-e28f81ae0f644907ba1c4e74a0bf28de"
-        fillColor="#ccccff">
-      <bounds
-          x="768"
-          y="140"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:Principle"
-          href="Principle_72b6fd75-30af-471e-870e-61f115023421.xml#72b6fd75-30af-471e-870e-61f115023421"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -1289,6 +1322,57 @@
           xsi:type="archimate:Requirement"
           href="Requirement_id-da86b1a98a5a439b8372b8dc76d67f7d.xml#id-da86b1a98a5a439b8372b8dc76d67f7d"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e0b80f8d555b4f2a8735effda63e50a7"
+        fillColor="#80ff80">
+      <bounds
+          x="912"
+          y="624"
+          width="217"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-bebb064105704f6e8d0eb2692b6e6ad0.xml#id-bebb064105704f6e8d0eb2692b6e6ad0"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1b6f2c3af97c4591a762e21e94e91c01">
+      <bounds
+          x="192"
+          y="720"
+          width="181"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-dca010253ddd4704bd2534571292a36c.xml#id-dca010253ddd4704bd2534571292a36c"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-dc4e139965bc4a579e8afb4547d2023d"
+        fillColor="#00ffff">
+      <bounds
+          x="24"
+          y="720"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Principle"
+          href="Principle_8ed6b136-0982-4d5d-aab4-498c22c0e8b8.xml#8ed6b136-0982-4d5d-aab4-498c22c0e8b8"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1213c2df5ca54d868215de0a126124b9"
+        fillColor="#80ff80">
+      <bounds
+          x="912"
+          y="708"
+          width="181"
+          height="61"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-3d86fc6f93f84b53be84c4d9de78ed23.xml#id-3d86fc6f93f84b53be84c4d9de78ed23"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -1303,6 +1387,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b2c461c15e904a9f8d6628c4af7d3be5"
+        targetConnections="id-ebca36982a6a4fcba0a6e091f3e4340c"
         fillColor="#ff0000">
       <bounds
           x="24"
@@ -1424,5 +1509,35 @@
           xsi:type="archimate:Goal"
           href="Goal_b06a3659-38dc-4808-90fa-f04b25b7f6d3.xml#b06a3659-38dc-4808-90fa-f04b25b7f6d3"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c10363757bc74d7888bf05574c5d5c67"
+      textAlignment="1"
+      content="'Hanteer certschema' vervangt 'Conformeer aan Code voor IB', en kan direct worden opgehangen aan Governance">
+    <sourceConnections
+        id="id-7f71a0c212cc406ebf33792141e6674f"
+        source="id-c10363757bc74d7888bf05574c5d5c67"
+        target="id-bdbc76207f514245b2f02f8e206de75a"/>
+    <sourceConnections
+        id="id-ebca36982a6a4fcba0a6e091f3e4340c"
+        source="id-c10363757bc74d7888bf05574c5d5c67"
+        target="id-b2c461c15e904a9f8d6628c4af7d3be5"/>
+    <bounds
+        x="1500"
+        y="1032"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-221588949a9341ff9d0d29d17a36c591"
+      textAlignment="1"
+      content="Voorstel: Hernoemen naar 'Technische interoperabiliteit'">
+    <bounds
+        x="190"
+        y="130"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
