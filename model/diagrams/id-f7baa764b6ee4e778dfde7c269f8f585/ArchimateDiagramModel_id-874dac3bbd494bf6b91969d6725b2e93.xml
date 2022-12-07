@@ -80,6 +80,11 @@
           id="id-f2c211bda4a849f1a769fabcfdaafcd5"
           source="id-e0d2cece96644572a6ed6de69c0b917b"
           target="id-18917f45ba6744c5a0db0921664e49c7">
+        <bendpoints
+            startX="13"
+            startY="81"
+            endX="-37"
+            endY="-75"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-d15fe0f9d93e402db61b6f613eb911a1.xml#id-d15fe0f9d93e402db61b6f613eb911a1"/>
@@ -98,13 +103,27 @@
         id="id-19a65264c213411cbfd2208dc2db96ae"
         targetConnections="id-5a4d2fc18fbd40e79d727953372ceac0">
       <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-6f49c15f1a884cadbe9a1e5513faf4e7"
+          id="id-96fbaffcbb734e43bd3dcd8be3cc12ae"
           source="id-19a65264c213411cbfd2208dc2db96ae"
-          target="id-63eda2264fcb4927ad357445281993b3">
+          target="id-3e75a79b628a44119fc5bf99c205ae10"/>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e181835bc689449682dd5f1c6a0b6e92"
+          source="id-19a65264c213411cbfd2208dc2db96ae"
+          target="id-dfbd17366f714e65a44f8915dcf4109f">
+        <bendpoints
+            startX="1"
+            startY="105"
+            endX="-216"
+            endY="-183"/>
+        <bendpoints
+            startX="157"
+            startY="105"
+            endX="-60"
+            endY="-183"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-1ccb0092a770475e94b7123a087e5e4e.xml#id-1ccb0092a770475e94b7123a087e5e4e"/>
+            href="AccessRelationship_id-a624c904fa5f4016a3b6d785a1959535.xml#id-a624c904fa5f4016a3b6d785a1959535"/>
       </sourceConnections>
       <bounds
           x="36"
@@ -491,7 +510,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-63eda2264fcb4927ad357445281993b3"
-      targetConnections="id-8d11dd3bd5c746b08d29d7f5db122330 id-bbd5e710b6f84ef592d24adbecb4ad5e id-6f49c15f1a884cadbe9a1e5513faf4e7">
+      targetConnections="id-8d11dd3bd5c746b08d29d7f5db122330 id-bbd5e710b6f84ef592d24adbecb4ad5e">
     <bounds
         x="420"
         y="336"
@@ -506,7 +525,7 @@
       id="id-18917f45ba6744c5a0db0921664e49c7"
       targetConnections="id-f2c211bda4a849f1a769fabcfdaafcd5 id-4d69ccbd7d2d4e6a94ae565d9e7e12d7">
     <bounds
-        x="601"
+        x="612"
         y="336"
         width="120"
         height="55"/>
@@ -530,7 +549,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-dfbd17366f714e65a44f8915dcf4109f"
-      targetConnections="id-431794dbff334bbcbb39c5a10be99559 id-fbcb74e55e0f4ea6b95cfb1d7416a801">
+      targetConnections="id-431794dbff334bbcbb39c5a10be99559 id-fbcb74e55e0f4ea6b95cfb1d7416a801 id-e181835bc689449682dd5f1c6a0b6e92">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-bbd5e710b6f84ef592d24adbecb4ad5e"
@@ -670,6 +689,18 @@
         x="816"
         y="12"
         width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-3e75a79b628a44119fc5bf99c205ae10"
+      targetConnections="id-96fbaffcbb734e43bd3dcd8be3cc12ae"
+      textAlignment="1"
+      content="Overdracht van gegevens van latende instelling naar ontvangende instelling. In model als processtap binnen aanmelden. Kan echter ook tijdens het inschrijven plaatsvinden">
+    <bounds
+        x="272"
+        y="12"
+        width="268"
         height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
