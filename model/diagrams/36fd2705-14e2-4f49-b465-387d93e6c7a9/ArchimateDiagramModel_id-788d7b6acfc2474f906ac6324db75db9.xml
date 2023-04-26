@@ -271,8 +271,8 @@
         fontColor="#ffffff"
         fillColor="#28b773">
       <bounds
-          x="204"
-          y="216"
+          x="396"
+          y="36"
           width="180"
           height="55"/>
       <archimateElement
@@ -316,8 +316,8 @@
         fontColor="#ffffff"
         fillColor="#28b773">
       <bounds
-          x="396"
-          y="36"
+          x="204"
+          y="216"
           width="180"
           height="55"/>
       <archimateElement
@@ -629,6 +629,15 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-a14cdd4ad1764acf9ab481a09a739f3c.xml#id-a14cdd4ad1764acf9ab481a09a739f3c"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ddc7781245bf49c4afc363e92e5f9661"
+        source="id-d2742a5e82e74f8bab0c8852d3187844"
+        target="id-726e2f86634a45018f36033a04c485a9">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-e769c5990d0c4d89b15ccccb5016b880.xml#id-e769c5990d0c4d89b15ccccb5016b880"/>
+    </sourceConnections>
     <bounds
         x="-48"
         y="240"
@@ -798,6 +807,35 @@
       <archimateElement
           xsi:type="archimate:Requirement"
           href="Requirement_c0206904-d760-43ab-aa5b-ef7f1c3417b6.xml#c0206904-d760-43ab-aa5b-ef7f1c3417b6"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-726e2f86634a45018f36033a04c485a9"
+        targetConnections="id-ddc7781245bf49c4afc363e92e5f9661"
+        fontColor="#ffffff"
+        fillColor="#28b773">
+      <bounds
+          x="12"
+          y="252"
+          width="180"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_02a39fb4-502d-4939-a00e-511df4f52d24.xml#02a39fb4-502d-4939-a00e-511df4f52d24"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c37aadf3076249fe99408282ee7563b3"
+        fontColor="#ffffff"
+        fillColor="#28b773">
+      <bounds
+          x="12"
+          y="36"
+          width="180"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-8aaafeb875744fc38ad78b6d09a3a7bf.xml#id-8aaafeb875744fc38ad78b6d09a3a7bf"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -1136,7 +1174,7 @@
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-8fb1594faeac48008881823edcd7ef8e"
-      name="Geen plek in ROSA, want onderzoek"
+      name="Onderzoek (buiten scope ROSA)"
       textAlignment="1">
     <bounds
         x="888"
