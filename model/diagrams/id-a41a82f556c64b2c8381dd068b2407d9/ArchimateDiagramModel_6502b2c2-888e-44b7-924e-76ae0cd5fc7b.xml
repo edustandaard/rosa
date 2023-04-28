@@ -7,7 +7,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="3194aacb-1069-4b5e-b744-713bf8298b6a"
       textAlignment="1"
-      fillColor="#f4f4ff">
+      fillColor="#f4f4ff"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="5cb2ca0e-08e9-435a-acc4-942d96508d04"
@@ -25,15 +26,6 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_9446eea4-14f4-4043-9877-1d206587ebed.xml#9446eea4-14f4-4043-9877-1d206587ebed"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="2ddf1d0b-6517-4044-beed-2cca82fd1f86"
-        source="3194aacb-1069-4b5e-b744-713bf8298b6a"
-        target="e9ecd7b0-6b9a-4023-b19d-b4b611ee677c">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_a5d041cd-40c0-4c47-a47c-1d8e600877c4.xml#a5d041cd-40c0-4c47-a47c-1d8e600877c4"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -73,15 +65,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="3cfaa293-9508-4f45-a592-d8a049d26db1"
-        source="3194aacb-1069-4b5e-b744-713bf8298b6a"
-        target="f1261294-e3a6-4f3c-aaf8-5218aca8eed2">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_b2fd7aed-f3b0-499b-9406-0564124c680b.xml#b2fd7aed-f3b0-499b-9406-0564124c680b"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-80ef0fc1e28c474095935ab886aac29f"
         source="3194aacb-1069-4b5e-b744-713bf8298b6a"
         target="id-293cd99a53cb40fdbe2492752e756f7a">
@@ -106,15 +89,6 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_6e7b493f-45db-4d38-a088-bb399eb720c4.xml#6e7b493f-45db-4d38-a088-bb399eb720c4"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-227de1a30d9f4f18b5c8f1a968f4419f"
-        source="3194aacb-1069-4b5e-b744-713bf8298b6a"
-        target="id-3dfe5cc8e8a8410caa85dc4112aac28a">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-b6fa8a9dfa5b47cea9efee7077ef7e5e.xml#id-b6fa8a9dfa5b47cea9efee7077ef7e5e"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -943,46 +917,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3dfe5cc8e8a8410caa85dc4112aac28a"
-      targetConnections="id-227de1a30d9f4f18b5c8f1a968f4419f id-ce483bd6475644a4b52cceb0defc940e"
-      fillColor="#ccccff">
-    <bounds
-        x="407"
-        y="933"
-        width="181"
-        height="61"/>
-    <archimateElement
-        xsi:type="archimate:Requirement"
-        href="Requirement_id-3d86fc6f93f84b53be84c4d9de78ed23.xml#id-3d86fc6f93f84b53be84c4d9de78ed23"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="f1261294-e3a6-4f3c-aaf8-5218aca8eed2"
-      targetConnections="3cfaa293-9508-4f45-a592-d8a049d26db1 id-664360ee76f649bfbad95c9ee7f743c1">
-    <bounds
-        x="215"
-        y="933"
-        width="181"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Requirement"
-        href="Requirement_6116171e-7129-45b0-968b-b4ad1b4087df.xml#6116171e-7129-45b0-968b-b4ad1b4087df"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="e9ecd7b0-6b9a-4023-b19d-b4b611ee677c"
-      targetConnections="2ddf1d0b-6517-4044-beed-2cca82fd1f86 id-dc66a5c798fc4039bca8a06aacd87653">
-    <bounds
-        x="35"
-        y="933"
-        width="181"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:Requirement"
-        href="Requirement_260e8447-8cae-435d-aa73-aabda2d2222b.xml#260e8447-8cae-435d-aa73-aabda2d2222b"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e645106214d94265b7875dedd675f97c"
       targetConnections="id-109408bea966448dab2e19a5246a5c86 id-dbbd0ecfaa684d3db42623355029548d">
     <bounds
@@ -1004,32 +938,9 @@
         source="id-45710c95cf624619b71107c99f3777dd"
         target="id-e645106214d94265b7875dedd675f97c"/>
     <bounds
-        x="576"
-        y="1056"
+        x="610"
+        y="996"
         width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-9f538b209f1144858df7daaa62978808"
-      textAlignment="1"
-      content="Weg (voorbeelden van mogelijke maatregelen obv Risicogebaseerde BIV-classificatie en maatregelen)">
-    <sourceConnections
-        id="id-dc66a5c798fc4039bca8a06aacd87653"
-        source="id-9f538b209f1144858df7daaa62978808"
-        target="e9ecd7b0-6b9a-4023-b19d-b4b611ee677c"/>
-    <sourceConnections
-        id="id-664360ee76f649bfbad95c9ee7f743c1"
-        source="id-9f538b209f1144858df7daaa62978808"
-        target="f1261294-e3a6-4f3c-aaf8-5218aca8eed2"/>
-    <sourceConnections
-        id="id-ce483bd6475644a4b52cceb0defc940e"
-        source="id-9f538b209f1144858df7daaa62978808"
-        target="id-3dfe5cc8e8a8410caa85dc4112aac28a"/>
-    <bounds
-        x="161"
-        y="1018"
-        width="289"
         height="80"/>
   </children>
   <children
@@ -1051,7 +962,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-5093d8eff6cf44e895a4ea5af0544954"
       textAlignment="1"
-      content="Opdelen in drie delen?&#xD;&#xA;1. Sectoraal (gezamenlijk organiseren)&#xD;&#xA;2. Keten (bilateraal/binnen samenwerking)&#xD;&#xA;3. Individueel (zelf) - als zij het niet voor elkaar hebben, straalt dat af op de keten&#xD;&#xA;&#xD;&#xA;Zie ook de oorpsronkelijke tekst uit Katern IBP (2015) dat incidenten door kunnen werken in de keten.">
+      content="Opdelen in drie delen&#xD;&#xA;1. Sectoraal (gezamenlijk organiseren)&#xD;&#xA;2. Keten (bilateraal/binnen samenwerking)&#xD;&#xA;3. Individueel (zelf) - als zij het niet voor elkaar hebben, straalt dat af op de keten&#xD;&#xA;&#xD;&#xA;Zie ook de oorpsronkelijke tekst uit Katern IBP (2015) dat incidenten door kunnen werken in de keten.">
     <bounds
         x="1204"
         y="415"
@@ -1287,6 +1198,17 @@
     <archimateElement
         xsi:type="archimate:Goal"
         href="Goal_id-8201e97053814fe0ae49b7c12aaa3a04.xml#id-8201e97053814fe0ae49b7c12aaa3a04"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-9efe3f3192194d0983084634da58ec74"
+      textAlignment="1"
+      content="Het ontwerpgebied IBP wordt op dit moment gereviseerd, en ingepast in de nieuwe structuur van ontwerpgebieden en architectuurkaders,">
+    <bounds
+        x="958"
+        y="-98"
+        width="231"
+        height="111"/>
   </children>
   <properties
       key="Publiceren"
