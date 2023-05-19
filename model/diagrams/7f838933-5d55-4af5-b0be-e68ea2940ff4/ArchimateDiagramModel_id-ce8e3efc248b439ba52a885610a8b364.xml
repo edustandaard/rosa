@@ -913,8 +913,8 @@
       name="Concept - toetsen"
       textAlignment="1">
     <bounds
-        x="-48"
-        y="816"
+        x="-24"
+        y="828"
         width="877"
         height="217"/>
     <children
@@ -965,6 +965,52 @@
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_id-31ceec6542034356b45b327905bb8d82.xml#id-31ceec6542034356b45b327905bb8d82"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-d08e78e9a1164fe79d2ee8b9942e23cf">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-522350442a83433ab556091bfa63d2c9"
+        source="id-d08e78e9a1164fe79d2ee8b9942e23cf"
+        target="id-db884a6361ab459aa75a4bda7c5f1942">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-9aab0ea931db457dbfb1f6d0a862b48c.xml#id-9aab0ea931db457dbfb1f6d0a862b48c"/>
+    </sourceConnections>
+    <bounds
+        x="1028"
+        y="475"
+        width="272"
+        height="113"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-db884a6361ab459aa75a4bda7c5f1942"
+        targetConnections="id-522350442a83433ab556091bfa63d2c9">
+      <bounds
+          x="24"
+          y="36"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-3db233762f62419184e88c139f3b967d.xml#id-3db233762f62419184e88c139f3b967d"/>
+    </children>
+    <archimateElement
+        xsi:type="archimate:BusinessInteraction"
+        href="BusinessInteraction_id-a6797e6b9294485caad76f10a08c28c1.xml#id-a6797e6b9294485caad76f10a08c28c1"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-7b21867ba3314917952ddf8873e5c188">
+    <bounds
+        x="1392"
+        y="475"
+        width="181"
+        height="126"/>
+    <archimateElement
+        xsi:type="archimate:BusinessInteraction"
+        href="BusinessInteraction_id-9d1474203fab48a2a8857c3d5ae89cd2.xml#id-9d1474203fab48a2a8857c3d5ae89cd2"/>
   </children>
   <properties
       key="Publiceren"
