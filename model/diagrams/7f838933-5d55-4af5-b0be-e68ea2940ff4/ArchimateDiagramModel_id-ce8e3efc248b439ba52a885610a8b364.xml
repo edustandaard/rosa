@@ -1,8 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="[Ontwerp] Examineren en Toetsen"
-    id="id-ce8e3efc248b439ba52a885610a8b364">
+    name="Examineren en Toetsen"
+    id="id-ce8e3efc248b439ba52a885610a8b364"
+    documentation="Dit proces geeft de keteninrichting van het examineren en toetsen weer. ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d9f549984f964779b27e00f6a53eeba6"
@@ -212,7 +213,7 @@
           endY="-138"/>
       <bendpoints
           startX="228"
-          startY="69"
+          startY="81"
           endY="-111"/>
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
@@ -542,6 +543,25 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-e106aac3e817460dbcf88b620756886b.xml#id-e106aac3e817460dbcf88b620756886b"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e5bb7fca496f42bbad32da5817950d17"
+          source="id-4f5388d643ac410499feb9b460a0d0e9"
+          target="id-b7e8787cdce8436d857d931fe35d8519">
+        <bendpoints
+            startX="36"
+            startY="90"
+            endX="-132"
+            endY="-51"/>
+        <bendpoints
+            startX="132"
+            startY="90"
+            endX="-36"
+            endY="-51"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-887f2c6aff6945289714c35036ec738b.xml#id-887f2c6aff6945289714c35036ec738b"/>
+      </sourceConnections>
       <bounds
           x="24"
           y="36"
@@ -571,7 +591,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b7e8787cdce8436d857d931fe35d8519"
-      targetConnections="id-3a2c27942eea49969ac05bde80b9bc06">
+      targetConnections="id-3a2c27942eea49969ac05bde80b9bc06 id-e5bb7fca496f42bbad32da5817950d17">
     <bounds
         x="228"
         y="564"
@@ -750,9 +770,9 @@
         id="id-db13bd128bfd4680a05daa2afae0e0df"
         targetConnections="id-645ffff6f5664fbdb21bbad1e01293e8">
       <bounds
-          x="24"
+          x="12"
           y="24"
-          width="120"
+          width="145"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -774,7 +794,7 @@
       <bounds
           x="180"
           y="24"
-          width="120"
+          width="145"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -858,4 +878,16 @@
   <properties
       key="Status"
       value="Concept"/>
+  <properties
+      key="Alternatieve zoekterm"
+      value="Toetsen en examineren"/>
+  <properties
+      key="Datum laatste wijziging"
+      value="22-06-2023"/>
+  <properties
+      key="Beschrijving laatste wijziging"
+      value="Aanvulling van het model met &quot;waarderen anders verworven resultaten&quot; Tevens is het diplomeren en certificeren uit het examineren gehaald en is het toetsen kleiner gemaakt met enkel 4 stappen."/>
+  <properties
+      key="Type"
+      value="Ketenproces"/>
 </archimate:ArchimateDiagramModel>
