@@ -351,15 +351,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-5f07289b24a44685a879dd54dec17771"
-        source="id-5053f8fa897a4d9da85cec3e1eb60424"
-        target="id-c31de526e68b430f810b4f8fa653c69d">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-7aed9642e3844ad38bb36fec9bd48498.xml#id-7aed9642e3844ad38bb36fec9bd48498"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-6ad0751b99054f95b38aeb85c01f6bf6"
         source="id-5053f8fa897a4d9da85cec3e1eb60424"
         target="id-db1dc7ea158048ecbfa2c3a5fc20a837">
@@ -437,28 +428,6 @@
         height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-c31de526e68b430f810b4f8fa653c69d"
-        targetConnections="id-5f07289b24a44685a879dd54dec17771">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-d91c98770e1941f4ae97cbc9e0a094a4"
-          source="id-c31de526e68b430f810b4f8fa653c69d"
-          target="id-d72506adb2be4214b28848621e5d8518">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-3277b249eb804fa1be5bb0308514e6dd.xml#id-3277b249eb804fa1be5bb0308514e6dd"/>
-      </sourceConnections>
-      <bounds
-          x="12"
-          y="24"
-          width="120"
-          height="49"/>
-      <archimateElement
-          xsi:type="archimate:BusinessInteraction"
-          href="BusinessInteraction_id-58cb5dc91594489d8a0b9730805b1eb3.xml#id-58cb5dc91594489d8a0b9730805b1eb3"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-db1dc7ea158048ecbfa2c3a5fc20a837"
         targetConnections="id-6ad0751b99054f95b38aeb85c01f6bf6">
       <sourceConnections
@@ -469,24 +438,6 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-9d5c85348294484d8522f577cba29876.xml#id-9d5c85348294484d8522f577cba29876"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-674d6f4d506a4fffa775f200650462fc"
-          source="id-db1dc7ea158048ecbfa2c3a5fc20a837"
-          target="id-10c57cff6340407aa7e415facf212c33">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-e106aac3e817460dbcf88b620756886b.xml#id-e106aac3e817460dbcf88b620756886b"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-fc4510eb7acc47b8b0276581d714cd21"
-          source="id-db1dc7ea158048ecbfa2c3a5fc20a837"
-          target="id-d72506adb2be4214b28848621e5d8518">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-9f50eab445fb4796be5ca70f08b17b3d.xml#id-9f50eab445fb4796be5ca70f08b17b3d"/>
       </sourceConnections>
       <bounds
           x="144"
@@ -639,7 +590,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-10c57cff6340407aa7e415facf212c33"
-      targetConnections="id-674d6f4d506a4fffa775f200650462fc id-36915e4206494f10917bf84ef18987a7"
+      targetConnections="id-36915e4206494f10917bf84ef18987a7"
       type="1">
     <bounds
         x="240"
@@ -676,7 +627,7 @@
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-45852034-86f6-4457-bf12-65eb75761095.xml#id-45852034-86f6-4457-bf12-65eb75761095"/>
+        href="BusinessObject_id-8bab9d2bbd3c4098a8504e3de3a65ce2.xml#id-8bab9d2bbd3c4098a8504e3de3a65ce2"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -695,7 +646,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d72506adb2be4214b28848621e5d8518"
-      targetConnections="id-d91c98770e1941f4ae97cbc9e0a094a4 id-fc4510eb7acc47b8b0276581d714cd21"
       type="1">
     <bounds
         x="96"
