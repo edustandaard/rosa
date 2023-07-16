@@ -1,8 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="[Ontwerp] Examineren en Toetsen"
-    id="id-ce8e3efc248b439ba52a885610a8b364">
+    name="Examineren en Toetsen"
+    id="id-ce8e3efc248b439ba52a885610a8b364"
+    documentation="Dit ketenprocesmodel geeft de inrichting van de ketenprocessen examineren en toetsen weer en hoe die zich tot elkaar verhouden. Daarnaast zijn een aantal aanpalende ketenprocessen uitgewerkt die nauw verweven zijn met de twee genoemde processen. ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d9f549984f964779b27e00f6a53eeba6"
@@ -212,7 +213,7 @@
           endY="-138"/>
       <bendpoints
           startX="228"
-          startY="69"
+          startY="81"
           endY="-111"/>
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
@@ -241,7 +242,7 @@
           href="AggregationRelationship_id-8da170345c0f43f2a081b585ac765f71.xml#id-8da170345c0f43f2a081b585ac765f71"/>
     </sourceConnections>
     <bounds
-        x="744"
+        x="720"
         y="240"
         width="120"
         height="55"/>
@@ -542,6 +543,25 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-e106aac3e817460dbcf88b620756886b.xml#id-e106aac3e817460dbcf88b620756886b"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e5bb7fca496f42bbad32da5817950d17"
+          source="id-4f5388d643ac410499feb9b460a0d0e9"
+          target="id-b7e8787cdce8436d857d931fe35d8519">
+        <bendpoints
+            startX="36"
+            startY="90"
+            endX="-132"
+            endY="-51"/>
+        <bendpoints
+            startX="132"
+            startY="90"
+            endX="-36"
+            endY="-51"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-887f2c6aff6945289714c35036ec738b.xml#id-887f2c6aff6945289714c35036ec738b"/>
+      </sourceConnections>
       <bounds
           x="24"
           y="36"
@@ -571,7 +591,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b7e8787cdce8436d857d931fe35d8519"
-      targetConnections="id-3a2c27942eea49969ac05bde80b9bc06">
+      targetConnections="id-3a2c27942eea49969ac05bde80b9bc06 id-e5bb7fca496f42bbad32da5817950d17">
     <bounds
         x="228"
         y="564"
@@ -750,9 +770,9 @@
         id="id-db13bd128bfd4680a05daa2afae0e0df"
         targetConnections="id-645ffff6f5664fbdb21bbad1e01293e8">
       <bounds
-          x="24"
+          x="12"
           y="24"
-          width="120"
+          width="145"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -774,7 +794,7 @@
       <bounds
           x="180"
           y="24"
-          width="120"
+          width="145"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -796,10 +816,19 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-e9055e522fa04f7ba71cb245f0bd7fef.xml#id-e9055e522fa04f7ba71cb245f0bd7fef"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c1c3e7d223404f0cbcc0d963a9272a3b"
+        source="id-7c99d9109fc24dd7a5029b06fe67f8ad"
+        target="id-7d7c1bdc22ee48f4a1f9fc94c8dc761e">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-d31089c2c2764d84bc9522f2e98ce9c9.xml#id-d31089c2c2764d84bc9522f2e98ce9c9"/>
+    </sourceConnections>
     <bounds
         x="699"
         y="120"
-        width="209"
+        width="310"
         height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -834,13 +863,26 @@
             href="AccessRelationship_id-cacddec7376346078691e77df3b14936.xml#id-cacddec7376346078691e77df3b14936"/>
       </sourceConnections>
       <bounds
-          x="48"
+          x="24"
           y="24"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-fae06f1937c942a09693d6d8138c14bc.xml#id-fae06f1937c942a09693d6d8138c14bc"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7d7c1bdc22ee48f4a1f9fc94c8dc761e"
+        targetConnections="id-c1c3e7d223404f0cbcc0d963a9272a3b">
+      <bounds
+          x="168"
+          y="24"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-36a622ab738b41b8a0d007d13d0f497e.xml#id-36a622ab738b41b8a0d007d13d0f497e"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
@@ -858,4 +900,16 @@
   <properties
       key="Status"
       value="Concept"/>
+  <properties
+      key="Alternatieve zoekterm"
+      value="Toetsen en examineren"/>
+  <properties
+      key="Datum laatste wijziging"
+      value="22-06-2023"/>
+  <properties
+      key="Beschrijving laatste wijziging"
+      value="Aanvulling van het model met &quot;waarderen anders verworven resultaten&quot; Tevens is het diplomeren en certificeren uit het examineren gehaald en is het toetsen kleiner gemaakt met enkel 4 stappen."/>
+  <properties
+      key="Type"
+      value="Ketenproces"/>
 </archimate:ArchimateDiagramModel>
