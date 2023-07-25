@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Examineren en Toetsen"
     id="id-ce8e3efc248b439ba52a885610a8b364"
-    documentation="Dit proces geeft de keteninrichting van het examineren en toetsen weer. ">
+    documentation="Dit ketenprocesmodel geeft de inrichting van de ketenprocessen examineren en toetsen weer en hoe die zich tot elkaar verhouden. Daarnaast zijn een aantal aanpalende ketenprocessen uitgewerkt die nauw verweven zijn met de twee genoemde processen. ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d9f549984f964779b27e00f6a53eeba6"
@@ -242,7 +242,7 @@
           href="AggregationRelationship_id-8da170345c0f43f2a081b585ac765f71.xml#id-8da170345c0f43f2a081b585ac765f71"/>
     </sourceConnections>
     <bounds
-        x="744"
+        x="720"
         y="240"
         width="120"
         height="55"/>
@@ -816,10 +816,19 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-e9055e522fa04f7ba71cb245f0bd7fef.xml#id-e9055e522fa04f7ba71cb245f0bd7fef"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c1c3e7d223404f0cbcc0d963a9272a3b"
+        source="id-7c99d9109fc24dd7a5029b06fe67f8ad"
+        target="id-7d7c1bdc22ee48f4a1f9fc94c8dc761e">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-d31089c2c2764d84bc9522f2e98ce9c9.xml#id-d31089c2c2764d84bc9522f2e98ce9c9"/>
+    </sourceConnections>
     <bounds
         x="699"
         y="120"
-        width="209"
+        width="310"
         height="85"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -854,13 +863,26 @@
             href="AccessRelationship_id-cacddec7376346078691e77df3b14936.xml#id-cacddec7376346078691e77df3b14936"/>
       </sourceConnections>
       <bounds
-          x="48"
+          x="24"
           y="24"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-fae06f1937c942a09693d6d8138c14bc.xml#id-fae06f1937c942a09693d6d8138c14bc"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-7d7c1bdc22ee48f4a1f9fc94c8dc761e"
+        targetConnections="id-c1c3e7d223404f0cbcc0d963a9272a3b">
+      <bounds
+          x="168"
+          y="24"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-36a622ab738b41b8a0d007d13d0f497e.xml#id-36a622ab738b41b8a0d007d13d0f497e"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
