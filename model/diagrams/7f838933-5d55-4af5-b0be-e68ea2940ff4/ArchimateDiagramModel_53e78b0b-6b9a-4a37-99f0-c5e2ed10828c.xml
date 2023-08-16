@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Functionaliteiten (zolder)"
+    name="Applicatieservices (zolder)"
     id="53e78b0b-6b9a-4a37-99f0-c5e2ed10828c">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -17,7 +17,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="6079ef24-224a-4f29-988f-96a9c28af130">
+      id="6079ef24-224a-4f29-988f-96a9c28af130"
+      targetConnections="id-5079ce48e55e4085b772e0e5c2808bfe">
     <bounds
         x="12"
         y="167"
@@ -663,6 +664,15 @@
       id="245f6bfa-87bf-4306-8659-d907b992c1a1"
       targetConnections="b242d03c-cb64-4319-9856-49844167808d"
       type="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5079ce48e55e4085b772e0e5c2808bfe"
+        source="245f6bfa-87bf-4306-8659-d907b992c1a1"
+        target="6079ef24-224a-4f29-988f-96a9c28af130">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-707ab6f18b584b70807fa2d744d05e83.xml#id-707ab6f18b584b70807fa2d744d05e83"/>
+    </sourceConnections>
     <bounds
         x="217"
         y="167"
@@ -1014,5 +1024,16 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_ebe390d9-e3f1-43e9-90bb-a85511801ccc.xml#ebe390d9-e3f1-43e9-90bb-a85511801ccc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-fb67e2582dd7440aab8725867b8357ce"
+      textAlignment="1"
+      content="Deze view komt 'van zolder'. De services die hierop staan zouden allemaal nagelopen moeten worden en - indien relevant - opgehangen aan de juiste elementen (c.q. refentiecomponenten/ketenvoorzieningen en ketenprocessen) adhv een nog te bepalen(?) viewpoint.&#xD;&#xA;&#xD;&#xA;16/8/2023 - rdb&amp;bd">
+    <bounds
+        x="276"
+        y="366"
+        width="254"
+        height="182"/>
   </children>
 </archimate:ArchimateDiagramModel>
