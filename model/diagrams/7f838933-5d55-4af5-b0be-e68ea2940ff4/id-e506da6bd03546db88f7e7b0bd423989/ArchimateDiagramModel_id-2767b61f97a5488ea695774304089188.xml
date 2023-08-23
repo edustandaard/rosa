@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Examineren en Toetsen V2"
+    name="Examineren en Toetsen (IN CONTEXT)"
     id="id-2767b61f97a5488ea695774304089188"
     documentation="Dit ketenprocesmodel geeft de inrichting van de ketenprocessen examineren en toetsen weer en hoe die zich tot elkaar verhouden. Daarnaast zijn een aantal aanpalende ketenprocessen uitgewerkt die nauw verweven zijn met de twee genoemde processen. ">
   <children
@@ -182,20 +182,6 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-01c93db9a20342219a243d3de0cf8b5f.xml#id-01c93db9a20342219a243d3de0cf8b5f"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-78edfc478f4349d3a916e8e21d9b5f9d"
-          source="id-f92da406082b43dc8689bb6b7861f8e3"
-          target="id-710e24395edd4d16b001426e74b44357">
-        <bendpoints
-            startX="60"
-            startY="-90"
-            endX="-264"
-            endY="-3"/>
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-d833119a574a456da75a192cf2792ad4.xml#id-d833119a574a456da75a192cf2792ad4"/>
       </sourceConnections>
       <bounds
           x="156"
@@ -534,6 +520,15 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-241c0485df1a425d9cad1dfb0dd179b0.xml#id-241c0485df1a425d9cad1dfb0dd179b0"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-a3a7910f27534e50a5aa18107dfbf203"
+          source="id-f38d8eabf0e7482ca4ef263bdf916831"
+          target="id-15d27374b42f4543bf1f4fe87e72a472">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-258009e8386c4a18b1215914da0a13fa.xml#id-258009e8386c4a18b1215914da0a13fa"/>
+      </sourceConnections>
       <bounds
           x="24"
           y="36"
@@ -588,7 +583,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-15d27374b42f4543bf1f4fe87e72a472">
+      id="id-15d27374b42f4543bf1f4fe87e72a472"
+      targetConnections="id-a3a7910f27534e50a5aa18107dfbf203">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c6030fa62fb04652993984ed7e69acdc"
@@ -997,7 +993,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-710e24395edd4d16b001426e74b44357"
-      targetConnections="id-78edfc478f4349d3a916e8e21d9b5f9d id-5664ce09c50c4cb882cf22ede3a67067">
+      targetConnections="id-5664ce09c50c4cb882cf22ede3a67067">
     <bounds
         x="960"
         y="120"
