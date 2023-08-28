@@ -255,7 +255,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-46f3322b4d25472eaa8c2120b2acdc5f"
-        targetConnections="id-06c32f5731de43ff9f8d376f748974b7 id-7ee93db04b384ce2ac7720ba5db0eeb6 id-390ea383ea2743579618dbaac70c964d">
+        targetConnections="id-06c32f5731de43ff9f8d376f748974b7 id-7ee93db04b384ce2ac7720ba5db0eeb6 id-390ea383ea2743579618dbaac70c964d id-df6e34f78e41460e9501ee793b373bb5 id-aa67a34d411c45b686c099f14f41d1ec">
       <bounds
           x="900"
           y="186"
@@ -360,7 +360,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d3fd9acb777a4e0897d47b9dca9ed8f7"
-        targetConnections="id-3e6386bb24114384bf23973be82dc1b6 id-8056101baade46d8a2d28c330b972992">
+        targetConnections="id-3e6386bb24114384bf23973be82dc1b6 id-8056101baade46d8a2d28c330b972992 id-fbe6b8194c404c92892ae0ecd893e0ee">
       <bounds
           x="48"
           y="156"
@@ -816,6 +816,67 @@
         y="825"
         width="187"
         height="88"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-608405a2daa24324addc6c2c3e897cb7"
+      textAlignment="1"
+      content="In overleg met Remco; vraag: moet het leerresultaat niet ontstaan vanuit het gebruik van een leermiddel? &#xD;&#xA;hierdoor input voor monitoren voortgang, monitoren voortgang maakt gebruik van de informatie van het leerresultaat object.">
+    <sourceConnections
+        id="id-fbe6b8194c404c92892ae0ecd893e0ee"
+        source="id-608405a2daa24324addc6c2c3e897cb7"
+        target="id-d3fd9acb777a4e0897d47b9dca9ed8f7"/>
+    <bounds
+        x="1272"
+        y="72"
+        width="310"
+        height="106"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-fe28a7a6976c476d905e10a77c38a549"
+      targetConnections="id-92d83cdce9504891a8c6c4303518de9d"
+      textAlignment="1"
+      content="Extern betekenisvolle waardering van een leerresultaat. ">
+    <sourceConnections
+        id="id-df6e34f78e41460e9501ee793b373bb5"
+        source="id-fe28a7a6976c476d905e10a77c38a549"
+        target="id-46f3322b4d25472eaa8c2120b2acdc5f"/>
+    <bounds
+        x="1392"
+        y="300"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4aecd493e45a46cfbede62ff0cc5be58"
+      textAlignment="1"
+      content="Dit betekend dat diplomeren en certificeren een relatie heeft naar een onderwijsresultaat of naar het administeren van het ondewijsresultaat">
+    <sourceConnections
+        id="id-92d83cdce9504891a8c6c4303518de9d"
+        source="id-4aecd493e45a46cfbede62ff0cc5be58"
+        target="id-fe28a7a6976c476d905e10a77c38a549"/>
+    <bounds
+        x="1635"
+        y="326"
+        width="226"
+        height="119"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4806e5f7c7014363a274dd5816e6945a"
+      textAlignment="1"
+      content="Gaan we spreken over: &#xD;&#xA; - Waardedocumenten&#xD;&#xA;- onderwijs resultaten&#xD;&#xA;- allebei of een van de twee?">
+    <sourceConnections
+        id="id-aa67a34d411c45b686c099f14f41d1ec"
+        source="id-4806e5f7c7014363a274dd5816e6945a"
+        target="id-46f3322b4d25472eaa8c2120b2acdc5f"/>
+    <bounds
+        x="1401"
+        y="442"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Publiceren"
