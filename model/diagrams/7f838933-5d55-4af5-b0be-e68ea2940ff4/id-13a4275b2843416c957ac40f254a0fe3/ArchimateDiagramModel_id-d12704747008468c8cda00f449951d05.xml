@@ -359,19 +359,6 @@
         height="253"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-d3fd9acb777a4e0897d47b9dca9ed8f7"
-        targetConnections="id-3e6386bb24114384bf23973be82dc1b6 id-8056101baade46d8a2d28c330b972992 id-fbe6b8194c404c92892ae0ecd893e0ee">
-      <bounds
-          x="48"
-          y="156"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-33a5182e836a47ecbbccffc978b4c58e.xml#id-33a5182e836a47ecbbccffc978b4c58e"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e11f1f43db6f4ae5bd9a0ea16bff323d"
         fillColor="#ffffff">
       <sourceConnections
@@ -497,8 +484,8 @@
     <bounds
         x="252"
         y="600"
-        width="403"
-        height="169"/>
+        width="409"
+        height="241"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0c404192cd9542d59f61d83c6bcd7d38"
@@ -514,7 +501,7 @@
       </sourceConnections>
       <bounds
           x="36"
-          y="48"
+          y="132"
           width="157"
           height="73"/>
       <archimateElement
@@ -532,12 +519,12 @@
           target="id-a572037b7a6949b88de5e35be097dfac">
         <bendpoints
             startX="6"
-            startY="-108"
+            startY="-192"
             endX="199"
             endY="99"/>
         <bendpoints
             startX="-174"
-            startY="-108"
+            startY="-192"
             endX="19"
             endY="99"/>
         <archimateRelationship
@@ -546,12 +533,25 @@
       </sourceConnections>
       <bounds
           x="228"
-          y="48"
+          y="132"
           width="157"
           height="73"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-c08042f488ca4b86a3060375abf005f1.xml#id-c08042f488ca4b86a3060375abf005f1"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d3fd9acb777a4e0897d47b9dca9ed8f7"
+        targetConnections="id-3e6386bb24114384bf23973be82dc1b6 id-8056101baade46d8a2d28c330b972992 id-fbe6b8194c404c92892ae0ecd893e0ee">
+      <bounds
+          x="156"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-33a5182e836a47ecbbccffc978b4c58e.xml#id-33a5182e836a47ecbbccffc978b4c58e"/>
     </children>
   </children>
   <children
@@ -826,6 +826,10 @@
         id="id-fbe6b8194c404c92892ae0ecd893e0ee"
         source="id-608405a2daa24324addc6c2c3e897cb7"
         target="id-d3fd9acb777a4e0897d47b9dca9ed8f7"/>
+    <sourceConnections
+        id="id-5c615784c5ff4e52950078e36c461ad8"
+        source="id-608405a2daa24324addc6c2c3e897cb7"
+        target="id-0f2ca9ade12444979541a0361429da75"/>
     <bounds
         x="1272"
         y="72"
@@ -857,6 +861,10 @@
         id="id-92d83cdce9504891a8c6c4303518de9d"
         source="id-4aecd493e45a46cfbede62ff0cc5be58"
         target="id-fe28a7a6976c476d905e10a77c38a549"/>
+    <sourceConnections
+        id="id-6ec210ecdba54bf6b17416ca3b38f67d"
+        source="id-4aecd493e45a46cfbede62ff0cc5be58"
+        target="id-fa469f9c24d846fc99adba280f3ee967"/>
     <bounds
         x="1635"
         y="326"
@@ -872,11 +880,54 @@
         id="id-aa67a34d411c45b686c099f14f41d1ec"
         source="id-4806e5f7c7014363a274dd5816e6945a"
         target="id-46f3322b4d25472eaa8c2120b2acdc5f"/>
+    <sourceConnections
+        id="id-cb63a57453dd4962b239f44dffdfe992"
+        source="id-4806e5f7c7014363a274dd5816e6945a"
+        target="id-e4f927b4573b4ad0b869d087d0ecaf94"/>
     <bounds
         x="1344"
         y="468"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-0f2ca9ade12444979541a0361429da75"
+      targetConnections="id-5c615784c5ff4e52950078e36c461ad8"
+      textAlignment="1"
+      fillColor="#80ff80"
+      content="Ja grotendeels eens. Maar ontstaat uit uitvoering van het onderwijs/toetsen en examineren waarbij het leermiddel ter ondersteuning is. Eens dat de getekenede relatie een read moet zijn (dus monitoren maakt gebruik van)">
+    <bounds
+        x="1512"
+        y="192"
+        width="289"
+        height="97"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-fa469f9c24d846fc99adba280f3ee967"
+      targetConnections="id-6ec210ecdba54bf6b17416ca3b38f67d"
+      textAlignment="1"
+      fillColor="#80ff80"
+      content="Ik heb nu een relatie van administreren certificering naar onderwijsresultaat">
+    <bounds
+        x="1668"
+        y="480"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-e4f927b4573b4ad0b869d087d0ecaf94"
+      targetConnections="id-cb63a57453dd4962b239f44dffdfe992"
+      textAlignment="1"
+      fillColor="#80ff80"
+      content="Een onderwijsresultaat kan o.m. een waardedocument zijn, maar bijvoorbeeld (volgens mij ook de afronding van een stageopdracht)">
+    <bounds
+        x="1416"
+        y="559"
+        width="209"
+        height="102"/>
   </children>
   <properties
       key="Publiceren"
