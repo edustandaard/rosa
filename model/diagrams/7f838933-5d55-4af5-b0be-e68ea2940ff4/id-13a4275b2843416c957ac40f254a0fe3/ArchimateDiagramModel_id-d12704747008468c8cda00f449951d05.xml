@@ -358,6 +358,10 @@
         id="id-6ec62cddccf04dc9bddedc7730fe4e66"
         source="id-ba12aedd6a854e58b7ec048d1999ede5"
         target="id-098ba8f0f98c4b5ab5d35d514f322318"/>
+    <sourceConnections
+        id="id-ae624a0b5014402785180d0527dcbf4d"
+        source="id-ba12aedd6a854e58b7ec048d1999ede5"
+        target="id-abe0df5640f04cbea68b50f1934667f3"/>
     <bounds
         x="936"
         y="51"
@@ -668,7 +672,7 @@
       id="id-098ba8f0f98c4b5ab5d35d514f322318"
       targetConnections="id-6ec62cddccf04dc9bddedc7730fe4e66"
       textAlignment="1"
-      content="Ketenprocessen binnen context: &#xD;&#xA;- Monitoren voortgang&#xD;&#xA;- Monitoren doorstroom (!?)&#xD;&#xA;- Verzamelen digitaal portfolio &#xD;&#xA;- Waarderen verworven resultaten">
+      content="Ketenprocessen binnen context: &#xD;&#xA;- Monitoren voortgang&#xD;&#xA;- Monitoren doorstroom (!?)&#xD;&#xA;- Verzamelen digitaal portfolio ">
     <bounds
         x="996"
         y="-153"
@@ -917,6 +921,18 @@
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-aa0089ee5df848ec8605a99ce0b452eb.xml#id-aa0089ee5df848ec8605a99ce0b452eb"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-abe0df5640f04cbea68b50f1934667f3"
+      targetConnections="id-ae624a0b5014402785180d0527dcbf4d"
+      textAlignment="1"
+      content="Wijziging aangebracht. Monitoren voortgang had Leerresultaat als output. Leerresultaat hoort in model bij de oorsprong. Heeft nu onderwijsresultaat als input">
+    <bounds
+        x="1248"
+        y="24"
+        width="273"
+        height="104"/>
   </children>
   <properties
       key="Publiceren"
