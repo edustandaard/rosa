@@ -10,9 +10,9 @@
       name="Deelnemen aan het onderwijs"
       textAlignment="1">
     <bounds
-        x="336"
+        x="456"
         y="12"
-        width="829"
+        width="709"
         height="277"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -27,7 +27,7 @@
             href="AccessRelationship_id-bd9353e9c6504816bcf098b83ddc23c9.xml#id-bd9353e9c6504816bcf098b83ddc23c9"/>
       </sourceConnections>
       <bounds
-          x="288"
+          x="168"
           y="104"
           width="120"
           height="55"/>
@@ -44,13 +44,13 @@
           source="id-d45a929f6a474816b1b1086976904350"
           target="id-897e4f1cc1d942baa47378eadbc2f7d7">
         <bendpoints
-            startX="96"
-            startY="1"
+            startX="108"
+            startY="-11"
             endX="-96"
             endY="-87"/>
         <bendpoints
-            startX="96"
-            startY="85"
+            startX="108"
+            startY="73"
             endX="-96"
             endY="-3"/>
         <archimateRelationship
@@ -67,7 +67,7 @@
             href="AccessRelationship_id-fe746df35e594b8ca2baaaa2ab590027.xml#id-fe746df35e594b8ca2baaaa2ab590027"/>
       </sourceConnections>
       <bounds
-          x="684"
+          x="564"
           y="104"
           width="120"
           height="55"/>
@@ -88,7 +88,7 @@
             href="AccessRelationship_id-698dada32e294473b364842b632849fd.xml#id-698dada32e294473b364842b632849fd"/>
       </sourceConnections>
       <bounds
-          x="533"
+          x="413"
           y="104"
           width="133"
           height="59"/>
@@ -110,7 +110,7 @@
             href="AggregationRelationship_id-8da170345c0f43f2a081b585ac765f71.xml#id-8da170345c0f43f2a081b585ac765f71"/>
       </sourceConnections>
       <bounds
-          x="540"
+          x="420"
           y="190"
           width="120"
           height="55"/>
@@ -123,9 +123,9 @@
         id="id-29debe5dcdec48f2bbed743cd68d7823"
         targetConnections="id-291ab090c2f643fb80a1d3f915913ac5 id-c6030fa62fb04652993984ed7e69acdc id-dbcbfbdaa09c4b678fd57b7fb20bfb6c">
       <bounds
-          x="228"
-          y="188"
-          width="253"
+          x="167"
+          y="190"
+          width="121"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessObject"
@@ -136,7 +136,7 @@
         id="id-b8aefd1461cb4f658f5c0f09a0175273"
         targetConnections="id-043dbc53c7ff470b9297e74dbf19fb59">
       <bounds
-          x="684"
+          x="564"
           y="194"
           width="120"
           height="55"/>
@@ -241,9 +241,9 @@
             href="AccessRelationship_id-551829de65f84227936587d51f5f3e60.xml#id-551829de65f84227936587d51f5f3e60"/>
       </sourceConnections>
       <bounds
-          x="407"
+          x="432"
           y="132"
-          width="289"
+          width="121"
           height="61"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -368,10 +368,19 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-c011238641dc40ebba1f84acb8fea922.xml#id-c011238641dc40ebba1f84acb8fea922"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5673064406b2462c889450992e0e44a0"
+          source="id-611dbca4ae894b50a0a192b2f79143a7"
+          target="id-5de873f2947b482486f038139661b8b8">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-aaa0e77a286f473ba9cf1989bcd0dfa4.xml#id-aaa0e77a286f473ba9cf1989bcd0dfa4"/>
+      </sourceConnections>
       <bounds
           x="97"
           y="132"
-          width="287"
+          width="120"
           height="61"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -438,16 +447,16 @@
       textAlignment="1">
     <bounds
         x="1176"
-        y="60"
+        y="12"
         width="241"
-        height="229"/>
+        height="277"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-897e4f1cc1d942baa47378eadbc2f7d7"
         targetConnections="id-849ff4c8942940a18cc4ed93c4fce708 id-7dc2983a8f594305b384c766bc439c49 id-2631437075794c8ba3193357dd38c5ce id-90c952cdcd6d4c82a642cf77047177e9">
       <bounds
           x="48"
-          y="132"
+          y="180"
           width="120"
           height="55"/>
       <archimateElement
@@ -468,7 +477,7 @@
       </sourceConnections>
       <bounds
           x="52"
-          y="48"
+          y="96"
           width="120"
           height="55"/>
       <archimateElement
@@ -488,7 +497,8 @@
         height="217"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-5de873f2947b482486f038139661b8b8">
+        id="id-5de873f2947b482486f038139661b8b8"
+        targetConnections="id-5673064406b2462c889450992e0e44a0 id-5baa2e5a69a6457a879b03bd791f5196">
       <bounds
           x="132"
           y="24"
@@ -501,6 +511,15 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a9c696bdaa4a4bd29d6ca865c0db46f9">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5baa2e5a69a6457a879b03bd791f5196"
+          source="id-a9c696bdaa4a4bd29d6ca865c0db46f9"
+          target="id-5de873f2947b482486f038139661b8b8">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-0ab794193db94efeb6beb0b2cc2b0116.xml#id-0ab794193db94efeb6beb0b2cc2b0116"/>
+      </sourceConnections>
       <bounds
           x="132"
           y="120"
@@ -586,6 +605,17 @@
         x="-48"
         y="432"
         width="25"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-fbfde3a7a6924b73b6fa328963c6c423"
+      textAlignment="1"
+      content="Geel = in context. &#xD;&#xA;wit = gerelateerd&#xD;&#xA;grijs = gerelateerd, niet uitgewerkt (/nieuw)">
+    <bounds
+        x="245"
+        y="103"
+        width="185"
         height="80"/>
   </children>
   <properties
