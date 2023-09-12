@@ -25,6 +25,10 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-8ebe91284d224545b22d0a07d2525c5e.xml#id-8ebe91284d224545b22d0a07d2525c5e"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-b3dd2e2ffef44ac1b4303517295bfc06"
+        source="id-21e4a6c8565c4ddb9432c9a0e97a2453"
+        target="id-ed640d62bdf8436c8a7a50301492f905"/>
     <bounds
         x="-84"
         y="360"
@@ -228,6 +232,10 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-ccd83193b8be4eb3a1b72dc3977ebde5.xml#id-ccd83193b8be4eb3a1b72dc3977ebde5"/>
       </sourceConnections>
+      <sourceConnections
+          id="id-aff9b0e169a64859ba0f118a16a7abf1"
+          source="id-cab17e16fab14ea4be7325183c2ea231"
+          target="id-82d803dff57f4a339eb1655e05e246a7"/>
       <bounds
           x="24"
           y="48"
@@ -370,6 +378,10 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-f83fcfa4598044d49192f28801a369c7.xml#id-f83fcfa4598044d49192f28801a369c7"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-b627aaedca7549aaacea8f0304d967ef"
+        source="id-de8f7cb2e2404b368cb9faa429b2431e"
+        target="id-ebafbb9cf702452b9c2e5590d01a3e93"/>
     <bounds
         x="528"
         y="708"
@@ -556,6 +568,10 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-452ba5f13f2648408daa975cb2feabf7"
       targetConnections="id-acc555231dd84050ad0f36dc740aa7e3">
+    <sourceConnections
+        id="id-7a762a58041e40b6ae3f2fa643dece67"
+        source="id-452ba5f13f2648408daa975cb2feabf7"
+        target="id-51356be773344b5995276ea0f6dd2091"/>
     <bounds
         x="600"
         y="636"
@@ -621,9 +637,61 @@
       fillColor="#00ff00"
       content="DH: WIjzigen naar rol Registerhouder onderwijsdeelnemer en ketenprocesstap Registreren onderwijsdeelnemer">
     <bounds
-        x="132"
+        x="-84"
         y="876"
         width="297"
+        height="69"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-51356be773344b5995276ea0f6dd2091"
+      targetConnections="id-7a762a58041e40b6ae3f2fa643dece67"
+      textAlignment="1"
+      fillColor="#00ff00"
+      content="DH: Volgens mij moet je onderwijsresultaat vervangen door leerreseltaat. Want toetsresultaat en examenuitslag zijn specialisaties van leerresultaat. En leerresultaat wordt vervolgens verwerkt tot onderwijsresultaat binnen het ketenproces administreren onderwijsresultaat ">
+    <bounds
+        x="803"
+        y="600"
+        width="254"
+        height="131"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ebafbb9cf702452b9c2e5590d01a3e93"
+      targetConnections="id-b627aaedca7549aaacea8f0304d967ef"
+      textAlignment="1"
+      fillColor="#00ff00"
+      content="DH: Vervangen door onderwijsorganisatie met ketenproces administreren onderwijsresultaat (onderwijsorganisatie heeft een interne samenwerking...)">
+    <bounds
+        x="840"
+        y="744"
+        width="217"
+        height="97"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ed640d62bdf8436c8a7a50301492f905"
+      targetConnections="id-b3dd2e2ffef44ac1b4303517295bfc06"
+      textAlignment="1"
+      fillColor="#00ff00"
+      content="DH: We hanteren de rol onderwijsorganisatie">
+    <bounds
+        x="872"
+        y="360"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-82d803dff57f4a339eb1655e05e246a7"
+      targetConnections="id-aff9b0e169a64859ba0f118a16a7abf1"
+      textAlignment="1"
+      fillColor="#00ff00"
+      content="DH: Volgens mij moet je leermiddel aanbieden vervangen door ketenprocesstap leermateriaal gebruiken">
+    <bounds
+        x="323"
+        y="876"
+        width="206"
         height="69"/>
   </children>
   <properties
