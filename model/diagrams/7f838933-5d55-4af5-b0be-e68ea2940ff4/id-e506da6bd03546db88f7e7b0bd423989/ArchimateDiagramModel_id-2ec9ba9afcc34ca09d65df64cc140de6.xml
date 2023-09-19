@@ -354,15 +354,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a52e8b772d084d00b54137b0f4dc8386"
-        source="id-165de7ac2dd24ea2be2fe56a208c19de"
-        target="id-11d6d13b016d4de98b2b105dc26ae4f9">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-7bdf7f7d3f904fab86dadeb338bb71b8.xml#id-7bdf7f7d3f904fab86dadeb338bb71b8"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-427418d574ad4fa08a9be1b46fb99016"
         source="id-165de7ac2dd24ea2be2fe56a208c19de"
         target="id-15af6df354eb416e90c7c3e5cd6c211b">
@@ -407,6 +398,24 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-e8acd0ba66da47baaffdbf9d5dac5d59.xml#id-e8acd0ba66da47baaffdbf9d5dac5d59"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-71e9b86a23554d98b9cfa18fa918377a"
+          source="id-6069d193f58f4ba8944f4fb0936c62f6"
+          target="id-11d6d13b016d4de98b2b105dc26ae4f9">
+        <bendpoints
+            startX="-12"
+            startY="81"
+            endX="168"
+            endY="-144"/>
+        <bendpoints
+            startX="-180"
+            startY="81"
+            endY="-144"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-4a3557c7e5ed4883aa614f5acdf6c7e0.xml#id-4a3557c7e5ed4883aa614f5acdf6c7e0"/>
+      </sourceConnections>
       <bounds
           x="180"
           y="39"
@@ -426,20 +435,20 @@
           source="id-180501135b134499b2c768cd36c3fc7e"
           target="id-9aed08a54ebf469fac4ec26a3a5a684a">
         <bendpoints
-            startX="-48"
-            startY="84"
-            endX="210"
-            endY="-99"/>
+            startX="-36"
+            startY="153"
+            endX="108"
+            endY="-63"/>
         <bendpoints
-            startX="-24"
-            startY="174"
-            endX="138"
-            endY="-51"/>
+            startX="-60"
+            startY="153"
+            endX="84"
+            endY="-63"/>
         <bendpoints
-            startX="-216"
-            startY="144"
-            endX="42"
-            endY="-39"/>
+            startX="-60"
+            startY="213"
+            endX="84"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-9318ff4db2fd48608d8571aa1a7b115e.xml#id-9318ff4db2fd48608d8571aa1a7b115e"/>
@@ -512,15 +521,20 @@
           source="id-15af6df354eb416e90c7c3e5cd6c211b"
           target="id-9aed08a54ebf469fac4ec26a3a5a684a">
         <bendpoints
-            startX="12"
-            startY="141"
-            endX="-126"
+            startX="24"
+            startY="153"
+            endX="-144"
             endY="-63"/>
         <bendpoints
-            startX="81"
-            startY="150"
-            endX="-54"
-            endY="-75"/>
+            startX="84"
+            startY="153"
+            endX="-84"
+            endY="-63"/>
+        <bendpoints
+            startX="84"
+            startY="213"
+            endX="-84"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-e106aac3e817460dbcf88b620756886b.xml#id-e106aac3e817460dbcf88b620756886b"/>
@@ -606,8 +620,8 @@
       id="id-9aed08a54ebf469fac4ec26a3a5a684a"
       targetConnections="id-b86bff7f6d304e40a30e00435dedf14a id-56599126f29f4c1cb506fce5d4e2d456">
     <bounds
-        x="660"
-        y="717"
+        x="678"
+        y="708"
         width="132"
         height="55"/>
     <archimateElement
@@ -656,7 +670,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-11d6d13b016d4de98b2b105dc26ae4f9"
-      targetConnections="id-a52e8b772d084d00b54137b0f4dc8386">
+      targetConnections="id-71e9b86a23554d98b9cfa18fa918377a">
     <bounds
         x="492"
         y="717"
