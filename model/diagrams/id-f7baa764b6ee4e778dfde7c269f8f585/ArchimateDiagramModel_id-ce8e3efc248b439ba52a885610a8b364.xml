@@ -339,21 +339,21 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-b9cb708556dc4847baa36f97a633f54f"
-        source="id-7c856e8ec3764ed0b6d068bcdd39b9b1"
-        target="id-bc5dcb5ee99c46778b3ec9ea527b9703">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-7bdf7f7d3f904fab86dadeb338bb71b8.xml#id-7bdf7f7d3f904fab86dadeb338bb71b8"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-a1421456831d4973b5659e76b5010794"
         source="id-7c856e8ec3764ed0b6d068bcdd39b9b1"
         target="id-4f5388d643ac410499feb9b460a0d0e9">
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-7dcadf2afa274a2785297a21c78024d8.xml#id-7dcadf2afa274a2785297a21c78024d8"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b9cb708556dc4847baa36f97a633f54f"
+        source="id-7c856e8ec3764ed0b6d068bcdd39b9b1"
+        target="id-bc5dcb5ee99c46778b3ec9ea527b9703">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-7bdf7f7d3f904fab86dadeb338bb71b8.xml#id-7bdf7f7d3f904fab86dadeb338bb71b8"/>
     </sourceConnections>
     <bounds
         x="36"
@@ -839,7 +839,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9a47a44292b34a1f815b4fbf7b50a305"
-      targetConnections="id-a573cd0eaa7945d295b8aabcf952e4ae id-ab9033aed74749a29ef20d5368b5e643 id-34ebbfce90b64e8b8be727fbb78d6c65 id-a05970711dad45978048b5df115459e2">
+      targetConnections="id-a573cd0eaa7945d295b8aabcf952e4ae id-ab9033aed74749a29ef20d5368b5e643 id-34ebbfce90b64e8b8be727fbb78d6c65">
     <bounds
         x="504"
         y="120"
@@ -848,22 +848,6 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-3ead81e4529e42ea96e31452a79073f7.xml#id-3ead81e4529e42ea96e31452a79073f7"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-a1c7a2c27568467783723461264a0bd3"
-      textAlignment="1"
-      fillColor="#80ff80"
-      content="DH: Vervangen voor gedubbeld object Prestatieverklaring (zoals ook gebruikt in samenwerkingsview">
-    <sourceConnections
-        id="id-a05970711dad45978048b5df115459e2"
-        source="id-a1c7a2c27568467783723461264a0bd3"
-        target="id-9a47a44292b34a1f815b4fbf7b50a305"/>
-    <bounds
-        x="672"
-        y="117"
-        width="229"
-        height="62"/>
   </children>
   <properties
       key="Publiceren"
