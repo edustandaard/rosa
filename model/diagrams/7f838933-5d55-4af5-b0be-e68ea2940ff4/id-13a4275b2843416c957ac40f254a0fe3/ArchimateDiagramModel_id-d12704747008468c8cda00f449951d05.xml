@@ -247,6 +247,20 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-fe746df35e594b8ca2baaaa2ab590027.xml#id-fe746df35e594b8ca2baaaa2ab590027"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-357648c34b5647139211d6ad324fa103"
+          source="id-c84ff50d58554e3da1f11c21cd439888"
+          target="id-614a574506154482968d6bdbb31b1372">
+        <bendpoints
+            startX="2"
+            startY="-81"
+            endX="-600"
+            endY="-15"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-f96afb71f967426ebc3e98d17d0b36a2.xml#id-f96afb71f967426ebc3e98d17d0b36a2"/>
+      </sourceConnections>
       <bounds
           x="624"
           y="177"
@@ -868,6 +882,53 @@
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-aa0089ee5df848ec8605a99ce0b452eb.xml#id-aa0089ee5df848ec8605a99ce0b452eb"/>
+    </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelGroup"
+      id="id-5a4fb252389642a6970a53c70af9c426"
+      name="Diplomeren en certificeren "
+      textAlignment="1">
+    <bounds
+        x="1200"
+        y="288"
+        width="277"
+        height="253"/>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-1a539b393c1543ec934fca74d4efd652"
+        fillColor="#ffffff">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-9a3f3fb9667a437a8fca88c7d82af666"
+          source="id-1a539b393c1543ec934fca74d4efd652"
+          target="id-614a574506154482968d6bdbb31b1372">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-1da70a311f474e538267f01329054a83.xml#id-1da70a311f474e538267f01329054a83"/>
+      </sourceConnections>
+      <bounds
+          x="84"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-7f05e8fabcea41f89b5848546e35c5a1.xml#id-7f05e8fabcea41f89b5848546e35c5a1"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-614a574506154482968d6bdbb31b1372"
+        targetConnections="id-9a3f3fb9667a437a8fca88c7d82af666 id-357648c34b5647139211d6ad324fa103"
+        fillColor="#ffffff">
+      <bounds
+          x="84"
+          y="60"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-75f17726478d4c33b3115bfc426f9e48.xml#id-75f17726478d4c33b3115bfc426f9e48"/>
     </children>
   </children>
   <properties
