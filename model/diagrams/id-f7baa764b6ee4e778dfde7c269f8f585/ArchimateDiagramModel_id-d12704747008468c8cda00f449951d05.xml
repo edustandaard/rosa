@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Aanmelden en administreren onderwijsdeelnemer (in context)"
+    name="Aanmelden en administreren onderwijsdeelname (in context)"
     id="id-d12704747008468c8cda00f449951d05">
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -289,10 +289,6 @@
       id="id-cf398f633ee24571bd3868922f8554b1"
       name="Afhandeling verzuim (Terugdringen verzuim)"
       textAlignment="1">
-    <sourceConnections
-        id="id-21d2d1c8cd0747a29beb26dd1dba66af"
-        source="id-cf398f633ee24571bd3868922f8554b1"
-        target="id-ef46d9f4d0d34fa5a5c100c1a3d3311c"/>
     <bounds
         x="612"
         y="-36"
@@ -353,10 +349,6 @@
       id="id-ba12aedd6a854e58b7ec048d1999ede5"
       name="Voortgang van het onderwijs"
       textAlignment="1">
-    <sourceConnections
-        id="id-6ec62cddccf04dc9bddedc7730fe4e66"
-        source="id-ba12aedd6a854e58b7ec048d1999ede5"
-        target="id-098ba8f0f98c4b5ab5d35d514f322318"/>
     <bounds
         x="900"
         y="48"
@@ -390,10 +382,6 @@
       id="id-adefeb0bd56c45d2bc672dd5d918df12"
       name="Registratie van het onderwijs (onderwijsloopbaan)"
       textAlignment="1">
-    <sourceConnections
-        id="id-347f77d8ad394c20a4ef5276f311f07d"
-        source="id-adefeb0bd56c45d2bc672dd5d918df12"
-        target="id-069054bb5dd24e768e6943b580718585"/>
     <bounds
         x="696"
         y="600"
@@ -590,10 +578,6 @@
       id="id-0d2bfade1992473db8b4e633e4305d46"
       name="Financiering in het onderwijs"
       textAlignment="1">
-    <sourceConnections
-        id="id-524609888523453e87a56c755f4bddf1"
-        source="id-0d2bfade1992473db8b4e633e4305d46"
-        target="id-634bf1362c81432083d204890c1ad344"/>
     <bounds
         x="240"
         y="-36"
@@ -658,86 +642,10 @@
     </children>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-098ba8f0f98c4b5ab5d35d514f322318"
-      targetConnections="id-6ec62cddccf04dc9bddedc7730fe4e66"
-      textAlignment="1"
-      content="Ketenprocessen binnen context: &#xD;&#xA;- Monitoren voortgang&#xD;&#xA;- Monitoren doorstroom (!?)&#xD;&#xA;- Verzamelen digitaal portfolio ">
-    <bounds
-        x="996"
-        y="-153"
-        width="193"
-        height="97"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-ab66859db9b24e098aedf9b55f8eadf4"
-      targetConnections="id-bea0a833c15c4aabb1b3e9c5454f79a0"
-      textAlignment="1"
-      content="Ketenprocessen binnen context:&#xD;&#xA;- Leermiddel ontwikkelen&#xD;&#xA;- Leermiddel verwerven&#xD;&#xA;- Leermiddel(gebruik) betalen&#xD;&#xA;- Leermiddel gebruiken">
-    <bounds
-        x="24"
-        y="823"
-        width="185"
-        height="97"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-634bf1362c81432083d204890c1ad344"
-      targetConnections="id-524609888523453e87a56c755f4bddf1"
-      textAlignment="1"
-      content="Ketenprocessen binnen context:&#xD;&#xA;- Financieren van onderwijs&#xD;&#xA;- Bekostigen onderwijsdeelname&#xD;&#xA;- Leermiddel(gebruik) betalen">
-    <bounds
-        x="84"
-        y="-137"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-ef46d9f4d0d34fa5a5c100c1a3d3311c"
-      targetConnections="id-21d2d1c8cd0747a29beb26dd1dba66af"
-      textAlignment="1"
-      content="Ketenprocessen binnen context:&#xD;&#xA;- Registreren onderwijsdeelnemer (!?)&#xD;&#xA;- Monitoren verzuim&#xD;&#xA;- Rapporteren verzuim">
-    <bounds
-        x="668"
-        y="-156"
-        width="185"
-        height="104"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-069054bb5dd24e768e6943b580718585"
-      targetConnections="id-347f77d8ad394c20a4ef5276f311f07d"
-      textAlignment="1"
-      content="Ketenprocesen binnen context:&#xD;&#xA;- Registreren onderwijsdelnemer&#xD;&#xA;- Registreren onderwijsresultaat&#xD;&#xA;- Waarderen onderwijsresultaat">
-    <bounds
-        x="1068"
-        y="888"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-e7704f2206464e94b43bd2d109939cee"
-      textAlignment="1"
-      fillColor="#80ff80"
-      content="Ontbrekende context:&#xD;&#xA;- Erkennen en inrichten onderwijs?">
-    <bounds
-        x="-228"
-        y="264"
-        width="229"
-        height="168"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-bf4cabe06f2b485dbecf17bc97a74a46"
       name="Plannen en roosteren"
       textAlignment="1">
-    <sourceConnections
-        id="id-005b9c0203d34ef0b5955cf67e59ea7f"
-        source="id-bf4cabe06f2b485dbecf17bc97a74a46"
-        target="id-82182989350843819294d71eeca6b5cf"/>
     <bounds
         x="-228"
         y="600"
@@ -777,26 +685,10 @@
     </children>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-82182989350843819294d71eeca6b5cf"
-      targetConnections="id-005b9c0203d34ef0b5955cf67e59ea7f"
-      textAlignment="1"
-      content="Ketenprocessen binnen context:&#xD;&#xA;- Plannen en roosteren&#xD;&#xA;- ?">
-    <bounds
-        x="-228"
-        y="828"
-        width="187"
-        height="88"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-89b59c9e0fab45c2aabee262d5e6ee24"
-      name="Toepassing leermiddelen in het onderwijs"
+      name="Toepassen leermiddelen in het onderwijs"
       textAlignment="1">
-    <sourceConnections
-        id="id-bea0a833c15c4aabb1b3e9c5454f79a0"
-        source="id-89b59c9e0fab45c2aabee262d5e6ee24"
-        target="id-ab66859db9b24e098aedf9b55f8eadf4"/>
     <bounds
         x="12"
         y="600"
