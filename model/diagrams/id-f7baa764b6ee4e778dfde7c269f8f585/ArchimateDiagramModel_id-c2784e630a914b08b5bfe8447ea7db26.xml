@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Aanmelden en administreren onderwijsdeelname (ketensamenwerking)"
-    id="id-c2784e630a914b08b5bfe8447ea7db26">
+    id="id-c2784e630a914b08b5bfe8447ea7db26"
+    documentation="Dit model geeft inzicht in de ketensamenwerkingen die plaatsvinden tussen de ketenprocesstappen van Aanmelden en administreren onderwijsdeelname. De ketenprocesstappen zijn centraal weergegeven en hebben diverse relaties naar andere ketenpartners in het onderwijsdomein. De weergave is gericht op rollen die uitgevoerd worden. De uitvoering van een rol kan in sommige gevallen verschillen en is afhankelijk van het domein (FO/MO/HO). Een ketensamenwerking vind plaats door middel van de uitwisseling van een informatie object.  ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5148111beea845a0946917fccc500101"
@@ -298,6 +299,15 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-46a77013240f410c9c4d052a08097a9f.xml#id-46a77013240f410c9c4d052a08097a9f"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-674dbf392f804304a0a4246ca6c7ae5a"
+          source="id-7f012488433c429fa521f0a3a7f0fe3c"
+          target="id-48857a8ee3f94203a3b823ecf205813f">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-87bc0668b95447fea471500c22ef86aa.xml#id-87bc0668b95447fea471500c22ef86aa"/>
       </sourceConnections>
       <bounds
           x="632"
@@ -997,6 +1007,19 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-20b62aada12843348385bdaa555c566c.xml#id-20b62aada12843348385bdaa555c566c"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-48857a8ee3f94203a3b823ecf205813f"
+      targetConnections="id-674dbf392f804304a0a4246ca6c7ae5a">
+    <bounds
+        x="1452"
+        y="216"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-75f17726478d4c33b3115bfc426f9e48.xml#id-75f17726478d4c33b3115bfc426f9e48"/>
   </children>
   <properties
       key="Publiceren"
