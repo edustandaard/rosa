@@ -1,0 +1,40 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Regionaal platform"
+    id="73163a39-9f16-49f3-a2a6-b2d3a66ee2ef">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="07ecec2f-d453-4f15-93b2-342442cfa171">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="1937f822-4cc5-42cc-9791-85e11b7355e7"
+        source="07ecec2f-d453-4f15-93b2-342442cfa171"
+        target="6ab79d3b-027d-493f-980f-b52adbe59b83">
+      <archimateRelationship
+          xsi:type="archimate:InfluenceRelationship"
+          href="InfluenceRelationship_eedde748-f8c4-48fe-a39e-ef050cd06130.xml#eedde748-f8c4-48fe-a39e-ef050cd06130"/>
+    </sourceConnections>
+    <bounds
+        x="276"
+        y="168"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_81ec1aa4-917b-4c49-b072-66ce0cff3db5.xml#81ec1aa4-917b-4c49-b072-66ce0cff3db5"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="6ab79d3b-027d-493f-980f-b52adbe59b83"
+      targetConnections="1937f822-4cc5-42cc-9791-85e11b7355e7">
+    <bounds
+        x="279"
+        y="264"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_64222237-63b8-42f3-a361-4ea437b8e216.xml#64222237-63b8-42f3-a361-4ea437b8e216"/>
+  </children>
+</archimate:ArchimateDiagramModel>
