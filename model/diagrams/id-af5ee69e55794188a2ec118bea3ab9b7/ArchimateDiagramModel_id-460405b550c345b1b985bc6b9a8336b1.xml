@@ -83,6 +83,24 @@
             xsi:type="archimate:RealizationRelationship"
             href="RealizationRelationship_384104ee-57a7-453c-b1f8-a97555cb4938.xml#384104ee-57a7-453c-b1f8-a97555cb4938"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-c809b2f4977446df9d62db4a2689cbe2"
+          source="id-5441899f1a92494c967b7b8798efe557"
+          target="id-55f5fcd4bfae4109a5088842e4cdc51c">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-2829e811d07a42a19273512dd664915d.xml#id-2829e811d07a42a19273512dd664915d"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5b8e92fdd059468f84d27127efdda47d"
+          source="id-5441899f1a92494c967b7b8798efe557"
+          target="id-86a69887da4e4400bb75fb623beb0e71">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-c5a228e491e44cc2a8e76e0caaac5552.xml#id-c5a228e491e44cc2a8e76e0caaac5552"/>
+      </sourceConnections>
       <bounds
           x="426"
           y="132"
@@ -106,6 +124,32 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-286613b0c3eb4ac0b299e871e9897138.xml#id-286613b0c3eb4ac0b299e871e9897138"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-55f5fcd4bfae4109a5088842e4cdc51c"
+      targetConnections="id-c809b2f4977446df9d62db4a2689cbe2">
+    <bounds
+        x="648"
+        y="108"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-90801481334c4ff3af5dfecdc6686e8f.xml#id-90801481334c4ff3af5dfecdc6686e8f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-86a69887da4e4400bb75fb623beb0e71"
+      targetConnections="id-5b8e92fdd059468f84d27127efdda47d">
+    <bounds
+        x="648"
+        y="186"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Requirement"
+        href="Requirement_id-f3d61ba78d3347bbb848b6aa896b5cfb.xml#id-f3d61ba78d3347bbb848b6aa896b5cfb"/>
   </children>
   <properties
       key="Publiceren"
