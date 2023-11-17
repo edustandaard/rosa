@@ -517,6 +517,20 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-6b5126af6d834eb5844afd9b19dc38c9.xml#id-6b5126af6d834eb5844afd9b19dc38c9"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-8d78df9fd6bd482aafa7479b41f3138a"
+          source="id-7f494b3c0b524156b73374061e1dcd03"
+          target="id-1b29d77376874c119f30223993b5df76">
+        <bendpoints
+            startX="36"
+            startY="153"
+            endX="156"
+            endY="-15"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-8d4c48b839ed499c873af4f52ccf8c07.xml#id-8d4c48b839ed499c873af4f52ccf8c07"/>
+      </sourceConnections>
       <bounds
           x="492"
           y="39"
@@ -676,7 +690,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-1b29d77376874c119f30223993b5df76"
-      targetConnections="id-63a0e28fe9944672b16ef887ca6dd045 id-728e0325a6134e4684c1cadaf3bf1910"
+      targetConnections="id-63a0e28fe9944672b16ef887ca6dd045 id-728e0325a6134e4684c1cadaf3bf1910 id-8d78df9fd6bd482aafa7479b41f3138a"
       type="1">
     <bounds
         x="864"
@@ -787,12 +801,15 @@
       key="Type"
       value="Scenario"/>
   <properties
+      key="Scenariotype"
+      value="Toepassingsscenario"/>
+  <properties
       key="Status"
       value="Concept"/>
   <properties
       key="Datum laatste wijziging"
-      value="17-10-2023"/>
+      value="01-11-2023"/>
   <properties
       key="Beschrijving laatste wijziging"
-      value="Commentaar QA-team 26-9-2023 verwerkt"/>
+      value="Aanpassing op de beschrijving van de objecten en toevoegen van acces relatie tussen formaliseren toetsresultaat en de toetsprestatie (read)."/>
 </archimate:ArchimateDiagramModel>
