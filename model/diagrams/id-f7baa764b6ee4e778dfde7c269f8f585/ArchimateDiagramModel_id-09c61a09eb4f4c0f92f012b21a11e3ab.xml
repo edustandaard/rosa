@@ -675,6 +675,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-41676908ae6b4dd58fc68d381befbac6"
+      targetConnections="id-1eb9a20fa9c34308b7ab20209ef604cb"
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -855,6 +856,21 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-23c0d34a764045a8ac8650241c636e1d.xml#id-23c0d34a764045a8ac8650241c636e1d"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-876e2d00fa514563b93011ca44582ac8"
+      textAlignment="1"
+      content="Een online dienst waarbij een gebruiker o.b.v. een licentie een digitaal leermiddel kan gebruiken.  Typisch wordt deze dienst gebruikt via een webbrowser en kan de gebruiksomgeving ontsloten worden in een onderwijsleeromgeving. ">
+    <sourceConnections
+        id="id-1eb9a20fa9c34308b7ab20209ef604cb"
+        source="id-876e2d00fa514563b93011ca44582ac8"
+        target="id-41676908ae6b4dd58fc68d381befbac6"/>
+    <bounds
+        x="1248"
+        y="402"
+        width="232"
+        height="198"/>
   </children>
   <properties
       key="Publiceren"
