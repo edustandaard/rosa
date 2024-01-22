@@ -27,16 +27,16 @@
           href="AggregationRelationship_id-b7cc3b092d2a4108b921c9b1a4de3c73.xml#id-b7cc3b092d2a4108b921c9b1a4de3c73"/>
     </sourceConnections>
     <bounds
-        x="500"
-        y="324"
+        x="496"
+        y="492"
         width="269"
-        height="157"/>
+        height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-9cab7ab099b14860a651e5e1898a68da"
         targetConnections="id-fbc73dc266e14f17980bf256fc310e64">
       <bounds
-          y="24"
+          y="27"
           width="120"
           height="55"/>
       <archimateElement
@@ -49,7 +49,7 @@
         targetConnections="id-d790db381e844eac84e93dd820dcc662">
       <bounds
           x="144"
-          y="24"
+          y="27"
           width="120"
           height="55"/>
       <archimateElement
@@ -158,11 +158,20 @@
           xsi:type="archimate:CompositionRelationship"
           href="CompositionRelationship_id-1e3fa69339164a708c370a502b688670.xml#id-1e3fa69339164a708c370a502b688670"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b3ccaaf5e4a4400ea7448c8b0549187a"
+        source="id-8b501648f90847adba3e1eba48709d95"
+        target="id-31163f510b9440409c624b35240d3288">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-1c7a2d769bd94da3aa0efed847220d1a.xml#id-1c7a2d769bd94da3aa0efed847220d1a"/>
+    </sourceConnections>
     <bounds
         x="492"
         y="167"
         width="277"
-        height="146"/>
+        height="230"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-d15957de208d4ce08011e2890c8abcbc"
@@ -214,6 +223,19 @@
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-91942dc8e81449bc9c684a287f619224.xml#id-91942dc8e81449bc9c684a287f619224"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-31163f510b9440409c624b35240d3288"
+        targetConnections="id-b3ccaaf5e4a4400ea7448c8b0549187a">
+      <bounds
+          x="12"
+          y="144"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-7f05e8fabcea41f89b5848546e35c5a1.xml#id-7f05e8fabcea41f89b5848546e35c5a1"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -640,15 +662,6 @@
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-1cb8de6d6e3046e6ab7761a1cf184c3f"
-        source="id-d1554594624a4fcaa630661a52a38b69"
-        target="id-31163f510b9440409c624b35240d3288">
-      <archimateRelationship
-          xsi:type="archimate:AssignmentRelationship"
-          href="AssignmentRelationship_id-e1c0aa1ffeab4ccaa30399f859cc5af4.xml#id-e1c0aa1ffeab4ccaa30399f859cc5af4"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9a416a67e07d4d11ba28499cef04fcf7"
         source="id-d1554594624a4fcaa630661a52a38b69"
         target="id-8673bc98dd664111950b44769216e3c1">
@@ -663,23 +676,10 @@
         height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-31163f510b9440409c624b35240d3288"
-        targetConnections="id-1cb8de6d6e3046e6ab7761a1cf184c3f">
-      <bounds
-          x="12"
-          y="24"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessInteraction"
-          href="BusinessInteraction_id-7f05e8fabcea41f89b5848546e35c5a1.xml#id-7f05e8fabcea41f89b5848546e35c5a1"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-8673bc98dd664111950b44769216e3c1"
         targetConnections="id-9a416a67e07d4d11ba28499cef04fcf7">
       <bounds
-          x="144"
+          x="12"
           y="24"
           width="120"
           height="55"/>
