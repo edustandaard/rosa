@@ -744,6 +744,7 @@
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-e815cef29be24e75ae388dd99ce116d5"
+          targetConnections="id-861764819cef46e3b5575994a7a0d41e"
           source="id-44001ff6c23f4b3c9fe262f863178387"
           target="id-7ec278677c18497680b5de735d241e2d">
         <archimateRelationship
@@ -762,6 +763,46 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-02e9089282054dfc9dfab8908762db3f.xml#id-02e9089282054dfc9dfab8908762db3f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-0aaf4ed21b784660a19acbdba42edf96"
+      textAlignment="1"
+      fillColor="#ff8080"
+      content="Weg">
+    <sourceConnections
+        id="id-861764819cef46e3b5575994a7a0d41e"
+        source="id-0aaf4ed21b784660a19acbdba42edf96"
+        target="id-e815cef29be24e75ae388dd99ce116d5"/>
+    <bounds
+        x="1689"
+        y="25"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-e5c564292bef403f8e1e1f3f0a6f1e97"
+      textAlignment="1"
+      fillColor="#ff8080"
+      content="Toevoegen: resultaat">
+    <bounds
+        x="1689"
+        y="-264"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-1b01a6697dd64fd48ba1066cda66280e"
+      textAlignment="1"
+      fillColor="#ff8080"
+      content="Toevoegen: Context Examineren/Toetsen">
+    <bounds
+        x="1440"
+        y="288"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Publiceren"
