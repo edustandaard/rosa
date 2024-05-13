@@ -16,7 +16,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-eabc0991b7154a7bbdf3e34f84756fc0">
+      id="id-eabc0991b7154a7bbdf3e34f84756fc0"
+      targetConnections="id-41b9eb78cdad45d6b90b38216ec86fb6 id-45554e6a783f47df92bc2b29721ce408">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-97e1efcca82a428c9280abd04698b6ac"
@@ -230,29 +231,13 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3bfaee26e6da4c9fb69a2739bf688ef2">
+      id="id-3bfaee26e6da4c9fb69a2739bf688ef2"
+      targetConnections="id-c90e382001154bbeab6941ef72a15c7b">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-023d24f3edb0450694fc289fe2b3f51e"
         source="id-3bfaee26e6da4c9fb69a2739bf688ef2"
         target="id-30d8b27fe00e41a186e353a49ad95645">
-      <archimateRelationship
-          xsi:type="archimate:AccessRelationship"
-          href="AccessRelationship_id-836b8bc91f6b411aaba76a0af2b6c4bc.xml#id-836b8bc91f6b411aaba76a0af2b6c4bc"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-843a9c2a3dbb45e7b2b2957971734924"
-        source="id-3bfaee26e6da4c9fb69a2739bf688ef2"
-        target="id-f52a4b2a0d5d47f6bcde7bf53033893e">
-      <bendpoints
-          startY="138"
-          endX="528"
-          endY="138"/>
-      <bendpoints
-          startX="-528"
-          startY="138"
-          endY="138"/>
       <archimateRelationship
           xsi:type="archimate:AccessRelationship"
           href="AccessRelationship_id-836b8bc91f6b411aaba76a0af2b6c4bc.xml#id-836b8bc91f6b411aaba76a0af2b6c4bc"/>
@@ -292,7 +277,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f52a4b2a0d5d47f6bcde7bf53033893e"
-      targetConnections="id-843a9c2a3dbb45e7b2b2957971734924 id-31f9fd6de96c46ca82af0f3adf531f33 id-40a8a9004db7488c85aa8d81027547e6"
+      targetConnections="id-31f9fd6de96c46ca82af0f3adf531f33 id-40a8a9004db7488c85aa8d81027547e6"
       type="1">
     <bounds
         x="552"
@@ -384,7 +369,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-3d53d649873d4676b41823db38be71d0">
+      id="id-3d53d649873d4676b41823db38be71d0"
+      targetConnections="id-622905f5efb446d4a45e76e32f3b7fec">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-48f6d85d40d244f5a3debc53e2ef3ad3"
@@ -588,5 +574,65 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-ba4a7545b4674eabab702843120c15aa.xml#id-ba4a7545b4674eabab702843120c15aa"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-4a5c2fa9b7154d99bf8ea87b40c4095e"
+      textAlignment="1"
+      content="Er kunnen richting de wallet meerdere bronsystemen identiteiten een gekwalificeerde digitale identiteit aanleveren.">
+    <sourceConnections
+        id="id-41b9eb78cdad45d6b90b38216ec86fb6"
+        source="id-4a5c2fa9b7154d99bf8ea87b40c4095e"
+        target="id-eabc0991b7154a7bbdf3e34f84756fc0"/>
+    <bounds
+        x="156"
+        y="-264"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-49ec86cba14749d7a63ff9c32f2ecea2"
+      textAlignment="1"
+      content="Issuer">
+    <sourceConnections
+        id="id-45554e6a783f47df92bc2b29721ce408"
+        source="id-49ec86cba14749d7a63ff9c32f2ecea2"
+        target="id-eabc0991b7154a7bbdf3e34f84756fc0"/>
+    <bounds
+        x="60"
+        y="36"
+        width="97"
+        height="31"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-39f3396dd9b44546a0b31b53c373ce91"
+      textAlignment="1"
+      content="Holder">
+    <sourceConnections
+        id="id-622905f5efb446d4a45e76e32f3b7fec"
+        source="id-39f3396dd9b44546a0b31b53c373ce91"
+        target="id-3d53d649873d4676b41823db38be71d0"/>
+    <bounds
+        x="396"
+        y="36"
+        width="97"
+        height="31"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5886bf9aac354114bf8a3ce1ac625f0d"
+      textAlignment="1"
+      content="Verifier">
+    <sourceConnections
+        id="id-c90e382001154bbeab6941ef72a15c7b"
+        source="id-5886bf9aac354114bf8a3ce1ac625f0d"
+        target="id-3bfaee26e6da4c9fb69a2739bf688ef2"/>
+    <bounds
+        x="1104"
+        y="36"
+        width="97"
+        height="31"/>
   </children>
 </archimate:ArchimateDiagramModel>

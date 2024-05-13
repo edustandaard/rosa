@@ -68,7 +68,7 @@
         x="24"
         y="-144"
         width="169"
-        height="133"/>
+        height="124"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-3b28d94ce6b84599ae84f647fed6cafe"
@@ -172,11 +172,20 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-d59bc11f760f45218825a8ee9704d807.xml#id-d59bc11f760f45218825a8ee9704d807"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-fd8ab71d7bb04dcf8daed9ef12b51082"
+        source="id-fff9096aa34640e58a8bd0ad1dd277b1"
+        target="id-6f9d68a574924f4e801f22bdad2f63ab">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-307835c9d367492e9cd3e355b6f11f3b.xml#id-307835c9d367492e9cd3e355b6f11f3b"/>
+    </sourceConnections>
     <bounds
         x="420"
         y="120"
         width="169"
-        height="85"/>
+        height="133"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-898dcb78704441bdb29f08a52675d288"
@@ -189,6 +198,19 @@
       <archimateElement
           xsi:type="archimate:ApplicationService"
           href="ApplicationService_id-ae6f979bc8ee4770814d5d1cb8c219bf.xml#id-ae6f979bc8ee4770814d5d1cb8c219bf"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-6f9d68a574924f4e801f22bdad2f63ab"
+        targetConnections="id-fd8ab71d7bb04dcf8daed9ef12b51082">
+      <bounds
+          x="24"
+          y="84"
+          width="133"
+          height="39"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationService"
+          href="ApplicationService_id-cfb8a584566249f9941149de0d557a23.xml#id-cfb8a584566249f9941149de0d557a23"/>
     </children>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
@@ -281,7 +303,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d8842a95998e427f87b1d1cc01bc0982"
-      targetConnections="id-894f89585fb541d781a53f5812d8c8ab">
+      targetConnections="id-894f89585fb541d781a53f5812d8c8ab id-02546efe3d3e45a8b7fc3a2f00e48489">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-705bdbf997a4443f93311fe640f816e9"
@@ -405,7 +427,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a8e1ce8a3b564e63887bf475ba5cfe38"
-        targetConnections="id-8119fb3b70144d6a8a2637494303a34a">
+        targetConnections="id-8119fb3b70144d6a8a2637494303a34a id-2ae2b8883d6f41fbad3ece0694b52254">
       <bounds
           x="24"
           y="176"
@@ -421,7 +443,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-ab951d8e69cc48d2aa685c777207aec7">
+      id="id-ab951d8e69cc48d2aa685c777207aec7"
+      targetConnections="id-4367101b2eda407892132def96af5e02">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ca81b655c7ed4852960fdd1c3b66ba97"
@@ -485,7 +508,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-e841314e8762449ca765be2eac8dac0a"
       textAlignment="1"
-      content="Alternatieve beschrijving:&#xD;&#xA;Een systeem waarin identiteiten worden geregistreerd en beschikbaar gesteld.">
+      content="Alternatieve beschrijving:&#xD;&#xA;Een systeem waarin identiteiten worden geregistreerd en op basis van die identiteiten geauthenticeerde identiteitsverklaringen beschikbaar worden gesteld.">
     <sourceConnections
         id="id-a29fe92ba3cf43a5abbae781e2e75c72"
         source="id-e841314e8762449ca765be2eac8dac0a"
@@ -494,7 +517,7 @@
         x="351"
         y="-288"
         width="293"
-        height="67"/>
+        height="97"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -766,5 +789,50 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-ba4a7545b4674eabab702843120c15aa.xml#id-ba4a7545b4674eabab702843120c15aa"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-9c38cf1322b54d289bc7ed1b7025ab40"
+      textAlignment="1"
+      content="Dienst (algemeen, met service 'Autorisatie') opsplitsen in authenticerende dienst (ander toepassingsscenario) en Dienst met SSO">
+    <sourceConnections
+        id="id-4367101b2eda407892132def96af5e02"
+        source="id-9c38cf1322b54d289bc7ed1b7025ab40"
+        target="id-ab951d8e69cc48d2aa685c777207aec7"/>
+    <bounds
+        x="1218"
+        y="-228"
+        width="185"
+        height="100"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f1b553b4748d40bbb4be4cc324a6d694"
+      textAlignment="1"
+      content="Vervangen door SSO-relatiebeheer">
+    <sourceConnections
+        id="id-2ae2b8883d6f41fbad3ece0694b52254"
+        source="id-f1b553b4748d40bbb4be4cc324a6d694"
+        target="id-a8e1ce8a3b564e63887bf475ba5cfe38"/>
+    <bounds
+        x="908"
+        y="-21"
+        width="185"
+        height="58"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-958f58680e344c1ca65c2e0b9fa5198d"
+      textAlignment="1"
+      content="Als we meer toegaan naar ondertekende identiteitsverklaringen, kan de Fed. hub dan nog zaken doen als Pseudonimiseren e.d. (meer geneierk: Identity mapping, omvat pseudonimiseren, protocoltrsnalatie)&#xD;&#xA;&#xD;&#xA;NB de hub heeft zelf geen identiteiten geregistreerd. Kan dus wel protocoltranslatie of filteren,maar niet mappen naar iets heel anders.&#xD;&#xA;&#xD;&#xA;Mappen als functie willen we mogelijk nog ergens anders kwijt.">
+    <sourceConnections
+        id="id-02546efe3d3e45a8b7fc3a2f00e48489"
+        source="id-958f58680e344c1ca65c2e0b9fa5198d"
+        target="id-d8842a95998e427f87b1d1cc01bc0982"/>
+    <bounds
+        x="1464"
+        y="-456"
+        width="341"
+        height="264"/>
   </children>
 </archimate:ArchimateDiagramModel>
