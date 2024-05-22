@@ -213,6 +213,10 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-1c7a2d769bd94da3aa0efed847220d1a.xml#id-1c7a2d769bd94da3aa0efed847220d1a"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-c9cb1f720ec2484ca764ace4d4dbacb4"
+        source="id-8b501648f90847adba3e1eba48709d95"
+        target="id-c7d157feffc14e308b8078bb3835db51"/>
     <bounds
         x="202"
         y="1164"
@@ -234,7 +238,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-84815a0a3ece479db481f0af6a19b068"
-        targetConnections="id-0a3b985562ff4fd2bee3be675bc25f44">
+        targetConnections="id-0a3b985562ff4fd2bee3be675bc25f44 id-0e9be4dc8b6844b5bde6659e66c64752">
       <bounds
           x="156"
           y="48"
@@ -832,5 +836,43 @@
         y="1344"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-79ec25b2ee9f43ea92c3ad85d2e7b0c3"
+      textAlignment="1"
+      content="Registreren vs administreren, gelijkenis in de van dale (vastleggen is gemeenschappelijke deler). Wat bedoelen we bij administreren; het beheren of het vastleggen? En is het registreren dan enkel met als doel het vastleggen van gegevens? ">
+    <bounds
+        x="1188"
+        y="672"
+        width="277"
+        height="118"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c7d157feffc14e308b8078bb3835db51"
+      targetConnections="id-c9cb1f720ec2484ca764ace4d4dbacb4"
+      textAlignment="1"
+      content="Dit proces of onderbrengen onder administreren, of monitoren en ontwikkelen onderwijsdeelnemer hernoemen">
+    <bounds
+        x="252"
+        y="1344"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-aec601a4b66f4f108fad360d674a2bee"
+      textAlignment="1"
+      content="Bijsturen t.b.v. doorstroom naar volgende &quot;klassen&quot; ">
+    <sourceConnections
+        id="id-0e9be4dc8b6844b5bde6659e66c64752"
+        source="id-aec601a4b66f4f108fad360d674a2bee"
+        target="id-84815a0a3ece479db481f0af6a19b068"/>
+    <bounds
+        x="528"
+        y="1332"
+        width="193"
+        height="72"/>
   </children>
 </archimate:ArchimateDiagramModel>
