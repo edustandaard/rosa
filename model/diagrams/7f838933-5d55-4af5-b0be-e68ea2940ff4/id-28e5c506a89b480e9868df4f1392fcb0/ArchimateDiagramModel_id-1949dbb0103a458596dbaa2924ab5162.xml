@@ -213,6 +213,10 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-1c7a2d769bd94da3aa0efed847220d1a.xml#id-1c7a2d769bd94da3aa0efed847220d1a"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-c9cb1f720ec2484ca764ace4d4dbacb4"
+        source="id-8b501648f90847adba3e1eba48709d95"
+        target="id-c7d157feffc14e308b8078bb3835db51"/>
     <bounds
         x="202"
         y="1164"
@@ -234,7 +238,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-84815a0a3ece479db481f0af6a19b068"
-        targetConnections="id-0a3b985562ff4fd2bee3be675bc25f44">
+        targetConnections="id-0a3b985562ff4fd2bee3be675bc25f44 id-0e9be4dc8b6844b5bde6659e66c64752">
       <bounds
           x="156"
           y="48"
@@ -274,6 +278,10 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-31163f510b9440409c624b35240d3288"
         targetConnections="id-b3ccaaf5e4a4400ea7448c8b0549187a">
+      <sourceConnections
+          id="id-9b0653d18ff742bd999f931007c5cfe6"
+          source="id-31163f510b9440409c624b35240d3288"
+          target="id-2ededa0ae2d541c693ed0337761265ba"/>
       <bounds
           x="600"
           y="48"
@@ -680,9 +688,22 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-68a8da92f0ad4449bd6c0f2b2b76a9b4.xml#id-68a8da92f0ad4449bd6c0f2b2b76a9b4"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-1a511ef73de945449c33163d0d089abb"
+        source="id-d1554594624a4fcaa630661a52a38b69"
+        target="id-2ededa0ae2d541c693ed0337761265ba"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e1cc588df33b4ec9af498dc417eb0537"
+        source="id-d1554594624a4fcaa630661a52a38b69"
+        target="id-fa5e411c646445acb7f721dff791f8a7">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-cf25edb25d674858a9fcf90e08816d73.xml#id-cf25edb25d674858a9fcf90e08816d73"/>
+    </sourceConnections>
     <bounds
-        x="204"
-        y="402"
+        x="960"
+        y="1164"
         width="289"
         height="140"/>
     <children
@@ -698,6 +719,19 @@
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-7172a62839ab4a5697dc0ef4c9892c4f.xml#id-7172a62839ab4a5697dc0ef4c9892c4f"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-fa5e411c646445acb7f721dff791f8a7"
+        targetConnections="id-e1cc588df33b4ec9af498dc417eb0537">
+      <bounds
+          x="144"
+          y="48"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-b5f0c50c5f494dc7808fb9e58e50b17e.xml#id-b5f0c50c5f494dc7808fb9e58e50b17e"/>
+    </children>
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-1f1c6579c1c944ce9e4a7b6daa93d91f.xml#id-1f1c6579c1c944ce9e4a7b6daa93d91f"/>
@@ -712,8 +746,8 @@
         source="id-de91b8a4874a45a3b0d80d47e526499d"
         target="id-d1554594624a4fcaa630661a52a38b69"/>
     <bounds
-        x="204"
-        y="336"
+        x="960"
+        y="1098"
         width="102"
         height="48"/>
   </children>
@@ -790,5 +824,55 @@
         y="708"
         width="126"
         height="65"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2ededa0ae2d541c693ed0337761265ba"
+      targetConnections="id-9b0653d18ff742bd999f931007c5cfe6 id-1a511ef73de945449c33163d0d089abb"
+      textAlignment="1"
+      content="Diplomeren onder erkennen verworven resultaten? ">
+    <bounds
+        x="864"
+        y="1344"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-79ec25b2ee9f43ea92c3ad85d2e7b0c3"
+      textAlignment="1"
+      content="Registreren vs administreren, gelijkenis in de van dale (vastleggen is gemeenschappelijke deler). Wat bedoelen we bij administreren; het beheren of het vastleggen? En is het registreren dan enkel met als doel het vastleggen van gegevens? ">
+    <bounds
+        x="1188"
+        y="672"
+        width="277"
+        height="118"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c7d157feffc14e308b8078bb3835db51"
+      targetConnections="id-c9cb1f720ec2484ca764ace4d4dbacb4"
+      textAlignment="1"
+      content="Dit proces of onderbrengen onder administreren, of monitoren en ontwikkelen onderwijsdeelnemer hernoemen">
+    <bounds
+        x="252"
+        y="1344"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-aec601a4b66f4f108fad360d674a2bee"
+      textAlignment="1"
+      content="Bijsturen t.b.v. doorstroom naar volgende &quot;klassen&quot; ">
+    <sourceConnections
+        id="id-0e9be4dc8b6844b5bde6659e66c64752"
+        source="id-aec601a4b66f4f108fad360d674a2bee"
+        target="id-84815a0a3ece479db481f0af6a19b068"/>
+    <bounds
+        x="528"
+        y="1332"
+        width="193"
+        height="72"/>
   </children>
 </archimate:ArchimateDiagramModel>
