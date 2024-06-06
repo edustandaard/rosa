@@ -1122,7 +1122,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-4c2ade344dc945c6a25948dcb31a69d7"
-      targetConnections="id-7a6626a59ccf4d14a7d7db006c5fae49"
+      targetConnections="id-7a6626a59ccf4d14a7d7db006c5fae49 id-74642bf9a5ec408dab952be5bd6a9b87"
       fillColor="#ff8000">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -1142,6 +1142,10 @@
           xsi:type="archimate:InfluenceRelationship"
           href="InfluenceRelationship_id-a06f4b4115624fee99d21ec849c7ce53.xml#id-a06f4b4115624fee99d21ec849c7ce53"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-74bd902a3a8445f3bdc1394c920a7205"
+        source="id-4c2ade344dc945c6a25948dcb31a69d7"
+        target="id-54a804ab71f648269492433729ed85a2"/>
     <bounds
         x="137"
         y="192"
@@ -1177,6 +1181,50 @@
         y="972"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-12cefff822ac4a22bd2470d726511991"
+      targetConnections="id-3bcd263a15ff475b97915a6a5cbc2796"
+      textAlignment="1"
+      fillColor="#ff8000"
+      content="[AP] &quot;Eenduidige generieke functies&quot;&#xD;&#xA;Voorkom dubbele oplossingen voor dezelfde functionaliteit in dezelfde context (sector- en domeingericht).">
+    <bounds
+        x="372"
+        y="183"
+        width="218"
+        height="73"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-bd179b91eeb6408fae37fdcd901f779d"
+      textAlignment="1"
+      content="Naar rationale van Efficiente stelselinrichting">
+    <sourceConnections
+        id="id-74642bf9a5ec408dab952be5bd6a9b87"
+        source="id-bd179b91eeb6408fae37fdcd901f779d"
+        target="id-4c2ade344dc945c6a25948dcb31a69d7"/>
+    <bounds
+        x="-108"
+        y="180"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-54a804ab71f648269492433729ed85a2"
+      targetConnections="id-74bd902a3a8445f3bdc1394c920a7205"
+      textAlignment="1"
+      content="Vervangen door">
+    <sourceConnections
+        id="id-3bcd263a15ff475b97915a6a5cbc2796"
+        source="id-54a804ab71f648269492433729ed85a2"
+        target="id-12cefff822ac4a22bd2470d726511991"/>
+    <bounds
+        x="396"
+        y="118"
+        width="99"
+        height="23"/>
   </children>
   <properties
       key="Publiceren"
