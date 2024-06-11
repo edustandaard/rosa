@@ -410,7 +410,6 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-82205244c75b4b7fa1b86ee4db5db4b6"
-      targetConnections="id-ecd78fd90a15410ab2de2df92271bb36"
       textAlignment="1"
       type="1">
     <sourceConnections
@@ -432,8 +431,8 @@
           href="AggregationRelationship_id-b04ae0049cfa4b0398ea6bce82ea8a4c.xml#id-b04ae0049cfa4b0398ea6bce82ea8a4c"/>
     </sourceConnections>
     <bounds
-        x="807"
-        y="402"
+        x="1260"
+        y="1164"
         width="314"
         height="140"/>
     <children
@@ -552,6 +551,10 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b02ee98f43274e4e9dded033ef7585c9"
         targetConnections="id-bfdb97a7a62b4d55a90b683ad0317662">
+      <sourceConnections
+          id="id-696b68550a2e4895b9dab344bb47a08b"
+          source="id-b02ee98f43274e4e9dded033ef7585c9"
+          target="id-6a07ec4f2de042be8da080b6d795938b"/>
       <bounds
           x="12"
           y="48"
@@ -754,21 +757,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-79ec25b2ee9f43ea92c3ad85d2e7b0c3"
-      textAlignment="1"
-      content="Registreren vs administreren, gelijkenis in de van dale (vastleggen is gemeenschappelijke deler). Wat bedoelen we bij administreren; het beheren of het vastleggen? En is het registreren dan enkel met als doel het vastleggen van gegevens? ">
-    <sourceConnections
-        id="id-ecd78fd90a15410ab2de2df92271bb36"
-        source="id-79ec25b2ee9f43ea92c3ad85d2e7b0c3"
-        target="id-82205244c75b4b7fa1b86ee4db5db4b6"/>
-    <bounds
-        x="1188"
-        y="672"
-        width="277"
-        height="118"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="id-c7d157feffc14e308b8078bb3835db51"
       targetConnections="id-c9cb1f720ec2484ca764ace4d4dbacb4"
       textAlignment="1"
@@ -793,5 +781,17 @@
         y="1332"
         width="193"
         height="72"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6a07ec4f2de042be8da080b6d795938b"
+      targetConnections="id-696b68550a2e4895b9dab344bb47a08b"
+      textAlignment="1"
+      content="Verhuizen naar resultaten uit het onderwijs">
+    <bounds
+        x="20"
+        y="744"
+        width="113"
+        height="85"/>
   </children>
 </archimate:ArchimateDiagramModel>
