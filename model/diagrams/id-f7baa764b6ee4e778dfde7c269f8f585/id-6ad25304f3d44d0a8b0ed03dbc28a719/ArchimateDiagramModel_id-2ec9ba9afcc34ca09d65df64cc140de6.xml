@@ -494,7 +494,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-7f494b3c0b524156b73374061e1dcd03"
-        targetConnections="id-192833adc54647e5b3b03e6635891c9d">
+        targetConnections="id-192833adc54647e5b3b03e6635891c9d id-030b4792f4834e83b1849ad3d0d69ca6">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-eb30fb2cc9384b99aae83d20fc5940bf"
@@ -526,6 +526,20 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-8d4c48b839ed499c873af4f52ccf8c07.xml#id-8d4c48b839ed499c873af4f52ccf8c07"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d068525f4dc04f6bb71b89ead3a1cb94"
+          source="id-7f494b3c0b524156b73374061e1dcd03"
+          target="id-b61d2ddef95744de8fc706bfc976b2db">
+        <bendpoints
+            startX="48"
+            startY="105"
+            endX="24"
+            endY="-111"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-12de453196b3408facbda656cfa4e664.xml#id-12de453196b3408facbda656cfa4e664"/>
       </sourceConnections>
       <bounds
           x="492"
@@ -799,6 +813,38 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-0b3a8df122db43628ad41760c17ed4fb.xml#id-0b3a8df122db43628ad41760c17ed4fb"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-b61d2ddef95744de8fc706bfc976b2db"
+      targetConnections="id-d068525f4dc04f6bb71b89ead3a1cb94 id-45f312ec3ded417e95faa39208504856">
+    <bounds
+        x="1008"
+        y="708"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-ee4e1a8438fa4314ac62ffdc8a6cbd22.xml#id-ee4e1a8438fa4314ac62ffdc8a6cbd22"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-ccba9fe1617b46a4b4db82f1431d364d"
+      textAlignment="1"
+      content="Dit speelt in ieder geval bij HORA/MORA - aanwezigheidsplicht voor het formaliseren van het toetsprestatie naar een leer resultaat (via een toetsresultaat) ">
+    <sourceConnections
+        id="id-030b4792f4834e83b1849ad3d0d69ca6"
+        source="id-ccba9fe1617b46a4b4db82f1431d364d"
+        target="id-7f494b3c0b524156b73374061e1dcd03"/>
+    <sourceConnections
+        id="id-45f312ec3ded417e95faa39208504856"
+        source="id-ccba9fe1617b46a4b4db82f1431d364d"
+        target="id-b61d2ddef95744de8fc706bfc976b2db"/>
+    <bounds
+        x="1152"
+        y="600"
+        width="173"
+        height="115"/>
   </children>
   <properties
       key="Publiceren"
