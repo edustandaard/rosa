@@ -6,7 +6,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-48f757512ba74de3ae3aa2024077fcb1"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-fbc73dc266e14f17980bf256fc310e64"
@@ -63,7 +64,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-de8ae161bca64c8392c8dc2b55d207ad"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-86e10da6987f46ffa202905cb2583660"
@@ -120,7 +122,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8b501648f90847adba3e1eba48709d95"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-42ce1db5aa2f417ba2404874af8c896b"
@@ -225,7 +228,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c3da5285cb7f4b2e8afa6acb54441599"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-5ff5a0a0977f404abbcdaa6a97ca7a7c"
@@ -282,7 +286,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-c2956060ea4147138d4524333b06e7b7"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d8b95ff63fb24512a66a2dd30fb934ed"
@@ -405,8 +410,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-82205244c75b4b7fa1b86ee4db5db4b6"
-      targetConnections="id-ecd78fd90a15410ab2de2df92271bb36"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-0984f4f4a30145c08ddc1b51838bdfbe"
@@ -426,8 +431,8 @@
           href="AggregationRelationship_id-b04ae0049cfa4b0398ea6bce82ea8a4c.xml#id-b04ae0049cfa4b0398ea6bce82ea8a4c"/>
     </sourceConnections>
     <bounds
-        x="807"
-        y="402"
+        x="1260"
+        y="1164"
         width="314"
         height="140"/>
     <children
@@ -463,7 +468,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-132b50abaef048b3b333894054972455"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-75d9a2174ae347df869a0dd55714ac8e"
@@ -498,7 +504,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-42a89be5d2b74df181d1e404ec96331c"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-bfdb97a7a62b4d55a90b683ad0317662"
@@ -544,6 +551,10 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b02ee98f43274e4e9dded033ef7585c9"
         targetConnections="id-bfdb97a7a62b4d55a90b683ad0317662">
+      <sourceConnections
+          id="id-696b68550a2e4895b9dab344bb47a08b"
+          source="id-b02ee98f43274e4e9dded033ef7585c9"
+          target="id-6a07ec4f2de042be8da080b6d795938b"/>
       <bounds
           x="12"
           y="48"
@@ -600,7 +611,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d1554594624a4fcaa630661a52a38b69"
       targetConnections="id-a1c666ca817b42fd94ed3c51e7b0ea55"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9a416a67e07d4d11ba28499cef04fcf7"
@@ -673,8 +685,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-d68fcaa3c8704f13a9efad4a5e6ccb23"
       textAlignment="1"
-      fillColor="#c0c0c0"
-      type="1">
+      fillColor="#c0c0c0">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-acd50a66b06a481893a7e3158098083e"
@@ -746,21 +757,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-79ec25b2ee9f43ea92c3ad85d2e7b0c3"
-      textAlignment="1"
-      content="Registreren vs administreren, gelijkenis in de van dale (vastleggen is gemeenschappelijke deler). Wat bedoelen we bij administreren; het beheren of het vastleggen? En is het registreren dan enkel met als doel het vastleggen van gegevens? ">
-    <sourceConnections
-        id="id-ecd78fd90a15410ab2de2df92271bb36"
-        source="id-79ec25b2ee9f43ea92c3ad85d2e7b0c3"
-        target="id-82205244c75b4b7fa1b86ee4db5db4b6"/>
-    <bounds
-        x="1188"
-        y="672"
-        width="277"
-        height="118"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="id-c7d157feffc14e308b8078bb3835db51"
       targetConnections="id-c9cb1f720ec2484ca764ace4d4dbacb4"
       textAlignment="1"
@@ -785,5 +781,17 @@
         y="1332"
         width="193"
         height="72"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-6a07ec4f2de042be8da080b6d795938b"
+      targetConnections="id-696b68550a2e4895b9dab344bb47a08b"
+      textAlignment="1"
+      content="Verhuizen naar resultaten uit het onderwijs">
+    <bounds
+        x="20"
+        y="744"
+        width="113"
+        height="85"/>
   </children>
 </archimate:ArchimateDiagramModel>
