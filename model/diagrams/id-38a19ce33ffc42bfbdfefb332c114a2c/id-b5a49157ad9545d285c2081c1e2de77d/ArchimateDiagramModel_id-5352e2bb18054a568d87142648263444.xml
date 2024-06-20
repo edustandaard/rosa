@@ -7,21 +7,76 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-420db0dbd92a4f4a9aee0260b037c60b"
       textAlignment="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-24dc2cc72155442f98becdc508327bfe"
+        source="id-420db0dbd92a4f4a9aee0260b037c60b"
+        target="id-6d597ee58bd24379b8fad18cae92a1f0">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-0d84a8234bb14cd7a62c99ad6d92ca90.xml#id-0d84a8234bb14cd7a62c99ad6d92ca90"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-40a7613768b44ff2bc8347e9394caf13"
+        source="id-420db0dbd92a4f4a9aee0260b037c60b"
+        target="id-c502d6ea65ac4cfc8b424c2307b28d70">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-0dab382b35d8456e9f59c2d42d5e0a9e.xml#id-0dab382b35d8456e9f59c2d42d5e0a9e"/>
+    </sourceConnections>
     <bounds
         x="216"
         y="492"
         width="754"
-        height="337"/>
+        height="433"/>
     <children
         xsi:type="archimate:DiagramModelNote"
         id="id-62f33261ed7442969b5442e61ec231ae"
         textAlignment="1"
         content="Hier komen OP en OK *specifiek* voor M2M (die dus nog niet zijn afgedekt in andere ontwerpgebieden)&#xD;&#xA;&#xD;&#xA;NB. M2M-interactie en Technische Interoperabiliteit zijn nauw aan elkaar verwant. Het verschil tussen de twee is dat technische interoperabiliteit richt zich op het in algemene zin interoperabel maken van diverse systemen, ongeacht de aard van de communicatie, terwijl M2M specifieker gericht is op de directe communicatie tussen machines.&#xD;&#xA;&#xD;&#xA;Kaders die in M2M-interactie thuishoren zijn bijv. gericht op de API-strategie / API design rules, keuze voor REST, WUS, positie van SaaS, routering, toestemming/consent">
       <bounds
-          x="84"
-          y="108"
+          x="240"
+          y="240"
           width="493"
           height="193"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-6d597ee58bd24379b8fad18cae92a1f0"
+        targetConnections="id-24dc2cc72155442f98becdc508327bfe id-2058cd8602854b1ebe3268ebc5456843"
+        fillColor="#ff8000">
+      <bounds
+          x="48"
+          y="36"
+          width="169"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Principle"
+          href="Principle_id-ad61157b05644c5c92dbc17b74a2d905.xml#id-ad61157b05644c5c92dbc17b74a2d905"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c502d6ea65ac4cfc8b424c2307b28d70"
+        targetConnections="id-40a7613768b44ff2bc8347e9394caf13"
+        fillColor="#ff8000">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-2058cd8602854b1ebe3268ebc5456843"
+          source="id-c502d6ea65ac4cfc8b424c2307b28d70"
+          target="id-6d597ee58bd24379b8fad18cae92a1f0">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-777808aaa5e2412a9b91ee6d4f4bc1e0.xml#id-777808aaa5e2412a9b91ee6d4f4bc1e0"/>
+      </sourceConnections>
+      <bounds
+          x="96"
+          y="156"
+          width="217"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Requirement"
+          href="Requirement_id-3b9dfbadfd224e4cbb74c98b78e925a7.xml#id-3b9dfbadfd224e4cbb74c98b78e925a7"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"

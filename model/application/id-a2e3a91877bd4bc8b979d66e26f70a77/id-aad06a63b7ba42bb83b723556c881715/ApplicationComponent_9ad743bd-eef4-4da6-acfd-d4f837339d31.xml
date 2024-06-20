@@ -2,8 +2,11 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Federatieve hub"
     id="9ad743bd-eef4-4da6-acfd-d4f837339d31"
-    documentation="Een voorziening die centraal digitale identiteiten (gebruikers) en toegangsrechten beheert, om zo toegang te bieden tot digitale middelen die aangesloten ketenpartijen via de voorziening beschikbaar stellen.">
+    documentation="De Federatieve hub vervult een hubfunctie tussen functie tussen (Authenticerende of Delegerende) Identity Providers en Diensten met SSO.&#xD;&#xA;&#xD;&#xA;Van een Identity Provider ontvangt de Federatieve hub een Identiteitsverklaring. Deze kan worden doorgestuurd naar een Diensten met SSO.&#xD;&#xA;&#xD;&#xA;Deze uitwisselingen vinden alleen plaats met Identity Providers en Diensten met SSO waarmee de Federatieve hub een vertrouwensrelatie heeft.">
   <properties
       key="Type"
       value="Referentiecomponent"/>
+  <properties
+      key="Toelichting"
+      value="De federatieve hub zorgt voor ontkoppeling van Identity Providers en Diensten met SSO. Alle deelnemers van de federatie hebben een vertrouwensrelatie. Door deze vertrouwensrelatie kan gebruik worden gemaakt van een identiteitsverklaring die door een andere organisatie wordt verstrekt wat SSO mogelijk maakt. De federatieve hub zorgt voor routering van de Identiteitsverklaringen."/>
 </archimate:ApplicationComponent>
