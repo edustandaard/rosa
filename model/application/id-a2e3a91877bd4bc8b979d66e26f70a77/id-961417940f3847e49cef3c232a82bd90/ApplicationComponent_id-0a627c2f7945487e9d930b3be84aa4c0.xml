@@ -2,14 +2,17 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Authenticerende IdP"
     id="id-0a627c2f7945487e9d930b3be84aa4c0"
-    documentation="Deze variant van de Identity Provider voert zelf het authenticatieproces uit en stelt vast dat een eindgebruiker die zich identificeert ook daadwerkelijk de eindgebruiker is. De Identiteitsverklaring wordt enkel afgegeven aan referentiecomponenten waarmee de Authenticerende Identity Provider een vertrouwensrelatie heeft.">
+    documentation="Een Identity Provider die de identificatie en authenticatie van eindgebruikers uitvoert. De Authenticerende Identity Provider beschikt hiervoor over authenticatiemiddelenvoorziening. ">
   <properties
       key="Type"
       value="Referentiecomponent"/>
   <properties
       key="Datum laatste wijziging"
-      value="20240513"/>
+      value="20240620"/>
   <properties
       key="Beschrijving laatste wijziging"
       value="Kerngroep Toegang"/>
+  <properties
+      key="Toelichting"
+      value="De Authenticerende Identity Provider geeft een identiteitsverklaring af aan een Delegerende Identity Provider, Federatieve Hub of een Dienst met SSO waarmee deze een vertrouwensrelatie heeft."/>
 </archimate:ApplicationComponent>
