@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Administreren &amp; monitoren onderwijsresultaten (Detailview)"
+    name="Administreren &amp; monitoren resultaten (Detailview)"
     id="id-57d825b4f55349d3b2c140a9c417847d">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -63,6 +63,15 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-a194852ffbf549b6b9df802541f81b40.xml#id-a194852ffbf549b6b9df802541f81b40"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-b83a318f382443a8b358c3c95c8c7836"
+        source="id-2fb1dab572d0458eb610042a932b4c43"
+        target="id-e76f24c14bba4ddebaff6e0a3b49424a">
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_id-d43becc96871435094ef283d49d72b81.xml#id-d43becc96871435094ef283d49d72b81"/>
+    </sourceConnections>
     <bounds
         x="36"
         y="382"
@@ -71,7 +80,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-281c22967b9e42368fbd04b6474f2aa8"
-        targetConnections="id-cb73236308134d8f9878ee6a40671b32">
+        targetConnections="id-cb73236308134d8f9878ee6a40671b32 id-d787c0a0a3af45cca5a40c8db952fed7">
       <bounds
           x="156"
           y="36"
@@ -84,7 +93,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c0b46ba14be9457badf4767ef73a06fd"
-        targetConnections="id-720b18cc90554f9fbfe1eda598ca8785">
+        targetConnections="id-720b18cc90554f9fbfe1eda598ca8785"
+        fillColor="#ff7d78">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-20bc813b3e0f4b44a133ed84a5393c87"
@@ -193,7 +203,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8454e621ff344457a9d8cd7ce606b5e1"
-      targetConnections="id-d4ec71e09764433da76c50eaa2b27052">
+      targetConnections="id-d4ec71e09764433da76c50eaa2b27052 id-fed5a4bc4fc04b19939012060503e2c4">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-1fa30833692743258fe06980531f56d0"
@@ -229,7 +239,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-4b8b5ab1aa8349ef815cdd8f23585ed2"
-        targetConnections="id-bab6702e467240e09b6c6d3ea9f7daf1">
+        targetConnections="id-bab6702e467240e09b6c6d3ea9f7daf1 id-c1135232eed240a6bc8999c73a867e8c">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-0448a324a4894761a85125febad576d9"
@@ -251,7 +261,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e2e360c29acd47eb9d71ec86b4ced0fe"
-        targetConnections="id-1fa30833692743258fe06980531f56d0">
+        targetConnections="id-1fa30833692743258fe06980531f56d0"
+        fillColor="#ff7d78">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-5f44bd15c50f4524949cfc1e76f1ba07"
@@ -282,7 +293,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-17e4c110d4f34dd1b381677f05f8b7bc"
-        targetConnections="id-1ac37816ccc74e51bcb08370d3aa5fa7">
+        targetConnections="id-1ac37816ccc74e51bcb08370d3aa5fa7 id-183ae06af4ca4b72bddfcafb1d91111c">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-3e2ebaa2fa6342e89106660785b512cb"
@@ -384,7 +395,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-21afd160968946138209ed4a343939d8"
-        targetConnections="id-275482a4362647228d41a3504a4e359f">
+        targetConnections="id-275482a4362647228d41a3504a4e359f"
+        fillColor="#ff7d78">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-47b42c3fd1d8427fba13f3289f1b71c8"
@@ -421,11 +433,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-924aec972e9c4c489d4ab817ed065cb0"
       textAlignment="1"
-      content="Todo&#xA;[X] Leerresultaten -> write -> onderwijsresultaat? &#xA;[X] Vastleggen van onderwijsresultaat; read/write? &#xA;[X] Beoordelen hernoemen naar -> formaliseren leerresultaat&#xA;[ ] Definitie 'formaliseren leerresultaat'&#xA;[ ] Bepalen relatie in toetsen examineren rondom het bepalen van onderwijsresultaat&#xA;[ ] &#xA;[ ] &#xA;[ ] ">
+      content="Todo&#xA;[X] Leerresultaten -> write -> onderwijsresultaat? &#xA;[X] Vastleggen van onderwijsresultaat; read/write? &#xA;[X] Beoordelen hernoemen naar -> formaliseren leerresultaat&#xA;[ ] Definitie 'formaliseren leerresultaat'&#xA;[ ] Bepalen relatie in toetsen examineren rondom het bepalen van onderwijsresultaat&#xA;[ ] Leerresultaat informatieobject moet terug in de modellen - even checken op ROSA incl. de views &#xA;[ ] informatie object leerresultaat vervangen door informatie object, nu is dit een koi begrip&#xA;[ ] Voortgang leermateriaal moet nog aan een ketenprocesstap gekoppeld worden">
     <bounds
         x="828"
         y="36"
-        width="373"
+        width="409"
         height="157"/>
   </children>
   <children
@@ -453,7 +465,95 @@
     <bounds
         x="828"
         y="216"
-        width="301"
+        width="409"
         height="120"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-231cfdcb85f6434b8a42d821cc72f453"
+      textAlignment="1"
+      content="Feedback;&#xA;- Monitoren kan breder zijn, ook de monitoring in je leermateriaal etc. &#xA;- Doorstroom van leerlingen in het systeem&#xA;- Monitoren gebruik van leermateriaal&#xA;- Voortgang l&#xA;- Formaliseren elerresultaat naar administreren onderwijsresultaat verplaatsen&#xA;- Definitie leerresultaat (Brian) &#xA;- Fosa ref check; evalueren leerresultaten en bepalen vervolgstap &lt;&lt;- inhoud/herbruikbaarheid beoordelen">
+    <bounds
+        x="828"
+        y="360"
+        width="437"
+        height="205"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e76f24c14bba4ddebaff6e0a3b49424a"
+      targetConnections="id-b83a318f382443a8b358c3c95c8c7836 id-10c2487ed94f431984283ac82edad1df">
+    <bounds
+        x="173"
+        y="605"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-d31e7cd5cd9f4646bd0c41388d226355.xml#id-d31e7cd5cd9f4646bd0c41388d226355"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-42501692af7c41ada861a858ecb638e4"
+      textAlignment="1"
+      content="Referentiekader [input]">
+    <sourceConnections
+        id="id-183ae06af4ca4b72bddfcafb1d91111c"
+        source="id-42501692af7c41ada861a858ecb638e4"
+        target="id-17e4c110d4f34dd1b381677f05f8b7bc"/>
+    <bounds
+        x="173"
+        y="-60"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d959786bf21a4adfb53418ce4b5d4f50"
+      textAlignment="1"
+      content="leeractiviteit [input]">
+    <sourceConnections
+        id="id-c1135232eed240a6bc8999c73a867e8c"
+        source="id-d959786bf21a4adfb53418ce4b5d4f50"
+        target="id-4b8b5ab1aa8349ef815cdd8f23585ed2"/>
+    <bounds
+        x="-24"
+        y="-60"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-83d285237f7b4161b76a882bb78b2fc9"
+      textAlignment="1"
+      content="Naamwijziging; &#xA;&quot;Monitoren leeractiviteiten&quot;">
+    <sourceConnections
+        id="id-fed5a4bc4fc04b19939012060503e2c4"
+        source="id-83d285237f7b4161b76a882bb78b2fc9"
+        target="id-8454e621ff344457a9d8cd7ce606b5e1"/>
+    <bounds
+        x="372"
+        y="-60"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-81639df6cd924a5ea782e34523179dce"
+      textAlignment="1"
+      content="Vaststellen verhuizen naar administeren ketenproces. + voortgang leermateriaal aan vaststellen hangen">
+    <sourceConnections
+        id="id-d787c0a0a3af45cca5a40c8db952fed7"
+        source="id-81639df6cd924a5ea782e34523179dce"
+        target="id-281c22967b9e42368fbd04b6474f2aa8"/>
+    <sourceConnections
+        id="id-10c2487ed94f431984283ac82edad1df"
+        source="id-81639df6cd924a5ea782e34523179dce"
+        target="id-e76f24c14bba4ddebaff6e0a3b49424a"/>
+    <bounds
+        x="438"
+        y="552"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
