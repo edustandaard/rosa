@@ -449,6 +449,15 @@
         id="id-fc0b361e198f4f3a80e864071d26f102"
         targetConnections="id-4c8b25c727df4c9c8a35b4618f82ea91"
         fillColor="#ffffff">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f6ec97dd91834262a9c47fa4006fd9d4"
+          source="id-fc0b361e198f4f3a80e864071d26f102"
+          target="id-ecd3936dbcc8474abc58e01b3a241299">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-e67def81229e4640944f3cfa7f433629.xml#id-e67def81229e4640944f3cfa7f433629"/>
+      </sourceConnections>
       <bounds
           x="996"
           y="24"
@@ -551,6 +560,19 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-9011712568734980a9f279a42d9a1184.xml#id-9011712568734980a9f279a42d9a1184"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-d069543ac7364eb6b906e44ade82dfad"
+          source="id-d4dbca18a06f432e85fe5f0a409ad7c5"
+          target="id-ecd3936dbcc8474abc58e01b3a241299">
+        <bendpoints
+            startX="198"
+            startY="-3"
+            endY="122"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-8312368046d2474aa9b39bff6bca84f1.xml#id-8312368046d2474aa9b39bff6bca84f1"/>
       </sourceConnections>
       <bounds
           x="204"
@@ -805,6 +827,19 @@
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_24cf1510-67f4-4acb-a5a1-7ecacb1e5a72.xml#24cf1510-67f4-4acb-a5a1-7ecacb1e5a72"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-ecd3936dbcc8474abc58e01b3a241299"
+      targetConnections="id-f6ec97dd91834262a9c47fa4006fd9d4 id-d069543ac7364eb6b906e44ade82dfad">
+    <bounds
+        x="1008"
+        y="-509"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-943051f7f72246b0a3d3656c8e0b75cd.xml#id-943051f7f72246b0a3d3656c8e0b75cd"/>
   </children>
   <properties
       key="Publiceren"
