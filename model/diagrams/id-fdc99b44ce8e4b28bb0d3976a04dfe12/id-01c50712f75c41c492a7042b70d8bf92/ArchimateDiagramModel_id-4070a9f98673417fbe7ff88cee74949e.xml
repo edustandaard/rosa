@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Wallet in federatief stelsel (Inrichtingsscenario Doorgifte identiteiten)"
+    name="Wallet in federatief stelsel"
     id="id-4070a9f98673417fbe7ff88cee74949e">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -70,15 +70,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-a8bb2f69f04843a9b35ee1553383c264"
-        source="id-034e600aa4a84e09bde517d337a8d4eb"
-        target="id-3bfaee26e6da4c9fb69a2739bf688ef2">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-90edcfa4c96d47f5930216dd609c8fe3.xml#id-90edcfa4c96d47f5930216dd609c8fe3"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b1e178cb47d74253a89722261187b802"
         source="id-034e600aa4a84e09bde517d337a8d4eb"
         target="id-9d49934ca2d8468386ecbd48c4994dc1">
@@ -94,6 +85,15 @@
       <archimateRelationship
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_id-e99b83ea7a8e4fed96e7551d624dc0fc.xml#id-e99b83ea7a8e4fed96e7551d624dc0fc"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-5def09cbabe94678be4dcff54fc583a0"
+        source="id-034e600aa4a84e09bde517d337a8d4eb"
+        target="id-117afd2851ea404885973966a3b426c4">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-c3528d8c00af42cca3451b3e6a53ff65.xml#id-c3528d8c00af42cca3451b3e6a53ff65"/>
     </sourceConnections>
     <bounds
         x="12"
@@ -215,7 +215,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-30d8b27fe00e41a186e353a49ad95645"
-        targetConnections="id-1b62c4be5f3b4448adc322a7d3ade9ae id-023d24f3edb0450694fc289fe2b3f51e id-1055a941302b4c52819868ac26a66605"
+        targetConnections="id-1b62c4be5f3b4448adc322a7d3ade9ae id-1055a941302b4c52819868ac26a66605 id-36e72cb4457c4a29bdbeea9ecdcbe4c1"
         type="1">
       <bounds
           x="924"
@@ -333,28 +333,6 @@
       <archimateElement
           xsi:type="archimate:BusinessObject"
           href="BusinessObject_id-27ef33b60d964a6c83f7440ee846a491.xml#id-27ef33b60d964a6c83f7440ee846a491"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-3bfaee26e6da4c9fb69a2739bf688ef2"
-        targetConnections="id-c90e382001154bbeab6941ef72a15c7b id-a8bb2f69f04843a9b35ee1553383c264">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-023d24f3edb0450694fc289fe2b3f51e"
-          source="id-3bfaee26e6da4c9fb69a2739bf688ef2"
-          target="id-30d8b27fe00e41a186e353a49ad95645">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-836b8bc91f6b411aaba76a0af2b6c4bc.xml#id-836b8bc91f6b411aaba76a0af2b6c4bc"/>
-      </sourceConnections>
-      <bounds
-          x="1080"
-          y="183"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:ApplicationComponent"
-          href="ApplicationComponent_id-7bfe8dedb99a4f198c130ed39115d3db.xml#id-7bfe8dedb99a4f198c130ed39115d3db"/>
     </children>
     <children
         xsi:type="archimate:DiagramModelNote"
@@ -520,12 +498,34 @@
       <sourceConnections
           id="id-c90e382001154bbeab6941ef72a15c7b"
           source="id-5886bf9aac354114bf8a3ce1ac625f0d"
-          target="id-3bfaee26e6da4c9fb69a2739bf688ef2"/>
+          target="id-117afd2851ea404885973966a3b426c4"/>
       <bounds
           x="1104"
           y="336"
           width="97"
           height="31"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-117afd2851ea404885973966a3b426c4"
+        targetConnections="id-5def09cbabe94678be4dcff54fc583a0 id-c90e382001154bbeab6941ef72a15c7b">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-36e72cb4457c4a29bdbeea9ecdcbe4c1"
+          source="id-117afd2851ea404885973966a3b426c4"
+          target="id-30d8b27fe00e41a186e353a49ad95645">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-cf432ecc302e42fc90661be44c7b9e48.xml#id-cf432ecc302e42fc90661be44c7b9e48"/>
+      </sourceConnections>
+      <bounds
+          x="1081"
+          y="180"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:ApplicationComponent"
+          href="ApplicationComponent_id-250cf5726083428d8fadc78b900fb33f.xml#id-250cf5726083428d8fadc78b900fb33f"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
@@ -534,4 +534,10 @@
   <properties
       key="Publiceren"
       value="Ja"/>
+  <properties
+      key="Type"
+      value="Scenario"/>
+  <properties
+      key="Scenariotype"
+      value="IV-inrichtingsvariant"/>
 </archimate:ArchimateDiagramModel>
