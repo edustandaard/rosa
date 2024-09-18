@@ -601,6 +601,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9fc65863496a467f98c0bf8f2693492f"
+      targetConnections="id-8012aff122fc455ea3ef672f380410d1"
       textAlignment="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -659,17 +660,19 @@
         height="97"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-30b14f4f87f6409d9386db85ceea71a4"
-      textAlignment="1">
+      xsi:type="archimate:DiagramModelNote"
+      id="id-051bf13ca4c14f5aab6b2ecb6e158f47"
+      textAlignment="1"
+      content="Bijvoorbeeld: Uitwisseling met ROD">
+    <sourceConnections
+        id="id-8012aff122fc455ea3ef672f380410d1"
+        source="id-051bf13ca4c14f5aab6b2ecb6e158f47"
+        target="id-9fc65863496a467f98c0bf8f2693492f"/>
     <bounds
-        x="-678"
-        y="960"
-        width="400"
-        height="140"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-65ab1924109445eeac8bbb29b6471439.xml#id-65ab1924109445eeac8bbb29b6471439"/>
+        x="-264"
+        y="816"
+        width="185"
+        height="97"/>
   </children>
   <properties
       key="Publiceren"
