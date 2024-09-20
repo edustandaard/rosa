@@ -184,12 +184,12 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-e9a72d68de004fd3af26e27070fc1821"
+          id="id-6dac7c4fa3de4b8c86de777f2727f334"
           source="id-4b8b5ab1aa8349ef815cdd8f23585ed2"
-          target="id-29f7f6ccacac4677b05c16bec7d70f2d">
+          target="id-c0d24dffd3f249b8a4336843459e1445">
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-a05c5e4f1df046b69d98c798ad9956c3.xml#id-a05c5e4f1df046b69d98c798ad9956c3"/>
+            href="AccessRelationship_id-7aee1bb161a541d589604fe6d9909ccc.xml#id-7aee1bb161a541d589604fe6d9909ccc"/>
       </sourceConnections>
       <bounds
           x="24"
@@ -247,7 +247,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f2a44f3083df460a8611d0e19cb66028"
-        targetConnections="id-96955f0bc01144aeb9266885a2064a10 id-58c140ba44c945c8bd6e202fcf3a1003">
+        targetConnections="id-96955f0bc01144aeb9266885a2064a10">
       <bounds
           x="420"
           y="36"
@@ -340,7 +340,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-281c22967b9e42368fbd04b6474f2aa8"
-        targetConnections="id-2e97495bcbf045afa0d7c2b43a1a2292">
+        targetConnections="id-2e97495bcbf045afa0d7c2b43a1a2292 id-6b92bc7aa6d84a6897cbfe60a58733e6">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-b83a318f382443a8b358c3c95c8c7836"
@@ -407,12 +407,12 @@
       xsi:type="archimate:DiagramModelNote"
       id="id-924aec972e9c4c489d4ab817ed065cb0"
       textAlignment="1"
-      content="Todo&#xA;[X] Leerresultaten -> write -> onderwijsresultaat? &#xA;[X] Vastleggen van onderwijsresultaat; read/write? &#xA;[X] Beoordelen hernoemen naar -> formaliseren leerresultaat&#xA;[ ] Definitie 'formaliseren leerresultaat'&#xA;[ ] Bepalen relatie in toetsen examineren rondom het bepalen van onderwijsresultaat&#xA;[X] Leerresultaat informatieobject moet terug in de modellen - even checken op ROSA incl. de views &#xA;[X] informatie object leerresultaat vervangen door informatie object, nu is dit een koi begrip&#xA;[X] Voortgang leermateriaal moet nog aan een ketenprocesstap gekoppeld worden&#xA;[ ] Actualiseren toetsen examineren t.b.v. gebruik administreren leerresultaat&#xA;[ ] uit het model van 'aanmelden onderwijs' moet het administereren nog vervangen worden&#xA;[X] Naamwijziging 'administereren leerresultaat' => 'Monitoren leerresultaat'&#xA;[ ] Definitie herzien 'monitoren leerresultaat'&#xA;[ ] Informatie objecten 'leeractiviteit' en ' referentiekader' defineren&#xA;[X] Vaststellen verhuizen naar administeren ketenproces. + voortgang leermateriaal aan vaststellen hangen&#xA;&#xA;&#xA;Na QA team&#xA;[  ] Grouping aanpassen in Toepassen leermiddelen (in context)&#xA;&#xA;&#xA;-------&#xA;">
+      content="Todo&#xA;[X] Leerresultaten -> write -> onderwijsresultaat? &#xA;[X] Vastleggen van onderwijsresultaat; read/write? &#xA;[X] Beoordelen hernoemen naar -> formaliseren leerresultaat&#xA;[X] Definitie 'formaliseren leerresultaat'&#xA;[X] Bepalen relatie in toetsen examineren rondom het bepalen van onderwijsresultaat -> Toets en examen zijn leerresultaten die geformaliseerd worden naar een onderwijsresultaat&#xA;[X] Leerresultaat informatieobject moet terug in de modellen - even checken op ROSA incl. de views &#xA;[X] informatie object leerresultaat vervangen door informatie object, nu is dit een koi begrip&#xA;[X] Voortgang leermateriaal moet nog aan een ketenprocesstap gekoppeld worden&#xA;[X] Actualiseren toetsen examineren t.b.v. gebruik administreren leerresultaat&#xA;[X] uit het model van 'aanmelden onderwijs' moet het administereren nog vervangen worden&#xA;[X] Naamwijziging 'administereren leerresultaat' => 'Monitoren leerresultaat'&#xA;[X] Definitie herzien 'monitoren leerresultaat'&#xA;[X] Informatie objecten 'leeractiviteit' en ' referentiekader' defineren&#xA;[X] Vaststellen verhuizen naar administeren ketenproces. + voortgang leermateriaal aan vaststellen hangen&#xA;[  ] Onderwijsresultaat (output) vanuit A&amp;M moet naar de context aanmelden naar aanmelden&#xA;[  ] Context registreren onderwijs moet een onderwijsresultaat nog een verbinding krijgen naar registreren onderwijsresultaat (dit is duo)&#xA;[X] Dennis seintje geven als contextmodel op orde is zodat er in zijn context binnen aanmelden een link gelegd kan worden naar onderwijsresultaat (waar die gecreeerd wordt) &#xA;&#xA;&#xA;Na QA team&#xA;[  ] Grouping aanpassen in Toepassen leermiddelen (in context)&#xA;&#xA;&#xA;-------&#xA;">
     <bounds
         x="1152"
         y="108"
         width="637"
-        height="373"/>
+        height="397"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -466,21 +466,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-29f7f6ccacac4677b05c16bec7d70f2d"
-      targetConnections="id-e9a72d68de004fd3af26e27070fc1821">
-    <bounds
-        x="72"
-        y="-48"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-1625eda29c384a95a94d016ac5465d10.xml#id-1625eda29c384a95a94d016ac5465d10"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5a988be89f0d4fa6a2da8c76fdb71d52"
-      targetConnections="id-e0e9b6dc21c5495fbe84111efeeb7478">
+      targetConnections="id-e0e9b6dc21c5495fbe84111efeeb7478 id-7d450cde8a394f61a177663c7da5f5d7">
     <bounds
         x="241"
         y="192"
@@ -492,17 +479,34 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-def93d44fe7a4cd89c611067479b33d0"
+      id="id-3b3556e22186485fa10abfbd1c16ac55"
       textAlignment="1"
-      content="Toegevoegd">
+      content="Leerdoel toevoegen als input? zie def. ">
     <sourceConnections
-        id="id-58c140ba44c945c8bd6e202fcf3a1003"
-        source="id-def93d44fe7a4cd89c611067479b33d0"
-        target="id-f2a44f3083df460a8611d0e19cb66028"/>
+        id="id-7d450cde8a394f61a177663c7da5f5d7"
+        source="id-3b3556e22186485fa10abfbd1c16ac55"
+        target="id-5a988be89f0d4fa6a2da8c76fdb71d52"/>
+    <sourceConnections
+        id="id-6b92bc7aa6d84a6897cbfe60a58733e6"
+        source="id-3b3556e22186485fa10abfbd1c16ac55"
+        target="id-281c22967b9e42368fbd04b6474f2aa8"/>
     <bounds
-        x="490"
-        y="-40"
-        width="111"
-        height="35"/>
+        x="208"
+        y="300"
+        width="234"
+        height="51"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-c0d24dffd3f249b8a4336843459e1445"
+      targetConnections="id-6dac7c4fa3de4b8c86de777f2727f334">
+    <bounds
+        x="72"
+        y="-50"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-7f538a13e5644b838b8f4a0bd2218584.xml#id-7f538a13e5644b838b8f4a0bd2218584"/>
   </children>
 </archimate:ArchimateDiagramModel>
