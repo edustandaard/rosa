@@ -85,9 +85,9 @@
             href="AccessRelationship_id-c6d746a18d4e448ca9305bf23466185b.xml#id-c6d746a18d4e448ca9305bf23466185b"/>
       </sourceConnections>
       <bounds
-          x="298"
+          x="252"
           y="28"
-          width="120"
+          width="166"
           height="73"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -242,7 +242,16 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-2fb1dab572d0458eb610042a932b4c43"
-        targetConnections="id-61c99a4c2124452cac703de4a2b1c487">
+        targetConnections="id-61c99a4c2124452cac703de4a2b1c487 id-3422478d90704199bc3acc235071a256">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-0dae3c3896414f09bfa4ade05fcadac1"
+          source="id-2fb1dab572d0458eb610042a932b4c43"
+          target="id-e76f24c14bba4ddebaff6e0a3b49424a">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-775bb87732a64d009a9d247d63c73d51.xml#id-775bb87732a64d009a9d247d63c73d51"/>
+      </sourceConnections>
       <bounds
           x="288"
           y="36"
@@ -255,7 +264,16 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f2a44f3083df460a8611d0e19cb66028"
-        targetConnections="id-96955f0bc01144aeb9266885a2064a10">
+        targetConnections="id-96955f0bc01144aeb9266885a2064a10 id-0d1ff4a19af44790997485bce00753d0">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6b87fdb3e24e4de4bb6130fcb61b015c"
+          source="id-f2a44f3083df460a8611d0e19cb66028"
+          target="id-e76f24c14bba4ddebaff6e0a3b49424a">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-96e63fb25e11408b8b219f221149175c.xml#id-96e63fb25e11408b8b219f221149175c"/>
+      </sourceConnections>
       <bounds
           x="420"
           y="36"
@@ -348,7 +366,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-281c22967b9e42368fbd04b6474f2aa8"
-        targetConnections="id-2e97495bcbf045afa0d7c2b43a1a2292 id-6b92bc7aa6d84a6897cbfe60a58733e6">
+        targetConnections="id-2e97495bcbf045afa0d7c2b43a1a2292 id-6b92bc7aa6d84a6897cbfe60a58733e6 id-8076abb136a84612aecc4e1fd477902b">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-b83a318f382443a8b358c3c95c8c7836"
@@ -446,12 +464,12 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e76f24c14bba4ddebaff6e0a3b49424a"
-      targetConnections="id-b83a318f382443a8b358c3c95c8c7836"
+      targetConnections="id-b83a318f382443a8b358c3c95c8c7836 id-0dae3c3896414f09bfa4ade05fcadac1 id-6b87fdb3e24e4de4bb6130fcb61b015c"
       type="1">
     <bounds
-        x="756"
-        y="192"
-        width="120"
+        x="324"
+        y="-113"
+        width="565"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -513,8 +531,8 @@
         source="id-3b3556e22186485fa10abfbd1c16ac55"
         target="id-281c22967b9e42368fbd04b6474f2aa8"/>
     <bounds
-        x="276"
-        y="392"
+        x="91"
+        y="377"
         width="234"
         height="51"/>
   </children>
@@ -531,5 +549,51 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-7f538a13e5644b838b8f4a0bd2218584.xml#id-7f538a13e5644b838b8f4a0bd2218584"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-61d740d88bae4635a53bde86a1f2d955"
+      textAlignment="1"
+      fillColor="#d4fb78"
+      content="Remco;&#xA;- Wil jij dit model nog eens inhoudelijk doorkijken? Wat mij betreft is deze klaar namelijk dus ik wil graag jou als laatste review gebruiken. Ik heb het ook nog tegen het licht van de FOSA aangehouden (diagram 06 &amp; 07)&#xA;- De opmerkingen in het diagram zijn nog open. Hier hoor ik graag jouw gedachten over.">
+    <bounds
+        x="24"
+        y="660"
+        width="978"
+        height="96"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a9d2c57c67ed4791a30618326564d042"
+      textAlignment="1"
+      content="Informatie object: (?). &#xA;&#xA;Voorstel: Monitoren voortgang -> studievoortgang (?)&#xA;Monitoren voortgang leermateriaal -> studievoortgang (gelijk aan hierboven)">
+    <sourceConnections
+        id="id-3422478d90704199bc3acc235071a256"
+        source="id-a9d2c57c67ed4791a30618326564d042"
+        target="id-2fb1dab572d0458eb610042a932b4c43"/>
+    <sourceConnections
+        id="id-0d1ff4a19af44790997485bce00753d0"
+        source="id-a9d2c57c67ed4791a30618326564d042"
+        target="id-f2a44f3083df460a8611d0e19cb66028"/>
+    <bounds
+        x="336"
+        y="377"
+        width="265"
+        height="128"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-0ae3eeda9468433a960fa0070571cc94"
+      textAlignment="1"
+      content="Deze hangt erg samen met monitoren voortgang. Wat mij betreft mag er 1 blijven. Mist nu ook een informatie object">
+    <sourceConnections
+        id="id-8076abb136a84612aecc4e1fd477902b"
+        source="id-0ae3eeda9468433a960fa0070571cc94"
+        target="id-281c22967b9e42368fbd04b6474f2aa8"/>
+    <bounds
+        x="521"
+        y="552"
+        width="285"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
