@@ -124,9 +124,9 @@
           source="id-31b92cd98a96454a8e73dd06352ec998"
           target="id-c0d24dffd3f249b8a4336843459e1445">
         <bendpoints
-            startX="-34"
+            startX="2"
             startY="-99"
-            endX="245"
+            endX="281"
             endY="57"/>
         <bendpoints
             startX="-238"
@@ -152,7 +152,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-ce95e007a15d42c486ac641cf29e905d">
+      id="id-ce95e007a15d42c486ac641cf29e905d"
+      targetConnections="id-efc84f8918cf4e5dac14a4a9883563c0">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-26e43abf74634f26adef14e42b768c9c"
@@ -188,7 +189,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-1e4d9ac8690349ea81e04c49fe0eaecf"
-        targetConnections="id-26e43abf74634f26adef14e42b768c9c"
+        targetConnections="id-26e43abf74634f26adef14e42b768c9c id-cca118c0c1ea49dea48970c1d47d9594"
         textPosition="1">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
@@ -251,7 +252,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0e1967204d7640f187edd5360fd5ef5a"
-        targetConnections="id-aeaa06d4cf384ff6969bbad50fd87d75">
+        targetConnections="id-aeaa06d4cf384ff6969bbad50fd87d75 id-ffb8f57e98dc44228c35413f1eff54cd">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-523014f24ca3406f8735ab80563b4bb8"
@@ -357,7 +358,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-86607f3609034026a940f39a4869dea1"
-      targetConnections="id-6ef5810ce23244f89683be29900bba81"
+      targetConnections="id-6ef5810ce23244f89683be29900bba81 id-15e9ea5416b04bb89b114021bfd9e8a7"
       type="1">
     <bounds
         x="799"
@@ -383,7 +384,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-958bbc5361a94f5cbabd94116df6a0ee">
+      id="id-958bbc5361a94f5cbabd94116df6a0ee"
+      targetConnections="id-9cf06c2025834b568ff168461ad959b8">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-eca64b943eee4865a2bac2c97da3d9bc"
@@ -422,8 +424,8 @@
       </sourceConnections>
       <bounds
           x="36"
-          y="48"
-          width="120"
+          y="36"
+          width="193"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -436,7 +438,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b18c4aba72e545a7bc5b9fa9ba16bfba"
-      targetConnections="id-ce928ad23887487f9b17b72463de71e5">
+      targetConnections="id-ce928ad23887487f9b17b72463de71e5 id-9dc04a6bb7b245e7b3b6f79632f6cbfd">
     <bounds
         x="876"
         y="228"
@@ -590,5 +592,73 @@
         y="-240"
         width="97"
         height="37"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-977ea91587ec4b5c8b19660f37d68898"
+      textAlignment="1"
+      content="Begrippenkader:&#xA;Weg die een onderwijsdeelnemer langs leerlijnen door het onderwijs aflegt om een opleiding af te ronden.">
+    <sourceConnections
+        id="id-9dc04a6bb7b245e7b3b6f79632f6cbfd"
+        source="id-977ea91587ec4b5c8b19660f37d68898"
+        target="id-b18c4aba72e545a7bc5b9fa9ba16bfba"/>
+    <bounds
+        x="1056"
+        y="192"
+        width="349"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c5a3cb0910cd4de2a491c0b926202e4c"
+      textAlignment="1"
+      content="Verwijderen">
+    <sourceConnections
+        id="id-cca118c0c1ea49dea48970c1d47d9594"
+        source="id-c5a3cb0910cd4de2a491c0b926202e4c"
+        target="id-1e4d9ac8690349ea81e04c49fe0eaecf"/>
+    <sourceConnections
+        id="id-ffb8f57e98dc44228c35413f1eff54cd"
+        source="id-c5a3cb0910cd4de2a491c0b926202e4c"
+        target="id-0e1967204d7640f187edd5360fd5ef5a"/>
+    <sourceConnections
+        id="id-efc84f8918cf4e5dac14a4a9883563c0"
+        source="id-c5a3cb0910cd4de2a491c0b926202e4c"
+        target="id-ce95e007a15d42c486ac641cf29e905d"/>
+    <bounds
+        x="984"
+        y="-108"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-d731804bec3d414987986ab1cc912b61"
+      textAlignment="1"
+      content="INput op portfolio proces">
+    <sourceConnections
+        id="id-15e9ea5416b04bb89b114021bfd9e8a7"
+        source="id-d731804bec3d414987986ab1cc912b61"
+        target="id-86607f3609034026a940f39a4869dea1"/>
+    <bounds
+        x="1152"
+        y="-360"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b2c73d38c6804bee85a40e38d1271af5"
+      textAlignment="1"
+      content="Ketenproces: administreren resultaten. &#xA;&#xA;Hier zowel de vastlegging als formalisatie in opnemen en adinistreren onderwijsresujltaat verwijderen">
+    <sourceConnections
+        id="id-9cf06c2025834b568ff168461ad959b8"
+        source="id-b2c73d38c6804bee85a40e38d1271af5"
+        target="id-958bbc5361a94f5cbabd94116df6a0ee"/>
+    <bounds
+        x="12"
+        y="-360"
+        width="313"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
