@@ -6,7 +6,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-780c2246383b4b0bb4fa7a2d41ca9f59"
-      textAlignment="1">
+      textAlignment="1"
+      type="1">
     <features
         name="deriveElementLineColor"
         value="false"/>
@@ -480,15 +481,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-2865af8aa9764d55a58a5c45cf4e4d22"
-        source="id-780c2246383b4b0bb4fa7a2d41ca9f59"
-        target="id-a15a2dcb485a47ef8eaef9996b4adca2">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-000aeb2e84a545599a62b11bc07c95ba.xml#id-000aeb2e84a545599a62b11bc07c95ba"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ab6a589d76dd4a4c9218454d60fb4a72"
         source="id-780c2246383b4b0bb4fa7a2d41ca9f59"
         target="id-540916c93b6b43b7bb399d36d933059f">
@@ -603,6 +595,15 @@
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-274dc3cd115d447ea8f8c45246f2033f.xml#id-274dc3cd115d447ea8f8c45246f2033f"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-c070b2e76e064cbbb471566e14464f53"
+        source="id-780c2246383b4b0bb4fa7a2d41ca9f59"
+        target="id-da3c4b59cc144700be27446f03c04e67">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-20a226f0a2874b0eb485c8241b24f69e.xml#id-20a226f0a2874b0eb485c8241b24f69e"/>
     </sourceConnections>
     <bounds
         x="60"
@@ -723,24 +724,11 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-a15a2dcb485a47ef8eaef9996b4adca2"
-        targetConnections="id-2865af8aa9764d55a58a5c45cf4e4d22">
-      <bounds
-          x="528"
-          y="24"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessInteraction"
-          href="BusinessInteraction_id-0d9445a9349f4b8cabb43e6b30d6f1af.xml#id-0d9445a9349f4b8cabb43e6b30d6f1af"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-7e86b19bb53e40ecac0100ac9f901b96"
         targetConnections="id-f9382ba109564fccb3ba83142b8fb1f3"
         fillColor="#ffffb5">
       <bounds
-          x="660"
+          x="528"
           y="24"
           width="120"
           height="55"/>
@@ -1256,7 +1244,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-2382151ac66f4e19b034109ed3e96665"
-        targetConnections="id-1c03a1a5f2714bebafc184d53e5f5f6c">
+        targetConnections="id-1c03a1a5f2714bebafc184d53e5f5f6c"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1272,7 +1261,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0b1b1fb55a7741e3b21b0e98f88ac16c"
-        targetConnections="id-f011f03474834b9cac42b995526a4d23">
+        targetConnections="id-f011f03474834b9cac42b995526a4d23"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1320,7 +1310,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-45c7b13673cb4cfcbe67c595f64ee7c6"
-        targetConnections="id-7f083c9280474db0b0a2aee7536d2967">
+        targetConnections="id-7f083c9280474db0b0a2aee7536d2967"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1352,7 +1343,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c4cf2d3c684845a7925a2139b6edcf2b"
-        targetConnections="id-3d03a529c4b846b7a3696f75d489006c">
+        targetConnections="id-3d03a529c4b846b7a3696f75d489006c"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1384,7 +1376,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-c67d269b23ee4744bf99c9ec92ebc8e6"
-        targetConnections="id-1c54cff3890b45b8a6983270639f9ef0">
+        targetConnections="id-1c54cff3890b45b8a6983270639f9ef0"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1400,7 +1393,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-86b00e1633274180b0a18deb53499586"
-        targetConnections="id-a8b88942556540b9a8402f793767370b">
+        targetConnections="id-a8b88942556540b9a8402f793767370b"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1416,7 +1410,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-038d24a198fc4da08dc6d147d0ddf464"
-        targetConnections="id-5be7e2c68504487390a4c66084f3b1a9">
+        targetConnections="id-5be7e2c68504487390a4c66084f3b1a9"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1432,7 +1427,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-17d3fa02a6b1489eadc3c64f6be088b3"
-        targetConnections="id-fbb29599af5242eaa0a52eb109fbf8cc">
+        targetConnections="id-fbb29599af5242eaa0a52eb109fbf8cc"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1448,7 +1444,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-20630b51ef32481eb15cef1859261317"
-        targetConnections="id-d227dccee4dc4fc480ee2bffaef60032">
+        targetConnections="id-d227dccee4dc4fc480ee2bffaef60032"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1464,7 +1461,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f7d9fb0877534844933daddfa2445f11"
-        targetConnections="id-26ea5bb7e86943ac9c6590d367585815">
+        targetConnections="id-26ea5bb7e86943ac9c6590d367585815"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1480,7 +1478,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-4f65aeb5601942c7a6b02045c0a056d2"
-        targetConnections="id-b7c5e39736f2437b8972288c1c253814">
+        targetConnections="id-b7c5e39736f2437b8972288c1c253814"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1496,7 +1495,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-feb6ce1728e148c88e5a315959f4c5e7"
-        targetConnections="id-b132708f4e3f4ab59a8083ba9c4dd860">
+        targetConnections="id-b132708f4e3f4ab59a8083ba9c4dd860"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1512,7 +1512,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-faf2633aa1bb4476b9881011767bb3de"
-        targetConnections="id-2bc6721c557a42d4a19d40d74954bea0">
+        targetConnections="id-2bc6721c557a42d4a19d40d74954bea0"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1528,7 +1529,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0caccb2842144ee98d3157599e005c10"
-        targetConnections="id-19f8722357254aa1bdc38e97afe0c6d9">
+        targetConnections="id-19f8722357254aa1bdc38e97afe0c6d9"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1544,7 +1546,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-0875a560d89b42e4929e14ba760aa2b9"
-        targetConnections="id-0a164bb51ffd435fbd6b7498e1d129c3">
+        targetConnections="id-0a164bb51ffd435fbd6b7498e1d129c3"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1560,7 +1563,8 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-580a94ed164540b19c9aea7b5fe5e0c0"
-        targetConnections="id-6ea4d1d5764b4e9c86c209ebd48f5554">
+        targetConnections="id-6ea4d1d5764b4e9c86c209ebd48f5554"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1649,7 +1653,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-668edcddd77748c88eb091d898a00e4d"
         targetConnections="id-519f443535d34d8daaa05fa43048a48f"
-        textAlignment="1">
+        textAlignment="1"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1666,7 +1671,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-03019867737a4ce5962f11d14a8ba268"
         targetConnections="id-0880e7ce497046a1874be39f96038dd0"
-        textAlignment="1">
+        textAlignment="1"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1683,7 +1689,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-e4357614b75542b0973b9f437c0295f8"
         targetConnections="id-d60f1fc5b4e44d3c87ffdb287727bf78"
-        textAlignment="1">
+        textAlignment="1"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1700,7 +1707,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-b336bd065bfd47c1a47efb55806e695e"
         targetConnections="id-4ce8295f58cc4e859d0459b7313ff719"
-        textAlignment="1">
+        textAlignment="1"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1717,7 +1725,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-cdfc1656a1214352bed5eed30574ad36"
         targetConnections="id-9b4346f597414e1dad2746ccd3f3c672"
-        textAlignment="1">
+        textAlignment="1"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1734,7 +1743,8 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-a5ef5de06c284c1b84471c717aa6e78e"
         targetConnections="id-b14f35360dbf4e2bb408be3a97331ca3"
-        textAlignment="1">
+        textAlignment="1"
+        type="1">
       <features
           name="deriveElementLineColor"
           value="false"/>
@@ -1802,6 +1812,19 @@
           y="624"
           width="106"
           height="24"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-da3c4b59cc144700be27446f03c04e67"
+        targetConnections="id-c070b2e76e064cbbb471566e14464f53">
+      <bounds
+          x="660"
+          y="24"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-911b0c4fa6e34220aa3b634809577201.xml#id-911b0c4fa6e34220aa3b634809577201"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
