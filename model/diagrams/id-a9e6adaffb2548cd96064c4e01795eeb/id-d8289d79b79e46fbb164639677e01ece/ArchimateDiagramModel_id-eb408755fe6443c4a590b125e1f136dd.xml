@@ -54,10 +54,6 @@
       id="id-cbc2261e0b274296b027eedfdf8def2b"
       targetConnections="id-a1881a8183f94991a77d4ddd91772c60"
       type="1">
-    <sourceConnections
-        id="id-5bda5bcb04bd4a939d7b6cf2295da2fd"
-        source="id-cbc2261e0b274296b027eedfdf8def2b"
-        target="id-a4cb62b8ba3849798cb44e86f38f803c"/>
     <bounds
         x="36"
         y="288"
@@ -116,9 +112,13 @@
             href="AccessRelationship_id-c30a542d730a474fa15165a32ea52450.xml#id-c30a542d730a474fa15165a32ea52450"/>
       </sourceConnections>
       <sourceConnections
-          id="id-c43f1418c1904aebabf4efcf2e6e4d75"
+          id="id-4ca2ef991e54469da75d0755b2531db0"
           source="id-cf203ac74f834dc8b4d3ff3a399b5268"
-          target="id-2d32ba78b39c4e22854f1f8aa44ffab7"/>
+          target="id-2d9e2cbe41c7448e95f0daa550a28d73"/>
+      <sourceConnections
+          id="id-318faa0f91c149d0adff9d9158c543e0"
+          source="id-cf203ac74f834dc8b4d3ff3a399b5268"
+          target="id-faef0e4588de4d76b188b060e35dbe05"/>
       <bounds
           x="192"
           y="36"
@@ -150,6 +150,10 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-1cc541f929694461acb4872c14798d73.xml#id-1cc541f929694461acb4872c14798d73"/>
       </sourceConnections>
+      <sourceConnections
+          id="id-e7b3da36a00a4b9bb80015a78b5f0aed"
+          source="id-5a7b7040478e49c1bd0e2917256cc29a"
+          target="id-5a0e398cd14145e6a7a1534079ef61bf"/>
       <bounds
           x="24"
           y="36"
@@ -291,6 +295,10 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-8442f273acd448e8b2de9d01d9ed90cf.xml#id-8442f273acd448e8b2de9d01d9ed90cf"/>
       </sourceConnections>
+      <sourceConnections
+          id="id-fdf8e28474bb4728ba7f788965afcfcc"
+          source="id-767d2977233349a3bcf73c4b37ab3583"
+          target="id-faef0e4588de4d76b188b060e35dbe05"/>
       <bounds
           x="384"
           y="46"
@@ -309,6 +317,10 @@
       id="id-770636c84bbf4600bf0084f9b4e70b33"
       targetConnections="id-b834a06be7de4920946b19e09e5d6944"
       type="1">
+    <sourceConnections
+        id="id-ac1d8e83dc414d7f83a86bbac93887ea"
+        source="id-770636c84bbf4600bf0084f9b4e70b33"
+        target="id-aa084fe783604c6385d038a10e3dae07"/>
     <bounds
         x="-288"
         y="201"
@@ -346,8 +358,8 @@
         source="id-63502ab3cf91476586742e95c1c3f12a"
         target="id-48181bec605e4e46b09c56981c89ac46"/>
     <bounds
-        x="276"
-        y="576"
+        x="240"
+        y="480"
         width="185"
         height="80"/>
   </children>
@@ -382,35 +394,59 @@
       id="id-6de6ea817608429dac270cf2320d9e58"
       targetConnections="id-2b550960db25401abbf70e01e3b008bd"
       textAlignment="1"
-      content="DH: checkvragen.. Dit is enkel de waardering? Dus niet het fysieke diploma? En dat is dan blijkbaar een soort tussenresultaat dat verwerkt wordt tot Resultaatverklaring. UIteindelijk zie je de diplomawaardering nergens terug bij het vervolg van het formaliseren?&#xD;&#xA;&#xD;&#xA;">
+      content="DH: checkvragen.. Dit is enkel de waardering? Dus niet het fysieke diploma? En dat is dan blijkbaar een soort tussenresultaat dat verwerkt wordt tot Resultaatverklaring. UIteindelijk zie je de diplomawaardering nergens terug bij het vervolg van het formaliseren?&#xD;&#xA;&#xD;&#xA;Diplomawaardering heeft niet perse waarde voor de keten...&#xD;&#xA;&#xD;&#xA;Wellicht stappen samenvoegen (beoordelen en opstellen)?">
     <bounds
-        x="-288"
+        x="-210"
         y="360"
-        width="227"
-        height="139"/>
+        width="241"
+        height="205"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-2d32ba78b39c4e22854f1f8aa44ffab7"
-      targetConnections="id-c43f1418c1904aebabf4efcf2e6e4d75"
+      id="id-aa084fe783604c6385d038a10e3dae07"
+      targetConnections="id-ac1d8e83dc414d7f83a86bbac93887ea"
       textAlignment="1"
-      content="DH: Als er op het Waardedocument ook nog iets als een resultatenlijst is opgenomen, dan mis ik de Onderwijsresultaten als input bij het verstrekken...">
+      content="DH: dit is niet alleen internationaal.. Moet Referentiekader zijn (in het algemeen)">
     <bounds
-        x="768"
-        y="53"
-        width="207"
-        height="113"/>
+        x="-276"
+        y="277"
+        width="157"
+        height="72"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-a4cb62b8ba3849798cb44e86f38f803c"
-      targetConnections="id-5bda5bcb04bd4a939d7b6cf2295da2fd"
+      id="id-faef0e4588de4d76b188b060e35dbe05"
+      targetConnections="id-fdf8e28474bb4728ba7f788965afcfcc id-318faa0f91c149d0adff9d9158c543e0"
       textAlignment="1"
-      content="DH: Ik zou verwachten dat deze vrijstelling ergens terug komt als input bij het ketenprocesmodel Toetsen en examineren... &#xD;&#xA;&#xD;&#xA;Oh na een (betere) check is dit ook het geval :-)">
+      content="Definities ontbreken of moeten worden aangepast">
     <bounds
-        x="-24"
-        y="419"
-        width="229"
-        height="122"/>
+        x="548"
+        y="360"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-2d9e2cbe41c7448e95f0daa550a28d73"
+      targetConnections="id-4ca2ef991e54469da75d0755b2531db0"
+      textAlignment="1"
+      content="Hernoemen naar alleen Verstrekken waardedocument. NB. Zie opmerking in de definitie van deze stap.">
+    <bounds
+        x="732"
+        y="209"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5a0e398cd14145e6a7a1534079ef61bf"
+      targetConnections="id-e7b3da36a00a4b9bb80015a78b5f0aed"
+      textAlignment="1"
+      content="RdB/Joeri: Geen EN. Beter OF">
+    <bounds
+        x="363"
+        y="288"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>

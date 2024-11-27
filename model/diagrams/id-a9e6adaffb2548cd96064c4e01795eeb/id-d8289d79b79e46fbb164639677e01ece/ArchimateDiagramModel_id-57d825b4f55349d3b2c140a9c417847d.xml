@@ -223,7 +223,11 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-302bbc833ac145a896d39f9e1a3ff17c"
-      targetConnections="id-7253dcea5e0848cb9aa204614095f256 id-e3b8e8d4ca3b41318d660833572e77ce">
+      targetConnections="id-7253dcea5e0848cb9aa204614095f256 id-e3b8e8d4ca3b41318d660833572e77ce id-c83cfb9fd6da4b20977bc33f44201dce">
+    <sourceConnections
+        id="id-4cac2d0064104c188d80bd97c9dd756e"
+        source="id-302bbc833ac145a896d39f9e1a3ff17c"
+        target="id-beca71b6c3ae4a679a23ac6bf9aa7c92"/>
     <bounds
         x="396"
         y="300"
@@ -281,6 +285,10 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-c295f955419b4e1d86fe2330d2022b94.xml#id-c295f955419b4e1d86fe2330d2022b94"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-59f70e2b0a0c493b8917bcd8055a7ae0"
+        source="id-958bbc5361a94f5cbabd94116df6a0ee"
+        target="id-f7010364da0643e2b9572bb2bd08c682"/>
     <bounds
         x="235"
         y="-264"
@@ -400,6 +408,10 @@
         id="id-b8641e781236471792bb7a9cd9b6b38d"
         source="id-5c35e279f80d4b3c83dcd8e73080b134"
         target="id-6a88b16f4c4d41c59878b3930ea98951"/>
+    <sourceConnections
+        id="id-66a406fd06004903acbe08776faa2fc0"
+        source="id-5c35e279f80d4b3c83dcd8e73080b134"
+        target="id-f7010364da0643e2b9572bb2bd08c682"/>
     <bounds
         x="650"
         y="48"
@@ -622,6 +634,10 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-c6d746a18d4e448ca9305bf23466185b.xml#id-c6d746a18d4e448ca9305bf23466185b"/>
       </sourceConnections>
+      <sourceConnections
+          id="id-13643fca0d654cf792f8984499e9c944"
+          source="id-8360a2839c03432ea980a82381a90cc6"
+          target="id-26c9a97050f143c1b2a37c00fd795bac"/>
       <bounds
           x="156"
           y="36"
@@ -652,10 +668,61 @@
       id="id-6a88b16f4c4d41c59878b3930ea98951"
       targetConnections="id-b8641e781236471792bb7a9cd9b6b38d"
       textAlignment="1"
-      content="DH: Hernoemen naar Monitoren leeroute. Dus voortgang weg. De leerroute wordt evt adhv het object Voortgang leerproces. Maar volgens mij kan je ook je leerroute bijstellen als de voortgang daarop helemaal in lijn is met de verwachting.. Want deelnemer stelt opeens andere leerdoelen. (om maar wat te noemen)&#xD;&#xA;&#xD;&#xA;Nog even wat checkvragen... In het Monitoren voortgang leerpoces is er in de stap Bepalen vervolgstap leerproces een write naar het object Leeractiviteit. Wat is dit precies? Een aanpassing in de vorm of het type leeractiviteit? En dat is dan dus niet een bijstelling van de leerroute? Want dat zit op het niveau van vakken/modules (...?)">
+      content="DH: Hernoemen naar Monitoren leerroute. Dus voortgang weg. De leerroute wordt evt adhv het object Voortgang leerproces. Maar volgens mij kan je ook je leerroute bijstellen als de voortgang daarop helemaal in lijn is met de verwachting.. Want deelnemer stelt opeens andere leerdoelen. (om maar wat te noemen)&#xD;&#xA;&#xD;&#xA;NB. Hier mist nog een definitie...&#xD;&#xA;&#xD;&#xA;Nog even wat checkvragen... In het Monitoren voortgang leerpoces is er in de stap Bepalen vervolgstap leerproces een write naar het object Leeractiviteit. Wat is dit precies? Een aanpassing in de vorm of het type leeractiviteit? En dat is dan dus niet een bijstelling van de leerroute? Want dat zit op het niveau van vakken/modules (...?)">
     <bounds
         x="1008"
+        width="349"
+        height="241"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-26c9a97050f143c1b2a37c00fd795bac"
+      targetConnections="id-13643fca0d654cf792f8984499e9c944"
+      textAlignment="1"
+      content="Uit het beschikbaarstellen komt uiteindelijk output. Dat wat beschikbaar wordt gesteld... Portfolioselectie?">
+    <bounds
+        x="949"
+        y="-261"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f7010364da0643e2b9572bb2bd08c682"
+      targetConnections="id-59f70e2b0a0c493b8917bcd8055a7ae0 id-66a406fd06004903acbe08776faa2fc0"
+      textAlignment="1"
+      content="Definitie ontbreekt">
+    <bounds
+        x="28"
+        y="-94"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5b7fe37d55924581a14aeabef04c9ea8"
+      textAlignment="1"
+      content="DH: Er ontbreekt hier nog de benodigde scherpte in de definitie. Sosieso wordt alleen gerefereert naar het leerproces en niet de leerroute. Uberhaupt vind ik het vreemd dat het leerdoel zowel input is voor het monitoren van het leerproces, maar ook de leerroute. Modelleer-technisch niet heel sterk.. (subjectief?)">
+    <sourceConnections
+        id="id-c83cfb9fd6da4b20977bc33f44201dce"
+        source="id-5b7fe37d55924581a14aeabef04c9ea8"
+        target="id-302bbc833ac145a896d39f9e1a3ff17c"/>
+    <bounds
+        x="804"
+        y="300"
         width="313"
-        height="217"/>
+        height="108"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-beca71b6c3ae4a679a23ac6bf9aa7c92"
+      targetConnections="id-4cac2d0064104c188d80bd97c9dd756e"
+      textAlignment="1"
+      content="RdB: Scherpte aanbrengen in de termen: leerdoel, leeruitkomst, skill.">
+    <bounds
+        x="168"
+        y="312"
+        width="185"
+        height="80"/>
   </children>
 </archimate:ArchimateDiagramModel>
