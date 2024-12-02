@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Toetsen en examineren (in detail) Aanpassing 1224"
+    name="Toetsen en examineren (in detail)"
     id="id-c65a6abdf5ac48bb8a4b1a77840dcbe9"
     documentation="Deze weergave geeft de inrichting van de ketenprocessen examineren en toetsen in detail weer en hoe de verschillende onderdelen (ketenprocessen, ketenprocesstappen en informatieobjecten) zich tot elkaar verhouden. De ketenprocesstappen geven expliciete invulling aan de ketenprocessen en ondersteunen op hun beurt de gegevensuitwisselingen die tot uitdrukking komen in de informatieobjecten die van en naar de ketenprocesstappen lopen. Een aantal belangrijke aandachtspunten voor dit model:&#xD;&#xA;&lt;ul>&lt;li>Een vrijstelling voor een examen (onderdeel) wordt tijdens de organisatie van de examens vastgesteld. Vervolgens wordt deze vrijstelling gebruikt bij de uitvoering van de examenonderdelen.&lt;/li>&#xD;&#xA;&lt;li>Een examendeelnemer en een toetsdeelnemer zijn specialisaties van een onderwijsdeelnemer.&lt;/li>&#xD;&#xA;&lt;li>Het uitvoeren van de examenonderdelen wordt uitgevoerd door middel van het uitvoeren van toetsen.&lt;/li>&#xD;&#xA;&lt;li>Zowel een toetsresultaat als examenuitslag zijn vormen van een leerresultaat. Een toetsuitslag is ook een onderdeel van een examenuitslag.&lt;/li>&lt;/ul>&#xD;&#xA;">
   <children
@@ -640,7 +640,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-813d9893704f4d869e6dfb2a0faa2ddc"
-      targetConnections="id-09c3764c26f64323aa4e3ae7d798484a id-a7533b182be3478d9224f37476b5a0c4 id-19aa2b92a66c4551b2454fc6db0991c5 id-3aa597ef603d4b8b8ca60718944409a6">
+      targetConnections="id-09c3764c26f64323aa4e3ae7d798484a id-a7533b182be3478d9224f37476b5a0c4 id-19aa2b92a66c4551b2454fc6db0991c5">
     <bounds
         x="696"
         y="384"
@@ -798,21 +798,6 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-0b3a8df122db43628ad41760c17ed4fb.xml#id-0b3a8df122db43628ad41760c17ed4fb"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-9670d2c2954d41c38311488b93f5dc43"
-      textAlignment="1"
-      content="Toetsresultaat is een vorm van een leerresultaat, moet in het informatiemodel">
-    <sourceConnections
-        id="id-3aa597ef603d4b8b8ca60718944409a6"
-        source="id-9670d2c2954d41c38311488b93f5dc43"
-        target="id-813d9893704f4d869e6dfb2a0faa2ddc"/>
-    <bounds
-        x="1320"
-        y="402"
-        width="185"
-        height="80"/>
   </children>
   <properties
       key="Publiceren"
