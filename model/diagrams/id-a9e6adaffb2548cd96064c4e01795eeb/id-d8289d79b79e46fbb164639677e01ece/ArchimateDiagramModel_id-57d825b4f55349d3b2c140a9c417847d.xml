@@ -1,12 +1,13 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Administreren &amp; monitoren resultaten (in detail)"
-    id="id-57d825b4f55349d3b2c140a9c417847d">
+    name="Administreren en monitoren resultaten (in detail)"
+    id="id-57d825b4f55349d3b2c140a9c417847d"
+    documentation="Deze weergave geeft de inrichting van de ketenprocessen '''Administreren resultaten''', '''Monitoren voortgang leerproces''', '''Monitoren voortgang leerroute''' en '''Opbouwen portfolio''' weer en hoe die zich tot elkaar verhouden. De ketenprocesstappen geven expliciete invulling aan de ketenprocessen en ondersteunen op hun beurt de gegevensuitwisselingen die tot uitdrukking komen in de informatieobjecten die van en naar de ketenprocesstappen lopen. ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b4edcf7c547e4b9c936bc5cfb3832f44"
-      targetConnections="id-3e2ebaa2fa6342e89106660785b512cb id-dc1daa72b25a40cea94d2b4e69414734 id-54ce04c37d764060a01b2555d32a28de"
+      targetConnections="id-3e2ebaa2fa6342e89106660785b512cb id-dc1daa72b25a40cea94d2b4e69414734 id-54ce04c37d764060a01b2555d32a28de id-1aae61e1dda94f18b4787eb4f44600a2"
       type="1">
     <bounds
         x="540"
@@ -67,20 +68,6 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-e3b8e8d4ca3b41318d660833572e77ce"
-          source="id-2fb1dab572d0458eb610042a932b4c43"
-          target="id-302bbc833ac145a896d39f9e1a3ff17c">
-        <bendpoints
-            startX="36"
-            startY="105"
-            endX="-141"
-            endY="-111"/>
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-d4177a03f03d4c908fd9b6b99963aa6b.xml#id-d4177a03f03d4c908fd9b6b99963aa6b"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-ca92628bb7074dd4be11ea68b2d0efd5"
           source="id-2fb1dab572d0458eb610042a932b4c43"
           target="id-8cf82f13c0134c598d04a47e8124d43b">
@@ -96,6 +83,20 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-dc1647c67011468eb2f5f99d51dc20c6.xml#id-dc1647c67011468eb2f5f99d51dc20c6"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-5ae2104d271d4828906ec3ca4251b354"
+          source="id-2fb1dab572d0458eb610042a932b4c43"
+          target="id-b18c4aba72e545a7bc5b9fa9ba16bfba">
+        <bendpoints
+            startX="54"
+            startY="213"
+            endX="-418"
+            endY="-3"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-3f4255b0d6314a3d9246caf89c906194.xml#id-3f4255b0d6314a3d9246caf89c906194"/>
       </sourceConnections>
       <bounds
           x="12"
@@ -157,7 +158,7 @@
       targetConnections="id-0dae3c3896414f09bfa4ade05fcadac1"
       type="1">
     <bounds
-        x="276"
+        x="296"
         y="228"
         width="124"
         height="55"/>
@@ -185,8 +186,8 @@
       targetConnections="id-e91edad4e801401493f3fe167f82e31f"
       type="1">
     <bounds
-        x="432"
-        y="-348"
+        x="312"
+        y="-336"
         width="120"
         height="55"/>
     <archimateElement
@@ -214,7 +215,7 @@
     <bounds
         x="455"
         y="228"
-        width="218"
+        width="134"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -223,11 +224,11 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-302bbc833ac145a896d39f9e1a3ff17c"
-      targetConnections="id-7253dcea5e0848cb9aa204614095f256 id-e3b8e8d4ca3b41318d660833572e77ce">
+      targetConnections="id-7253dcea5e0848cb9aa204614095f256">
     <bounds
-        x="396"
-        y="300"
-        width="337"
+        x="660"
+        y="228"
+        width="119"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -238,8 +239,8 @@
       id="id-86607f3609034026a940f39a4869dea1"
       targetConnections="id-a33f54bc8ad440d4a8fa5738731abf76">
     <bounds
-        x="613"
-        y="-348"
+        x="612"
+        y="-336"
         width="120"
         height="55"/>
     <archimateElement
@@ -252,7 +253,7 @@
       targetConnections="id-ca92628bb7074dd4be11ea68b2d0efd5"
       type="1">
     <bounds
-        x="144"
+        x="168"
         y="228"
         width="120"
         height="55"/>
@@ -281,10 +282,19 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-c295f955419b4e1d86fe2330d2022b94.xml#id-c295f955419b4e1d86fe2330d2022b94"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-01077cd7f8194c3693ebddfb87bc024f"
+        source="id-958bbc5361a94f5cbabd94116df6a0ee"
+        target="id-df12df0c1f3848f4a76d403adcd811dd">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-e5f86822c4604e0d9e6b9f5bc4ee46a6.xml#id-e5f86822c4604e0d9e6b9f5bc4ee46a6"/>
+    </sourceConnections>
     <bounds
-        x="235"
+        x="132"
         y="-264"
-        width="349"
+        width="452"
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -309,7 +319,7 @@
             href="AccessRelationship_id-7aee1bb161a541d589604fe6d9909ccc.xml#id-7aee1bb161a541d589604fe6d9909ccc"/>
       </sourceConnections>
       <bounds
-          x="36"
+          x="24"
           y="36"
           width="121"
           height="55"/>
@@ -349,13 +359,35 @@
             href="AccessRelationship_id-1522f0e09c004a5ea89f5ac6e8f8924b.xml#id-1522f0e09c004a5ea89f5ac6e8f8924b"/>
       </sourceConnections>
       <bounds
-          x="192"
+          x="156"
           y="36"
           width="120"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
           href="BusinessInteraction_id-4289158a73a340c4af1e596216a5388e.xml#id-4289158a73a340c4af1e596216a5388e"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-df12df0c1f3848f4a76d403adcd811dd"
+        targetConnections="id-01077cd7f8194c3693ebddfb87bc024f">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-1aae61e1dda94f18b4787eb4f44600a2"
+          source="id-df12df0c1f3848f4a76d403adcd811dd"
+          target="id-b4edcf7c547e4b9c936bc5cfb3832f44">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-06c20426cf164b5fa3df24e4ae8321bd.xml#id-06c20426cf164b5fa3df24e4ae8321bd"/>
+      </sourceConnections>
+      <bounds
+          x="288"
+          y="36"
+          width="157"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessInteraction"
+          href="BusinessInteraction_id-43ffe15d7d8d481da39880163d02e9d1.xml#id-43ffe15d7d8d481da39880163d02e9d1"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
@@ -364,11 +396,11 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b18c4aba72e545a7bc5b9fa9ba16bfba"
-      targetConnections="id-ce928ad23887487f9b17b72463de71e5"
+      targetConnections="id-ce928ad23887487f9b17b72463de71e5 id-5ae2104d271d4828906ec3ca4251b354"
       type="1">
     <bounds
-        x="876"
-        y="228"
+        x="792"
+        y="300"
         width="120"
         height="55"/>
     <archimateElement
@@ -396,10 +428,6 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-5e66135f94eb49edafa1fa573505614b.xml#id-5e66135f94eb49edafa1fa573505614b"/>
     </sourceConnections>
-    <sourceConnections
-        id="id-b8641e781236471792bb7a9cd9b6b38d"
-        source="id-5c35e279f80d4b3c83dcd8e73080b134"
-        target="id-6a88b16f4c4d41c59878b3930ea98951"/>
     <bounds
         x="650"
         y="48"
@@ -472,12 +500,17 @@
           id="id-ce928ad23887487f9b17b72463de71e5"
           source="id-c7c13edce73b423a91a759c80b2da79b"
           target="id-b18c4aba72e545a7bc5b9fa9ba16bfba">
+        <bendpoints
+            startX="58"
+            startY="216"
+            endX="84"
+            endY="-3"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-be2b8eb460644421a61b8a6bdadb60a7.xml#id-be2b8eb460644421a61b8a6bdadb60a7"/>
       </sourceConnections>
       <bounds
-          x="156"
+          x="168"
           y="24"
           width="121"
           height="73"/>
@@ -495,35 +528,13 @@
       targetConnections="id-ff684628280743ee8a6bbad8caa135c4 id-66da066bedf94aa4b8aa95560be0db4e"
       type="1">
     <bounds
-        x="744"
+        x="792"
         y="228"
         width="120"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-85df1d8a78e2471f8ae8205c98a761c0.xml#id-85df1d8a78e2471f8ae8205c98a761c0"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-ee88ee25312e4a5aaa15bcf215b38fa1"
-      textAlignment="1"
-      content="Monitoren">
-    <bounds
-        x="120"
-        y="90"
-        width="89"
-        height="37"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-838d524833114c40bfb550adedef3b09"
-      textAlignment="1"
-      content="Administreren">
-    <bounds
-        x="116"
-        y="-240"
-        width="97"
-        height="37"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -563,7 +574,7 @@
     <bounds
         x="600"
         y="-264"
-        width="289"
+        width="325"
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -614,10 +625,6 @@
           id="id-1ff3d6c0b1af40358d0346fee33bfe04"
           source="id-8360a2839c03432ea980a82381a90cc6"
           target="id-278dc5d05bac4f1e9c8ff98f0f378b76">
-        <sourceConnections
-            id="id-136a1ba755b542beb967133dd302ee65"
-            source="id-1ff3d6c0b1af40358d0346fee33bfe04"
-            target="id-a28d90bd5bc842c0b6b4a3f6b99c211d"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-c6d746a18d4e448ca9305bf23466185b.xml#id-c6d746a18d4e448ca9305bf23466185b"/>
@@ -625,7 +632,7 @@
       <bounds
           x="156"
           y="36"
-          width="120"
+          width="157"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -635,27 +642,21 @@
         xsi:type="archimate:BusinessInteraction"
         href="BusinessInteraction_id-91942dc8e81449bc9c684a287f619224.xml#id-91942dc8e81449bc9c684a287f619224"/>
   </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-a28d90bd5bc842c0b6b4a3f6b99c211d"
-      targetConnections="id-136a1ba755b542beb967133dd302ee65"
-      textAlignment="1"
-      content="DH: Moet een read zijn">
-    <bounds
-        x="924"
-        y="-144"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-6a88b16f4c4d41c59878b3930ea98951"
-      targetConnections="id-b8641e781236471792bb7a9cd9b6b38d"
-      textAlignment="1"
-      content="DH: Hernoemen naar Monitoren leeroute. Dus voortgang weg. De leerroute wordt evt adhv het object Voortgang leerproces. Maar volgens mij kan je ook je leerroute bijstellen als de voortgang daarop helemaal in lijn is met de verwachting.. Want deelnemer stelt opeens andere leerdoelen. (om maar wat te noemen)&#xD;&#xA;&#xD;&#xA;Nog even wat checkvragen... In het Monitoren voortgang leerpoces is er in de stap Bepalen vervolgstap leerproces een write naar het object Leeractiviteit. Wat is dit precies? Een aanpassing in de vorm of het type leeractiviteit? En dat is dan dus niet een bijstelling van de leerroute? Want dat zit op het niveau van vakken/modules (...?)">
-    <bounds
-        x="1008"
-        width="313"
-        height="217"/>
-  </children>
+  <properties
+      key="Publiceren"
+      value="Ja"/>
+  <properties
+      key="Type"
+      value="Scenario"/>
+  <properties
+      key="Scenariotype"/>
+  <properties
+      key="Status"
+      value="Concept"/>
+  <properties
+      key="Datum laatste wijziging"
+      value="29-11-2024"/>
+  <properties
+      key="Beschrijving laatste wijziging"
+      value="Conceptuitwerking inclusief review beheerteam ROSA"/>
 </archimate:ArchimateDiagramModel>
