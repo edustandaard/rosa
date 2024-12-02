@@ -105,6 +105,19 @@
           xsi:type="archimate:Driver"
           href="Driver_id-6f68131baa774f94bdb2d863e3ad3a8f.xml#id-6f68131baa774f94bdb2d863e3ad3a8f"/>
     </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-e7c9859a378c425383a4289c31fe84c4"
+        targetConnections="id-ff642c287b964f578cc321cf30954aee id-be007083f835448bbfac7b1a003a0abe">
+      <bounds
+          x="1344"
+          y="72"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Driver"
+          href="Driver_id-7b8a107840f445d9a0a5851d40d169e7.xml#id-7b8a107840f445d9a0a5851d40d169e7"/>
+    </children>
   </children>
   <children
       xsi:type="archimate:DiagramModelGroup"
@@ -260,6 +273,15 @@
           id="id-dfd5139deb47481fa539b0da0c202134"
           fontColor="#ffffff"
           fillColor="#17bd00">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-ff642c287b964f578cc321cf30954aee"
+            source="id-dfd5139deb47481fa539b0da0c202134"
+            target="id-e7c9859a378c425383a4289c31fe84c4">
+          <archimateRelationship
+              xsi:type="archimate:InfluenceRelationship"
+              href="InfluenceRelationship_id-6deba61f45e14bc9b9f639fad13ef688.xml#id-6deba61f45e14bc9b9f639fad13ef688"/>
+        </sourceConnections>
         <bounds
             x="168"
             y="36"
@@ -274,6 +296,20 @@
           id="id-e7fc046c43db43828cf9463ddbd84163"
           fontColor="#ffffff"
           fillColor="#17bd00">
+        <sourceConnections
+            xsi:type="archimate:DiagramModelArchimateConnection"
+            id="id-be007083f835448bbfac7b1a003a0abe"
+            source="id-e7fc046c43db43828cf9463ddbd84163"
+            target="id-e7c9859a378c425383a4289c31fe84c4">
+          <bendpoints
+              startX="72"
+              startY="7"
+              endX="60"
+              endY="249"/>
+          <archimateRelationship
+              xsi:type="archimate:InfluenceRelationship"
+              href="InfluenceRelationship_id-2a1393818c734a5eae7723f4eaaa887d.xml#id-2a1393818c734a5eae7723f4eaaa887d"/>
+        </sourceConnections>
         <bounds
             x="168"
             y="96"
