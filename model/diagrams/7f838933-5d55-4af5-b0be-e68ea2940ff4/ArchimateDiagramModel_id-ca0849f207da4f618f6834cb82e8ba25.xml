@@ -879,7 +879,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-2671afae58eb415fbe686edc0fdc9b40"
-      targetConnections="id-7d8688f699514c0eb4b6d9c2874a95a2 id-29fc3b9fb8a94e748ceefd1aaf4684f2 id-0e4dcbf3cbfe4d35923c3b38a65c231e">
+      targetConnections="id-7d8688f699514c0eb4b6d9c2874a95a2 id-0aeea182ce064b3a9419f70ba0ac8e4f">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-14ced9ca78054790a5de7bebadcab9ca"
@@ -913,12 +913,17 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ea363de463574ca3aab44e861fb04e15"
+        id="id-0aeea182ce064b3a9419f70ba0ac8e4f"
         source="id-1adcf128ba7c40b4bc7b68dff3840391"
-        target="id-b1951c254d294eb49204fc12de78788d">
+        target="id-2671afae58eb415fbe686edc0fdc9b40">
+      <bendpoints
+          startX="440"
+          startY="-212"
+          endX="-24"
+          endY="310"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-8afeb1fc4e774b0cbeb3fdd0121688c2.xml#id-8afeb1fc4e774b0cbeb3fdd0121688c2"/>
+          href="AssociationRelationship_id-947f9d10b4434e3ca1865b88cc7d8b20.xml#id-947f9d10b4434e3ca1865b88cc7d8b20"/>
     </sourceConnections>
     <bounds
         x="413"
@@ -928,28 +933,6 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-ba07fdfc1fc64630ba9343685a4120a9.xml#id-ba07fdfc1fc64630ba9343685a4120a9"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-b1951c254d294eb49204fc12de78788d"
-      targetConnections="id-ea363de463574ca3aab44e861fb04e15 id-e4b0748709584660bb68f64b5788931b">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0e4dcbf3cbfe4d35923c3b38a65c231e"
-        source="id-b1951c254d294eb49204fc12de78788d"
-        target="id-2671afae58eb415fbe686edc0fdc9b40">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-80ae074564784605a379b1c31dc15437.xml#id-80ae074564784605a379b1c31dc15437"/>
-    </sourceConnections>
-    <bounds
-        x="413"
-        y="930"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessObject"
-        href="BusinessObject_id-80bd5e87094640e584bb9ce16ff2bde0.xml#id-80bd5e87094640e584bb9ce16ff2bde0"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -972,21 +955,6 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-18bd7a8610304d29b7fa33cf182a79fa"
-      textAlignment="1"
-      content="is Toetsresultaat een verbijzondering van Onderwijsresultaat?">
-    <sourceConnections
-        id="id-29fc3b9fb8a94e748ceefd1aaf4684f2"
-        source="id-18bd7a8610304d29b7fa33cf182a79fa"
-        target="id-2671afae58eb415fbe686edc0fdc9b40"/>
-    <bounds
-        x="697"
-        y="87"
-        width="185"
-        height="64"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="id-10e88c080a8446bd832d018650047569"
       textAlignment="1"
       content="* Is een verbijzondering van Referentiekader?&#xD;&#xA;* Welke te beoordelen en vergelijken resultaten betreft het?">
@@ -999,21 +967,6 @@
         y="54"
         width="189"
         height="73"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-ab267d671e1d4a94be5da8266bba7bf7"
-      textAlignment="1"
-      content="Relatie met Toetsresultaat?">
-    <sourceConnections
-        id="id-e4b0748709584660bb68f64b5788931b"
-        source="id-ab267d671e1d4a94be5da8266bba7bf7"
-        target="id-b1951c254d294eb49204fc12de78788d"/>
-    <bounds
-        x="241"
-        y="933"
-        width="101"
-        height="49"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
