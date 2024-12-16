@@ -451,6 +451,15 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-fb325905c20641c5ac7c49b61f439e34.xml#id-fb325905c20641c5ac7c49b61f439e34"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-cdff8ab5755e4d8798c0a11080f95b49"
+        source="id-6bcdd7ffa6434176a154b11a06fc66ca"
+        target="id-f9be1e7866164b848b66fc34fb75bb3c">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-9ac3cd0981d141398d1888e6bca8f928.xml#id-9ac3cd0981d141398d1888e6bca8f928"/>
+    </sourceConnections>
     <bounds
         x="952"
         y="284"
@@ -463,7 +472,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f9be1e7866164b848b66fc34fb75bb3c"
-      targetConnections="id-685706a3e6404a0bbffb3f9822dc149a"
+      targetConnections="id-685706a3e6404a0bbffb3f9822dc149a id-cdff8ab5755e4d8798c0a11080f95b49"
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -636,7 +645,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-80798b39f31f4d26bf43e4778b2b0280"
-      targetConnections="id-4226358b0faa4567b62e70c2eaac4a7c id-3189a78f1fcc4bab8984d765fcf66c36">
+      targetConnections="id-4226358b0faa4567b62e70c2eaac4a7c id-3189a78f1fcc4bab8984d765fcf66c36 id-07f3bd94553c428492012f926923b892">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-c859b3df7dee4c0cb60b4a666387809e"
@@ -731,5 +740,27 @@
         y="461"
         width="142"
         height="34"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-90ee2ce5c853401f9771806abba7ff43"
+      textAlignment="1"
+      content="Nieuw toegevoegd">
+    <sourceConnections
+        id="id-07f3bd94553c428492012f926923b892"
+        source="id-90ee2ce5c853401f9771806abba7ff43"
+        target="id-80798b39f31f4d26bf43e4778b2b0280">
+      <properties
+          key="Type"
+          value="Informatiemodel"/>
+      <properties
+          key="Publiceren"
+          value="Nee"/>
+    </sourceConnections>
+    <bounds
+        x="1146"
+        y="74"
+        width="142"
+        height="39"/>
   </children>
 </archimate:ArchimateDiagramModel>
