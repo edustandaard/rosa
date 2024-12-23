@@ -658,9 +658,9 @@
       name="Uitvoering van het onderwijs"
       textAlignment="1">
     <bounds
-        x="-396"
+        x="-516"
         y="12"
-        width="292"
+        width="412"
         height="649"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -681,7 +681,7 @@
             href="AssociationRelationship_id-0be2d757797842809a1c1b3403e6670d.xml#id-0be2d757797842809a1c1b3403e6670d"/>
       </sourceConnections>
       <bounds
-          x="156"
+          x="276"
           y="238"
           width="120"
           height="55"/>
@@ -708,7 +708,7 @@
             href="AssociationRelationship_id-91c543ac4e104b70980ce48ed5fb8c4e.xml#id-91c543ac4e104b70980ce48ed5fb8c4e"/>
       </sourceConnections>
       <bounds
-          x="24"
+          x="144"
           y="238"
           width="120"
           height="55"/>
@@ -725,6 +725,15 @@
           id="id-2a4d4b91d989404d959074fabbf390cb"
           source="id-01b914bd73bc41b3850b35568b68c7c5"
           target="id-aef7e6ac94dc4a758c28bdeed94e5dc8">
+        <bendpoints
+            startX="-12"
+            startY="59"
+            endX="72"
+            endY="-61"/>
+        <bendpoints
+            startX="-84"
+            startY="59"
+            endY="-61"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-f9b64db366df436c9b29d8e4ed27a9c1.xml#id-f9b64db366df436c9b29d8e4ed27a9c1"/>
@@ -747,8 +756,26 @@
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-e26555f8891a44579fab4d7eab065c97.xml#id-e26555f8891a44579fab4d7eab065c97"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-e3c65cb645b04e799d46a54135ae4550"
+          source="id-01b914bd73bc41b3850b35568b68c7c5"
+          target="id-d8a271bb1531452d8512e23e2ca4dacc">
+        <bendpoints
+            startX="-48"
+            startY="47"
+            endX="168"
+            endY="-73"/>
+        <bendpoints
+            startX="-216"
+            startY="47"
+            endY="-73"/>
+        <archimateRelationship
+            xsi:type="archimate:AssociationRelationship"
+            href="AssociationRelationship_id-015e3f5785af47399ff5ee8b7bd8d6b0.xml#id-015e3f5785af47399ff5ee8b7bd8d6b0"/>
+      </sourceConnections>
       <bounds
-          x="108"
+          x="228"
           y="118"
           width="120"
           height="55"/>
@@ -778,7 +805,7 @@
             href="AssociationRelationship_id-9ac3cd0981d141398d1888e6bca8f928.xml#id-9ac3cd0981d141398d1888e6bca8f928"/>
       </sourceConnections>
       <bounds
-          x="108"
+          x="228"
           y="34"
           width="120"
           height="55"/>
@@ -799,13 +826,26 @@
             href="AssociationRelationship_id-bfd0cb9e9c9a46fd9a6189b652823ebf.xml#id-bfd0cb9e9c9a46fd9a6189b652823ebf"/>
       </sourceConnections>
       <bounds
-          x="132"
+          x="252"
           y="574"
           width="132"
           height="55"/>
       <archimateElement
           xsi:type="archimate:BusinessObject"
           href="BusinessObject_id-ba07fdfc1fc64630ba9343685a4120a9.xml#id-ba07fdfc1fc64630ba9343685a4120a9"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-d8a271bb1531452d8512e23e2ca4dacc"
+        targetConnections="id-e3c65cb645b04e799d46a54135ae4550">
+      <bounds
+          x="12"
+          y="238"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-32efe6b550a44b9ea1a2650cab93332f.xml#id-32efe6b550a44b9ea1a2650cab93332f"/>
     </children>
   </children>
 </archimate:ArchimateDiagramModel>
