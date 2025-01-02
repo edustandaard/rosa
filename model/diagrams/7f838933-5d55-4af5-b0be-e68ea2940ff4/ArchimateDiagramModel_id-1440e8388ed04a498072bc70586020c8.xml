@@ -210,6 +210,15 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-f9b64db366df436c9b29d8e4ed27a9c1.xml#id-f9b64db366df436c9b29d8e4ed27a9c1"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-811140d7d73d45a98776d3c401129302"
+        source="id-43da8ccc0676422ea41746b2a1f3f39b"
+        target="id-85784e5b0a7f45aeb7ae350d4e98dea8">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-015e3f5785af47399ff5ee8b7bd8d6b0.xml#id-015e3f5785af47399ff5ee8b7bd8d6b0"/>
+    </sourceConnections>
     <bounds
         x="511"
         y="428"
@@ -222,7 +231,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-acd9f02398294f3a8dada4703a6c7a0c"
-      targetConnections="id-d0178700fe3a42f5bd6ddacf0f214ec1 id-bdf2f8a703d842e487c44abffa0e806d id-c3df4e6b8ae246e5befac4271720392b id-2249b4142f9c412299885f739da261d2 id-c160186075a04adba31c21b28ab003fb id-70216db1cd994792bac67d965cfbb056">
+      targetConnections="id-d0178700fe3a42f5bd6ddacf0f214ec1 id-bdf2f8a703d842e487c44abffa0e806d id-c3df4e6b8ae246e5befac4271720392b id-2249b4142f9c412299885f739da261d2 id-c160186075a04adba31c21b28ab003fb id-70216db1cd994792bac67d965cfbb056 id-d837985bc20a413996f779b865206ff1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ab0c3c98fa26494aa7cd74a2559dd863"
@@ -1445,6 +1454,53 @@
           xsi:type="archimate:BusinessObject"
           href="BusinessObject_id-c626e8a797a34b49884669afa9d7578e.xml#id-c626e8a797a34b49884669afa9d7578e"/>
     </children>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-85784e5b0a7f45aeb7ae350d4e98dea8"
+      targetConnections="id-811140d7d73d45a98776d3c401129302 id-3b9fbd3dd4944ab7afd1b6c3093fb9e1 id-3bbc9ff71d8f46d19790d376c923510b">
+    <bounds
+        x="708"
+        y="474"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-32efe6b550a44b9ea1a2650cab93332f.xml#id-32efe6b550a44b9ea1a2650cab93332f"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c0879cf310f24e0ba62e0c2d014fb036"
+      textAlignment="1"
+      content="Verschil?">
+    <sourceConnections
+        id="id-3b9fbd3dd4944ab7afd1b6c3093fb9e1"
+        source="id-c0879cf310f24e0ba62e0c2d014fb036"
+        target="id-85784e5b0a7f45aeb7ae350d4e98dea8"/>
+    <sourceConnections
+        id="id-d837985bc20a413996f779b865206ff1"
+        source="id-c0879cf310f24e0ba62e0c2d014fb036"
+        target="id-acd9f02398294f3a8dada4703a6c7a0c"/>
+    <bounds
+        x="588"
+        y="518"
+        width="72"
+        height="24"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-735d40cac03b41beb45f298a5fab64a7"
+      textAlignment="1"
+      content="Nieuw toegevoegd (door Wilco)">
+    <sourceConnections
+        id="id-3bbc9ff71d8f46d19790d376c923510b"
+        source="id-735d40cac03b41beb45f298a5fab64a7"
+        target="id-85784e5b0a7f45aeb7ae350d4e98dea8"/>
+    <bounds
+        x="840"
+        y="471"
+        width="85"
+        height="61"/>
   </children>
   <properties
       key="Type"
