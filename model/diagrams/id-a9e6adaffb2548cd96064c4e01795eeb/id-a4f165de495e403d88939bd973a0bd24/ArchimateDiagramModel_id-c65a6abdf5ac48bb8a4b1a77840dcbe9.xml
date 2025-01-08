@@ -522,7 +522,7 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-223baacd389843118a64742c16012ed4"
-        targetConnections="id-1133068a11f54811a1d76091900e6b2d">
+        targetConnections="id-1133068a11f54811a1d76091900e6b2d id-94886b8f80fc4d55961c7fa72e6d7551">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-defb47ebf0924fe887cd7abe763f9e91"
@@ -819,7 +819,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-60750e5fb3aa478bb38b5f60282a4430"
-      targetConnections="id-4228a449c0ff4216982519026d175ea9 id-a9eef281aac74248a203efd08249ab1a">
+      targetConnections="id-4228a449c0ff4216982519026d175ea9 id-a9eef281aac74248a203efd08249ab1a id-2a6ef72ef0134be39f3f3a07f29c6a66">
     <bounds
         x="910"
         y="309"
@@ -832,7 +832,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a5e589abcdec44dfb4a5483ff7897615"
-      targetConnections="id-e8147d28c4674fe3980cae6b5a686d04"
+      targetConnections="id-e8147d28c4674fe3980cae6b5a686d04 id-0c0488c9e10440a5bd08b9beb755fc58"
       type="1">
     <bounds
         x="1056"
@@ -870,6 +870,40 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-a22a214400a24ef1895d143ca7fd4d28.xml#id-a22a214400a24ef1895d143ca7fd4d28"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b58d17c8af22454c9e90070d97b4f0d5"
+      textAlignment="1"
+      content="Weghalen en toevoegen in tekst wiki">
+    <sourceConnections
+        id="id-94886b8f80fc4d55961c7fa72e6d7551"
+        source="id-b58d17c8af22454c9e90070d97b4f0d5"
+        target="id-223baacd389843118a64742c16012ed4"/>
+    <sourceConnections
+        id="id-0c0488c9e10440a5bd08b9beb755fc58"
+        source="id-b58d17c8af22454c9e90070d97b4f0d5"
+        target="id-a5e589abcdec44dfb4a5483ff7897615"/>
+    <bounds
+        x="1023"
+        y="372"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-834d394271c149168c1b24a396ea331a"
+      textAlignment="1"
+      content="Naar boven">
+    <sourceConnections
+        id="id-2a6ef72ef0134be39f3f3a07f29c6a66"
+        source="id-834d394271c149168c1b24a396ea331a"
+        target="id-60750e5fb3aa478bb38b5f60282a4430"/>
+    <bounds
+        x="1023"
+        y="93"
+        width="185"
+        height="80"/>
   </children>
   <properties
       key="Publiceren"
