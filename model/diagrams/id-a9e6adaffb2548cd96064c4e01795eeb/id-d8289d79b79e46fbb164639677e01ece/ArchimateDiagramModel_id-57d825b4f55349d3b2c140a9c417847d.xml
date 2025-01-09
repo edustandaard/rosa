@@ -229,7 +229,7 @@
       id="id-86607f3609034026a940f39a4869dea1"
       targetConnections="id-a33f54bc8ad440d4a8fa5738731abf76">
     <bounds
-        x="612"
+        x="636"
         y="-336"
         width="120"
         height="55"/>
@@ -389,6 +389,15 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-06c20426cf164b5fa3df24e4ae8321bd.xml#id-06c20426cf164b5fa3df24e4ae8321bd"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-a1f05afcb2a844eea4b369d0578a4b32"
+          source="id-df12df0c1f3848f4a76d403adcd811dd"
+          target="id-e65e961669f741efb668be99f92da337">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-a63e8b753e314cdeb4f1d92a317964a6.xml#id-a63e8b753e314cdeb4f1d92a317964a6"/>
+      </sourceConnections>
       <bounds
           x="288"
           y="36"
@@ -440,7 +449,7 @@
     <bounds
         x="650"
         y="48"
-        width="311"
+        width="323"
         height="121"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -495,7 +504,7 @@
       <bounds
           x="12"
           y="24"
-          width="157"
+          width="169"
           height="73"/>
       <archimateElement
           xsi:type="archimate:BusinessInteraction"
@@ -529,7 +538,7 @@
             href="AccessRelationship_id-be2b8eb460644421a61b8a6bdadb60a7.xml#id-be2b8eb460644421a61b8a6bdadb60a7"/>
       </sourceConnections>
       <bounds
-          x="180"
+          x="192"
           y="24"
           width="121"
           height="73"/>
@@ -711,31 +720,34 @@
         href="BusinessObject_id-24482a3be08e425aa76044ae317ec6cf.xml#id-24482a3be08e425aa76044ae317ec6cf"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-aa5efbd498c1466e9d297304e3bace86"
-      textAlignment="1"
-      content="Examenuitslag! ">
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-e65e961669f741efb668be99f92da337"
+      targetConnections="id-a1f05afcb2a844eea4b369d0578a4b32">
     <bounds
-        x="60"
-        y="-60"
-        width="121"
-        height="31"/>
+        x="503"
+        y="-336"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-59e4bf685e1044a49e483e62fef3334d.xml#id-59e4bf685e1044a49e483e62fef3334d"/>
   </children>
   <properties
       key="Publiceren"
       value="Ja"/>
   <properties
-      key="Type"
-      value="Scenario"/>
-  <properties
-      key="Scenariotype"/>
-  <properties
       key="Status"
       value="Concept"/>
   <properties
+      key="Type"
+      value="Scenario"/>
+  <properties
+      key="Scenariotype"
+      value="Toepassingsscenario"/>
+  <properties
       key="Datum laatste wijziging"
-      value="29-11-2024"/>
+      value="09-01-2025"/>
   <properties
       key="Beschrijving laatste wijziging"
-      value="Conceptuitwerking inclusief review beheerteam ROSA"/>
+      value="Uitwerking inclusief review QA-team ROSA"/>
 </archimate:ArchimateDiagramModel>
