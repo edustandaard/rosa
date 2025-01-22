@@ -3,7 +3,7 @@
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Administreren en monitoren resultaten (per rol)"
     id="id-5c7df7dd26e24291a11cb7d530419657"
-    documentation="Deze weergave geeft de inrichting van de ketenprocessen '''Administreren resultaten''', '''Monitoren voortgang leerproces''', '''Monitoren voortgang leerroute''' en '''Opbouwen portfolio''' weer en hoe die zich tot ketensamenwerkingen verhouden. ">
+    documentation="Deze weergave geeft de rollen weer die betrokken zijn bij de ketenprocessen '''Administreren resultaten''', '''Monitoren voortgang leerproces''', '''Monitoren voortgang leerroute''' en '''Opbouwen portfolio''' weer. ">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-e8eb0bb6eda344059770804b5dc79841"
@@ -35,7 +35,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5e317faacd9a476fa29025a44e128998"
-      targetConnections="id-400a178e437e45b69c236f97ab39f68e id-1307eef21aa245f5904e85f09ff2a495 id-32883cdd66d340c38b265caf235049d1 id-6eeabca4296c466a9355ab83a27729d9"
+      targetConnections="id-1307eef21aa245f5904e85f09ff2a495 id-32883cdd66d340c38b265caf235049d1 id-6eeabca4296c466a9355ab83a27729d9"
       type="1">
     <bounds
         x="48"
@@ -792,7 +792,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-ae76d994e3d546ee92aa3ca029374da0"
-      targetConnections="id-b8cc5a827a1047b29e893a7155dd963f">
+      targetConnections="id-b8cc5a827a1047b29e893a7155dd963f id-6d7013c0f5024cae83471bfb9b8a8500">
     <bounds
         x="178"
         y="-48"
@@ -843,31 +843,21 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-400a178e437e45b69c236f97ab39f68e"
-          source="id-5921a2d55c18406c9b5510c215550d87"
-          target="id-5e317faacd9a476fa29025a44e128998">
-        <bendpoints
-            startX="-39"
-            startY="69"
-            endX="195"
-            endY="-99"/>
-        <bendpoints
-            startX="-195"
-            startY="69"
-            endX="39"
-            endY="-99"/>
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-f8f6f4a50aa241a08aed7e328916d5f8.xml#id-f8f6f4a50aa241a08aed7e328916d5f8"/>
-      </sourceConnections>
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-6f0159e8c7f4422090f45de6eba70f63"
           source="id-5921a2d55c18406c9b5510c215550d87"
           target="id-080873e0f3e341c2b3e3317dbf75721f">
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-1522f0e09c004a5ea89f5ac6e8f8924b.xml#id-1522f0e09c004a5ea89f5ac6e8f8924b"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-6d7013c0f5024cae83471bfb9b8a8500"
+          source="id-5921a2d55c18406c9b5510c215550d87"
+          target="id-ae76d994e3d546ee92aa3ca029374da0">
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-ac4ca5af96af468785154a46f2bcd220.xml#id-ac4ca5af96af468785154a46f2bcd220"/>
       </sourceConnections>
       <bounds
           x="24"
