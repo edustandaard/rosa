@@ -16,13 +16,13 @@
       <bendpoints
           startX="-127"
           startY="-19"
-          endX="132"
-          endY="45"/>
+          endX="168"
+          endY="41"/>
       <bendpoints
           startX="-127"
           startY="-55"
-          endX="132"
-          endY="9"/>
+          endX="168"
+          endY="5"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-636d6dcc082f4ce6a95405a8f33a54ba.xml#id-636d6dcc082f4ce6a95405a8f33a54ba"/>
@@ -757,8 +757,8 @@
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
     <bounds
-        x="-24"
-        y="780"
+        x="-60"
+        y="784"
         width="169"
         height="55"/>
     <archimateElement
@@ -788,8 +788,8 @@
           href="AssociationRelationship_id-57b495cba5a943fb9ea247f032d599fd.xml#id-57b495cba5a943fb9ea247f032d599fd"/>
     </sourceConnections>
     <bounds
-        x="-24"
-        y="840"
+        x="-60"
+        y="844"
         width="169"
         height="55"/>
     <archimateElement
@@ -815,13 +815,13 @@
         source="id-ff41ecb56721446f9fd5359c93bffb8e"
         target="id-f69ee8b5e73a4580801b0edd34117824">
       <bendpoints
-          startX="132"
-          startY="-3"
+          startX="168"
+          startY="5"
           endX="-127"
-          endY="53"/>
+          endY="65"/>
       <bendpoints
-          startX="132"
-          startY="-39"
+          startX="168"
+          startY="-43"
           endX="-127"
           endY="17"/>
       <archimateRelationship
@@ -829,8 +829,8 @@
           href="AssociationRelationship_id-46969bb0f0b04a43ae552765aaf09b21.xml#id-46969bb0f0b04a43ae552765aaf09b21"/>
     </sourceConnections>
     <bounds
-        x="-24"
-        y="900"
+        x="-60"
+        y="904"
         width="169"
         height="55"/>
     <archimateElement
@@ -1145,7 +1145,22 @@
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_b18458fe-6eec-4a92-847e-cc67bc92a429.xml#b18458fe-6eec-4a92-847e-cc67bc92a429"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-576a1eb85bcd45c6b5f6aae8cc385e1c"
+      lineWidth="2"
+      textAlignment="1"
+      content="**Disclaimer**&#xD;&#xA;&#xD;&#xA;Dit informatiemodel is momenteel nog in bewerking. Beoordeling en vaststelling in ROSA QA-team en Architectuurraad moet nog plaatsvinden. Elke vorm van feedback is welkom (te sturen naar: info@edustandaard.nl).">
+    <bounds
+        x="-5"
+        y="93"
+        width="425"
+        height="85"/>
+  </children>
   <properties
       key="Type"
       value="Informatiemodel"/>
+  <properties
+      key="Publiceren"
+      value="Ja"/>
 </archimate:ArchimateDiagramModel>
