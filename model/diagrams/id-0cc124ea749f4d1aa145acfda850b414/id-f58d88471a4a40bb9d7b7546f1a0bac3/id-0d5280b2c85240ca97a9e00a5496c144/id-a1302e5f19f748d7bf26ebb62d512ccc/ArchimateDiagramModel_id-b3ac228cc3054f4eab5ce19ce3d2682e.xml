@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Informatiemodel Onderwijseenheid"
-    id="id-b3ac228cc3054f4eab5ce19ce3d2682e">
+    id="id-b3ac228cc3054f4eab5ce19ce3d2682e"
+    documentation="Deze weergave geeft de samenhang weer tussen de informatieobjecten die behoren bij het informatieonderwerp '''Onderwijseenheid''' en met informatieobjecten uit andere gerelateerde informatieonderwerpen '''Onderwijsontwikkeling''' en '''Onderwijsdeelname'''.&#xD;&#xA;Het kernobject is ''Opleidingseenheid'' met als specialisaties ''Opleiding'' en ''Opleidingsonderdeel''.&#xD;&#xA;''Opleidingseenheid'' is onderwerp van ''Onderwijsdeelname'', omvat ''Leerlijn'' en is gericht op ''Leerdoel''.&#xD;&#xA;''Opleiding'' is gebaseerd op ''Curriculum''.">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8aca85b051584692bec2a0d7f5a6789f"
@@ -16,6 +17,25 @@
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-07b45ad9bd5a4c6d88e8f80059f4522c.xml#id-07b45ad9bd5a4c6d88e8f80059f4522c"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-ac832b5196364b149c630cb417682c6d"
+        source="id-8aca85b051584692bec2a0d7f5a6789f"
+        target="id-07c8ad05b5fd4e24a3a7071df6dfe713">
+      <bendpoints
+          startX="168"
+          startY="-15"
+          endX="-180"
+          endY="57"/>
+      <bendpoints
+          startX="168"
+          startY="-75"
+          endX="-180"
+          endY="-3"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-e8929daf62f6414a9a03782909bbec38.xml#id-e8929daf62f6414a9a03782909bbec38"/>
     </sourceConnections>
     <bounds
         x="120"
@@ -113,9 +133,21 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0af4cbed5ce84774924f3ea66406e27b"
+        source="id-5d65ed58121248b1945bd4d0549e4117"
+        target="id-07c8ad05b5fd4e24a3a7071df6dfe713">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-0c3c4ec7de104606adb32f0322d93127.xml#id-0c3c4ec7de104606adb32f0322d93127"/>
+    </sourceConnections>
     <bounds
         x="444"
-        y="120"
+        y="144"
         width="169"
         height="55"/>
     <archimateElement
@@ -135,6 +167,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-5d4295d78c9543ab9440b96eff53213f"
@@ -166,6 +201,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-08e0f2a2fb9d4a3abf863125639a5abc"
@@ -200,6 +238,32 @@
         y="-108"
         width="425"
         height="85"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-07c8ad05b5fd4e24a3a7071df6dfe713"
+      targetConnections="id-0af4cbed5ce84774924f3ea66406e27b id-ac832b5196364b149c630cb417682c6d"
+      fontColor="#808080"
+      lineColor="#808080"
+      alpha="127"
+      textPosition="1">
+    <features
+        name="lineAlpha"
+        value="127"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
+    <features
+        name="labelExpression"
+        value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <bounds
+        x="444"
+        y="48"
+        width="169"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-ee5ad489a19c44f0920895a0e81872dd.xml#id-ee5ad489a19c44f0920895a0e81872dd"/>
   </children>
   <properties
       key="Type"
