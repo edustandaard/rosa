@@ -214,17 +214,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-5c0c6b01cf3b48c0879d5c5149ee5989"
-      targetConnections="id-23ca5d225cc549de8d7c27e33d65ad5d id-9b7ebc53d8954e5eb3c6da27aa8ab10b"
+      targetConnections="id-23ca5d225cc549de8d7c27e33d65ad5d id-9b7ebc53d8954e5eb3c6da27aa8ab10b id-f5dfe168b43547369f4c03ac35ed483b"
       textPosition="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-c628bd07810541fea75482530081b36f"
-        source="id-5c0c6b01cf3b48c0879d5c5149ee5989"
-        target="id-bbdf06188b5d4f41b951ab66d38f2ab5">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-b7eeb45657bf49b39610af909a8fe220.xml#id-b7eeb45657bf49b39610af909a8fe220"/>
-    </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-222211787ad54b9bb7dd778fe06c9d0c"
@@ -380,11 +371,25 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-bbdf06188b5d4f41b951ab66d38f2ab5"
-      targetConnections="id-eaf2ec969c1f4a0bbd354407af4ff747 id-c628bd07810541fea75482530081b36f"
+      targetConnections="id-eaf2ec969c1f4a0bbd354407af4ff747"
       textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-f5dfe168b43547369f4c03ac35ed483b"
+        source="id-bbdf06188b5d4f41b951ab66d38f2ab5"
+        target="id-5c0c6b01cf3b48c0879d5c5149ee5989">
+      <bendpoints
+          startX="-24"
+          startY="-51"
+          endX="45"
+          endY="63"/>
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-328d3fea80264a35b8cdd811b3a0b184.xml#id-328d3fea80264a35b8cdd811b3a0b184"/>
+    </sourceConnections>
     <bounds
         x="600"
-        y="426"
+        y="420"
         width="120"
         height="55"/>
     <archimateElement
