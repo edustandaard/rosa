@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Informatiemodel Onderwijsdeelnemer"
-    id="id-bc1a971e4ee343c0b3a80d8ce12e5aa8">
+    id="id-bc1a971e4ee343c0b3a80d8ce12e5aa8"
+    documentation="(Beschrijving volgt)">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-830baa756b064c3788833e912e462fe9"
@@ -43,21 +44,21 @@
       textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-3410ea2f0bcb4c0e9f1a0962af2973ea"
+        id="id-f932b9e93031456698e4f141181041e9"
         source="id-021cf23a24474dfdb48ea0c98e43de40"
         target="id-307ecc1b33f74662923be6bbfda9c6bd">
       <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-4a7f8b34fbec438aa18303b3fb53dbef.xml#id-4a7f8b34fbec438aa18303b3fb53dbef"/>
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-2d7e1bd88fdf4f6f94d9a2c910bc36b5.xml#id-2d7e1bd88fdf4f6f94d9a2c910bc36b5"/>
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-1a8ef7a9d56941a8a7cca4f96b420f2d"
+        id="id-ba0e10cdf12b4037b35aa4ee464d663d"
         source="id-021cf23a24474dfdb48ea0c98e43de40"
         target="id-f962d405da364ad083c5a8122266572c">
       <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-9340a0d6dfcb4829b30514439bb38f71.xml#id-9340a0d6dfcb4829b30514439bb38f71"/>
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-fa91ec19ab154153adcf00ee8b59abc8.xml#id-fa91ec19ab154153adcf00ee8b59abc8"/>
     </sourceConnections>
     <bounds
         x="171"
@@ -186,6 +187,9 @@
     <features
         name="lineAlpha"
         value="127"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e99e851ec65646ca867cd91f5aef29c6"
@@ -226,7 +230,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-307ecc1b33f74662923be6bbfda9c6bd"
-      targetConnections="id-3410ea2f0bcb4c0e9f1a0962af2973ea id-a06b7bd9b8574a32974f9a1b41872ca1"
+      targetConnections="id-a06b7bd9b8574a32974f9a1b41872ca1 id-f932b9e93031456698e4f141181041e9"
       fontColor="#808080"
       alpha="127"
       textPosition="1">
@@ -236,6 +240,9 @@
     <features
         name="lineAlpha"
         value="127"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-f26329716c65450baa8dcef4db241d6d"
@@ -267,7 +274,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f962d405da364ad083c5a8122266572c"
-      targetConnections="id-1a8ef7a9d56941a8a7cca4f96b420f2d"
+      targetConnections="id-ba0e10cdf12b4037b35aa4ee464d663d"
       fontColor="#808080"
       alpha="127"
       textPosition="1">
@@ -277,6 +284,9 @@
     <features
         name="lineAlpha"
         value="127"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-a06b7bd9b8574a32974f9a1b41872ca1"
@@ -308,6 +318,9 @@
     <features
         name="lineAlpha"
         value="127"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-04385860a19f4fe18ceb33751ec4c6cd"
@@ -348,6 +361,9 @@
     <features
         name="lineAlpha"
         value="127"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-e45327cb9f8141d28b3aeb2b08969b2a"

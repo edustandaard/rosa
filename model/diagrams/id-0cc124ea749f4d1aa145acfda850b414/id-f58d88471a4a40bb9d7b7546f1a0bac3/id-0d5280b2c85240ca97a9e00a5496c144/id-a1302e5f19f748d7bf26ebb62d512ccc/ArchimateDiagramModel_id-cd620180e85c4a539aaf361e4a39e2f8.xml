@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Informatiemodel Onderwijsactiviteit"
-    id="id-cd620180e85c4a539aaf361e4a39e2f8">
+    id="id-cd620180e85c4a539aaf361e4a39e2f8"
+    documentation="(Beschrijving volgt)">
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-c679c360200245d6b8f1fc4913121066"
@@ -447,7 +448,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-38541523dd8a4ac8a51d5254d5aecb02"
-      targetConnections="id-2e3447175d63429c9288551c092440a0"
+      targetConnections="id-2e3447175d63429c9288551c092440a0 id-0d5306b158a145fc9bbb38673ef61561"
       textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -612,6 +613,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <bounds
         x="432"
         y="492"
@@ -635,6 +639,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-33870a472f714549944fe8b4e6ec736f"
@@ -681,6 +688,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-4bb77d74d2f94e63aba7e1644d21e83e"
@@ -713,6 +723,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-a77ece8121324c19a5e42e6c13df0368"
@@ -750,6 +763,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-6a14d4fbb1c54615a52904809427827b"
@@ -787,6 +803,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-102adbd13e04475aa48d956079a26d79"
@@ -819,6 +838,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-9f8472f1a81c4e399cf6b996688fcee1"
@@ -851,6 +873,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-b2e26d35a9b4450fbf70f3931ac505a0"
@@ -883,6 +908,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-ab91b73d0ed348ac8e2c79c6d87da792"
@@ -914,6 +942,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <bounds
         x="107"
         y="728"
@@ -937,6 +968,9 @@
     <features
         name="labelExpression"
         value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-d74214dd63a543deae0149934890ee82"
@@ -966,6 +1000,28 @@
         y="-84"
         width="425"
         height="85"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-3a2d32346ce249afa45b1f7c27180790"
+      textPosition="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0d5306b158a145fc9bbb38673ef61561"
+        source="id-3a2d32346ce249afa45b1f7c27180790"
+        target="id-38541523dd8a4ac8a51d5254d5aecb02">
+      <archimateRelationship
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-69e2f9d99d86459e8a2b382aebbfe1f2.xml#id-69e2f9d99d86459e8a2b382aebbfe1f2"/>
+    </sourceConnections>
+    <bounds
+        x="470"
+        y="728"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-7e4a13e566c34cf389dea80082a8dff5.xml#id-7e4a13e566c34cf389dea80082a8dff5"/>
   </children>
   <properties
       key="Type"
