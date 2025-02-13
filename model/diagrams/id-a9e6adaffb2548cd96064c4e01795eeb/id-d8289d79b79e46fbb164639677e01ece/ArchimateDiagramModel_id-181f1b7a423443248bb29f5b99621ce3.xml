@@ -117,10 +117,6 @@
             href="AccessRelationship_id-0d8cc7471e9744f68fbb9948ab36a79c.xml#id-0d8cc7471e9744f68fbb9948ab36a79c"/>
       </sourceConnections>
       <sourceConnections
-          id="id-1c68798362244322958f40fed7190a81"
-          source="id-3d7a7a0b68674daebfe8d1c67e523178"
-          target="id-87ab00df8dfe4f3ba54a442789931537"/>
-      <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-9c5e3e8bf908425db33229f485df571c"
           source="id-3d7a7a0b68674daebfe8d1c67e523178"
@@ -198,10 +194,6 @@
           id="id-a9656443645d4592aaef4d99232f7b5a"
           source="id-3b0cb1112e054a158d7c759b82097670"
           target="id-03b70b9219734bd98e4f2a27c9414254">
-        <sourceConnections
-            id="id-b210973342554941b8a55f0b09f3da3f"
-            source="id-a9656443645d4592aaef4d99232f7b5a"
-            target="id-d72e3679ea3040d9a2361a9dd1acfe02"/>
         <bendpoints
             startX="-26"
             startY="77"
@@ -225,6 +217,10 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-7b39060dfcd94af081506d80d3fb798e.xml#id-7b39060dfcd94af081506d80d3fb798e"/>
       </sourceConnections>
+      <sourceConnections
+          id="id-a0a5a892374d4befa43c14d05927475d"
+          source="id-3b0cb1112e054a158d7c759b82097670"
+          target="id-c298db9c50944009acf80cd545be00a6"/>
       <bounds
           x="864"
           y="36"
@@ -571,10 +567,6 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-fead394cff1f407fac87c8b78ba9c5b1.xml#id-fead394cff1f407fac87c8b78ba9c5b1"/>
       </sourceConnections>
-      <sourceConnections
-          id="id-ea72bfce4683419790c1c25c3208a139"
-          source="id-0d5bd311c88d40eca90f3ceec246ea71"
-          target="id-ae5312081700408fbca84841948219a2"/>
       <bounds
           x="540"
           y="35"
@@ -669,17 +661,12 @@
       </sourceConnections>
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-60254c7aebbc499c966741f5e75c8731"
+          id="id-ee6dadbd88474d4ca1e7de0adeeaf66d"
           source="id-54966fbd50c54254af4b67f583f8b6a8"
           target="id-fa9feaab87404bb2b72c84e4a757f30a">
-        <bendpoints
-            startX="22"
-            startY="66"
-            endX="-30"
-            endY="-67"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-1ecbe390898e4581803dc99ae1bfd65d.xml#id-1ecbe390898e4581803dc99ae1bfd65d"/>
+            href="AccessRelationship_id-10e66b111eb74b64bdb1ca733b480aa7.xml#id-10e66b111eb74b64bdb1ca733b480aa7"/>
       </sourceConnections>
       <bounds
           x="732"
@@ -725,20 +712,16 @@
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-bd752b11c9b84751a8f9cc63197c4d00"
-        targetConnections="id-fc8a66bcb4c64b7fbaa9c695e59b8367 id-eef9155a9c1a4ec289a4526727a95652">
+        targetConnections="id-fc8a66bcb4c64b7fbaa9c695e59b8367">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
           id="id-c60c3e86dd6746dfb97acf8c90708ad8"
           source="id-bd752b11c9b84751a8f9cc63197c4d00"
           target="id-03b70b9219734bd98e4f2a27c9414254">
-        <sourceConnections
-            id="id-5cac6c38d3c44d9185a14918e7f788eb"
-            source="id-c60c3e86dd6746dfb97acf8c90708ad8"
-            target="id-2fc1b32e6bf6420faf06527c538cfa80"/>
         <bendpoints
-            startX="-2"
+            startX="-38"
             startY="-78"
-            endX="174"
+            endX="138"
             endY="93"/>
         <bendpoints
             startX="-170"
@@ -766,6 +749,20 @@
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-fb96611d11074d5e80b372de4fa3f9e2.xml#id-fb96611d11074d5e80b372de4fa3f9e2"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-119010b6bfe144f384b33e41086e51f4"
+          source="id-bd752b11c9b84751a8f9cc63197c4d00"
+          target="id-8ab8ae4a9f0d4b69be56c4396e3fd77f">
+        <bendpoints
+            startX="-14"
+            startY="-78"
+            endX="-12"
+            endY="93"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-460d5ded21924c1daf4f875a1302252c.xml#id-460d5ded21924c1daf4f875a1302252c"/>
       </sourceConnections>
       <bounds
           x="360"
@@ -984,7 +981,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-90ebf93f4eb545b58469628a0b1e035e"
-      targetConnections="id-566e3d84bd3443dbb44c625b69da3e26 id-1f8dcf5321e34a8ba353cfe029c2b54f id-ecb1e8089aa94186a000f893c79cd56a"
+      targetConnections="id-566e3d84bd3443dbb44c625b69da3e26 id-1f8dcf5321e34a8ba353cfe029c2b54f"
       textPosition="1">
     <bounds
         x="588"
@@ -1026,7 +1023,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-fa9feaab87404bb2b72c84e4a757f30a"
-      targetConnections="id-60254c7aebbc499c966741f5e75c8731"
+      targetConnections="id-ee6dadbd88474d4ca1e7de0adeeaf66d"
       textPosition="1">
     <bounds
         x="1260"
@@ -1056,6 +1053,10 @@
       id="id-627334ebad804c73aa3a3075749d00bd"
       targetConnections="id-a9dd2bffc2774cf0931b87706c37793e"
       textPosition="1">
+    <sourceConnections
+        id="id-7864b1b5c55d4066acea42c47880e9bf"
+        source="id-627334ebad804c73aa3a3075749d00bd"
+        target="id-f195fb0230c84017adf19c3962a8da56"/>
     <bounds
         x="756"
         y="696"
@@ -1082,7 +1083,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-8ab8ae4a9f0d4b69be56c4396e3fd77f"
-      targetConnections="id-3955c028c13f4f8ea3e7fec778bea409 id-157dcb483e5f4f7894641a5854c7252f id-3c3689218b504b4da25fcf8eb60440b4 id-8c265b8628f24b0386e9e229322ae3dc"
+      targetConnections="id-3955c028c13f4f8ea3e7fec778bea409 id-157dcb483e5f4f7894641a5854c7252f id-3c3689218b504b4da25fcf8eb60440b4 id-8c265b8628f24b0386e9e229322ae3dc id-119010b6bfe144f384b33e41086e51f4"
       textPosition="1">
     <bounds
         x="840"
@@ -1098,6 +1099,10 @@
       id="id-11d304f4d4654dcd9c77c12d139c3a4e"
       targetConnections="id-2240704e5ad64672bfe7edca2e3727c7"
       textPosition="1">
+    <sourceConnections
+        id="id-6d0a7bc464b94875abb17c5a03e2f631"
+        source="id-11d304f4d4654dcd9c77c12d139c3a4e"
+        target="id-adc1e026d9f24ddbb3849994a5d5d1ee"/>
     <bounds
         x="864"
         y="1492"
@@ -1124,7 +1129,8 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-1d8e980fb7b544d99668586e282c53b9"
-      targetConnections="id-76ab8ce0025e45a7a8bb095dff56adab id-c0f91eaf56144163af09d9688dfe8cdf id-4b0ae10611634b7dbef1c8add2fa2341 id-df86403740c44eef9e07a80dd8fbf63a">
+      targetConnections="id-76ab8ce0025e45a7a8bb095dff56adab id-c0f91eaf56144163af09d9688dfe8cdf id-4b0ae10611634b7dbef1c8add2fa2341"
+      textPosition="1">
     <bounds
         x="889"
         y="696"
@@ -1151,167 +1157,50 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-e3baadfaa7dc4454a79f7a2eab42abaa"
-      textAlignment="1"
-      content="Relatie van onderwijsdeelname naar administreren leerroute onderwijsdeelnemer (ipv Onderwijsdeelnemer?)">
-    <sourceConnections
-        id="id-eef9155a9c1a4ec289a4526727a95652"
-        source="id-e3baadfaa7dc4454a79f7a2eab42abaa"
-        target="id-bd752b11c9b84751a8f9cc63197c4d00"/>
-    <bounds
-        x="1059"
-        y="1152"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-87ab00df8dfe4f3ba54a442789931537"
-      targetConnections="id-1c68798362244322958f40fed7190a81"
-      textAlignment="1"
-      content="write relatie (vooropleidingsgegevens) naar Onderwijsdeelnemer? of output Vooropleidingsgegevens?">
-    <bounds
-        x="1059"
-        y="612"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-d72e3679ea3040d9a2361a9dd1acfe02"
-      targetConnections="id-b210973342554941b8a55f0b09f3da3f"
-      textAlignment="1"
-      content="Of informatieobject Indicatie financiering?">
-    <bounds
-        x="1356"
-        y="600"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-ae5312081700408fbca84841948219a2"
-      targetConnections="id-ea72bfce4683419790c1c25c3208a139"
-      textAlignment="1"
-      content="Verwerken binnen komende betalingen? En dus ook infoobject toevoegen?">
-    <bounds
-        x="1284"
-        y="1152"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="id-5b41a03a5b474f438122e3ec0b77f290"
       targetConnections="id-c7c6c6b6ce844c89acd39a2dcad79648"
       textAlignment="1"
       content="Gegevens die bij de aanmelding verzameld worden, worden nu opgenomen bij de Onderwijsdeelnemer. Moet dat ook bij de definitie naar voren komen? Of alleen in wiki tekst?">
     <bounds
-        x="806"
-        y="1065"
+        x="816"
+        y="1044"
         width="235"
         height="88"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-62a92452a980423096d610bf782a4996">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ec7f1c026fd34299844058ad8e8ee8ce"
-        source="id-62a92452a980423096d610bf782a4996"
-        target="id-fd44e4869d8e464897b204b16680e009">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-c8c61caf2baf49fab5df9d4233bc1f7f.xml#id-c8c61caf2baf49fab5df9d4233bc1f7f"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-ac7402b698fd43658a7b028056e50644"
-        source="id-62a92452a980423096d610bf782a4996"
-        target="id-561dff9486e34aa486c85580fd12a76e">
-      <archimateRelationship
-          xsi:type="archimate:AggregationRelationship"
-          href="AggregationRelationship_id-39b5d797fde7405ea6a481d8655870cd.xml#id-39b5d797fde7405ea6a481d8655870cd"/>
-    </sourceConnections>
+      xsi:type="archimate:DiagramModelNote"
+      id="id-c298db9c50944009acf80cd545be00a6"
+      targetConnections="id-a0a5a892374d4befa43c14d05927475d"
+      textAlignment="1"
+      content="Definitie aanpassen: &#xD;&#xA;Het proces in de keten waar bij de aanmelding de financiering bepaald wordt enn hoe deze toegewezen worden (aan de betrokken partijen) obv de ONderwijsdeelnamekosten ">
     <bounds
-        x="588"
-        y="540"
-        width="396"
-        height="127"/>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-fd44e4869d8e464897b204b16680e009"
-        targetConnections="id-ec7f1c026fd34299844058ad8e8ee8ce">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-df86403740c44eef9e07a80dd8fbf63a"
-          source="id-fd44e4869d8e464897b204b16680e009"
-          target="id-1d8e980fb7b544d99668586e282c53b9">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-70e1deba021e44cfab0285380b94ebd5.xml#id-70e1deba021e44cfab0285380b94ebd5"/>
-      </sourceConnections>
-      <sourceConnections
-          id="id-f9a62ee632ff477790c96bf946539f68"
-          source="id-fd44e4869d8e464897b204b16680e009"
-          target="id-ab8c7744c71240a9afdc745f220779a4"/>
-      <bounds
-          x="227"
-          y="48"
-          width="145"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessInteraction"
-          href="BusinessInteraction_id-69d4357858c44969a4b7f305f20a61ec.xml#id-69d4357858c44969a4b7f305f20a61ec"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-561dff9486e34aa486c85580fd12a76e"
-        targetConnections="id-ac7402b698fd43658a7b028056e50644">
-      <sourceConnections
-          xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-ecb1e8089aa94186a000f893c79cd56a"
-          source="id-561dff9486e34aa486c85580fd12a76e"
-          target="id-90ebf93f4eb545b58469628a0b1e035e">
-        <archimateRelationship
-            xsi:type="archimate:AccessRelationship"
-            href="AccessRelationship_id-eaa66ec122994532a5cb4d11d0bd8bb1.xml#id-eaa66ec122994532a5cb4d11d0bd8bb1"/>
-      </sourceConnections>
-      <bounds
-          x="47"
-          y="48"
-          width="145"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:BusinessInteraction"
-          href="BusinessInteraction_id-f2367151465a4ed687f1169776b63146.xml#id-f2367151465a4ed687f1169776b63146"/>
-    </children>
-    <archimateElement
-        xsi:type="archimate:BusinessInteraction"
-        href="BusinessInteraction_id-9d9f5d4ffcc04550a2d5dd0f07e58be6.xml#id-9d9f5d4ffcc04550a2d5dd0f07e58be6"/>
+        x="1332"
+        y="644"
+        width="205"
+        height="107"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-ab8c7744c71240a9afdc745f220779a4"
-      targetConnections="id-f9a62ee632ff477790c96bf946539f68"
+      id="id-f195fb0230c84017adf19c3962a8da56"
+      targetConnections="id-7864b1b5c55d4066acea42c47880e9bf"
       textAlignment="1"
-      content="Portfolio als input...">
+      content="Onderwijsresultaat kan hier in principe weg want is (in theorie) onderdeel van Portfolio. &#xD;&#xA;Deze relatie moet wel in een inrichtingsscenario nader uitgeschreven worden voor VO">
     <bounds
-        x="1008"
-        y="521"
+        x="636"
+        y="576"
+        width="254"
+        height="92"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-adc1e026d9f24ddbb3849994a5d5d1ee"
+      targetConnections="id-6d0a7bc464b94875abb17c5a03e2f631"
+      textAlignment="1"
+      content="Waar en wanneer wordt de leerroute bepaald? Hier betreft het slechts de administratieve opname bij de deelname">
+    <bounds
+        x="1068"
+        y="1163"
         width="185"
         height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-2fc1b32e6bf6420faf06527c538cfa80"
-      targetConnections="id-5cac6c38d3c44d9185a14918e7f788eb"
-      textAlignment="1"
-      content="Input vanuit de deelnemer tbv leerroute? Dus dan al vanuit Aanmelden in Onderwijsdeelnemer? Of als aparte input vanuit de Onderwijsdeelnemer bij deze stap?&#xD;&#xA;&#xD;&#xA;Of is de enige input de vrijstelling die uit Waarderen verworven resultaten komt?">
-    <bounds
-        x="192"
-        y="1385"
-        width="236"
-        height="152"/>
   </children>
 </archimate:ArchimateDiagramModel>
