@@ -29,13 +29,17 @@
     <bounds
         x="360"
         y="36"
-        width="289"
+        width="421"
         height="140"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="id-9cab7ab099b14860a651e5e1898a68da"
         targetConnections="id-fbc73dc266e14f17980bf256fc310e64"
         textPosition="1">
+      <sourceConnections
+          id="id-58c374e3097f4303ab21a3bd2bbd3a72"
+          source="id-9cab7ab099b14860a651e5e1898a68da"
+          target="id-5d82d3c3566c42d589ca5c03b4e9d346"/>
       <bounds
           x="12"
           y="48"
@@ -729,6 +733,10 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-cdcbd5d25f6040bf8a9ecafcc38d6e16.xml#id-cdcbd5d25f6040bf8a9ecafcc38d6e16"/>
     </sourceConnections>
+    <sourceConnections
+        id="id-086ed6085d6d405eabb9049a7f23f163"
+        source="id-58fffe82138548aea93d2eb404f4deb3"
+        target="id-f0ff914335ab40f39d1566e741481096"/>
     <bounds
         x="780"
         y="480"
@@ -768,7 +776,7 @@
           href="AggregationRelationship_id-e31447d3b8c648439c7615011ba7fbdc.xml#id-e31447d3b8c648439c7615011ba7fbdc"/>
     </sourceConnections>
     <bounds
-        x="660"
+        x="792"
         y="36"
         width="157"
         height="140"/>
@@ -788,6 +796,30 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-833c67b7edcc401d8d76a08665b63286.xml#id-833c67b7edcc401d8d76a08665b63286"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-5d82d3c3566c42d589ca5c03b4e9d346"
+      targetConnections="id-58c374e3097f4303ab21a3bd2bbd3a72"
+      textAlignment="1"
+      content="Wordt naar gelinkt vanuit Opvolgen aan- en afwezigheid. Moet zijn Financiering onderwijsdeelname">
+    <bounds
+        x="840"
+        y="216"
+        width="185"
+        height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-f0ff914335ab40f39d1566e741481096"
+      targetConnections="id-086ed6085d6d405eabb9049a7f23f163"
+      textAlignment="1"
+      content="Onderwijs volgen. Geeft ruimte voor bepalen leerrroute / begeleiding deelnemenr en het leren zelf...">
+    <bounds
+        x="864"
+        y="372"
+        width="185"
+        height="96"/>
   </children>
   <properties
       key="Publiceren"
