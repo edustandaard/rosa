@@ -63,8 +63,8 @@
         source="id-31d1b1e4e4a346dcb5825bac9b834946"
         target="id-259ce6b71ec64b9d98592514bcca2b09"/>
     <bounds
-        x="108"
-        y="300"
+        x="96"
+        y="330"
         width="120"
         height="40"/>
   </children>
@@ -649,11 +649,11 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-259ce6b71ec64b9d98592514bcca2b09"
-      targetConnections="id-45f50c36da8e40fbb584982d02169ea4 id-8f6e384cb4514a719e6f5eb27170833c"
+      targetConnections="id-8f6e384cb4514a719e6f5eb27170833c id-e5db6973093845899a3de10b3e831a32"
       textPosition="1">
     <bounds
         x="96"
-        y="180"
+        y="252"
         width="120"
         height="55"/>
     <archimateElement
@@ -691,7 +691,7 @@
     </sourceConnections>
     <bounds
         x="312"
-        y="72"
+        y="60"
         width="120"
         height="55"/>
     <archimateElement
@@ -704,15 +704,6 @@
       textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-45f50c36da8e40fbb584982d02169ea4"
-        source="id-73cca52bb3fc4a09ad11112cac83d404"
-        target="id-259ce6b71ec64b9d98592514bcca2b09">
-      <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-a59f7faba1de417585b593fb5f587d14.xml#id-a59f7faba1de417585b593fb5f587d14"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-2c415f0efd2b436e943b82b9e597209e"
         source="id-73cca52bb3fc4a09ad11112cac83d404"
         target="id-a262f02264754418950fccdd2c68f6b6">
@@ -720,9 +711,18 @@
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-cfe18182473a4efa9fd69abeda8d617f.xml#id-cfe18182473a4efa9fd69abeda8d617f"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-405e6a64691c48e5b82bafbba4bb8be9"
+        source="id-73cca52bb3fc4a09ad11112cac83d404"
+        target="id-fba990fc59f94445a5ba3e8395ae6cd5">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-b3f99c067cfc44de9463f1320c1ca69a.xml#id-b3f99c067cfc44de9463f1320c1ca69a"/>
+    </sourceConnections>
     <bounds
         x="96"
-        y="72"
+        y="60"
         width="120"
         height="55"/>
     <archimateElement
@@ -736,10 +736,45 @@
       textAlignment="1"
       content="**Disclaimer**&#xD;&#xA;&#xD;&#xA;Dit informatiemodel is momenteel nog in bewerking. Beoordeling en vaststelling in ROSA QA-team en Architectuurraad moet nog plaatsvinden. Elke vorm van feedback is welkom (te sturen naar: info@edustandaard.nl).">
     <bounds
-        x="84"
-        y="-24"
+        x="72"
+        y="-36"
         width="425"
         height="85"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-fba990fc59f94445a5ba3e8395ae6cd5"
+      targetConnections="id-405e6a64691c48e5b82bafbba4bb8be9"
+      fontColor="#808080"
+      lineColor="#808080"
+      alpha="127"
+      textPosition="1">
+    <features
+        name="labelExpression"
+        value="&lt;&lt;${property:Informatieonderwerp}>>&#xD;&#xA;${name}"/>
+    <features
+        name="lineAlpha"
+        value="127"/>
+    <features
+        name="iconColor"
+        value="#c0c0c0"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e5db6973093845899a3de10b3e831a32"
+        source="id-fba990fc59f94445a5ba3e8395ae6cd5"
+        target="id-259ce6b71ec64b9d98592514bcca2b09">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-6ae6513cbe524042b6d908b14562f31d.xml#id-6ae6513cbe524042b6d908b14562f31d"/>
+    </sourceConnections>
+    <bounds
+        x="83"
+        y="156"
+        width="145"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessObject"
+        href="BusinessObject_id-22b8769e971b474c92ddfb6cfd0cdeef.xml#id-22b8769e971b474c92ddfb6cfd0cdeef"/>
   </children>
   <properties
       key="Type"
