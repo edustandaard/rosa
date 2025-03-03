@@ -147,10 +147,10 @@
             endX="-1014"
             endY="141"/>
         <bendpoints
-            startX="966"
+            startX="1074"
             startY="-169"
-            endX="-7"
-            endY="139"/>
+            endX="-6"
+            endY="141"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-7ef7f84340134e2992632c600ac540ec.xml#id-7ef7f84340134e2992632c600ac540ec"/>
@@ -267,11 +267,6 @@
           id="id-fba19623c8a04f6dbabbf09aeda47528"
           source="id-bfb135cb1ff149ef95f0a7e85d132054"
           target="id-a103822293384ca38f36fe3df7a42811">
-        <bendpoints
-            startX="333"
-            startY="11"
-            endX="-312"
-            endY="-27"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-515cb41e83f8425682f5f0d033747996.xml#id-515cb41e83f8425682f5f0d033747996"/>
@@ -343,10 +338,10 @@
           source="id-bfb135cb1ff149ef95f0a7e85d132054"
           target="id-0b049d19d5974058899f7156a226d834">
         <bendpoints
-            startX="489"
-            startY="23"
+            startX="477"
+            startY="35"
             endX="-6"
-            endY="-106"/>
+            endY="-94"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-3e91f2a82aa94719bebf53ce881994cd.xml#id-3e91f2a82aa94719bebf53ce881994cd"/>
@@ -412,8 +407,12 @@
         id="id-0b049d19d5974058899f7156a226d834"
         targetConnections="id-dbd00035e3fc49cea7543f2f23b954e7 id-a4927570a33b467ea4d0078646237579 id-3bce928da5724e80a636c958d1576ebb id-98a3e061bff34ba4910a5328b0f78961"
         textPosition="1">
+      <sourceConnections
+          id="id-023fce572db045cca2c8bc3448ee5dbf"
+          source="id-0b049d19d5974058899f7156a226d834"
+          target="id-a70f68ab71e54d048f95caf43c4d4b7a"/>
       <bounds
-          x="1008"
+          x="996"
           y="258"
           width="133"
           height="55"/>
@@ -966,9 +965,9 @@
           source="id-36cbc8d2bebb4edcbd9a6d457977cc6c"
           target="id-3ababbe2c9fd468192ae40c78d8bbd5b">
         <bendpoints
-            startX="-2"
+            startX="10"
             startY="324"
-            endX="150"
+            endX="114"
             endY="-4"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
@@ -1477,5 +1476,17 @@
     <archimateElement
         xsi:type="archimate:Grouping"
         href="Grouping_id-deef892addbe4a1a99ead3ac572759ee.xml#id-deef892addbe4a1a99ead3ac572759ee"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-a70f68ab71e54d048f95caf43c4d4b7a"
+      targetConnections="id-023fce572db045cca2c8bc3448ee5dbf"
+      textAlignment="1"
+      content="Ontbrekende context waar initieel de leerroite bepaald wordt per opleiding">
+    <bounds
+        x="1479"
+        y="780"
+        width="185"
+        height="121"/>
   </children>
 </archimate:ArchimateDiagramModel>
