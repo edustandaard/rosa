@@ -147,11 +147,6 @@
           id="id-1f8dcf5321e34a8ba353cfe029c2b54f"
           source="id-14c906420e914a3191e92a09bc606fcf"
           target="id-90ebf93f4eb545b58469628a0b1e035e">
-        <bendpoints
-            startX="-42"
-            startY="-55"
-            endX="48"
-            endY="65"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-a2a8e3de78d040219e4fee47e02037d4.xml#id-a2a8e3de78d040219e4fee47e02037d4"/>
@@ -165,6 +160,10 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-c095e47ff7ea4dfbb9eaccce6828bba0.xml#id-c095e47ff7ea4dfbb9eaccce6828bba0"/>
       </sourceConnections>
+      <sourceConnections
+          id="id-969bfb4421a74a33b880f3bddfc800d6"
+          source="id-14c906420e914a3191e92a09bc606fcf"
+          target="id-b4fa1668d2f54e7cb3be4cb6a436b5d4"/>
       <bounds
           x="204"
           y="36"
@@ -228,11 +227,6 @@
           id="id-566e3d84bd3443dbb44c625b69da3e26"
           source="id-bcdf3a44e74846b195c3d4ba82f21e29"
           target="id-90ebf93f4eb545b58469628a0b1e035e">
-        <bendpoints
-            startX="33"
-            startY="-67"
-            endX="-48"
-            endY="53"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-f45af4fe62a14e809cc5aa0817060d16.xml#id-f45af4fe62a14e809cc5aa0817060d16"/>
@@ -568,7 +562,7 @@
         <bendpoints
             startX="204"
             startY="-86"
-            endX="-48"
+            endX="-54"
             endY="69"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
@@ -638,6 +632,11 @@
           id="id-157dcb483e5f4f7894641a5854c7252f"
           source="id-0d5bd311c88d40eca90f3ceec246ea71"
           target="id-8ab8ae4a9f0d4b69be56c4396e3fd77f">
+        <bendpoints
+            startX="-50"
+            startY="-74"
+            endX="42"
+            endY="81"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-fead394cff1f407fac87c8b78ba9c5b1.xml#id-fead394cff1f407fac87c8b78ba9c5b1"/>
@@ -764,9 +763,9 @@
             endX="-164"
             endY="225"/>
         <bendpoints
-            startX="198"
+            startX="186"
             startY="-86"
-            endX="-32"
+            endX="-42"
             endY="225"/>
         <archimateRelationship
             xsi:type="archimate:AccessRelationship"
@@ -812,10 +811,6 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-460d5ded21924c1daf4f875a1302252c.xml#id-460d5ded21924c1daf4f875a1302252c"/>
       </sourceConnections>
-      <sourceConnections
-          id="id-fd2bb924212844a38ce6469b7980510c"
-          source="id-bd752b11c9b84751a8f9cc63197c4d00"
-          target="id-71a539fc5a6c4d8daa54725092a26bdb"/>
       <bounds
           x="408"
           y="35"
@@ -1078,7 +1073,7 @@
     <bounds
         x="924"
         y="1176"
-        width="145"
+        width="157"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -1182,18 +1177,6 @@
         height="80"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-71a539fc5a6c4d8daa54725092a26bdb"
-      targetConnections="id-fd2bb924212844a38ce6469b7980510c"
-      textAlignment="1"
-      content="Definitie van de stap aanpassen">
-    <bounds
-        x="612"
-        y="1471"
-        width="125"
-        height="42"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b7e7194bc4714a4c9b2e27089026a79a"
       targetConnections="id-841a4154ca334377b59394be676d3fbe id-27a110dce2614b0d9d08bfb5fa09811d"
@@ -1203,7 +1186,7 @@
         source="id-b7e7194bc4714a4c9b2e27089026a79a"
         target="id-2d1a31c6cbe941f49eb70f406fda85ee"/>
     <bounds
-        x="852"
+        x="878"
         y="1020"
         width="120"
         height="55"/>
@@ -1244,10 +1227,6 @@
       id="id-6e72b8ed74d1438faf3a1c1962ca6abd"
       targetConnections="id-17c38ec11f9445edb86036762d648338 id-85b81d19ab9445e1b43c8191b4063f3e"
       textPosition="1">
-    <sourceConnections
-        id="id-c959f677e6264de79aa091d70d82fa48"
-        source="id-6e72b8ed74d1438faf3a1c1962ca6abd"
-        target="id-f502ecaf088942868fb37880646b5df7"/>
     <bounds
         x="1356"
         y="1020"
@@ -1319,7 +1298,7 @@
       targetConnections="id-98c08b68d6a94ba8a8e7299080d3b2fe id-b3c6d7cff7ad46a7a9fb61f41bb2089a"
       textPosition="1">
     <bounds
-        x="1029"
+        x="1022"
         y="1020"
         width="133"
         height="55"/>
@@ -1329,36 +1308,25 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
-      id="id-f502ecaf088942868fb37880646b5df7"
-      targetConnections="id-c959f677e6264de79aa091d70d82fa48"
-      textAlignment="1"
-      content="Speelt deze indicatie ook mee in het plaatsingsbesluit?">
-    <bounds
-        x="1344"
-        y="1104"
-        width="188"
-        height="63"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
       id="id-2d1a31c6cbe941f49eb70f406fda85ee"
       targetConnections="id-49692d28cd764ecbb26372903f0d08b1"
       textAlignment="1"
-      content="Kennis en vaardigheden?&#xD;&#xA;Profiel onderwijsdeelnemer?">
+      content="Object verder uitwerken in informatiemodel&#xD;&#xA;(Skills, Kennis en vaardigheden)&#xD;&#xA;Competentieprofiel onderwijsdeelnemer?">
     <bounds
         x="852"
         y="1108"
-        width="172"
+        width="265"
         height="55"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-378ab95afb094989a239b9c484d2c932"
-      targetConnections="id-a3d8c0fd62a34345bf5e45a5ec1274ff id-1cb8852523d4497e860f2174713408c5 id-1214f1f2e39f460e98431eeb0a5779d7">
+      targetConnections="id-a3d8c0fd62a34345bf5e45a5ec1274ff id-1cb8852523d4497e860f2174713408c5 id-1214f1f2e39f460e98431eeb0a5779d7"
+      textPosition="1">
     <bounds
-        x="712"
+        x="708"
         y="1020"
-        width="129"
+        width="157"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessObject"
@@ -1392,4 +1360,34 @@
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-f7d05a6f378148788edf0ae707fea062.xml#id-f7d05a6f378148788edf0ae707fea062"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-b4fa1668d2f54e7cb3be4cb6a436b5d4"
+      targetConnections="id-969bfb4421a74a33b880f3bddfc800d6"
+      textAlignment="1"
+      content="Verder uitzoeken in hoeverre hier echt sprake is van identificeren. Wellicht uit het model?!">
+    <bounds
+        x="288"
+        y="660"
+        width="185"
+        height="89"/>
+  </children>
+  <properties
+      key="Publiceren"
+      value="Niet"/>
+  <properties
+      key="Type"
+      value="Scenario"/>
+  <properties
+      key="Scenariotype"
+      value="Toepassingsscenario"/>
+  <properties
+      key="Status"
+      value="Concept"/>
+  <properties
+      key="Statusdatum"/>
+  <properties
+      key="Datum laatste wijziging"/>
+  <properties
+      key="Beschrijving laatste wijziging"/>
 </archimate:ArchimateDiagramModel>
