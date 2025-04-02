@@ -160,10 +160,6 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-c095e47ff7ea4dfbb9eaccce6828bba0.xml#id-c095e47ff7ea4dfbb9eaccce6828bba0"/>
       </sourceConnections>
-      <sourceConnections
-          id="id-969bfb4421a74a33b880f3bddfc800d6"
-          source="id-14c906420e914a3191e92a09bc606fcf"
-          target="id-b4fa1668d2f54e7cb3be4cb6a436b5d4"/>
       <bounds
           x="204"
           y="36"
@@ -660,10 +656,6 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-fead394cff1f407fac87c8b78ba9c5b1.xml#id-fead394cff1f407fac87c8b78ba9c5b1"/>
       </sourceConnections>
-      <sourceConnections
-          id="id-75651220846b4e8eba5c4e64fbc04a2a"
-          source="id-0d5bd311c88d40eca90f3ceec246ea71"
-          target="id-febbae27a3a04e468c342626eaafd325"/>
       <bounds
           x="576"
           y="35"
@@ -1070,10 +1062,6 @@
       id="id-627334ebad804c73aa3a3075749d00bd"
       targetConnections="id-a9dd2bffc2774cf0931b87706c37793e"
       textPosition="1">
-    <sourceConnections
-        id="id-7864b1b5c55d4066acea42c47880e9bf"
-        source="id-627334ebad804c73aa3a3075749d00bd"
-        target="id-f195fb0230c84017adf19c3962a8da56"/>
     <bounds
         x="766"
         y="696"
@@ -1116,10 +1104,6 @@
       id="id-11d304f4d4654dcd9c77c12d139c3a4e"
       targetConnections="id-2240704e5ad64672bfe7edca2e3727c7"
       textPosition="1">
-    <sourceConnections
-        id="id-6d0a7bc464b94875abb17c5a03e2f631"
-        source="id-11d304f4d4654dcd9c77c12d139c3a4e"
-        target="id-adc1e026d9f24ddbb3849994a5d5d1ee"/>
     <bounds
         x="888"
         y="1464"
@@ -1132,7 +1116,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-a22e449bd39440f8873f46f16f57ecf5"
-      targetConnections="id-0fb36fe552e84272a83b0f9960bd6bfc id-a26b3beaffea4476b084cb65d6009491"
+      targetConnections="id-0fb36fe552e84272a83b0f9960bd6bfc"
       textPosition="1">
     <bounds
         x="757"
@@ -1158,65 +1142,10 @@
         href="BusinessObject_id-24482a3be08e425aa76044ae317ec6cf.xml#id-24482a3be08e425aa76044ae317ec6cf"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-def1bf2cef614188833101c51468b760"
-      textAlignment="1"
-      content="Vrijstelling binnen leerroute?">
-    <sourceConnections
-        id="id-a26b3beaffea4476b084cb65d6009491"
-        source="id-def1bf2cef614188833101c51468b760"
-        target="id-a22e449bd39440f8873f46f16f57ecf5"/>
-    <bounds
-        x="612"
-        y="1536"
-        width="185"
-        height="37"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-f195fb0230c84017adf19c3962a8da56"
-      targetConnections="id-7864b1b5c55d4066acea42c47880e9bf"
-      textAlignment="1"
-      content="Onderwijsresultaat kan hier in principe weg want is (in theorie) onderdeel van Portfolio. &#xD;&#xA;Deze relatie moet wel in een inrichtingsscenario nader uitgeschreven worden voor VO">
-    <bounds
-        x="483"
-        y="659"
-        width="254"
-        height="92"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-adc1e026d9f24ddbb3849994a5d5d1ee"
-      targetConnections="id-6d0a7bc464b94875abb17c5a03e2f631"
-      textAlignment="1"
-      content="Waar en wanneer wordt de leerroute bepaald? Hier betreft het slechts de administratieve opname bij de deelname">
-    <bounds
-        x="855"
-        y="1536"
-        width="185"
-        height="80"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-febbae27a3a04e468c342626eaafd325"
-      targetConnections="id-75651220846b4e8eba5c4e64fbc04a2a"
-      textAlignment="1"
-      content="Financiering moet apart verder worden uitgewerkt (separate context). Dan zal blijken of de uitwerking bij Administreren onderwijsdeelname correct is">
-    <bounds
-        x="1110"
-        y="1536"
-        width="235"
-        height="80"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b7e7194bc4714a4c9b2e27089026a79a"
       targetConnections="id-841a4154ca334377b59394be676d3fbe id-27a110dce2614b0d9d08bfb5fa09811d"
       textPosition="1">
-    <sourceConnections
-        id="id-49692d28cd764ecbb26372903f0d08b1"
-        source="id-b7e7194bc4714a4c9b2e27089026a79a"
-        target="id-2d1a31c6cbe941f49eb70f406fda85ee"/>
     <bounds
         x="878"
         y="1020"
@@ -1299,7 +1228,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b3aaff5e2d2f487a9cb1054a37958fc8"
-      targetConnections="id-cf0da47f36294da39068d15ecbb2244e id-1f35e3433160490093f8c0019fbbf03f"
+      targetConnections="id-cf0da47f36294da39068d15ecbb2244e"
       textPosition="1">
     <bounds
         x="1428"
@@ -1337,18 +1266,6 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-33b00230ff594eb08c0679bc121929c8.xml#id-33b00230ff594eb08c0679bc121929c8"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-2d1a31c6cbe941f49eb70f406fda85ee"
-      targetConnections="id-49692d28cd764ecbb26372903f0d08b1"
-      textAlignment="1"
-      content="Object verder uitwerken in informatiemodel&#xD;&#xA;(Skills, Kennis en vaardigheden)&#xD;&#xA;Competentieprofiel onderwijsdeelnemer?">
-    <bounds
-        x="852"
-        y="1108"
-        width="265"
-        height="55"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1391,33 +1308,6 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-f7d05a6f378148788edf0ae707fea062.xml#id-f7d05a6f378148788edf0ae707fea062"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-b4fa1668d2f54e7cb3be4cb6a436b5d4"
-      targetConnections="id-969bfb4421a74a33b880f3bddfc800d6"
-      textAlignment="1"
-      content="Verder uitzoeken in hoeverre hier echt sprake is van identificeren. Wellicht uit het model?!">
-    <bounds
-        x="288"
-        y="660"
-        width="185"
-        height="89"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-a420131d68734821a7c574bd486cc5b7"
-      textAlignment="1"
-      content="Uitschrijving onderwijsdeelname?">
-    <sourceConnections
-        id="id-1f35e3433160490093f8c0019fbbf03f"
-        source="id-a420131d68734821a7c574bd486cc5b7"
-        target="id-b3aaff5e2d2f487a9cb1054a37958fc8"/>
-    <bounds
-        x="1428"
-        y="1548"
-        width="145"
-        height="44"/>
   </children>
   <properties
       key="Publiceren"
