@@ -49,6 +49,24 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-c8724362cee547bc941d42732f8057d8.xml#id-c8724362cee547bc941d42732f8057d8"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-d48c036342df403baee6e1adfac7ae29"
+        source="id-1cc2aabd7f8745b7aa2287abd7e6a97c"
+        target="id-6dddfdd13bf047278b3f0c2b23da4b37">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-bad82b127cc7471a9d69344d382942c7.xml#id-bad82b127cc7471a9d69344d382942c7"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-0fb7984a61b9411baf09aa1a999bf4d5"
+        source="id-1cc2aabd7f8745b7aa2287abd7e6a97c"
+        target="id-23c9c5cde87547048dee3e0233a0d090">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-16449cb32849491c993c15a2317b912d.xml#id-16449cb32849491c993c15a2317b912d"/>
+    </sourceConnections>
     <bounds
         x="-36"
         y="312"
@@ -113,6 +131,36 @@
       <archimateElement
           xsi:type="archimate:Goal"
           href="Goal_id-c05a9844bd3447cdb8ac6231426fe0fb.xml#id-c05a9844bd3447cdb8ac6231426fe0fb"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-6dddfdd13bf047278b3f0c2b23da4b37"
+        targetConnections="id-d48c036342df403baee6e1adfac7ae29"
+        fontColor="#ffffff"
+        fillColor="#c828d0">
+      <bounds
+          x="18"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Goal"
+          href="Goal_id-546d40140d2042d6908ad105ba61d76a.xml#id-546d40140d2042d6908ad105ba61d76a"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-23c9c5cde87547048dee3e0233a0d090"
+        targetConnections="id-0fb7984a61b9411baf09aa1a999bf4d5"
+        fontColor="#ffffff"
+        fillColor="#c828d0">
+      <bounds
+          x="144"
+          y="156"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:Goal"
+          href="Goal_id-781c785353374e5c9823bafa27d15215.xml#id-781c785353374e5c9823bafa27d15215"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
