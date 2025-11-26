@@ -87,6 +87,15 @@
             xsi:type="archimate:InfluenceRelationship"
             href="InfluenceRelationship_id-ce44d565a2284818ba975b6627f52c19.xml#id-ce44d565a2284818ba975b6627f52c19"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-f2a9d9a263674105bcce39c6ee38fe20"
+          source="id-7ecc9d61a8a5443f8f121a3fdc247a90"
+          target="id-9356addbae9b4fe1a4fcab6331ffdccc">
+        <archimateRelationship
+            xsi:type="archimate:InfluenceRelationship"
+            href="InfluenceRelationship_id-4588cf9dda73453d9fac7720f4073c65.xml#id-4588cf9dda73453d9fac7720f4073c65"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="24"
@@ -286,6 +295,22 @@
     <archimateElement
         xsi:type="archimate:Driver"
         href="Driver_id-b5d57f71d428402aa523d16f9440e29b.xml#id-b5d57f71d428402aa523d16f9440e29b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-9356addbae9b4fe1a4fcab6331ffdccc"
+      targetConnections="id-f2a9d9a263674105bcce39c6ee38fe20">
+    <features
+        name="deriveElementLineColor"
+        value="false"/>
+    <bounds
+        x="24"
+        y="264"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:Driver"
+        href="Driver_id-afd6d44545d643018e1d35cfa9087f15.xml#id-afd6d44545d643018e1d35cfa9087f15"/>
   </children>
   <properties
       key="Publiceren"
