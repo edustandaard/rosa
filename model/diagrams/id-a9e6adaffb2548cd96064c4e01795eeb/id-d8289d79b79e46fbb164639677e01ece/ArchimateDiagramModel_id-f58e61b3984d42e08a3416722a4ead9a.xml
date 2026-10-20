@@ -324,7 +324,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-034e894584a244b7a27616341007d9f5"
-      targetConnections="id-d99edd5e820a4d63ba90ac98601d53f8"
+      targetConnections="id-d99edd5e820a4d63ba90ac98601d53f8 id-ed5ea5a8f1b54c879b9b561fcbaed25b"
       textPosition="1">
     <bounds
         x="24"
@@ -740,7 +740,13 @@
     <sourceConnections
         id="id-44386a2e2d064a3cab7be453e3b774fe"
         source="id-2167574fe44143ee932c0ef40a1ad0ba"
-        target="id-011fcb7299084edd98d2666890a2afb2"/>
+        target="id-011fcb7299084edd98d2666890a2afb2">
+      <bendpoints
+          startX="-12"
+          startY="197"
+          endX="3"
+          endY="-192"/>
+    </sourceConnections>
     <sourceConnections
         id="id-0d51ffddf5ea40cfb1362d01450e6069"
         source="id-2167574fe44143ee932c0ef40a1ad0ba"
@@ -750,6 +756,16 @@
           startY="-7"
           endX="-15"
           endY="399"/>
+    </sourceConnections>
+    <sourceConnections
+        id="id-7847a0b8cb5647b1aa2924828be9a7b9"
+        source="id-2167574fe44143ee932c0ef40a1ad0ba"
+        target="id-865c317250364651886d3cea1f5226eb">
+      <bendpoints
+          startX="-132"
+          startY="5"
+          endX="24"
+          endY="-43"/>
     </sourceConnections>
     <bounds
         x="560"
@@ -881,8 +897,8 @@
     <bounds
         x="500"
         y="900"
-        width="204"
-        height="92"/>
+        width="266"
+        height="73"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -986,6 +1002,25 @@
             xsi:type="archimate:AccessRelationship"
             href="AccessRelationship_id-5bcfe4a978f0475d9e474149efb62ace.xml#id-5bcfe4a978f0475d9e474149efb62ace"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-ed5ea5a8f1b54c879b9b561fcbaed25b"
+          source="id-85de0d29b0c0497c936353d123cb2475"
+          target="id-034e894584a244b7a27616341007d9f5">
+        <bendpoints
+            startX="-68"
+            startY="-87"
+            endX="474"
+            endY="45"/>
+        <bendpoints
+            startX="-489"
+            startY="-87"
+            endX="42"
+            endY="45"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-fd1c486da52e42369516e8374fc9c30d.xml#id-fd1c486da52e42369516e8374fc9c30d"/>
+      </sourceConnections>
       <bounds
           x="60"
           y="36"
@@ -998,17 +1033,6 @@
     <archimateElement
         xsi:type="archimate:BusinessInteraction"
         href="BusinessInteraction_id-76600da6f00f498f963a705e7abe8d94.xml#id-76600da6f00f498f963a705e7abe8d94"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-f21c842b997c4c1ba553399ec09d87f9"
-      textAlignment="1"
-      content="Splitsen Aanmelden in Aanmelden/Intekenen zoals inmiddels in ketendomeinen is ondergebracht. Bij de splitsing zijn dan betrokken: Bepalen opleidingskeuze, ondersteuningsbehoefte, financiring en toelaatbaarheid.">
-    <bounds
-        x="1394"
-        y="852"
-        width="231"
-        height="114"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -1130,5 +1154,17 @@
     <archimateElement
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_id-40fef0781fbb491e994bdb867b67c476.xml#id-40fef0781fbb491e994bdb867b67c476"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-865c317250364651886d3cea1f5226eb"
+      targetConnections="id-7847a0b8cb5647b1aa2924828be9a7b9"
+      textAlignment="1"
+      content="mbo, ho, wo: ook wel functiebeperking">
+    <bounds
+        x="440"
+        y="583"
+        width="121"
+        height="43"/>
   </children>
 </archimate:ArchimateDiagramModel>
