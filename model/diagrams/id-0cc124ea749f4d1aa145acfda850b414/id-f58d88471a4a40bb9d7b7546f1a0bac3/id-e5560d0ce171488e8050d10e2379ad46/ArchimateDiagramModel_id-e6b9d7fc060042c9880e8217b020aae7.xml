@@ -165,23 +165,19 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-9f22e4fb9a97413f871164cbfa14b05a"
+      targetConnections="id-5ed46ee394824d7f8d94313df04d3d84"
       textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-7e7f334b9e374fb0a0858a617c935b79"
         source="id-9f22e4fb9a97413f871164cbfa14b05a"
         target="id-b028c2e4bae2421babad78b590f1783d">
-      <bendpoints
-          startX="12"
-          startY="63"
-          endX="-41"
-          endY="-52"/>
       <archimateRelationship
           xsi:type="archimate:AssociationRelationship"
           href="AssociationRelationship_id-efc24f7ec58f4e84a91cabd5e692982e.xml#id-efc24f7ec58f4e84a91cabd5e692982e"/>
     </sourceConnections>
     <bounds
-        x="264"
+        x="336"
         y="456"
         width="120"
         height="55"/>
@@ -195,20 +191,15 @@
       textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-590e3cfcc8244a718494792075fc8dbf"
+        id="id-5ed46ee394824d7f8d94313df04d3d84"
         source="id-09fb72bd31b941708391a59501feb942"
-        target="id-b028c2e4bae2421babad78b590f1783d">
-      <bendpoints
-          startX="-24"
-          startY="51"
-          endX="55"
-          endY="-64"/>
+        target="id-9f22e4fb9a97413f871164cbfa14b05a">
       <archimateRelationship
-          xsi:type="archimate:AssociationRelationship"
-          href="AssociationRelationship_id-b84ab70587194ad6945325a15d00b9e3.xml#id-b84ab70587194ad6945325a15d00b9e3"/>
+          xsi:type="archimate:SpecializationRelationship"
+          href="SpecializationRelationship_id-31bfce40c45a4ce39876fe84b0b031ef.xml#id-31bfce40c45a4ce39876fe84b0b031ef"/>
     </sourceConnections>
     <bounds
-        x="396"
+        x="528"
         y="456"
         width="120"
         height="55"/>
@@ -219,7 +210,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-b028c2e4bae2421babad78b590f1783d"
-      targetConnections="id-590e3cfcc8244a718494792075fc8dbf id-7e7f334b9e374fb0a0858a617c935b79 id-d9470f929b9d4951b45bdf90787e838e"
+      targetConnections="id-7e7f334b9e374fb0a0858a617c935b79 id-d9470f929b9d4951b45bdf90787e838e"
       textPosition="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
