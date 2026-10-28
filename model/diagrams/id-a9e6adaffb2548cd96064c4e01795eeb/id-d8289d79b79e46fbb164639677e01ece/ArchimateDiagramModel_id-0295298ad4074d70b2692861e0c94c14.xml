@@ -336,7 +336,7 @@
     <bounds
         x="338"
         y="972"
-        width="733"
+        width="803"
         height="157"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -538,25 +538,52 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-f29abcc94ed346118de565d27e4d2aee">
+        id="id-f29abcc94ed346118de565d27e4d2aee"
+        fillColor="#ffe1e1">
+      <bounds
+          x="612"
+          y="48"
+          width="169"
+          height="97"/>
+      <archimateElement
+          xsi:type="archimate:BusinessRole"
+          href="BusinessRole_0702a13e-834d-46cd-978f-cf471a52c574.xml#0702a13e-834d-46cd-978f-cf471a52c574"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-c3585798b9a04bc4921b30cba4766343">
       <sourceConnections
           xsi:type="archimate:DiagramModelArchimateConnection"
-          id="id-5e519a918d49464ea5be7f7c5a6dbc34"
-          source="id-f29abcc94ed346118de565d27e4d2aee"
+          id="id-2cc68cb680ab42bda1282dcb0be1e324"
+          source="id-c3585798b9a04bc4921b30cba4766343"
+          target="id-3d1615f9f98b4f13aba9bad733c8538b">
+        <bendpoints
+            startX="-38"
+            startY="-102"
+            endX="60"
+            endY="105"/>
+        <archimateRelationship
+            xsi:type="archimate:AccessRelationship"
+            href="AccessRelationship_id-12de453196b3408facbda656cfa4e664.xml#id-12de453196b3408facbda656cfa4e664"/>
+      </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="id-10c0a954744b404f8d87c44b96ace68d"
+          source="id-c3585798b9a04bc4921b30cba4766343"
           target="id-8548ef3256d74552a6e102c1a8c3f1ab">
         <archimateRelationship
             xsi:type="archimate:AssignmentRelationship"
-            href="AssignmentRelationship_id-5b0ca3bf345c4a3ebb1d3452fc477aac.xml#id-5b0ca3bf345c4a3ebb1d3452fc477aac"/>
+            href="AssignmentRelationship_id-2628af0f058e420ebda65f5a952cb350.xml#id-2628af0f058e420ebda65f5a952cb350"/>
       </sourceConnections>
       <bounds
-          x="408"
+          x="432"
           y="48"
           width="169"
           height="97"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="id-8548ef3256d74552a6e102c1a8c3f1ab"
-          targetConnections="id-5e519a918d49464ea5be7f7c5a6dbc34">
+          targetConnections="id-10c0a954744b404f8d87c44b96ace68d">
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-7eb8e6a76e1941e99018967953a46a09"
@@ -568,27 +595,13 @@
         </sourceConnections>
         <sourceConnections
             xsi:type="archimate:DiagramModelArchimateConnection"
-            id="id-2cc68cb680ab42bda1282dcb0be1e324"
-            source="id-8548ef3256d74552a6e102c1a8c3f1ab"
-            target="id-3d1615f9f98b4f13aba9bad733c8538b">
-          <bendpoints
-              startX="-38"
-              startY="-102"
-              endX="60"
-              endY="105"/>
-          <archimateRelationship
-              xsi:type="archimate:AccessRelationship"
-              href="AccessRelationship_id-12de453196b3408facbda656cfa4e664.xml#id-12de453196b3408facbda656cfa4e664"/>
-        </sourceConnections>
-        <sourceConnections
-            xsi:type="archimate:DiagramModelArchimateConnection"
             id="id-b18ad8328a4c48a280d81575cc4f4993"
             source="id-8548ef3256d74552a6e102c1a8c3f1ab"
             target="id-64e00e8be95e486084370e61b9a5a785">
           <bendpoints
-              startX="-62"
+              startX="-50"
               startY="-156"
-              endX="228"
+              endX="264"
               endY="141"/>
           <bendpoints
               startX="-206"
@@ -619,7 +632,7 @@
       </children>
       <archimateElement
           xsi:type="archimate:BusinessRole"
-          href="BusinessRole_0702a13e-834d-46cd-978f-cf471a52c574.xml#0702a13e-834d-46cd-978f-cf471a52c574"/>
+          href="BusinessRole_b7b65a06-334d-465a-a628-89d2fe2aa2e2.xml#b7b65a06-334d-465a-a628-89d2fe2aa2e2"/>
     </children>
   </children>
   <children
@@ -949,7 +962,7 @@
       targetConnections="id-2cc68cb680ab42bda1282dcb0be1e324"
       textPosition="1">
     <bounds
-        x="684"
+        x="708"
         y="840"
         width="120"
         height="55"/>
