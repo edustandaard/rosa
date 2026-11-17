@@ -2346,6 +2346,15 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_id-34f672f985f1495dbe1e234f1eb24208.xml#id-34f672f985f1495dbe1e234f1eb24208"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-1847a0a907864ffc90c5f7b827952bab"
+        source="id-cdd94adda9f84828b390ecc813cb700d"
+        target="id-ab109c15e6034519be955c0ee53c9031">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-45e08b9ea1ae4011b24e730d39bf31f7.xml#id-45e08b9ea1ae4011b24e730d39bf31f7"/>
+    </sourceConnections>
     <bounds
         x="13"
         y="492"
@@ -2528,20 +2537,6 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="id-ab109c15e6034519be955c0ee53c9031"
-        targetConnections="id-ea3c2ff46903462085113010f7c5b6ff"
-        textPosition="1">
-      <bounds
-          x="12"
-          y="144"
-          width="145"
-          height="73"/>
-      <archimateElement
-          xsi:type="archimate:BusinessObject"
-          href="BusinessObject_id-223e100616a846aaac245ccc9023a328.xml#id-223e100616a846aaac245ccc9023a328"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="id-f61465c62aac4593aed93002d632e0ad"
         targetConnections="id-5591a4a088a24f9f90d9d6223bbbb1d5"
         textAlignment="1">
@@ -2562,6 +2557,20 @@
       <archimateElement
           xsi:type="archimate:Grouping"
           href="Grouping_id-15db1efb55a4469b8f914e481bfb6365.xml#id-15db1efb55a4469b8f914e481bfb6365"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="id-ab109c15e6034519be955c0ee53c9031"
+        targetConnections="id-ea3c2ff46903462085113010f7c5b6ff id-1847a0a907864ffc90c5f7b827952bab"
+        textPosition="1">
+      <bounds
+          x="12"
+          y="144"
+          width="145"
+          height="73"/>
+      <archimateElement
+          xsi:type="archimate:BusinessObject"
+          href="BusinessObject_id-223e100616a846aaac245ccc9023a328.xml#id-223e100616a846aaac245ccc9023a328"/>
     </children>
     <archimateElement
         xsi:type="archimate:Grouping"
