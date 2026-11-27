@@ -46,15 +46,6 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-803d286c85734f8ea3845c0b7b7a123c"
       type="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e26159e67d684b8c9806e997778c1611"
-        source="id-803d286c85734f8ea3845c0b7b7a123c"
-        target="id-72b7b654abb346f4acc6bd5ee60190a3">
-      <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_d9cd9395-cea4-4df7-824a-02e9442691f9.xml#d9cd9395-cea4-4df7-824a-02e9442691f9"/>
-    </sourceConnections>
     <bounds
         x="1065"
         y="528"
@@ -399,8 +390,7 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-2c2b5e3724b345c29b5ee37ea695ea6e"
-      targetConnections="id-e02a7cab77c345bab39fb3542394e9f6">
+      id="id-2c2b5e3724b345c29b5ee37ea695ea6e">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-51c3efae637248dba4452235e5257cbe"
@@ -418,29 +408,6 @@
     <archimateElement
         xsi:type="archimate:ApplicationService"
         href="ApplicationService_id-28aff29de3d6496f9f4d447c0935e133.xml#id-28aff29de3d6496f9f4d447c0935e133"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-72b7b654abb346f4acc6bd5ee60190a3"
-      targetConnections="id-e26159e67d684b8c9806e997778c1611"
-      type="1">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-e02a7cab77c345bab39fb3542394e9f6"
-        source="id-72b7b654abb346f4acc6bd5ee60190a3"
-        target="id-2c2b5e3724b345c29b5ee37ea695ea6e">
-      <archimateRelationship
-          xsi:type="archimate:AssignmentRelationship"
-          href="AssignmentRelationship_id-1a7e8a694a7e4ab9b063b9708208b88b.xml#id-1a7e8a694a7e4ab9b063b9708208b88b"/>
-    </sourceConnections>
-    <bounds
-        x="739"
-        y="480"
-        width="159"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:ApplicationComponent"
-        href="ApplicationComponent_21e5af20-d67d-4996-9ac6-b4ed321dd06f.xml#21e5af20-d67d-4996-9ac6-b4ed321dd06f"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -1515,17 +1482,6 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_13bd8425-b24e-4fb0-aa8d-38044ce4d2bb.xml#13bd8425-b24e-4fb0-aa8d-38044ce4d2bb"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-0ebca25b37eb48fead7c5276d538fafb"
-      textAlignment="1"
-      content="Leermateriaal:&#xD;&#xA;(ROSA) Materiaal dat naar vorm en inhoud is gericht op informatieoverdracht in onderwijsleersituaties. Ook toetsen worden tot leermateriaal gerekend. In de praktijk gaat het veelal om materiaal waarvan het gebruik binnen het onderwijsaanbod door het bevoegd gezag specifiek voor het desbetreffende leerjaar is voorgeschreven.&#xD;&#xA;&#xD;&#xA;(FORA) Leermateriaal is materiaal dat gebruikt wordt om te leren en bestaat uit opdrachten (productie door leerling) en lesstof (door leerlingen geconsumeerd).&#xD;&#xA;&#xD;&#xA;Leermiddel:&#xD;&#xA;(ROSA) Een product dat is samengesteld uit leermateriaal en dat onder bepaalde condities verkregen en gebruikt kan worden. Hetzelfde leermateriaal kan in verschillende leermiddelen (her)gebruikt worden.&#xD;&#xA;&#xD;&#xA;(Alternatief) Middel dat qua vorm en inhoud is gericht op kennisverwerving, het aanleren van vaardigheden en attitudevorming in onderwijsleersituaties.&#xD;&#xA;Het betreft zowel papieren als digitale middelen, zowel ‘open’ als ‘gesloten’ middelen, en zowel instructiemateriaal, oefenmateriaal als toetsen.&#xD;&#xA;&#xD;&#xA;Leercontent:  (= Leermateriaal?)&#xD;&#xA;t.b.d.&#xD;&#xA;- genoemd in: Aggregatie van metadata van leercontent&#xD;&#xA;&#xD;&#xA;">
-    <bounds
-        x="1148"
-        y="-116"
-        width="552"
-        height="351"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
