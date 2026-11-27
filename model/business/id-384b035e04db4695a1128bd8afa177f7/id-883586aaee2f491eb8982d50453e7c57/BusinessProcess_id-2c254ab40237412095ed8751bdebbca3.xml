@@ -1,14 +1,32 @@
 <archimate:BusinessProcess
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Authenticatie"
+    name="Authenticatie-standaarden"
     id="id-2c254ab40237412095ed8751bdebbca3"
-    documentation="Het verifiëren of de identiteit die een entiteit presenteert daadwerkelijk op een zeker betrouwbaarheidsniveau overeenkomt met de identiteit van de entiteit op basis van een of meer authenticatiefactoren.">
+    documentation="OpenID.NLGov en SAML zijn open standaarden voor federatieve authenticatie en het veilig uitwisselen van identiteits- en autorisatiegegevens tussen organisaties.">
   <properties
       key="Type"
-      value="Ondersteunend proces"/>
+      value="Standaard"/>
   <properties
       key="Toelichting"
-      value="Authenticatie noemt men ook wel verificatie van de identiteit. Kan naast entiteiten (personen, organisaties) ook voor apparaten van toepassing zijn."/>
+      value="Kernstandaarden voor federatieve toegang (Single Sign-On) in het onderwijs, onder meer toegepast bij SURFconext, Entree Federatie, eduID en aansluitingen op DigiD en eHerkenning. Direct relevant voor het ROSA IV-domein IAM en de transitie van SAML 2.0 naar OpenID Connect (OIDC)."/>
+  <properties
+      key="Verwijzing ROSA"
+      value="In ROSA als 'SAML 2.0' en 'OpenID Connect' (ID's verifi�ren)"/>
+  <properties
+      key="Externe verwijzing"
+      value="https://www.forumstandaardisatie.nl/open-standaarden/authenticatie-standaarden"/>
+  <properties
+      key="Registrerende organisatie"
+      value="Forum Standaardisatie"/>
+  <properties
+      key="Beheerder"
+      value="Logius, OASIS"/>
+  <properties
+      key="Gebruiksadvies"
+      value="Verplicht ('Pas toe of leg uit')"/>
+  <properties
+      key="Datum laatste wijziging"
+      value="27-11-2026"/>
   <properties
       key="ROSA Begrippenkader"
       value="https://data.onderwijsbegrippen.nl/begrippenkader/rosa/id/begrip/3ac4cb04-8678-484f-ac90-e3599c3c1515"/>
